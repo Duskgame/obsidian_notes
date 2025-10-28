@@ -1,0 +1,6 @@
+Colima is a lightweight, open-source container runtime that provides an alternative to Docker Desktop for running containers on macOS and Linux systems. It leverages Lima, a virtualization technology, to create Linux virtual machines where Docker and containerd can run, offering a streamlined and resource-efficient way to manage containers without a bulky graphical user interface. Colima is designed with a simple command-line interface, supports common features like port forwarding, volume mounts, and multiple instances, and is fully compatible with Docker Compose for managing multi-container projects.[](https://lumochift.org/blog/colima-intro/)
+
+
+This makes Colima popular among developers who need a quick and efficient container solution, especially those working on smaller projects, using less powerful machines, or preferring terminal workflows over graphical tools. It installs easily via package managers like Homebrew (macOS) or APT (Linux), and can serve as a direct replacement for Docker Desktop, including support for both Intel and ARM architectures.[](https://www.javanibble.com/colima-essentials-developer-guide/)
+
+​

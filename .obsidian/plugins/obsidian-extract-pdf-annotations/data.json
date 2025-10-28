@@ -1,0 +1,23 @@
+{
+  "useStructuringHeadlines": true,
+  "useFolderNames": true,
+  "sortByTopic": true,
+  "exportPath": "",
+  "exportName": "Annotations for {{filename}}",
+  "desiredAnnotations": "Text, Highlight, Underline",
+  "noteTemplateExternalPDFs": "{{body}}\n\n* *noted by {{author}} at page {{pageNumber}} on {{filepath}}*\n\n",
+  "noteTemplateInternalPDFs": "{{body}}\n\n* *noted by {{author}} at page {{pageNumber}} on [[{{filepath}}]]*\n\n",
+  "highlightTemplateExternalPDFs": "> {{highlightedText}}\n\n{{body}}\n\n* *highlighted by {{author}} at page {{pageNumber}} on {{filepath}}*\n\n",
+  "highlightTemplateInternalPDFs": "> {{highlightedText}}\n\n{{body}}\n\n* *highlighted by {{author}} at page {{pageNumber}} on [[{{filepath}}]]*\n\n",
+  "oneNotePerAnnotation": false,
+  "oneNotePerAnnotationExportName": "Annotations for {{filename}}-{{counter}}",
+  "overwriteExistingNote": false,
+  "extractTagsFromAnnotationsAsObsidianTags": false,
+  "parsedSettings": {
+    "desiredAnnotations": [
+      "Text",
+      "Highlight",
+      "Underline"
+    ]
+  }
+}

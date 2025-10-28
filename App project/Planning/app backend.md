@@ -1,0 +1,1 @@
+- [ ] find out what the neccessary components are

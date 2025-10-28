@@ -1,0 +1,316 @@
+{
+  "main": {
+    "id": "06fcb648dbf6800f",
+    "type": "split",
+    "children": [
+      {
+        "id": "31aebb4eb9f60d0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dff0c5905b2e736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App project/Planning/Concepts to understand.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts to understand"
+            }
+          },
+          {
+            "id": "60188cd2c44697b5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "697439143f51ee7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App project/Mobile Apps Team.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mobile Apps Team"
+            }
+          },
+          {
+            "id": "a020b4fcbe9f89de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kotlin Multiplatform"
+            }
+          },
+          {
+            "id": "7446966fad3c545f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A Programming Kotlin"
+            }
+          },
+          {
+            "id": "74ee2a26a26c36b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App project/Mobile Apps Team.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mobile Apps Team"
+            }
+          },
+          {
+            "id": "2f96b94b4a1f105a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App project/Planning/plan the app.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan the app"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7aa1355b951d98e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa045af40284eb90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c77869a1b190c9c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3c6e6ae5cc2f6789",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5690322b9b70c0ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b97cbf4c0916cc18",
+    "type": "split",
+    "children": [
+      {
+        "id": "87821a3dced73521",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a514885f5506a580",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "App project/Mobile Apps Team.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mobile Apps Team"
+            }
+          },
+          {
+            "id": "058d7c5932c1fc76",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "App project/Mobile Apps Team.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mobile Apps Team"
+            }
+          },
+          {
+            "id": "48780234ba792047",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "61c3805033d632ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "App project/Mobile Apps Team.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mobile Apps Team"
+            }
+          },
+          {
+            "id": "486ddb53a0c71a37",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "74ee2a26a26c36b0",
+  "lastOpenFiles": [
+    "App project/Android Test/Android Studio setup.md",
+    "App project/Planning/Procedures to start with.md",
+    "Untitled/desktop.ini",
+    "App project/Android Test",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Summary.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Parameter.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Returnvalue.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Define and call custom functions.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
+    "App project/Planning/app backend.md",
+    "Wiki 2.0/General/Data Type.md",
+    "Wiki 2.0/General/RAM.md",
+    "Wiki 2.0/General/API.md",
+    "App project/Mobile Apps Team.md",
+    "Wiki 2.0/App development/Jetpack Compose.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function",
+    "Wiki 2.0/App development/Kotlin/Kotlin.md",
+    "Programming Kotlin.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Define a function.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin",
+    "iOS.md",
+    "App project/Planning/Facts to memorize.md",
+    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
+    "e8b488369268e737_1440 1.png",
+    "e8b488369268e737_1440.png",
+    "Wiki 2.0/Swift.md",
+    "App project/Planning/Concepts to understand.md",
+    "App project/Planning/plan the app.md",
+    "Wiki 2.0/Colima.md",
+    "Wiki 2.0/App development",
+    "Wiki 2.0/General",
+    "Wiki 2.0/App development/Kotlin",
+    "Pasted image 20251027110846.png",
+    "Wiki 2.0/Untitled.base",
+    "App project/Planning/Untitled.canvas",
+    "Wiki 2.0",
+    "Pasted image 20251024140932.png",
+    "App project/Planning",
+    "Attachments/Wiki 1.png",
+    "Attachments/Frontend Platform 47.png",
+    "Attachments/Wiki 42.png",
+    "Attachments/Wiki 41.png",
+    "Attachments/Wiki 40.png",
+    "Attachments/Wiki 39.png",
+    "Untitled 1.canvas"
+  ]
+}
