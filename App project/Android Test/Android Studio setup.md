@@ -7,7 +7,7 @@ Plugin id: 'org.jetbrains.kotlin.android', version: '2.0.21', apply: false was n
     Google
     MavenRepo
     Gradle Central Plugin Repository
-    hallo
+    
 * Try:
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights.
@@ -22,3 +22,8 @@ org.gradle.api.plugins.UnknownPluginException: Plugin id: 'org.jetbrains.kotlin.
   Searched in the following repositories:
     Google
     MavenRepo
+
+
+Unable to solve for now on windows
+switching to private linux 
+migrating obsidian notes via git version control
