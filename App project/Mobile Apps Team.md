@@ -2,7 +2,7 @@
 
 Unser Team _Mobile Apps_ ist zuständig für die bonprix Apps, über die tausende Kundinnen täglich bei uns einkaufen.  
 Wir sind in der IT ein Teil der Abteilung bzw. Domain "E Commerce Platform", wo die technische Basis für unsere Onlineshop-Plattform entwickelt wird. Benachbarte Teams sind Frontend-Platform, Operations, Backoffice & Design System sowie Monolith-Webshop-Platform.
-gfgfd
+
 
 **Verantwortung unseres Teams**
 
