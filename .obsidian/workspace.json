@@ -77,14 +77,14 @@
             "id": "74ee2a26a26c36b0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "App project/Mobile Apps Team.md",
-                "bFile": "App project/Mobile Apps Team.md",
-                "aRef": ""
+                "file": "App project/Android Test/Android Studio setup.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Mobile Apps Team"
+              "icon": "lucide-file",
+              "title": "Android Studio setup"
             }
           },
           {

@@ -7,7 +7,7 @@ Plugin id: 'org.jetbrains.kotlin.android', version: '2.0.21', apply: false was n
     Google
     MavenRepo
     Gradle Central Plugin Repository
-
+hallo
 * Try:
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights.
