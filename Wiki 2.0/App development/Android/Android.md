@@ -87,3 +87,19 @@ fun GreetingPreview() {
 	}
 }
 ```
+
+## Summary
+
+- To create a new project: open Android Studio, click **New Project > Empty Activity > Next**, enter a name for your project and then configure its settings.
+- To see how your app looks, use the **Preview** pane.
+- Composable functions are like regular functions with a few differences: functions names are capitalized, you add the `@Composable` annotation before the function, `@Composable` functions can't return anything.
+- A [`Modifier`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier) is used to augment or decorate your composable.
+
+## Learn more
+
+- [Meet Android Studio](https://developer.android.com/studio/intro)
+- [Projects overview](https://developer.android.com/studio/projects)
+- [Create a project](https://developer.android.com/studio/projects/create-project)
+- [Add code from a template](https://developer.android.com/studio/projects/templates)
+- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [Padding – Material Design 3](https://m3.material.io/foundations/layout/understanding-layout/spacing#64eb2223-f5e8-4d2a-9edc-9e3a7002220a)
