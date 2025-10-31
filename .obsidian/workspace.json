@@ -114,6 +114,18 @@
             }
           },
           {
+            "id": "319fe7daab1c6b75",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-31 11.06.59.excalidraw"
+            }
+          },
+          {
             "id": "2f96b94b4a1f105a",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -220,12 +232,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+                "file": "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from A Programming Kotlin"
+              "title": "Outgoing links from Drawing 2025-10-31 11.06.59.excalidraw"
             }
           },
           {
@@ -249,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+                "file": "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of A Programming Kotlin"
+              "title": "Outline of Drawing 2025-10-31 11.06.59.excalidraw"
             }
           },
           {
@@ -289,8 +301,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c47cecff5aba8629",
+  "active": "319fe7daab1c6b75",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+    "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
     "Pasted Image 20251031110602_252.png",
     "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
@@ -321,7 +335,6 @@
     "Wiki 2.0/General/RAM.md",
     "Wiki 2.0/General/API.md",
     "Wiki 2.0/App development/Jetpack Compose.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin",
