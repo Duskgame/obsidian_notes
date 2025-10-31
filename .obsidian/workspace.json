@@ -60,46 +60,6 @@
             }
           },
           {
-            "id": "7446966fad3c545f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A Programming Kotlin"
-            }
-          },
-          {
-            "id": "74ee2a26a26c36b0",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "37c57cfdf11740b1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-10-31 11.03.31.excalidraw"
-            }
-          },
-          {
             "id": "c47cecff5aba8629",
             "type": "leaf",
             "state": {
@@ -126,9 +86,21 @@
               "icon": "lucide-file",
               "title": "plan the app"
             }
+          },
+          {
+            "id": "71254f0bf3d6d67d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-31 11.08.55.excalidraw"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -220,12 +192,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "App project/Planning/plan the app.md",
+                "file": "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from plan the app"
+              "title": "Outgoing links from Drawing 2025-10-31 11.08.55.excalidraw"
             }
           },
           {
@@ -249,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "App project/Planning/plan the app.md",
+                "file": "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of plan the app"
+              "title": "Outline of Drawing 2025-10-31 11.08.55.excalidraw"
             }
           },
           {
@@ -289,18 +261,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3be0948760829811",
+  "active": "71254f0bf3d6d67d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
+    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+    "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
+    "App project/Planning/plan the app.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
-    "App project/Planning/plan the app.md",
     "Excalidraw/Drawing 2025-10-31 11.08.22.excalidraw.md",
     "Pasted Image 20251031110602_252.png",
     "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
     "Excalidraw",
     "conflict-files-obsidian-git.md",
     "Wiki 2.0/General/Coroutines.md",
@@ -322,8 +296,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Returnvalue.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Define and call custom functions.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
-    "App project/Planning/app backend.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin",
     "e8b488369268e737_1440 1.png",
