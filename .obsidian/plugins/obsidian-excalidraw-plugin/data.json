@@ -52,7 +52,7 @@
   "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
   "allowPinchZoom": false,
-  "allowWheelZoom": false,
+  "allowWheelZoom": true,
   "zoomToFitOnOpen": true,
   "zoomToFitOnResize": false,
   "zoomToFitMaxLevel": 2,
