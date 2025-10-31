@@ -20,6 +20,7 @@ Brought to you by [JetBrains,](https://jetbrains.com) creators of IntelliJ IDEA,
 https://ktor.io/docs/client-create-new-application.html
 
 Problem:
+	https://ktor.io/docs/client-create-new-application.html#add-dependencies
 	Open the gradle.properties file and add the following line to specify the Ktor version:
 
 ```
@@ -30,3 +31,9 @@ Where is the gradle.properties file?
 
 ==Solution==:
 	needs to be added to the root directory
+	
+	main problem was the project wasn't correctly set up
+	was set up as java
+	
+	with the correct setup there is the correct file in the correct
+	place

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Ktor/Ktor.md",
+                "file": "App project/Planning/plan the app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ktor"
+              "title": "plan the app"
             }
           },
           {
@@ -248,15 +248,17 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
+    "Wiki 2.0/General/Coroutines.md",
+    "Wiki 2.0/App development/Ktor/Ktor.md",
     "App project/Planning/app backend.md",
     "App project/Android Test/Android Studio setup.md",
     "App project/Mobile Apps Team.md",
-    "Wiki 2.0/App development/Ktor/Ktor.md",
     "Wiki 2.0/App development/Ktor",
     "Daily notes/2025-10-31.md",
     "Daily notes/2025-10-28.md",
@@ -285,7 +287,6 @@
     "Programming Kotlin.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Define a function.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin",
-    "iOS.md",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Wiki 2.0/App development",
