@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Android.md",
+                "file": "Daily notes/2025-10-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android"
+              "title": "2025-10-31"
             }
           },
           {
@@ -253,14 +253,16 @@
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
+    "Daily notes/2025-10-28.md",
+    "Daily notes/2025-10-31.md",
+    "2025-10-31.md",
+    "Wiki 2.0/App development/Android/Android.md",
     "Wiki 2.0/App development/Jetpack Compose.md",
     "App project/Mobile Apps Team.md",
-    "Wiki 2.0/App development/Android/Android.md",
     "App project/Android Test/Android Studio setup.md",
     "App project/Planning/app backend.md",
     "Wiki 2.0/App development/Android",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "Daily notes/2025-10-28.md",
     "Daily notes",
     "App project/Planning/Concepts to understand.md",
     "App project/Planning/Procedures to start with.md",
@@ -283,7 +285,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin",
     "iOS.md",
     "App project/Planning/Facts to memorize.md",
-    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Wiki 2.0/App development",
