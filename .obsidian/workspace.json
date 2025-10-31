@@ -11,12 +11,14 @@
             "id": "60188cd2c44697b5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md"
+                "file": "Wiki 2.0/General/Coroutines.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-10-31 11.23.49.excalidraw"
+              "icon": "lucide-file",
+              "title": "Coroutines"
             }
           },
           {
@@ -250,10 +252,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c77869a1b190c9c8",
+  "active": "60188cd2c44697b5",
   "lastOpenFiles": [
-    "Untitled-2025-09-30-1104.excalidraw.svg",
+    "Wiki 2.0/App development/Ktor/Ktor.md",
     "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
+    "Untitled-2025-09-30-1104.excalidraw.svg",
     "Untitled-2025-09-30-1104.excalidraw.png",
     "Excalidraw/Drawing 2025-10-31 11.17.39.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.17.29.excalidraw.md",
@@ -269,7 +272,6 @@
     "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw",
     "Wiki 2.0/General/Coroutines.md",
-    "Wiki 2.0/App development/Ktor/Ktor.md",
     "App project/Planning/app backend.md",
     "App project/Android Test/Android Studio setup.md",
     "App project/Mobile Apps Team.md",
