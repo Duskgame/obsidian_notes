@@ -1,3 +1,5 @@
+https://developer.android.com/compose
+
 Jetpack Compose is a modern, open-source UI toolkit developed by Google for building native [[Android]] user interfaces using the [[Kotlin]] programming language. Unlike the traditional Android approach that uses XML layout files, Compose enables developers to build UIs with a fully declarative style—describing what the UI should look like for a given state, and letting the framework handle rendering and updates as data changes.[](https://nordstone.co.uk/blog/jetpack-compose-transforming-ui-design-for-android-app-development-companies)
 
 
