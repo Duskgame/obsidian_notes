@@ -8,27 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8dff0c5905b2e736",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "App project/Planning/Concepts to understand.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Concepts to understand"
-            }
-          },
-          {
             "id": "60188cd2c44697b5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-31 11.23.49.excalidraw"
             }
           },
           {
@@ -60,31 +48,48 @@
             }
           },
           {
-            "id": "14a6e131f75a3822",
+            "id": "7446966fad3c545f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Untitled-2025-09-30-1104.excalidraw.svg"
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Untitled-2025-09-30-1104.excalidraw"
+              "icon": "lucide-file",
+              "title": "A Programming Kotlin"
             }
           },
           {
-            "id": "3be0948760829811",
+            "id": "74ee2a26a26c36b0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Untitled-2025-09-30-1104.excalidraw.png"
+                "file": "App project/Android Test/Android Studio setup.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Untitled-2025-09-30-1104.excalidraw"
+              "icon": "lucide-file",
+              "title": "Android Studio setup"
+            }
+          },
+          {
+            "id": "2f96b94b4a1f105a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App project/Planning/plan the app.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan the app"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled-2025-09-30-1104.excalidraw.png",
+                "file": "App project/Mobile Apps Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled-2025-09-30-1104.excalidraw"
+              "title": "Outgoing links from Mobile Apps Team"
             }
           },
           {
@@ -205,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled-2025-09-30-1104.excalidraw.png",
+                "file": "App project/Mobile Apps Team.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled-2025-09-30-1104.excalidraw"
+              "title": "Outline of Mobile Apps Team"
             }
           },
           {
@@ -229,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,42 +250,41 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3be0948760829811",
+  "active": "c77869a1b190c9c8",
   "lastOpenFiles": [
-    "App project/Planning/plan the app.md",
     "Untitled-2025-09-30-1104.excalidraw.svg",
-    "Excalidraw/Drawing 2025-10-31 11.17.39.excalidraw.md",
-    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
-    "Excalidraw/Drawing 2025-10-31 11.17.29.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
     "Untitled-2025-09-30-1104.excalidraw.png",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+    "Excalidraw/Drawing 2025-10-31 11.17.39.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.17.29.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.16.59.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.22.excalidraw.md",
-    "Pasted Image 20251031110602_252.png",
+    "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
+    "App project/Planning/plan the app.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw",
-    "conflict-files-obsidian-git.md",
     "Wiki 2.0/General/Coroutines.md",
     "Wiki 2.0/App development/Ktor/Ktor.md",
+    "App project/Planning/app backend.md",
+    "App project/Android Test/Android Studio setup.md",
+    "App project/Mobile Apps Team.md",
     "Wiki 2.0/App development/Ktor",
-    "Wiki 2.0/App development/Android/Android.md",
-    "Wiki 2.0/App development/Android",
     "Daily notes/2025-10-31.md",
     "Daily notes/2025-10-28.md",
-    "Daily notes",
+    "2025-10-31.md",
+    "Wiki 2.0/App development/Android/Android.md",
+    "Wiki 2.0/App development/Jetpack Compose.md",
+    "Wiki 2.0/App development/Android",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "App project/Mobile Apps Team.md",
-    "App project/Android Test/Android Studio setup.md",
-    "App project/Planning/Procedures to start with.md",
+    "Daily notes",
+    "App project/Planning/Concepts to understand.md",
     "Untitled/desktop.ini",
     "App project/Android Test",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Summary.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin",
     "e8b488369268e737_1440 1.png",
@@ -293,6 +297,7 @@
     "Attachments/Wiki 1.png",
     "Attachments/Frontend Platform 47.png",
     "Attachments/Wiki 42.png",
+    "Attachments/Wiki 41.png",
     "Untitled 1.canvas"
   ]
 }
