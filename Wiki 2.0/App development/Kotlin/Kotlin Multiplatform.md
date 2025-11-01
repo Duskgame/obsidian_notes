@@ -10,12 +10,12 @@
     
 - **Native Performance**: [[Kotlin]] Multiplatform uses platform-specific APIs and compiles to native binaries, meaning apps can run efficiently and access all native features.[](https://www.netguru.com/blog/kotlin-multiplatform-pros-and-cons)
     
-- **Interoperability**: The technology is designed to work smoothly with popular languages and frameworks, such as Java on the JVM and [[Swift]]/Objective-C on [[iOS]].[](https://riseuplabs.com/[[Kotlin]]-multiplatform-development-comprehensive-guide/)
+- **Interoperability**: The technology is designed to work smoothly with popular languages and frameworks, such as Java on the JVM and [[Swift]]/Objective-C on [[iOS]].[](https://riseuplabs.com/[[[[Kotlin]]]]-multiplatform-development-comprehensive-guide/)
     
 
 ## Advantages
 
-- Avoids code duplication across platforms.[](https://riseuplabs.com/[[Kotlin]]-multiplatform-development-comprehensive-guide/)
+- Avoids code duplication across platforms.[](https://riseuplabs.com/[[[[Kotlin]]]]-multiplatform-development-comprehensive-guide/)
     
 - Broad compatibility, reaching [[Android]], [[iOS]], web, desktop, and server users.[](https://www.thedroidsonroids.com/blog/what-is-kotlin-multiplatform)
     
@@ -26,6 +26,6 @@
 - Gradual integration allows projects to evolve—sharing code only when and where it makes sense.[](https://www.netguru.com/blog/kotlin-multiplatform-introduction)
     
 
-[[Kotlin]] Multiplatform provides a strategic, flexible solution for teams wanting to build high-quality, consistent applications for many platforms without sacrificing native performance or user experience.[](https://developer.[[Android]].com/[[Kotlin]]/multiplatform)
+[[Kotlin]] Multiplatform provides a strategic, flexible solution for teams wanting to build high-quality, consistent applications for many platforms without sacrificing native performance or user experience.[](https://developer.[[[[Android]]]].com/[[[[Kotlin]]]]/multiplatform)
 
 ​

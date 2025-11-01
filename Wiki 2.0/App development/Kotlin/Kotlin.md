@@ -10,7 +10,7 @@ Kotlin is a modern, expressive programming language designed for flexibility, sa
     
 - **Null Safety**: Null handling is built into Kotlin’s type system, providing operators like `?` for safe access and `!!` for explicit assertions—features that help prevent common runtime errors (NullPointerExceptions) that often trouble Java developers.[](https://constructor.university/blog/kotlin-programming-language)
     
-- **Interoperability**: Kotlin can seamlessly interact with Java code and libraries, making incremental adoption or migration simple for existing Java projects.[](https://kotlinlang.org/docs/[[Android]]-overview.html)
+- **Interoperability**: Kotlin can seamlessly interact with Java code and libraries, making incremental adoption or migration simple for existing Java projects.[](https://kotlinlang.org/docs/[[[[Android]]]]-overview.html)
     
 - **Functional Programming**: Kotlin includes lambda expressions, higher-order functions, and smart type inference for powerful and expressive coding, while Java’s functional features are less integrated and verbose.[](https://www.spaceotechnologies.com/blog/kotlin-features/)
     
@@ -20,7 +20,7 @@ Kotlin is a modern, expressive programming language designed for flexibility, sa
     
 - **Default [[Arguments]] & Named Parameters**: Kotlin functions can specify default values for parameters and allow callers to clarify [[Arguments]] by name, features that make [[Function]] calls more readable and less error-prone than Java.[](https://worldline.github.io/learning-kotlin/en/kotlin-features/)
     
-- **Multiplatform Capability**: Kotlin supports code compilation to JavaScript and native binaries, enabling cross-platform development for mobile, web, and desktop, while Java is mainly confined to JVM platforms.[](https://developer.[[Android]].com/kotlin/overview)
+- **Multiplatform Capability**: Kotlin supports code compilation to JavaScript and native binaries, enabling cross-platform development for mobile, web, and desktop, while Java is mainly confined to JVM platforms.[](https://developer.[[[[Android]]]].com/kotlin/overview)
 
 ## Kotlin vs Java: Key Differences
 
