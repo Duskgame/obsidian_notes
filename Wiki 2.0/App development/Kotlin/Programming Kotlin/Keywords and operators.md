@@ -37,7 +37,7 @@ The following tokens are always interpreted as keywords and cannot be used as id
         
     - is used in [when expressions](https://kotlinlang.org/docs/control-flow.html#when-expressions-and-statements) for the same purpose.
         
-    - marks a type parameter as [contravariant](https://kotlinlang.org/docs/generics.html#declaration-site-variance).
+    - marks a type [[Parameter]] as [contravariant](https://kotlinlang.org/docs/generics.html#declaration-site-variance).
         
 - `!in`
     
@@ -114,7 +114,7 @@ The following tokens act as keywords in the context in which they are applicable
     
 - `delegate` is used as an [annotation use-site target](https://kotlinlang.org/docs/annotations.html#annotation-use-site-targets).
     
-- `dynamic` references a [dynamic type](https://kotlinlang.org/docs/dynamic-type.html) in Kotlin/JS code.
+- `dynamic` references a [dynamic type](https://kotlinlang.org/docs/dynamic-type.html) in [[Kotlin]]/JS code.
     
 - `field` is used as an [annotation use-site target](https://kotlinlang.org/docs/annotations.html#annotation-use-site-targets).
     
@@ -173,11 +173,11 @@ The following tokens act as keywords in modifier lists of declarations, and they
     
 - `expect` marks a declaration as [platform-specific](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-expect-actual.html), expecting an implementation in platform modules.
     
-- `external` marks a declaration as implemented outside of Kotlin (accessible through [JNI](https://kotlinlang.org/docs/java-interop.html#using-jni-with-kotlin) or in [JavaScript](https://kotlinlang.org/docs/js-interop.html#external-modifier)).
+- `external` marks a declaration as implemented outside of [[Kotlin]] (accessible through [JNI](https://kotlinlang.org/docs/java-interop.html#using-jni-with-kotlin) or in [JavaScript](https://kotlinlang.org/docs/js-interop.html#external-modifier)).
     
 - `final` forbids [overriding a member](https://kotlinlang.org/docs/inheritance.html#overriding-methods).
     
-- `infix` allows calling a function using [infix notation](https://kotlinlang.org/docs/functions.html#infix-notation).
+- `infix` allows calling a [[Function]] using [infix notation](https://kotlinlang.org/docs/functions.html#infix-notation).
     
 - `inline` tells the compiler to [inline a function and the lambdas passed to it at the call site](https://kotlinlang.org/docs/inline-functions.html).
     
@@ -191,9 +191,9 @@ The following tokens act as keywords in modifier lists of declarations, and they
     
 - `open` allows [subclassing a class or overriding a member](https://kotlinlang.org/docs/classes.html#inheritance).
     
-- `operator` marks a function as [overloading an operator or implementing a convention](https://kotlinlang.org/docs/operator-overloading.html).
+- `operator` marks a [[Function]] as [overloading an operator or implementing a convention](https://kotlinlang.org/docs/operator-overloading.html).
     
-- `out` marks a type parameter as [covariant](https://kotlinlang.org/docs/generics.html#declaration-site-variance).
+- `out` marks a type [[Parameter]] as [covariant](https://kotlinlang.org/docs/generics.html#declaration-site-variance).
     
 - `override` marks a member as an [override of a superclass member](https://kotlinlang.org/docs/inheritance.html#overriding-methods).
     
@@ -203,13 +203,13 @@ The following tokens act as keywords in modifier lists of declarations, and they
     
 - `public` marks a declaration as [visible anywhere](https://kotlinlang.org/docs/visibility-modifiers.html).
     
-- `reified` marks a type parameter of an inline function as [accessible at runtime](https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters).
+- `reified` marks a type [[Parameter]] of an inline [[Function]] as [accessible at runtime](https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters).
     
 - `sealed` declares a [sealed class](https://kotlinlang.org/docs/sealed-classes.html) (a class with restricted subclassing).
     
-- `suspend` marks a function or lambda as suspending (usable as a [coroutine](https://kotlinlang.org/docs/coroutines-overview.html)).
+- `suspend` marks a [[Function]] or lambda as suspending (usable as a [coroutine](https://kotlinlang.org/docs/coroutines-overview.html)).
     
-- `tailrec` marks a function as [tail-recursive](https://kotlinlang.org/docs/functions.html#tail-recursive-functions) (allowing the compiler to replace recursion with iteration).
+- `tailrec` marks a [[Function]] as [tail-recursive](https://kotlinlang.org/docs/functions.html#tail-recursive-functions) (allowing the compiler to replace recursion with iteration).
     
 - `vararg` allows [passing a variable number of arguments for a parameter](https://kotlinlang.org/docs/functions.html#variable-number-of-arguments-varargs).
     
@@ -225,7 +225,7 @@ The following identifiers are defined by the compiler in specific contexts, and 
 
 ## Operators and special symbols﻿[](https://kotlinlang.org/docs/keyword-reference.html#operators-and-special-symbols)
 
-Kotlin supports the following operators and special symbols:
+[[Kotlin]] supports the following operators and special symbols:
 
 - `+`, `-`, `*`, `/`, `%` - mathematical operators
     
@@ -291,9 +291,9 @@ Kotlin supports the following operators and special symbols:
     
 - `_`
     
-    - substitutes an unused parameter in a [lambda expression](https://kotlinlang.org/docs/lambdas.html#underscore-for-unused-variables).
+    - substitutes an unused [[Parameter]] in a [lambda expression](https://kotlinlang.org/docs/lambdas.html#underscore-for-unused-variables).
         
-    - substitutes an unused parameter in a [destructuring declaration](https://kotlinlang.org/docs/destructuring-declarations.html#underscore-for-unused-variables).
+    - substitutes an unused [[Parameter]] in a [destructuring declaration](https://kotlinlang.org/docs/destructuring-declarations.html#underscore-for-unused-variables).
         
 
-For operator precedence, see [this reference](https://kotlinlang.org/docs/reference/grammar.html#expressions) in Kotlin grammar.
+For operator precedence, see [this reference](https://kotlinlang.org/docs/reference/grammar.html#expressions) in [[Kotlin]] grammar.

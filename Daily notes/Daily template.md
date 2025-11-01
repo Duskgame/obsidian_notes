@@ -1,0 +1,7 @@
+#dailynote
+
+Progress:
+
+Problems:
+
+Noteworthy:
