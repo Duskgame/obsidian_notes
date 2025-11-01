@@ -1,0 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers
+
+HTTP headers let the client and the server pass additional information with a message in a request or response. In HTTP/1.X, a header is a case-insensitive name followed by a colon, then optional whitespace which will be ignored, and finally by its value (for example: Allow: POST). In HTTP/2 and above, headers are displayed in lowercase when viewed in developer tools (accept: */*), and prefixed with a colon for a special group of pseudo-headers (:status: 200). You can find more information on the syntax in each protocol version in the HTTP messages page.
+
+Custom proprietary headers have historically been used with an X- prefix, but this convention was deprecated in 2012 because of the inconveniences it caused when nonstandard fields became standard in RFC 6648; others are listed in the IANA HTTP Field Name Registry, whose original content was defined in RFC 4229. The IANA registry lists headers, including information about their status.

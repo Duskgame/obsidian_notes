@@ -5,3 +5,5 @@
 	[[Returnvalue]]
 	[[Parameter]]	
 	[[Arguments]]
+	[[Coroutines]]
+	[[Suspending Functions]]

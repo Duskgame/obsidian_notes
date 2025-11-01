@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2025-11-01.md",
+                "file": "Daily notes/01-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-01"
+              "title": "01-11-2025"
             }
           },
           {
@@ -265,14 +265,21 @@
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
-    "Daily notes/2025-10-31.md",
-    "Daily notes/2025-11-01.md",
+    "Daily notes/28-10-2025.md",
+    "Daily notes/31-10-2025.md",
+    "Daily notes/01-11-2025.md",
+    "Wiki 2.0/App development/Android/Android.md",
+    "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
+    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "App project/Planning/Procedures to start with.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+    "App project/Android Test/Android Studio setup.md",
+    "Wiki 2.0/General/HTTP Headers.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
     "App project/Mobile Apps Team.md",
     "App project/Planning/app backend.md",
-    "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
-    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Wiki 2.0/General/Coroutines.md",
     "Wiki 2.0/App development/Ktor/Ktor.md",
@@ -285,16 +292,8 @@
     "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
-    "App project/Planning/plan the app.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw",
-    "App project/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Ktor",
-    "Daily notes/2025-10-28.md",
-    "2025-10-31.md",
-    "Wiki 2.0/App development/Android/Android.md",
-    "Wiki 2.0/App development/Jetpack Compose.md",
     "Wiki 2.0/App development/Android",
     "Daily notes",
     "Untitled/desktop.ini",
