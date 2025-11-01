@@ -1,4 +1,4 @@
-The `onCreate()` function is the entry point to this Android app and calls other functions to build the user interface. In Kotlin programs, the `main()` function is the entry point/starting point of execution. In Android apps, the `onCreate()` function fills that role.
+The `onCreate()` [[Function]] is the entry point to this Android app and calls other functions to build the user interface. In [[Kotlin]] programs, the `main()` [[Function]] is the entry point/starting point of execution. In Android apps, the `onCreate()` [[Function]] fills that role.
 
 ```
 @Composable
@@ -10,12 +10,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 ```
 
-Next, look at the `Greeting()` function. The `Greeting()` function is a Composable function, notice the `@Composable` annotation above it. This Composable function takes some input and generates what's shown on the screen.
-- 1. You add the `@Composable` annotation before the function.
-- 2. `@Composable` function names are capitalized.
+Next, look at the `Greeting()` [[Function]]. The `Greeting()` [[Function]] is a Composable [[Function]], notice the `@Composable` annotation above it. This Composable [[Function]] takes some input and generates what's shown on the screen.
+- 1. You add the `@Composable` annotation before the [[Function]].
+- 2. `@Composable` [[Function]] names are capitalized.
 - 3. `@Composable` functions can't return anything.
 
-The `GreetingPreview()` function is a cool feature that lets you see what your composable looks like without having to build your entire app. To enable a preview of a composable, annotate with `@Composable` and `@Preview`. The `@Preview` annotation tells Android Studio that this composable should be shown in the design view of this file.
+The `GreetingPreview()` [[Function]] is a cool feature that lets you see what your composable looks like without having to build your entire app. To enable a preview of a composable, annotate with `@Composable` and `@Preview`. The `@Preview` annotation tells Android Studio that this composable should be shown in the design view of this file.
 
 ```
 @Preview(showBackground = true)
@@ -30,9 +30,9 @@ fun GreetingPreview() {
 
 In your code, the best practice is to keep your imports listed alphabetically and remove unused imports. To do this press **Help** on the top toolbar, type in **optimize imports**, and click on **Optimize Imports**.
 
-A [`Modifier`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier) is used to augment or decorate a composable. One modifier you can use is the `padding` modifier, which adds space around the element (in this case, adding space around the text). This is accomplished by using the [`Modifier.padding()`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier#\(androidx.compose.ui.Modifier\).padding\(androidx.compose.ui.unit.Dp\)) function.
+A [`Modifier`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier) is used to augment or decorate a composable. One modifier you can use is the `padding` modifier, which adds space around the element (in this case, adding space around the text). This is accomplished by using the [`Modifier.padding()`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier#\(androidx.compose.ui.Modifier\).padding\(androidx.compose.ui.unit.Dp\)) [[Function]].
 
-Every composable should have an optional parameter of the type `Modifier`. This should be the first optional parameter.
+Every composable should have an optional [[Parameter]] of the type `Modifier`. This should be the first optional [[Parameter]].
 
 ```
 @Composable
@@ -92,7 +92,7 @@ fun GreetingPreview() {
 
 - To create a new project: open Android Studio, click **New Project > Empty Activity > Next**, enter a name for your project and then configure its settings.
 - To see how your app looks, use the **Preview** pane.
-- Composable functions are like regular functions with a few differences: functions names are capitalized, you add the `@Composable` annotation before the function, `@Composable` functions can't return anything.
+- Composable functions are like regular functions with a few differences: functions names are capitalized, you add the `@Composable` annotation before the [[Function]], `@Composable` functions can't return anything.
 - A [`Modifier`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier) is used to augment or decorate your composable.
 
 ## Learn more

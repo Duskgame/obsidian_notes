@@ -1,6 +1,6 @@
 ## **Variable declaration**
 
-An _expression_ is a small unit of code that evaluates to a value. An expression can be made up of variables, function calls, and more. In the following case, the _expression_ is made up of one variable: the `count` variable. This expression evaluates to `2`.
+An _expression_ is a small unit of code that evaluates to a value. An expression can be made up of variables, [[Function]] calls, and more. In the following case, the _expression_ is made up of one variable: the `count` variable. This expression evaluates to `2`.
 
 _Evaluate_ means determining the value of an expression. In this case, the expression evaluates to `2`. The compiler evaluates expressions in the code and uses those values when executing the instructions in the program.
 
@@ -12,21 +12,21 @@ This statement creates an integer variable called `count` that holds the number 
 
 ### Keyword to define new variable
 
-To define a new variable, start with the Kotlin keyword `val` (which stands for value). Then the Kotlin compiler knows that a variable declaration is in this statement.
+To define a new variable, start with the [[Kotlin]] keyword `val` (which stands for value). Then the [[Kotlin]] compiler knows that a variable declaration is in this statement.
 
 ### **Variable name**
 
-Just like you name a function, you also name a variable. In the variable declaration, the variable name follows the `val` keyword.
+Just like you name a [[Function]], you also name a variable. In the variable declaration, the variable name follows the `val` keyword.
 It's best to choose a name that describes the data that the variable holds so that your code is easier to read.
 Variable names should follow the camel case convention
 
 ### **Variable data type**
 
-After the variable name, you add a colon, a space, and then the data type of the variable.
+After the variable name, you add a colon, a space, and then the [[Data Type]] of the variable.
 
 ### **Assignment operator**
 
-In the variable declaration, the equal sign symbol (`=`) follows the data type. The equal sign symbol is called the _assignment operator_. The assignment operator assigns a value to the variable. In other words, the value on the right-hand side of the equal sign gets stored in the variable on the left-hand side of the equal sign.
+In the variable declaration, the equal sign symbol (`=`) follows the [[Data Type]]. The equal sign symbol is called the _assignment operator_. The assignment operator assigns a value to the variable. In other words, the value on the right-hand side of the equal sign gets stored in the variable on the left-hand side of the equal sign.
 
 ### **Variable initial value**
 
@@ -52,7 +52,7 @@ Add a dollar sign `$` before the `count` variable. In this case, the template ex
 
 Here's a tip that allows you to write less code when declaring variables.
 
-Type inference is when the Kotlin compiler can infer (or determine) what data type a variable should be, without the type being explicitly written in the code. That means you can omit the data type in a variable declaration, if you provide an initial value for the variable. The Kotlin compiler looks at the data type of the initial value, and assumes that you want the variable to hold data of that type.
+Type inference is when the [[Kotlin]] compiler can infer (or determine) what [[Data Type]] a variable should be, without the type being explicitly written in the code. That means you can omit the [[Data Type]] in a variable declaration, if you provide an initial value for the variable. The [[Kotlin]] compiler looks at the [[Data Type]] of the initial value, and assumes that you want the variable to hold data of that type.
 
 ```
 val count = 2
@@ -62,18 +62,18 @@ The updated syntax has fewer words to type, and it achieves the same outcome of 
 
 **Note:** If you don't provide an initial value when you declare a variable, you must specify the type.
 
-In this line of code, no initial value is provided, so you must specify the data type:
+In this line of code, no initial value is provided, so you must specify the [[Data Type]]:
 
 `val count: Int`
 
-In this line of code, an assigned value is provided, so you can omit the data type:
+In this line of code, an assigned value is provided, so you can omit the [[Data Type]]:
 
 `val count = 2`
 
 
 ## **Update Variables**
 
-If you need to update the value of a variable, declare the variable with the Kotlin keyword `var`, instead of `val`.
+If you need to update the value of a variable, declare the variable with the [[Kotlin]] keyword `var`, instead of `val`.
 
 - `val` keyword - Use when you expect the variable value will not change.
 - `var` keyword - Use when you expect the variable value can change.
@@ -82,13 +82,13 @@ With `val`, the variable is _read-only_, which means you can only read, or acces
 
 With `var`, the variable is _mutable_, which means the value can be changed or modified. The value can be mutated.
 
-To remember the difference, think of `val` as a fixed _value_ and `var` as _variable_. In Kotlin, it's recommended to use the `val` keyword over the `var` keyword when possible.
+To remember the difference, think of `val` as a fixed _value_ and `var` as _variable_. In [[Kotlin]], it's recommended to use the `val` keyword over the `var` keyword when possible.
 
 #### Constant names
 
 Constant names use UPPER_SNAKE_CASE: all uppercase letters, with words separated by underscores. But what _is_ a constant, exactly?
 
-Constants are `val` properties with no custom `get` function, whose contents are deeply immutable, and whose functions have no detectable side-effects. This includes immutable types and immutable collections of immutable types as well as scalars and string if marked as `const`. If any of an instance’s observable state can change, it is not a constant. Merely intending to never mutate the object is not enough.
+Constants are `val` properties with no custom `get` [[Function]], whose contents are deeply immutable, and whose functions have no detectable side-effects. This includes immutable types and immutable collections of immutable types as well as scalars and string if marked as `const`. If any of an instance’s observable state can change, it is not a constant. Merely intending to never mutate the object is not enough.
 
 ```
 const val NUMBER = 5
@@ -124,10 +124,10 @@ count--
 - You must declare a variable first before you use it.
 - Use the `val` keyword to define a variable that is read-only where the value cannot change once it's been assigned.
 - Use the `var` keyword to define a variable that is mutable or changeable.
-- In Kotlin, it's preferred to use `val` over `var` when possible.
-- To declare a variable, start with the `val` or `var` keyword. Then specify the variable name, data type, and initial value. For example: `val count: Int = 2`.
-- With type inference, omit the data type in the variable declaration if an initial value is provided.
-- Some common basic Kotlin data types include: `Int`, `String`, `Boolean`, `Float`, and `Double`.
+- In [[Kotlin]], it's preferred to use `val` over `var` when possible.
+- To declare a variable, start with the `val` or `var` keyword. Then specify the variable name, [[Data Type]], and initial value. For example: `val count: Int = 2`.
+- With type inference, omit the [[Data Type]] in the variable declaration if an initial value is provided.
+- Some common basic [[Kotlin]] data types include: `Int`, `String`, `Boolean`, `Float`, and `Double`.
 - Use the assignment operator (`=`) to assign a value to a variable either during declaration of the variable or updating the variable.
 - You can only update a variable that has been declared as a mutable variable (with `var`).
 - Use the increment operator (`++`) or decrement operator (`--`) to increase or decrease the value of an integer variable by 1, respectively.

@@ -6,9 +6,9 @@ Wir sind in der IT ein Teil der Abteilung bzw. Domain "E Commerce Platform", wo 
 
 **Verantwortung unseres Teams**
 
-- Betreuung der Android- und iOS-Apps von Konzeption bis Betrieb in App-Stores
+- Betreuung der [[Android]]- und [[iOS]]-Apps von Konzeption bis Betrieb in App-Stores
     
-- Entwicklung nativer Android- und iOS-App [[native apps]], die an vielen Stellen Web-Inhalte der verschiedenen Webshop-Platformen anzeigt
+- Entwicklung nativer [[Android]]- und [[iOS]]-App [[native apps]], die an vielen Stellen Web-Inhalte der verschiedenen Webshop-Platformen anzeigt
     
 - Neben den Apps auch Entwicklung unserer eigenen Backend-Schicht für die Apps (“App-BFF”)
     
@@ -36,11 +36,11 @@ Bei uns im Team kannst du diese Themen und Technologien kennenlernen:
 
 - [[Android]] ([[Kotlin]], [[Jetpack Compose]], [[Kotlin Multiplatform]])
     
-- [[iOS]] ([[Swift]], [[Swift UI]], Kotlin Multiplatform)
+- [[iOS]] ([[Swift]], [[Swift UI]], [[Kotlin]] Multiplatform)
     
-- App-Backend (Kotlin, [[Ktor]] und [[AWS]])
+- App-Backend ([[Kotlin]], [[Ktor]] und [[AWS]])
     
-- Testautomatisierung (Kotlin, [[Appium]])
+- Testautomatisierung ([[Kotlin]], [[Appium]])
     
 
 Außerdem hast du die Möglichkeit einen Überblick über die weiteren Themen zu bekommen, die bei uns im Team bearbeitet werden.

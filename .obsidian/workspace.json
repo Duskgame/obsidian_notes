@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
+                "file": "Daily notes/2025-11-01.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Suspending Functions"
+              "title": "2025-11-01"
             }
           },
           {
@@ -249,13 +259,17 @@
       "bases:Create new base": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
-    "Daily notes/2025-11-01.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
+    "Daily notes/2025-11-01.md",
+    "App project/Mobile Apps Team.md",
+    "App project/Planning/app backend.md",
     "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
@@ -275,16 +289,13 @@
     "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw",
-    "App project/Planning/app backend.md",
     "App project/Android Test/Android Studio setup.md",
-    "App project/Mobile Apps Team.md",
     "Wiki 2.0/App development/Ktor",
     "Daily notes/2025-10-28.md",
     "2025-10-31.md",
     "Wiki 2.0/App development/Android/Android.md",
     "Wiki 2.0/App development/Jetpack Compose.md",
     "Wiki 2.0/App development/Android",
-    "Wiki 2.0/App development/Kotlin/Kotlin.md",
     "Daily notes",
     "Untitled/desktop.ini",
     "App project/Android Test",

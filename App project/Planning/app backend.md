@@ -1,2 +1,2 @@
 - [ ] find out what the neccessary components are
-- [ ] [[ktor]] kotlin framework for backend (used by app team)
+- [ ] [[ktor]] [[Kotlin]] framework for backend (used by app team)

@@ -1,4 +1,4 @@
-What to understand to develop an app with kotlin
+What to understand to develop an app with [[Kotlin]]
 
 - publishing
 - distribution

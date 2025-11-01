@@ -43,4 +43,4 @@
 |****Code Readability****|Explicit types can enhance code readability|Code may be more concise but less explicit|
 |****Flexibility****|Less flexible as types are fixed at compile time|More flexible, allows variable types to change|
 |****Compilation Process****|Requires a separate compilation step|No separate compilation step needed|
-|****Example Languages****|C, Java, Swift|Python, JavaScript, Ruby|
+|****Example Languages****|C, Java, [[Swift]]|Python, JavaScript, Ruby|

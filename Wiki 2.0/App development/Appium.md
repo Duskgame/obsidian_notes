@@ -1,8 +1,8 @@
-Appium is an open-source automation framework designed for testing mobile applications across multiple platforms including [[Android]], iOS, and Windows. It allows testers to write scripts in several programming languages, such as Java, Python, JavaScript, and more, using the WebDriver protocol—similar to Selenium. Appium supports automated testing for [[native apps]], mobile web apps, and hybrid apps, making it highly flexible and widely used in mobile software development.[](https://www.browserstack.com/guide/appium-tutorial-for-testing)
+Appium is an open-source automation framework designed for testing mobile applications across multiple platforms including [[Android]], [[iOS]], and Windows. It allows testers to write scripts in several programming languages, such as Java, Python, JavaScript, and more, using the WebDriver protocol—similar to Selenium. Appium supports automated testing for [[native apps]], mobile web apps, and hybrid apps, making it highly flexible and widely used in mobile software development.[](https://www.browserstack.com/guide/appium-tutorial-for-testing)
 
 ## Key Features
 
-- **Cross-platform**: Write tests which run on both Android and iOS using the same API.[](https://www.geeksforgeeks.org/software-engineering/what-is-appium-automation/)​
+- **Cross-platform**: Write tests which run on both [[Android]] and [[iOS]] using the same [[API]].[](https://www.geeksforgeeks.org/software-engineering/what-is-appium-automation/)​
     
 - **Language flexibility**: Supports test scripts written in various programming languages.[](https://www.geeksforgeeks.org/software-engineering/what-is-appium-automation/)​
     

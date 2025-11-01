@@ -1,5 +1,5 @@
 
-A Kotlin program is required to have a _main function_, which is the specific place in your code where the program starts running. The main function is the entry point, or starting point, of the program.
+A [[Kotlin]] program is required to have a _main function_, which is the specific place in your code where the program starts running. The main function is the entry point, or starting point, of the program.
 
 ```
 fun main() {
@@ -37,7 +37,7 @@ The order of these elements matters. The `fun` word must come first, followed by
 
 ### **Function keyword**
 
-To indicate that you're about to define a function in Kotlin, use the special word `fun` (short for function) on a new line.
+To indicate that you're about to define a function in [[Kotlin]], use the special word `fun` (short for function) on a new line.
 
 ### **Function name**
 

@@ -3,7 +3,7 @@ An application programming interface (API) defines the rules that you must follo
 
 An API is a set of definitions and protocols for building and integrating application software. It’s sometimes referred to as a contract between an information provider and an information user—establishing the content required from the consumer (the call) and the content required by the producer (the response).
 
-In other words, if you want to interact with a computer or system to retrieve information or perform a function, an API helps you communicate what you want to that system so it can understand and fulfill the request.
+In other words, if you want to interact with a computer or system to retrieve information or perform a [[Function]], an API helps you communicate what you want to that system so it can understand and fulfill the request.
 
 For example, the timesheet application exposes an API that asks for an employee's full name and a range of dates. When it receives this information, it internally processes the employee's timesheet and returns the number of hours worked in that date range.
 
