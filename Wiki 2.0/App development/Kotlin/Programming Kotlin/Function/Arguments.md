@@ -1,4 +1,4 @@
-### **Named Argubents**
+### **Named Arguments**
 
 In the previous examples, you didn't need to specify the [[Parameter]] names, `name` or `age`, when you called a [[Function]]. However, you're able to do so if you choose. For example, you may call a [[function]] with many [[parameter]]s or you may want to pass your arguments in a different order, such as putting the `age` [[Parameter]] before the `name` [[Parameter]]. When you include the [[Parameter]] name when you call a [[Function]], it's called a [_named argument_](https://kotlinlang.org/docs/functions.html#named-arguments). Try using a named argument with the `birthdayGreeting()` [[Function]].
 

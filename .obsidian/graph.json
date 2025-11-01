@@ -2,7 +2,7 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
@@ -27,25 +27,18 @@
         "a": 1,
         "rgb": 4253524
       }
-    },
-    {
-      "query": "path:\"Daily notes\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 3604735
-      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.09186851211073,
-  "lineSizeMultiplier": 1.19359861591695,
+  "nodeSizeMultiplier": 1.4015625,
+  "lineSizeMultiplier": 0.814583333333333,
   "collapse-forces": false,
-  "centerStrength": 0.302768166089965,
-  "repelStrength": 6.81660899653979,
-  "linkStrength": 0.707612456747405,
-  "linkDistance": 99,
-  "scale": 1.0534979423868303,
+  "centerStrength": 0.25,
+  "repelStrength": 6.66666666666667,
+  "linkStrength": 0.510416666666667,
+  "linkDistance": 312,
+  "scale": 0.70233196159122,
   "close": false
 }
