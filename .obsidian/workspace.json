@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01-11-2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-11-2025"
+              "title": "Keywords and operators"
             }
           },
           {
@@ -265,9 +265,14 @@
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
+    "Wiki 2.0/General/HTTP Headers.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators.md",
+    "Wiki 2.0/General/RAM.md",
+    "Wiki 2.0/General/Data Type.md",
+    "Wiki 2.0/General/API.md",
+    "Daily notes/01-11-2025.md",
     "Daily notes/28-10-2025.md",
     "Daily notes/31-10-2025.md",
-    "Daily notes/01-11-2025.md",
     "Wiki 2.0/App development/Android/Android.md",
     "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
@@ -275,7 +280,6 @@
     "App project/Planning/Procedures to start with.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
     "App project/Android Test/Android Studio setup.md",
-    "Wiki 2.0/General/HTTP Headers.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
     "App project/Mobile Apps Team.md",
@@ -289,9 +293,6 @@
     "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.22.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
     "Excalidraw",
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
