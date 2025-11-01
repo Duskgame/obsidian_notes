@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/Daily template.md",
+                "file": "Daily notes/31-10-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily template"
+              "title": "31-10-2025"
             }
           },
           {
@@ -265,9 +265,10 @@
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
+    "Daily notes/28-10-2025.md",
+    "Daily notes/01-11-2025.md",
     "Daily notes/01-11-2025.md",
     "Daily notes/Daily template.md",
-    "Daily notes/28-10-2025.md",
     "Daily notes/31-10-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators.md",
     "Wiki 2.0/General/HTTP Headers.md",
@@ -292,7 +293,6 @@
     "Excalidraw/Drawing 2025-10-31 11.17.29.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.16.59.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.22.excalidraw.md",
     "Excalidraw",
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
