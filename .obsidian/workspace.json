@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01-11-2025.md",
+                "file": "Daily notes/02-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-11-2025"
+              "title": "02-11-2025"
             }
           },
           {
@@ -271,8 +271,8 @@
   },
   "active": "60188cd2c44697b5",
   "lastOpenFiles": [
-    "Daily notes/02-11-2025.md",
     "Daily notes/01-11-2025.md",
+    "Daily notes/02-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Parameter.md",
