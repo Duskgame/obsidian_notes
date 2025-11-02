@@ -8,27 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "60188cd2c44697b5",
+            "id": "8dff0c5905b2e736",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Daily notes/02-11-2025.md",
+=======
+                "file": "App project/Planning/Concepts to understand.md",
+>>>>>>> origin/main
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "02-11-2025"
+=======
+              "title": "Concepts to understand"
+            }
+          },
+          {
+            "id": "60188cd2c44697b5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+>>>>>>> origin/main
             }
           },
           {
@@ -39,17 +47,7 @@
               "state": {
                 "file": "App project/Mobile Apps Team.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Mobile Apps Team"
@@ -63,38 +61,14 @@
               "state": {
                 "file": "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Kotlin Multiplatform"
             }
           },
           {
-            "id": "74ee2a26a26c36b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "App project/Android Test/Android Studio setup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Android Studio setup"
-            }
-          },
-          {
-            "id": "2f96b94b4a1f105a",
+            "id": "3be0948760829811",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -107,7 +81,8 @@
               "title": "plan the app"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "App project/Mobile Apps Team.md",
+                "file": "App project/Planning/plan the app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mobile Apps Team"
+              "title": "Outgoing links from plan the app"
             }
           },
           {
@@ -228,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "App project/Mobile Apps Team.md",
+                "file": "App project/Planning/plan the app.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mobile Apps Team"
+              "title": "Outline of plan the app"
             }
           },
           {
@@ -252,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,12 +240,12 @@
       "bases:Create new base": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obisidian-note-linker:Note Linker": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "60188cd2c44697b5",
+  "active": "3be0948760829811",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Daily notes/01-11-2025.md",
     "Daily notes/02-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
@@ -281,24 +256,39 @@
     "App project/Mobile Apps Team.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
     "App project/Planning/Procedures to start with.md",
+=======
+    "App project/Planning/plan the app.md",
+    "Untitled-2025-09-30-1104.excalidraw.png",
+    "Wiki 2.0/General/HTTP Headers.md",
+>>>>>>> origin/main
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
+    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
+    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
+    "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
+    "Daily notes/Daily template.md",
     "Daily notes/31-10-2025.md",
     "Daily notes/28-10-2025.md",
-    "Daily notes/Daily template.md",
-    "Wiki 2.0/General/HTTP Headers.md",
-    "Wiki 2.0/General/RAM.md",
-    "Wiki 2.0/General/Data Type.md",
-    "Wiki 2.0/General/API.md",
-    "Wiki 2.0/App development/Android/Android.md",
-    "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
-    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
-    "App project/Android Test/Android Studio setup.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
-    "App project/Planning/app backend.md",
-    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
-    "Wiki 2.0/General/Coroutines.md",
+    "Daily notes/02-11-2025.md",
+    "Daily notes/01-11-2025.md",
+    "Untitled-2025-09-30-1104.excalidraw.svg",
+    "Excalidraw/Drawing 2025-10-31 11.17.39.excalidraw.md",
+    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
+    "Excalidraw/Drawing 2025-10-31 11.17.29.excalidraw.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
+    "Excalidraw/Drawing 2025-10-31 11.16.59.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.55.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 11.08.22.excalidraw.md",
+    "Pasted Image 20251031110602_252.png",
+    "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
     "Excalidraw",
+    "conflict-files-obsidian-git.md",
+    "Wiki 2.0/General/Coroutines.md",
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
     "Daily notes",
@@ -314,9 +304,6 @@
     "App project/Planning/Untitled.canvas",
     "Pasted image 20251024140932.png",
     "Attachments/Wiki 1.png",
-    "Attachments/Frontend Platform 47.png",
-    "Attachments/Wiki 42.png",
-    "Attachments/Wiki 41.png",
     "Untitled 1.canvas"
   ]
 }
