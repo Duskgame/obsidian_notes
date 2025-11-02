@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/02-11-2025.md",
+                "file": "Wiki 2.0/postgres.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-11-2025"
+              "title": "postgres"
             }
           },
           {
@@ -269,10 +269,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "60188cd2c44697b5",
+  "active": "c77869a1b190c9c8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Wiki 2.0/postgres.md",
+    "Wiki 2.0/docker.md",
     "Daily notes/02-11-2025.md",
+    "conflict-files-obsidian-git.md",
     "Daily notes/01-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
@@ -296,9 +298,7 @@
     "App project/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Suspending Functions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Variables.md",
-    "App project/Planning/app backend.md",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
-    "Wiki 2.0/General/Coroutines.md",
     "Excalidraw",
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
