@@ -49,42 +49,18 @@
             "id": "a020b4fcbe9f89de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Kotlin Multiplatform"
-            }
-          },
-          {
-            "id": "3be0948760829811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/Daily template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Daily template"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -246,10 +222,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3be0948760829811",
+  "active": "486ddb53a0c71a37",
   "lastOpenFiles": [
     "Daily notes/03-11-2025.md",
+    "School/Lernen an der Itech.md",
+    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
+    "School/Onboarding.md",
     "School",
+    "School/Drawing 2025-11-03 13.04.48.excalidraw.md",
+    "Daily notes/Daily template.md",
     "Daily notes/02-11-2025.md",
     "App project/Planning/plan the app.md",
     "Untitled-2025-09-30-1104.excalidraw.png",
@@ -259,13 +240,11 @@
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
-    "Daily notes/Daily template.md",
     "Daily notes/31-10-2025.md",
     "Daily notes/28-10-2025.md",
     "Daily notes/01-11-2025.md",
     "Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Drawing 2025-10-31 11.17.39.excalidraw.md",
-    "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
     "Excalidraw/Drawing 2025-10-31 11.17.29.excalidraw.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/A Programming Kotlin.md",
     "Excalidraw/Drawing 2025-10-31 11.16.59.excalidraw.md",
@@ -275,11 +254,8 @@
     "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.22.excalidraw.md",
     "Pasted Image 20251031110602_252.png",
-    "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
     "Excalidraw",
-    "conflict-files-obsidian-git.md",
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
     "Daily notes",
