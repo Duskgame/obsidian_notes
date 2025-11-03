@@ -49,14 +49,24 @@
             "id": "a020b4fcbe9f89de",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "School/Lernen an der Itech.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Lernen an der Itech"
             }
           }
         ],
@@ -222,8 +232,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "486ddb53a0c71a37",
+  "active": "a020b4fcbe9f89de",
   "lastOpenFiles": [
+    "Wiki 2.0/postgres.md",
+    "Wiki 2.0/docker.md",
     "Daily notes/03-11-2025.md",
     "School/Lernen an der Itech.md",
     "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
@@ -253,7 +265,6 @@
     "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.08.20.excalidraw.md",
     "Pasted Image 20251031110602_252.png",
     "Excalidraw",
     "Wiki 2.0/App development/Ktor",
