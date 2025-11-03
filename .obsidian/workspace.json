@@ -65,12 +65,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "App project/Planning/plan the app.md",
+                "file": "Daily notes/03-11-2025.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "plan the app"
+              "title": "03-11-2025"
             }
           }
         ],
@@ -166,12 +176,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "App project/Planning/plan the app.md",
+                "file": "Daily notes/02-11-2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from plan the app"
+              "title": "Outgoing links from 02-11-2025"
             }
           },
           {
@@ -195,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "App project/Planning/plan the app.md",
+                "file": "Daily notes/02-11-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of plan the app"
+              "title": "Outline of 02-11-2025"
             }
           },
           {
@@ -223,6 +233,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obisidian-note-linker:Note Linker": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -235,8 +246,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3be0948760829811",
+  "active": "c77869a1b190c9c8",
   "lastOpenFiles": [
+    "School",
+    "Daily notes/02-11-2025.md",
+    "Daily notes/03-11-2025.md",
     "App project/Planning/plan the app.md",
     "Untitled-2025-09-30-1104.excalidraw.png",
     "Wiki 2.0/General/HTTP Headers.md",
@@ -248,7 +262,6 @@
     "Daily notes/Daily template.md",
     "Daily notes/31-10-2025.md",
     "Daily notes/28-10-2025.md",
-    "Daily notes/02-11-2025.md",
     "Daily notes/01-11-2025.md",
     "Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Drawing 2025-10-31 11.17.39.excalidraw.md",
@@ -267,7 +280,6 @@
     "Excalidraw/Drawing 2025-10-31 11.04.07.excalidraw.md",
     "Excalidraw",
     "conflict-files-obsidian-git.md",
-    "Wiki 2.0/General/Coroutines.md",
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
     "Daily notes",
