@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03-11-2025.md",
+                "file": "Daily notes/04-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-11-2025"
+              "title": "04-11-2025"
             }
           }
         ],
@@ -191,17 +191,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily notes/02-11-2025.md",
+                "file": "Daily notes/04-11-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-11-2025"
+              "title": "Outline of 04-11-2025"
             }
           },
           {
-            "id": "486ddb53a0c71a37",
+            "id": "b96a2c17a9bb60ca",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -228,18 +228,18 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "a020b4fcbe9f89de",
   "lastOpenFiles": [
+    "Daily notes/03-11-2025.md",
     "Daily notes/postgres.md",
     "Daily notes/02-11-2025.md",
     "School/Lernen an der Itech.md",
     "Wiki 2.0/postgres.md",
     "Wiki 2.0/docker.md",
-    "Daily notes/03-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
     "School/Onboarding.md",
     "School",
