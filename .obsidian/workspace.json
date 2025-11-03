@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernen an der Itech.md",
+                "file": "Daily notes/postgres.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lernen an der Itech"
+              "title": "postgres"
             }
           }
         ],
@@ -234,16 +234,17 @@
   },
   "active": "a020b4fcbe9f89de",
   "lastOpenFiles": [
+    "Daily notes/02-11-2025.md",
+    "Daily notes/postgres.md",
+    "School/Lernen an der Itech.md",
     "Wiki 2.0/postgres.md",
     "Wiki 2.0/docker.md",
     "Daily notes/03-11-2025.md",
-    "School/Lernen an der Itech.md",
     "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
     "School/Onboarding.md",
     "School",
     "School/Drawing 2025-11-03 13.04.48.excalidraw.md",
     "Daily notes/Daily template.md",
-    "Daily notes/02-11-2025.md",
     "App project/Planning/plan the app.md",
     "Untitled-2025-09-30-1104.excalidraw.png",
     "Wiki 2.0/General/HTTP Headers.md",
@@ -264,7 +265,6 @@
     "Excalidraw/Drawing 2025-10-31 11.03.31.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.08.29.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 11.06.59.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 11.07.04.excalidraw.md",
     "Pasted Image 20251031110602_252.png",
     "Excalidraw",
     "Wiki 2.0/App development/Ktor",

@@ -1,44 +1,44 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": true,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "#GeneralKnowledge",
+      "query": "path:\"Wiki 2.0/App development/Kotlin\"  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14731602
       }
     },
     {
-      "query": "path:\"Wiki 2.0/App development/Kotlin/Programming Kotlin\"  ",
+      "query": "tag:#dailynote  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 5431432
       }
     },
     {
       "query": "path:\"App project\"  ",
       "color": {
         "a": 1,
-        "rgb": 4253524
+        "rgb": 5785314
       }
     }
   ],
-  "collapse-display": false,
-  "showArrow": true,
+  "collapse-display": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.4015625,
-  "lineSizeMultiplier": 0.814583333333333,
-  "collapse-forces": false,
-  "centerStrength": 0.25,
-  "repelStrength": 6.66666666666667,
-  "linkStrength": 0.510416666666667,
-  "linkDistance": 312,
-  "scale": 0.41477638523481236,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4399620332244855,
   "close": true
 }
