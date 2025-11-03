@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03-11-2025.md",
+                "file": "Daily notes/Daily template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -80,7 +80,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-11-2025"
+              "title": "Daily template"
             }
           }
         ],
@@ -246,11 +246,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c77869a1b190c9c8",
+  "active": "3be0948760829811",
   "lastOpenFiles": [
+    "Daily notes/03-11-2025.md",
     "School",
     "Daily notes/02-11-2025.md",
-    "Daily notes/03-11-2025.md",
     "App project/Planning/plan the app.md",
     "Untitled-2025-09-30-1104.excalidraw.png",
     "Wiki 2.0/General/HTTP Headers.md",
@@ -290,7 +290,6 @@
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Wiki 2.0/App development",
-    "Wiki 2.0/General",
     "Pasted image 20251027110846.png",
     "App project/Planning/Untitled.canvas",
     "Pasted image 20251024140932.png",
