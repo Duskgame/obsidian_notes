@@ -4,4 +4,6 @@ Progress:
 
 Problems:
 
+Questions/Vocabulary:
+
 Noteworthy:

@@ -1,44 +1,22 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
-  "showTags": true,
-  "showAttachments": true,
+  "showTags": false,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "#GeneralKnowledge",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"Wiki 2.0/App development/Kotlin/Programming Kotlin\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:\"App project\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 4253524
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.6359375,
-  "lineSizeMultiplier": 0.814583333333333,
-  "collapse-forces": false,
-  "centerStrength": 0.25,
-  "repelStrength": 6.66666666666667,
-  "linkStrength": 0.510416666666667,
-  "linkDistance": 312,
-  "scale": 0.46822130772748,
-  "close": false
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4399620332244859,
+  "close": true
 }
