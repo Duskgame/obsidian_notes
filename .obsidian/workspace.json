@@ -131,24 +131,10 @@
             "id": "4eecbfbd70dac39c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/03-11-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "03-11-2025"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -316,8 +302,8 @@
   },
   "active": "4eecbfbd70dac39c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Daily notes/03-11-2025.md",
+    "conflict-files-obsidian-git.md",
     "Wiki 2.0/iOS.md",
     "Daily notes/02-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators.md",

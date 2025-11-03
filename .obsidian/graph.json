@@ -1,12 +1,34 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": false,
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Wiki 2.0/App development/Kotlin\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14731602
+      }
+    },
+    {
+      "query": "tag:#dailynote  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431432
+      }
+    },
+    {
+      "query": "path:\"App project\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5785314
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4399620332244859,
-  "close": true
+  "scale": 0.19553868143310466,
+  "close": false
 }
