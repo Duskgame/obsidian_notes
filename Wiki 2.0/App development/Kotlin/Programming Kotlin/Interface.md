@@ -1,10 +1,10 @@
 https://kotlinlang.org/docs/interfaces.html
 
-Interfaces in Kotlin can contain declarations of abstract methods, as well as method implementations. 
+Interfaces in [[Kotlin]] can contain declarations of abstract methods, as well as method implementations. 
 
 What makes them different from abstract classes is that interfaces cannot store state. 
 
-They can have properties, but these need to be abstract or provide accessor implementations.
+They can have properties, but these need to be abstract or provide [[Accessor]] implementations.
 
 
 An interface is defined using the keyword `interface`:
@@ -106,7 +106,7 @@ class D : A, B {
 }
 ```
 
-Interfaces A and B both declare functions foo() and bar(). Both of them implement foo(), but only B implements bar() (bar() is not marked as abstract in A, because this is the default for interfaces if the function has no body). Now, if you derive a concrete class C from A, you have to override bar() and provide an implementation.
+Interfaces A and B both declare functions foo() and bar(). Both of them implement foo(), but only B implements bar() (bar() is not marked as abstract in A, because this is the default for interfaces if the [[Function]] has no body). Now, if you derive a concrete class C from A, you have to override bar() and provide an implementation.
 
 However, if you derive D from A and B, you need to implement all the methods that you have inherited from multiple interfaces, and you need to specify how exactly D should implement them. This rule applies both to methods for which you've inherited a single implementation (bar()) and to those for which you've inherited multiple implementations (foo()).
 
@@ -114,14 +114,14 @@ However, if you derive D from A and B, you need to implement all the methods tha
 
 On the JVM, functions declared in interfaces are compiled to default methods. You can control this behavior using the `-jvm-default` compiler option with the following values:
 
-- `enable` (default): generates default implementations in interfaces and includes bridge functions in subclasses and `DefaultImpls` classes. Use this mode to maintain binary compatibility with older Kotlin versions.
+- `enable` (default): generates default implementations in interfaces and includes bridge functions in subclasses and `DefaultImpls` classes. Use this mode to maintain binary compatibility with older [[Kotlin]] versions.
     
-- `no-compatibility`: generates only default implementations in interfaces. This mode skips compatibility bridges and `DefaultImpls` classes, making it suitable for new Kotlin code.
+- `no-compatibility`: generates only default implementations in interfaces. This mode skips compatibility bridges and `DefaultImpls` classes, making it suitable for new [[Kotlin]] code.
     
 - `disable`: skips default methods and generates only compatibility bridges and `DefaultImpls` classes.
     
 
-To configure the `-jvm-default` compiler option, set the `jvmDefault` property in your Gradle Kotlin DSL:
+To configure the `-jvm-default` compiler option, set the `jvmDefault` property in your Gradle [[Kotlin]] DSL:
 
 ```
 kotlin {
