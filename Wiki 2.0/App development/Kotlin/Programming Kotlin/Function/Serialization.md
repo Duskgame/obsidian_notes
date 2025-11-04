@@ -4,15 +4,15 @@ In turn, deserialization is the opposite process of reading data from an externa
 
 Some data serialization formats, such as [JSON](https://www.json.org/json-en.html) and [protocol buffers](https://developers.google.com/protocol-buffers) are particularly common. Being language-neutral and platform-neutral, they enable data exchange between systems written in any modern language.
 
-In Kotlin, data serialization tools are available in a separate component, [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization). It consists of several parts: the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, [runtime libraries](https://kotlinlang.org/docs/serialization.html#libraries), and compiler plugins.
+In [[Kotlin]], data serialization tools are available in a separate component, [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization). It consists of several parts: the `org.jetbrains.kotlin.plugin.serialization` Gradle plugin, [runtime libraries](https://kotlinlang.org/docs/serialization.html#libraries), and compiler plugins.
 
-Compiler plugins, `kotlinx-serialization-compiler-plugin` and `kotlinx-serialization-compiler-plugin-embeddable`, are published directly to Maven Central. The second plugin is designed for working with the `kotlin-compiler-embeddable` artifact, which is the default option for scripting artifacts. Gradle adds compiler plugins to your projects as compiler arguments.
+Compiler plugins, `kotlinx-serialization-compiler-plugin` and `kotlinx-serialization-compiler-plugin-embeddable`, are published directly to Maven Central. The second plugin is designed for working with the `[[Kotlin]]-compiler-embeddable` artifact, which is the default option for scripting artifacts. Gradle adds compiler plugins to your projects as compiler [[Arguments]].
 
 
 
 ## Example: JSON serialization﻿
 
-Let's take a look at how to serialize Kotlin objects into JSON.
+Let's take a look at how to serialize [[Kotlin]] objects into JSON.
 
 ### Add plugins and dependencies﻿
 
@@ -41,7 +41,7 @@ dependencies {
 }
 ```
 
-Now you're ready to use the serialization API in your code. The API is located in the `kotlinx.serialization` package and its format-specific subpackages, such as `kotlinx.serialization.json`.
+Now you're ready to use the serialization [[API]] in your code. The [[API]] is located in the `kotlinx.serialization` package and its format-specific subpackages, such as `kotlinx.serialization.json`.
 
 ### Serialize and deserialize JSON
 
@@ -81,7 +81,7 @@ val dataList = listOf(Data(42, "str"), Data(12, "test"))
 val jsonList = Json.encodeToString(dataList)
 ```
 
-- Use the `decodeFromString()` function to deserialize an object from JSON:
+- Use the `decodeFromString()` [[Function]] to deserialize an object from JSON:
     
     ```
     import kotlinx.serialization.Serializable
