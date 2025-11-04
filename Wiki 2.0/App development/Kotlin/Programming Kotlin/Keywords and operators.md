@@ -45,7 +45,7 @@ The following tokens are always interpreted as keywords and cannot be used as id
         
     - is used in [when expressions](https://kotlinlang.org/docs/control-flow.html#when-expressions-and-statements) for the same purpose.
         
-- `interface` declares an [interface](https://kotlinlang.org/docs/interfaces.html).
+- `interface` declares an [interface](https://kotlinlang.org/docs/interfaces.html). [[Interface]]
     
 - `is`
     
