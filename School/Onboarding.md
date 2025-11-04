@@ -23,3 +23,6 @@ passwort ändern
 https://password.itech-bs14.de/
 
 iLBkT2sHzjEF
+
+webex
+https://web.webex.com/meetings
