@@ -130,3 +130,35 @@ kotlin {
     }
 }
 ```
+
+
+why does one declare a function name in an kotin interface when the body is written in the implementation
+
+In Kotlin, declaring a function name (without a body) in an interface sets up a contract or blueprint for implementing classes to follow. This means any class that implements the interface must provide the actual body (implementation) for the declared function.
+
+## Why declare a function name in an interface?
+
+- **Defines a contract:** The interface tells all implementing classes, "You must have this function with this signature."
+
+- **Promotes consistency:** All classes that implement the interface promise to provide their own version (implementation) of the declared function, ensuring a consistent API.
+
+- **Supports polymorphism:** Code can interact with different objects through the interface, knowing those objects supply the required functions, regardless of their specific implementations.
+
+**Example:**
+
+
+
+```interface ClickListener {
+		fun onClick() // Function declared but not implemented 
+	} 
+	
+	class Button : ClickListener {
+		override fun onClick() {
+			println("Button was clicked!")
+		}
+	}
+```
+
+- The `onClick` function is declared in the interface but implemented in the `Button` class.
+    
+- This separates the "what" (the function signature) from the "how" (the function body), providing flexibility and reusability in your code design.
