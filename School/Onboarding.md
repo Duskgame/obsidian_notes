@@ -1,6 +1,8 @@
 
 reale macadresse
 windows terminal getmac -v
+047bcbb923e0
+04-7B-CB-B9-23-E0
 
 wlan
 	BS14_OnBoarding
