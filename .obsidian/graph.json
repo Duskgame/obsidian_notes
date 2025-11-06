@@ -18,27 +18,27 @@
       "query": "tag:#dailynote  ",
       "color": {
         "a": 1,
-        "rgb": 5431432
+        "rgb": 7930201
       }
     },
     {
-      "query": "path:\"App project\"  ",
+      "query": "tag:#GeneralKnowledge  ",
       "color": {
         "a": 1,
-        "rgb": 5785314
+        "rgb": 3749597
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4399620332244855,
+  "scale": 0.5863949095055179,
   "close": true
 }

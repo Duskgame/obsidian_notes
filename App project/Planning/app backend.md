@@ -1,2 +1,4 @@
 - [ ] find out what the neccessary components are
 - [ ] [[ktor]] [[Kotlin]] framework for backend (used by app team)
+- [ ] figure out how to implement a database into kotlin to make data persistent
+- [ ] 

@@ -13,6 +13,10 @@ benutzername: it5-hausjo
 pw: '#Tech07021996#'
 
 reale macadresse klein und ohne bindestriche
+(im linux terminal-> ip a)
+be4ba138a21c (privat)
+9cb6d0b97bcf
+d43a2cb4f07f (mobil)
 
 WLAN BS14-STUDENTS-BYOD
 PW: 322984238
@@ -28,3 +32,5 @@ iLBkT2sHzjEF
 
 webex
 https://web.webex.com/meetings
+
+	"jonas.hauschild@bonprix.net"

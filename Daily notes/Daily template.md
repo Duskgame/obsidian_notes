@@ -1,5 +1,8 @@
 #dailynote
 
+Daily goal:
+- [ ] 
+
 Progress:
 
 Problems:

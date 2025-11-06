@@ -2,7 +2,9 @@
   "obsidian-importer",
   "obsidian-extract-pdf-annotations",
   "docxer",
+  "obsidian-git",
   "obsidian-excalidraw-plugin",
   "obisidian-note-linker",
-  "obsidian-git"
+  "highlightr-plugin",
+  "make-md"
 ]
