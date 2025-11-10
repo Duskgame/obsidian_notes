@@ -39,7 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Daily notes"
+    "//Daily notes",
+    "//School",
+    "//School/School/Lernfeld 1"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
