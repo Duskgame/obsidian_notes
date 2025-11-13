@@ -40,8 +40,8 @@
   "expandedSpaces": [
     "/",
     "//Daily notes",
-    "//School",
-    "//School/School/Lernfeld 1"
+    "//Excalidraw",
+    "//School"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -76,7 +76,7 @@
   "enableDefaultSpaces": true,
   "showSpacePinIcon": true,
   "experimental": false,
-  "systemName": "obsidian_notes",
+  "systemName": "OneNote Notebooks",
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,
