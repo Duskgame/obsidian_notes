@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "App project/Mobile Apps Team.md",
+                "file": "Daily notes/24-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mobile Apps Team"
+              "title": "24-11-2025"
             }
           },
           {
@@ -179,8 +179,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Daily notes/24-11-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of 24-11-2025"
             }
           },
           {
@@ -289,7 +288,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "305e8ee1b3a1131e",
+  "active": "697439143f51ee7f",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Daily notes/19-11-2025.md",
