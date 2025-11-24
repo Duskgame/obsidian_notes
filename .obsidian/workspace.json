@@ -71,12 +71,14 @@
             "id": "81a1816dd6bfe72f",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "split-diff-view",
               "state": {
-                "path": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators"
+                "aFile": ".trash/Keywords and operators﻿.md",
+                "bFile": ".trash/Keywords and operators﻿.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Keywords and Operators"
+              "icon": "diff",
+              "title": "Diff: Keywords and operators"
             }
           }
         ],
@@ -252,9 +254,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81a1816dd6bfe72f",
+  "active": "c86b9f63ee09a43c",
   "lastOpenFiles": [
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators﻿.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
     "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
@@ -280,8 +284,6 @@
     "Daily notes/10-11-2025.md",
     "Daily notes/31-10-2025.md",
     "Daily notes/04-11-2025.md",
-    "Daily notes/06-11-2025.md",
-    "conflict-files-obsidian-git.md",
     "Tags",
     "School/Lernfeld 1",
     "School",
