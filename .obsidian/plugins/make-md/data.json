@@ -39,13 +39,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Wiki 2.0/Wiki 2.0/App development",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Ktor",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
-    "//Daily notes"
+    "//Daily notes",
+    "//Excalidraw",
+    "//School",
+    "//App project"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -80,7 +77,7 @@
   "enableDefaultSpaces": true,
   "showSpacePinIcon": true,
   "experimental": false,
-  "systemName": "obsidian_notes",
+  "systemName": "OneNote Notebooks",
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,
