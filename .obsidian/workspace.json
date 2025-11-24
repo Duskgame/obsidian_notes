@@ -73,12 +73,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
-                "bFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
+                "aFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/keyword  operators.md",
+                "bFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/keyword  operators.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Keywords and Operators"
+              "title": "Diff: keyword  operators"
             }
           }
         ],
@@ -254,11 +254,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3d57f5cc81f68b3",
+  "active": "81a1816dd6bfe72f",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/keyword  operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
     "Daily notes/24-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
