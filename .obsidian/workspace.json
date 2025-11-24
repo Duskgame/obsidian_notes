@@ -32,20 +32,6 @@
             }
           },
           {
-            "id": "f564feef0b920ed7",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Daily notes/.space/context.mdb",
-                "bFile": "Daily notes/.space/context.mdb",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: context.mdb"
-            }
-          },
-          {
             "id": "80b7e0b1031d10ef",
             "type": "leaf",
             "state": {
@@ -94,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -226,16 +212,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Daily notes/24-11-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 24-11-2025"
             }
           },
           {
-            "id": "24b13837f9d65b59",
+            "id": "badb02e9f229506d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -266,7 +253,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "371ebffba65c735f",
+  "active": "61c3805033d632ed",
   "lastOpenFiles": [
     "Daily notes/08-11-2025.md",
     "Daily notes/09-11-2025.md",
