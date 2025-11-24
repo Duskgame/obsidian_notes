@@ -38,11 +38,18 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
+    "//App project",
+    "//App project/App project/Android Test",
     "//Daily notes",
-    "//Excalidraw",
-    "//School",
-    "//App project"
+    "/",
+    "//Wiki 2.0",
+    "//Wiki 2.0/Wiki 2.0/App development",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Keywords and operators",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -55,6 +62,7 @@
     "_blocks"
   ],
   "newFileLocation": "current",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

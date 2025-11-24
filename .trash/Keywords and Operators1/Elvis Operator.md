@@ -1,4 +1,4 @@
-[[Keywords and Operators]]
+[[Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators]]
 
 When working with nullable types, you can check for `null` and provide an alternative value. For example, if `b` is not `null`, access `b.length`. Otherwise, return an alternative value:
 
