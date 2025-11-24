@@ -71,24 +71,12 @@
             "id": "81a1816dd6bfe72f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Daily notes/24-11-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators"
               },
               "icon": "lucide-file",
-              "title": "24-11-2025"
+              "title": "Keywords and Operators"
             }
           }
         ],
@@ -264,23 +252,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81a1816dd6bfe72f",
+  "active": "81dbec21efd7282e",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Keywords and operators/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators﻿.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
-    "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Keywords and operators/Untitled.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Keywords and Operators1.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/it keyword.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
+    "Daily notes/24-11-2025.md",
+    "Wiki 2.0/App development/Kotlin/Keywords and operators/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators﻿.md",
+    "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Keywords and operators/Untitled.md",
     "Wiki 2.0/App development/Kotlin/Keywords and operators",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
-    "Daily notes/24-11-2025.md",
     "Daily notes/19-11-2025.md",
     "Daily notes/Daily notes.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Accessor.md",
