@@ -71,12 +71,14 @@
             "id": "81a1816dd6bfe72f",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "split-diff-view",
               "state": {
-                "path": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators"
+                "aFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
+                "bFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Keywords and Operators"
+              "icon": "diff",
+              "title": "Diff: Keywords and Operators"
             }
           }
         ],
