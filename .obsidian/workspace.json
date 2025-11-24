@@ -71,14 +71,12 @@
             "id": "81a1816dd6bfe72f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "mk-space",
               "state": {
-                "aFile": ".trash/Keywords and operators﻿.md",
-                "bFile": ".trash/Keywords and operators﻿.md",
-                "aRef": ""
+                "path": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators"
               },
-              "icon": "diff",
-              "title": "Diff: Keywords and operators"
+              "icon": "lucide-file",
+              "title": "Keywords and Operators"
             }
           }
         ],
@@ -223,7 +221,7 @@
             }
           },
           {
-            "id": "c86b9f63ee09a43c",
+            "id": "81dbec21efd7282e",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -254,16 +252,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c86b9f63ee09a43c",
+  "active": "81dbec21efd7282e",
   "lastOpenFiles": [
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Keywords and operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators﻿.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
     "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Keywords and operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Keywords and operators/Untitled.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/it keyword.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Elvis Operator.md",
