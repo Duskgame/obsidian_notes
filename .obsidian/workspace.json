@@ -134,7 +134,7 @@
             }
           },
           {
-            "id": "25c1315a799967b6",
+            "id": "d02e4b9fab056c10",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -252,11 +252,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81a1816dd6bfe72f",
+  "active": "a3d57f5cc81f68b3",
   "lastOpenFiles": [
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/keyword  operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
+    "Daily notes/24-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords_and_Operators/it keyword.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords_and_Operators/Keywords and Operators.md",
@@ -266,7 +268,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/it keyword.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1",
-    "Daily notes/24-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Keywords and operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators﻿.md",
     "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
