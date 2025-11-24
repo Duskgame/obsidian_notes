@@ -59,14 +59,24 @@
             "id": "371ebffba65c735f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
-                "bFile": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
-                "aRef": ""
+                "file": "Daily notes/24-11-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Keywords and Operators"
+              "icon": "lucide-file",
+              "title": "24-11-2025"
             }
           }
         ],
@@ -124,7 +134,7 @@
             }
           },
           {
-            "id": "984feb72c0ba8f0d",
+            "id": "0214d4d91f30696b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -244,6 +254,7 @@
   },
   "active": "371ebffba65c735f",
   "lastOpenFiles": [
+    "Daily notes/Daily notes.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Accessor.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Backing Field.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
@@ -263,7 +274,6 @@
     "conflict-files-obsidian-git.md",
     "School/Onboarding.md",
     "Daily notes/11-11-2025.md",
-    "Daily notes/Daily notes.md",
     "Excalidraw/Drawing 2025-11-10 11.11.43.excalidraw.md",
     "Daily notes/05-11-2025.md",
     "School/Lernfeld 1/Interviewleitfaden.md",
