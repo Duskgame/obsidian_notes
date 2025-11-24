@@ -71,12 +71,24 @@
             "id": "81a1816dd6bfe72f",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators"
+                "file": "Daily notes/24-11-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Keywords and Operators"
+              "title": "24-11-2025"
             }
           }
         ],
@@ -134,7 +146,7 @@
             }
           },
           {
-            "id": "0214d4d91f30696b",
+            "id": "25c1315a799967b6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -252,7 +264,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81dbec21efd7282e",
+  "active": "81a1816dd6bfe72f",
   "lastOpenFiles": [
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Keywords and operators/Keywords and operators.md",
