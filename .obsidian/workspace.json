@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
+                "file": "Daily notes/25-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Resources in Jetpack"
+              "title": "25-11-2025"
             }
           }
         ],
@@ -279,9 +279,9 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "App project/Planning/Procedures to start with.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "Daily notes/25-11-2025.md",
+    "App project/Planning/Procedures to start with.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
     "Wiki 2.0/App development/Android/User Interface.md",
