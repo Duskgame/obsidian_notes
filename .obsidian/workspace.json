@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/24-11-2025.md",
+                "file": "Daily notes/25-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "24-11-2025"
+              "title": "25-11-2025"
             }
           },
           {
@@ -194,7 +194,7 @@
             }
           },
           {
-            "id": "7f94664e68b07383",
+            "id": "db162e06fe053206",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -315,8 +315,9 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Daily notes/24-11-2025.md",
+    "Daily notes/25-11-2025.md",
+    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
     "Daily notes/19-11-2025.md",
     "Daily notes/13-11-2025.md",
@@ -341,7 +342,6 @@
     "Daily notes/06-11-2025.md",
     "Wiki 2.0/App development/Ktor/Ktor.md",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "Wiki 2.0/App development/Android/Android.md",
     "Tags",
     "School/Lernfeld 1",
     "School",
