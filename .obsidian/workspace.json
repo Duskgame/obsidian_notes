@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/25-11-2025.md",
+                "file": "Wiki 2.0/App development/Android/User Interface.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25-11-2025"
+              "title": "User Interface"
             }
           }
         ],
@@ -168,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -279,9 +279,10 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "Untitled.base",
     "Daily notes/25-11-2025.md",
+    "Wiki 2.0/App development/Android/User Interface.md",
     "Wiki 2.0/App development/Android/Minimum API Level.md",
+    "Untitled.base",
     "Wiki 2.0/App development/Android/Android.md",
     "Wiki 2.0/App development/.md",
     "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
@@ -316,7 +317,6 @@
     "Wiki 2.0/App development/Android",
     "Daily notes",
     "Untitled/desktop.ini",
-    "App project/Android Test",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Pasted image 20251027110846.png",
