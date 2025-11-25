@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Jetpack Compose.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Composable function.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jetpack Compose"
+              "title": "Composable function"
             }
           }
         ],
@@ -279,11 +279,16 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
+    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
+    "Wiki 2.0/App development/App development.md",
+    "Wiki 2.0/App development/Android/jetpack",
+    "Wiki 2.0/App development/Untitled.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/User Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/.md",
-    "Wiki 2.0/App development/Jetpack Compose.md",
     "Daily notes/25-11-2025.md",
     "Wiki 2.0/App development/Android/Minimum API Level.md",
     "Untitled.base",
@@ -302,10 +307,7 @@
     "Vault.md",
     "Daily notes/Untitled.md",
     "Daily notes/08-11-2025.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
     "Tags",
     "School/Lernfeld 1",
     "School",
@@ -315,7 +317,6 @@
     "Wiki 2.0/App development/Ktor",
     "Wiki 2.0/App development/Android",
     "Daily notes",
-    "Untitled/desktop.ini",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Pasted image 20251027110846.png",
