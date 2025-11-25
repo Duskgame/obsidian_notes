@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/User Interface.md",
+                "file": "Wiki 2.0/App development/Jetpack Compose.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "User Interface"
+              "title": "Jetpack Compose"
             }
           }
         ],
@@ -279,8 +279,12 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "Daily notes/25-11-2025.md",
     "Wiki 2.0/App development/Android/User Interface.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/.md",
+    "Wiki 2.0/App development/Jetpack Compose.md",
+    "Daily notes/25-11-2025.md",
     "Wiki 2.0/App development/Android/Minimum API Level.md",
     "Untitled.base",
     "Wiki 2.0/App development/Android/Android.md",
@@ -301,12 +305,7 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and Operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/it keyword.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
-    "Daily notes/05-11-2025.md",
-    "Wiki 2.0/App development/Ktor/Path parameters.md",
     "Tags",
     "School/Lernfeld 1",
     "School",
