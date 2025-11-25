@@ -6,6 +6,8 @@ aliases:
 https://developer.Android.com/compose
 https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-text-composables#2
 
+Jetpack Compose is a modern toolkit for building Android UI. Jetpack Compose simplifies and accelerates [[User Interface|UI]] development on Android with less code, powerful tools, and intuitive Kotlin APIs.
+
 Jetpack Compose is a modern, open-source UI toolkit developed by Google for building native [[Android]] user interfaces using the [[Kotlin]] programming language. Unlike the traditional [[Android]] approach that uses XML layout files, Compose enables developers to build UIs with a fully declarative style—describing what the UI should look like for a given state, and letting the framework handle rendering and updates as data changes.[](https://nordstone.co.uk/blog/jetpack-compose-transforming-ui-design-for-[[[[[[Android]]]]]]-app-development-companies)
 
 

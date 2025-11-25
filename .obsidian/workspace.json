@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/25-11-2025.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25-11-2025"
+              "title": "Resources in Jetpack"
             }
           }
         ],
@@ -279,17 +279,21 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
+    "App project/Planning/Procedures to start with.md",
+    "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
+    "Daily notes/25-11-2025.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
+    "Wiki 2.0/App development/Android/User Interface.md",
+    "Wiki 2.0/App development/Android/jetpack/UI.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Backing Field.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "Wiki 2.0/App development/App development.md",
     "Wiki 2.0/App development/Android/jetpack",
     "Wiki 2.0/App development/Untitled.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
-    "Wiki 2.0/App development/Android/User Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/.md",
-    "Daily notes/25-11-2025.md",
     "Wiki 2.0/App development/Android/Minimum API Level.md",
     "Untitled.base",
     "Wiki 2.0/App development/Android/Android.md",
@@ -303,10 +307,6 @@
     "Daily notes/13-11-2025.md",
     "Daily notes/11-11-2025.md",
     "Daily notes/10-11-2025.md",
-    "Daily notes/09-11-2025.md",
-    "Vault.md",
-    "Daily notes/Untitled.md",
-    "Daily notes/08-11-2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
     "Tags",
     "School/Lernfeld 1",

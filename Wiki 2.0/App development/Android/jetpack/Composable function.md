@@ -59,3 +59,11 @@ The Compose function:
 - _NOT_ an adjective: `Bright()`
 - _NOT_ an adverb: `Outside()`
 - Nouns _MAY_ be prefixed by descriptive adjectives: `RoundIcon()`
+
+
+It's a best practice to have your Composable accept a `Modifier` parameter, and pass that `modifier` to its first child.
+
+- [Composable](https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable)
+- [Compose layout basics](https://developer.android.com/jetpack/compose/layouts/basics)
+- [Pixel density](https://m3.material.io/foundations/layout/understanding-layout/spacing#28f7a086-b6f7-4120-b18f-02a5fa5adbb5)
+- [Text in Compose](https://developer.android.com/jetpack/compose/text)
