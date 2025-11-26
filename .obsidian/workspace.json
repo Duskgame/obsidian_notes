@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.11.2025.md",
+                "file": "Daily notes/26.11.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05.11.2025"
+              "title": "26.11.2025"
             }
           }
         ]
@@ -204,8 +204,9 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "ef1e0e027ae73aad",
+  "active": "844854da006c4293",
   "lastOpenFiles": [
+    "Daily notes/05.11.2025.md",
     "Daily notes/28.10.2025.md",
     "Daily notes/26.11.2025.md",
     "Daily notes/24.11.2025.md",
@@ -233,7 +234,6 @@
     "Daily notes/Daily notes.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
-    "Daily notes/19.11.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
     "Tags",
     "School/Lernfeld 1",
