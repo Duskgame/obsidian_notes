@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dff6b7b8f2f354ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/24-11-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "24-11-2025"
-            }
-          },
-          {
-            "id": "248e11adddcea9c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/24-11-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "24-11-2025"
-            }
-          },
-          {
-            "id": "697439143f51ee7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/24-11-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "24-11-2025"
-            }
-          },
-          {
             "id": "844854da006c4293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/25-11-2025.md",
+                "file": "Daily notes/05.11.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25-11-2025"
+              "title": "05.11.2025"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +85,7 @@
             }
           },
           {
-            "id": "db162e06fe053206",
+            "id": "ef1e0e027ae73aad",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -277,10 +204,14 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "844854da006c4293",
+  "active": "ef1e0e027ae73aad",
   "lastOpenFiles": [
+    "Daily notes/28.10.2025.md",
+    "Daily notes/26.11.2025.md",
+    "Daily notes/24.11.2025.md",
+    "Daily notes/25.11.2025.md",
+    "Daily notes/10.11.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
-    "Daily notes/25-11-2025.md",
     "App project/Planning/Procedures to start with.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
@@ -300,13 +231,9 @@
     "Wiki 2.0/App development/.md",
     "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
     "Daily notes/Daily notes.md",
-    "Daily notes/24-11-2025.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
-    "Daily notes/19-11-2025.md",
-    "Daily notes/13-11-2025.md",
-    "Daily notes/11-11-2025.md",
-    "Daily notes/10-11-2025.md",
+    "Daily notes/19.11.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
     "Tags",
     "School/Lernfeld 1",
