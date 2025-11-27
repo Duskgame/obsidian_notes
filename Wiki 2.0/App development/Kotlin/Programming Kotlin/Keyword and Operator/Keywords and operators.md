@@ -1,3 +1,11 @@
+---
+aliases:
+  - " "
+  - keyword
+  - operator
+  - keywords
+  - operators
+---
 ## Hard keywords﻿[](https://kotlinlang.org/docs/keyword-reference.html#hard-keywords)
 
 The following tokens are always interpreted as keywords and cannot be used as identifiers:
