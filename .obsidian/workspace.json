@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
+                "file": "Daily notes/27.11.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -23,12 +23,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Kotlin Class Properties"
+              "title": "27.11.2025"
             }
           }
         ]
@@ -206,13 +206,18 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
+    "imports/imports.md",
+    "imports",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
+    "Daily notes/27.11.2025.md",
+    "imports/Pasted image 20251127152646.png",
+    "Wiki 2.0/App development/Kotlin/Kotlin.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Backing Field.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Accessor.md",
-    "Daily notes/27.11.2025.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/App development/Appium.md",
     "Wiki 2.0/Colima.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
@@ -232,9 +237,6 @@
     "Daily notes/Untitled.md",
     "Wiki 2.0/General/API.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/null.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Elvis Operator.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/it keyword.md",
     "Wiki 2.0/App development/Android/jetpack",
     "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
@@ -243,7 +245,6 @@
     "School",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
-    "Excalidraw",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Pasted image 20251027110846.png",
@@ -252,7 +253,6 @@
     "Attachments/Wiki 1.png",
     "Attachments/Frontend Platform 47.png",
     "Attachments/Wiki 42.png",
-    "Attachments/Wiki 41.png",
     "Untitled 1.canvas"
   ]
 }
