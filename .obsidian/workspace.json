@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/27.11.2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27.11.2025"
+              "title": "Keywords and operators"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "a1098ac047952069",
+            "id": "bab9281d9df76098",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,12 +206,16 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "Daily notes/26.11.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/it keyword.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Elvis Operator.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Kotlin.md",
     "Daily notes/27.11.2025.md",
+    "Daily notes/25.11.2025.md",
+    "Daily notes/26.11.2025.md",
     "Daily notes/05.11.2025.md",
     "Daily notes/28.10.2025.md",
     "Daily notes/24.11.2025.md",
-    "Daily notes/25.11.2025.md",
     "Daily notes/10.11.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "App project/Planning/Procedures to start with.md",
@@ -224,17 +228,13 @@
     "Wiki 2.0/App development/App development.md",
     "Wiki 2.0/App development/Android/jetpack",
     "Wiki 2.0/App development/Untitled.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/.md",
     "Wiki 2.0/App development/Android/Minimum API Level.md",
     "Untitled.base",
     "Wiki 2.0/App development/Android/Android.md",
     "Wiki 2.0/App development/.md",
     "Wiki 2.0/App development/Kotlin/Kotlin Multiplatform.md",
-    "Daily notes/Daily notes.md",
-    "conflict-files-obsidian-git.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "Tags",
     "School/Lernfeld 1",
     "School",
