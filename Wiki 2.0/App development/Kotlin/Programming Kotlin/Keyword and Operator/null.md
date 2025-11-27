@@ -22,7 +22,7 @@ This is critical because if there's an attempt to access a member of a variable 
 
 ## Use the `?.` safe call [[Keywords and operators|operator]]
 
-You can use the `?.` safe call operator to access methods or properties of nullable variables.
+You can use the `?.` safe call operator to access methods or [[Kotlin Class Properties|properties]] of nullable variables.
 
 ```
 fun main() {

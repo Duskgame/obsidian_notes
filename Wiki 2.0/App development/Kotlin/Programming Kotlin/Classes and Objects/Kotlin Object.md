@@ -17,4 +17,4 @@ To use an object, you create the object and assign it to a variable, similar to 
 val name = ClassName()
 ```
 
-**Note:** When you define the variable with the `val` keyword to reference the object, the variable itself is read-only, but the class object remains mutable. This means that you can't reassign another object to the variable, but you can change the object's state when you update its properties' values.
+**Note:** When you define the variable with the `val` keyword to reference the object, the variable itself is read-only, but the class object remains mutable. This means that you can't reassign another object to the variable, but you can change the object's state when you update its [[Kotlin Class Properties|properties]]' values.
