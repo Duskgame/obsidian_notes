@@ -16,7 +16,7 @@ Kotlin is a modern, expressive programming language designed for flexibility, sa
     
 - **Top-Level Declarations**: Unlike Java, Kotlin allows functions and [[Variables]] to be declared outside of classes, simplifying code organization and usage.[](https://en.wikipedia.org/wiki/Kotlin_\(programming_language\))
     
-- **Extension Functions**: Kotlin lets you add methods to existing classes without inheritance, keeping code cleaner and more modular—this isn’t possible in standard Java.[](https://www.spaceotechnologies.com/blog/kotlin-features/)
+- **Extension Functions**: Kotlin lets you add methods to existing classes without [[inheritance]], keeping code cleaner and more modular—this isn’t possible in standard Java.[](https://www.spaceotechnologies.com/blog/kotlin-features/)
     
 - **Default [[Arguments]] & Named Parameters**: Kotlin functions can specify default values for parameters and allow callers to clarify [[Arguments]] by name, features that make [[Function]] calls more readable and less error-prone than Java.[](https://worldline.github.io/learning-kotlin/en/kotlin-features/)
     

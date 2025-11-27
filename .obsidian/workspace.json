@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "31aebb4eb9f60d0a",
+        "id": "d16eb08ebf6c629d",
         "type": "tabs",
         "children": [
           {
-            "id": "844854da006c4293",
+            "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/27.11.2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27.11.2025"
+              "title": "Inheritance"
             }
           }
         ]
@@ -204,15 +204,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "844854da006c4293",
+  "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
+    "Daily notes/27.11.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
     "imports/imports.md",
     "imports",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
-    "Daily notes/27.11.2025.md",
     "imports/Pasted image 20251127152646.png",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
@@ -234,11 +237,7 @@
     "Daily notes/11.2025",
     "Daily notes/10.2025",
     "Daily notes/Daily notes.md",
-    "Daily notes/Untitled.md",
-    "Wiki 2.0/General/API.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/null.md",
     "Wiki 2.0/App development/Android/jetpack",
-    "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "Tags",
     "School/Lernfeld 1",

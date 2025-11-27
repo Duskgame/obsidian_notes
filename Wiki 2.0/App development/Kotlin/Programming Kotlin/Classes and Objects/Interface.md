@@ -51,7 +51,7 @@ class Child : MyInterface {
 }
 ```
 
-## Interfaces Inheritance﻿
+## Interfaces [[Inheritance]]﻿
 
 An interface can derive from other interfaces, meaning it can both provide implementations for their members and declare new functions and properties. Quite naturally, classes implementing such an interface are only required to define the missing implementations:
 

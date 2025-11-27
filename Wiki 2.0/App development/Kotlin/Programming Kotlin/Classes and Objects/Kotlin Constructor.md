@@ -3,7 +3,7 @@ aliases:
   - " "
   - constructor
 ---
-The primary purpose of the _constructor_ is to specify how the objects of the class are created. In other words, constructors initialize an object and make the object ready for use. You did this when you instantiated the object. The code inside the constructor executes when the object of the class is instantiated. You can define a constructor with or without parameters.
+The primary purpose of the _constructor_ is to specify how the objects of the [[Kotlin Class|Class]] are created. In other words, constructors initialize an [[Kotlin Object]] and make the [[Kotlin Object|Object]] ready for use. You did this when you instantiated the object. The code inside the constructor executes when the object of the class is instantiated. You can define a constructor with or without parameters.
 
 ## Default constructor
 
@@ -15,7 +15,7 @@ class SmartDevice constructor() {
 }
 ```
 
-Kotlin aims to be concise, so you can remove the `constructor` keyword if there are no annotations or visibility modifiers, which you learn about soon, on the constructor. You can also remove the parentheses if the constructor has no parameters as shown in this code snippet:
+[[Kotlin]] aims to be concise, so you can remove the `constructor` [[Keywords and operators|keyword]] if there are no annotations or visibility modifiers, which you learn about soon, on the constructor. You can also remove the parentheses if the constructor has no parameters as shown in this code snippet:
 
 ```
 class SmartDevice {
@@ -27,7 +27,7 @@ The Kotlin compiler autogenerates the default constructor. You won't see the aut
 
 ## Define a parameterized constructor
 
-In the `SmartDevice` class, the `name` and `category` properties are immutable. You need to ensure that all the instances of the `SmartDevice` class initialize the `name` and `category` properties. With the current implementation, the values for the `name` and `category` properties are hardcoded. This means that all the smart devices are named with the `"Android` `TV"` string and categorized with the `"Entertainment"` string.
+In the `SmartDevice` class, the `name` and `category` [[Kotlin Class Properties|properties]] are immutable. You need to ensure that all the instances of the `SmartDevice` class initialize the `name` and `category` properties. With the current implementation, the values for the `name` and `category` properties are hardcoded. This means that all the smart devices are named with the `"[[Android]]` `TV"` string and categorized with the `"Entertainment"` string.
 
 To maintain immutability but avoid hardcoded values, use a parameterized constructor to initialize them:
 
@@ -44,7 +44,7 @@ The constructor now accepts parameters to set up its properties, so the way to i
 ClassName([optional]constructor arguments)
 ```
 
-**Note:** If the class doesn't have a default constructor and you attempt to instantiate the object without arguments, the compiler reports an error.
+**Note:** If the class doesn't have a default constructor and you attempt to instantiate the object without [[Arguments]], the compiler reports an error.
 
 ```
 SmartDevice(name = "Android TV", category = "Entertainment")
@@ -56,7 +56,7 @@ There are two main types of constructors in Kotlin:
 - **Primary constructor.** A class can have only one primary constructor, which is defined as part of the class header. A primary constructor can be a default or parameterized constructor. The primary constructor doesn't have a body. That means that it can't contain any code.
 - **Secondary constructor.** A class can have multiple secondary constructors. You can define the secondary constructor with or without parameters. The secondary constructor can initialize the class and has a body, which can contain initialization logic. If the class has a primary constructor, each secondary constructor needs to initialize the primary constructor.
 
-You can use the primary constructor to initialize properties in the class header. The arguments passed to the constructor are assigned to the properties. The syntax to define a primary constructor starts with the class name followed by the `constructor` keyword and a set of parentheses. The parentheses contain the parameters for the primary constructor. If there's more than one parameter, commas separate the parameter definitions. You can see the full syntax to define a primary constructor in this diagram:
+You can use the primary constructor to initialize properties in the class header. The arguments passed to the constructor are assigned to the properties. The syntax to define a primary constructor starts with the class name followed by the `constructor` keyword and a set of parentheses. The parentheses contain the parameters for the primary constructor. If there's more than one [[Parameter]], commas separate the parameter definitions. You can see the full syntax to define a primary constructor in this diagram:
 
 ```
 class name constructor(parameters) {
@@ -73,3 +73,4 @@ The secondary constructor is enclosed in the body of the class and its syntax in
 You can see the syntax in this diagram:
 
 ![[Pasted image 20251127152646.png]]
+
