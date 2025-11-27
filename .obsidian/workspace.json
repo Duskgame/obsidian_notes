@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/27.11.2025.md",
+                "file": "01.11.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27.11.2025"
+              "title": "01.11.2025"
             }
           }
         ]
@@ -204,35 +204,37 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "844854da006c4293",
+  "active": "bab9281d9df76098",
   "lastOpenFiles": [
+    "Daily notes/10.2025/10.2025.md",
+    "Daily notes/11.2025/11.2025.md",
+    "Daily notes/11.2025",
+    "Daily notes/10.2025",
+    "Daily notes/Daily notes.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Class.md",
+    "Daily notes/Untitled.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Backing Field.md",
+    "Daily notes/27.11.2025.md",
     "Wiki 2.0/General/OOP.md",
     "Wiki 2.0/General/API.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/null.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Daily notes/27.11.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/it keyword.md",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "Daily notes/25.11.2025.md",
-    "Daily notes/26.11.2025.md",
-    "Daily notes/05.11.2025.md",
-    "Daily notes/28.10.2025.md",
-    "Daily notes/24.11.2025.md",
-    "Daily notes/10.11.2025.md",
+    "Daily notes/11.2025/25.11.2025.md",
+    "Daily notes/11.2025/26.11.2025.md",
+    "Daily notes/11.2025/05.11.2025.md",
+    "Daily notes/10.2025/28.10.2025.md",
+    "Daily notes/11.2025/24.11.2025.md",
+    "Daily notes/11.2025/10.11.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "App project/Planning/Procedures to start with.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
     "Wiki 2.0/App development/Android/User Interface.md",
     "Wiki 2.0/App development/Android/jetpack/UI.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Backing Field.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Wiki 2.0/App development/App development.md",
     "Wiki 2.0/App development/Android/jetpack",
-    "Wiki 2.0/App development/Untitled.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators/.md",
-    "Wiki 2.0/App development/Android/Minimum API Level.md",
     "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "Tags",
@@ -242,8 +244,6 @@
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Excalidraw",
     "Wiki 2.0/App development/Ktor",
-    "Wiki 2.0/App development/Android",
-    "Daily notes",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Pasted image 20251027110846.png",
