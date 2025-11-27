@@ -3,7 +3,7 @@ aliases:
   - " "
   - Class
 ---
-==When you define a class, you specify the properties and methods that all objects of that class should have.==
+==When you define a class, you specify the [[Kotlin Class Properties|properties]] and methods that all objects of that class should have.==
 
 ==A class is a blueprint for an [[Kotlin Object|Object]].==
 

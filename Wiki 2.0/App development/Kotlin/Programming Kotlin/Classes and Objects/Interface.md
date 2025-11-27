@@ -4,7 +4,7 @@ Interfaces in [[Kotlin]] can contain declarations of abstract methods, as well a
 
 What makes them different from abstract classes is that interfaces cannot store state. 
 
-They can have properties, but these need to be abstract or provide [[Accessor]] implementations.
+They can have [[Kotlin Class Properties|properties]], but these need to be abstract or provide [[Accessor]] implementations.
 
 
 An interface is defined using the keyword `interface`:
@@ -32,7 +32,7 @@ class Child : MyInterface {
 
 ## Properties in interfaces﻿
 
-You can declare properties in interfaces. A property declared in an interface can either be abstract or provide implementations for accessors. Properties declared in interfaces can't have backing fields, and therefore accessors declared in interfaces can't reference them:
+You can declare [[Kotlin Class Properties|properties]] in interfaces. A property declared in an interface can either be abstract or provide implementations for accessors. Properties declared in interfaces can't have backing fields, and therefore accessors declared in interfaces can't reference them:
 
 ```
 interface MyInterface {

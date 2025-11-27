@@ -10,7 +10,7 @@ Composable functions are the basic building block of a [[User Interface]] in [[J
 
 Annotations are means of attaching extra information to code. This information helps tools like the [[Jetpack Compose]] compiler, and other developers understand the app's code.
 
-An annotation is applied by prefixing its name (the annotation) with the `@` character at the beginning of the declaration you are annotating. Different code elements, including properties, functions, and classes, can be annotated. Later on in the course, you'll learn about classes.
+An annotation is applied by prefixing its name (the annotation) with the `@` character at the beginning of the declaration you are annotating. Different code elements, including [[Kotlin Class Properties|properties]], functions, and classes, can be annotated. Later on in the course, you'll learn about classes.
 
 The following diagram is an example of annotated function:
 
