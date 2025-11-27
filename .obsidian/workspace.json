@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Object.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kotlin Object"
+              "title": "Serialization"
             }
           }
         ]
@@ -206,8 +206,12 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Class.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Object.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/General/OOP.md",
     "Daily notes/27.11.2025.md",
     "Daily notes/Daily template.md",
@@ -231,9 +235,6 @@
     "Daily notes/10.2025/28.10.2025.md",
     "Daily notes/11.2025/24.11.2025.md",
     "Daily notes/11.2025/10.11.2025.md",
-    "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
-    "App project/Planning/Procedures to start with.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack",
     "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
@@ -243,7 +244,6 @@
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Excalidraw",
-    "Wiki 2.0/App development/Ktor",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Pasted image 20251027110846.png",
