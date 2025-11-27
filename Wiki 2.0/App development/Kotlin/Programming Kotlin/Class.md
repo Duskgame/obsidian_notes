@@ -1,1 +1,0 @@
-When you define a class, you specify the properties and methods that all objects of that class should have.

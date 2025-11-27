@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/11.2025/01.11.2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Object.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01.11.2025"
+              "title": "Kotlin Object"
             }
           }
         ]
@@ -204,18 +204,21 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "bab9281d9df76098",
+  "active": "844854da006c4293",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Class.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Object.md",
+    "Wiki 2.0/General/OOP.md",
+    "Daily notes/27.11.2025.md",
+    "Daily notes/Daily template.md",
+    "Daily notes/11.2025/01.11.2025.md",
     "Daily notes/10.2025/10.2025.md",
     "Daily notes/11.2025/11.2025.md",
     "Daily notes/11.2025",
     "Daily notes/10.2025",
     "Daily notes/Daily notes.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Class.md",
     "Daily notes/Untitled.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Backing Field.md",
-    "Daily notes/27.11.2025.md",
-    "Wiki 2.0/General/OOP.md",
     "Wiki 2.0/General/API.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/null.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Elvis Operator.md",
@@ -231,9 +234,6 @@
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "App project/Planning/Procedures to start with.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
-    "Wiki 2.0/App development/Android/User Interface.md",
-    "Wiki 2.0/App development/Android/jetpack/UI.md",
     "Wiki 2.0/App development/Android/jetpack",
     "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
