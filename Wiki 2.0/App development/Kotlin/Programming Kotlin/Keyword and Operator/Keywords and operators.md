@@ -58,7 +58,7 @@ The following tokens are always interpreted as keywords and cannot be used as id
         
     - is used in [when expressions](https://kotlinlang.org/docs/control-flow.html#when-expressions-and-statements) for the same purpose.
         
-- `null` is a constant representing an object reference that doesn't point to any object.
+- `null` is a constant representing an object reference that doesn't point to any object. [[null]]
     
 - `object` declares [a class and its instance at the same time](https://kotlinlang.org/docs/object-declarations.html).
     
