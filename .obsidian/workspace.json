@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Serialization"
+              "title": "Kotlin Class Properties"
             }
           }
         ]
@@ -206,12 +206,19 @@
   },
   "active": "844854da006c4293",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
+    "Wiki 2.0/App development/Appium.md",
+    "Wiki 2.0/Colima.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Accessor.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/General/OOP.md",
     "Daily notes/27.11.2025.md",
     "Daily notes/Daily template.md",
@@ -228,13 +235,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Elvis Operator.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/it keyword.md",
-    "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "Daily notes/11.2025/25.11.2025.md",
-    "Daily notes/11.2025/26.11.2025.md",
-    "Daily notes/11.2025/05.11.2025.md",
-    "Daily notes/10.2025/28.10.2025.md",
-    "Daily notes/11.2025/24.11.2025.md",
-    "Daily notes/11.2025/10.11.2025.md",
     "Wiki 2.0/App development/Android/jetpack",
     "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
