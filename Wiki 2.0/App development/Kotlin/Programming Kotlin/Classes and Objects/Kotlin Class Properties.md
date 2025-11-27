@@ -28,3 +28,6 @@ class SmartDevice {
     
 ```
 
+
+## Getter and setter functions in properties
+
