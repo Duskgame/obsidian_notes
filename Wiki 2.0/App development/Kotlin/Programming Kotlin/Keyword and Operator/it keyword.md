@@ -1,6 +1,6 @@
 ### implicit name of a single parameter﻿
 
-It's very common for a lambda expression to have only one [[Parameter]].
+It's very common for a [[lambda]] expression to have only one [[Parameter]].
 
 If the compiler can parse the signature without any parameters, the [[Parameter]] does not need to be declared and `->` can be omitted. The [[Parameter]] will be implicitly declared under the name `it`:
 

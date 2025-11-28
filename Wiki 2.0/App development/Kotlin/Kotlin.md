@@ -12,7 +12,7 @@ Kotlin is a modern, expressive programming language designed for flexibility, sa
     
 - **Interoperability**: Kotlin can seamlessly interact with Java code and libraries, making incremental adoption or migration simple for existing Java projects.[](https://kotlinlang.org/docs/[[[[[[Android]]]]]]-overview.html)
     
-- **Functional Programming**: Kotlin includes lambda expressions, higher-order functions, and smart type inference for powerful and expressive coding, while Java’s functional features are less integrated and verbose.[](https://www.spaceotechnologies.com/blog/kotlin-features/)
+- **Functional Programming**: Kotlin includes [[lambda]] expressions, higher-order functions, and smart type inference for powerful and expressive coding, while Java’s functional features are less integrated and verbose.[](https://www.spaceotechnologies.com/blog/kotlin-features/)
     
 - **Top-Level Declarations**: Unlike Java, Kotlin allows functions and [[Variables]] to be declared outside of classes, simplifying code organization and usage.[](https://en.wikipedia.org/wiki/Kotlin_\(programming_language\))
     

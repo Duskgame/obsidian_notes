@@ -173,7 +173,7 @@ The following tokens act as keywords in modifier lists of declarations, and they
     
 - `const` marks a property as a [compile-time constant](https://kotlinlang.org/docs/properties.html#compile-time-constants).
     
-- `crossinline` forbids [non-local returns in a lambda passed to an inline function](https://kotlinlang.org/docs/inline-functions.html#returns).
+- `crossinline` forbids [non-local returns in a [[lambda]] passed to an inline function](https://kotlinlang.org/docs/inline-functions.html#returns).
     
 - `data` instructs the compiler to [generate canonical members for a class](https://kotlinlang.org/docs/data-classes.html).
     

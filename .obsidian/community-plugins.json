@@ -5,5 +5,6 @@
   "obsidian-excalidraw-plugin",
   "obisidian-note-linker",
   "make-md",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-plugin-toc"
 ]
