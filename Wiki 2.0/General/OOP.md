@@ -2,8 +2,12 @@
 aliases:
   - " "
   - object oriented programming
+  - encapsulation
+  - abstraction
+  - iheritance
+  - polymorphism
 ---
-OOP helps you simplify complex, real-world problems into smaller objects. There are four basic concepts of OOP, each of which you learn more about later in this codelab:
+OOP helps you simplify complex, real-world problems into smaller objects. There are four basic concepts of OOP
 
 - **Encapsulation.** Wraps the related [[Kotlin Class Properties|properties]] and methods that perform action on those properties in a class. For example, consider your mobile phone. It encapsulates a camera, display, memory cards, and several other hardware and software components. You don't have to worry about how components are wired internally.
 - **Abstraction.** An extension to encapsulation. The idea is to hide the internal implementation logic as much as possible. For example, to take a photo with your mobile phone, all you need to do is open the camera app, point your phone to the scene that you want to capture, and click a button to capture the photo. You don't need to know how the camera app is built or how the camera hardware on your mobile phone actually works. In short, the internal mechanics of the camera app and how a mobile camera captures the photos are abstracted to let you perform the tasks that matter.

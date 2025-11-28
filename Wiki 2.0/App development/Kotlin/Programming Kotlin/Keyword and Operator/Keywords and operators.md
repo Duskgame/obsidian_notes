@@ -78,7 +78,7 @@ The following tokens are always interpreted as keywords and cannot be used as id
     
     - [refers to the superclass implementation of a method or property](https://kotlinlang.org/docs/inheritance.html#calling-the-superclass-implementation).
         
-    - [calls the superclass [[Kotlin Constructor|constructor]] from a secondary constructor](https://kotlinlang.org/docs/classes.html#inheritance).
+    - calls the superclass [[Kotlin Constructor|constructor]] from a secondary constructor](https://kotlinlang.org/docs/classes.html#inheritance).
         
 - `this`
     
