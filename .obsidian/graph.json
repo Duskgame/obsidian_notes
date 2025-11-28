@@ -22,23 +22,23 @@
       }
     },
     {
-      "query": "path:\"Wiki 2.0/App development\"  ",
+      "query": "path:\"Wiki 2.0/App development/Kotlin\"  ",
       "color": {
         "a": 1,
         "rgb": 14111456
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 0.814583333333333,
+  "lineSizeMultiplier": 1.14635416666667,
   "collapse-forces": false,
   "centerStrength": 0.270833333333333,
   "repelStrength": 5.3125,
-  "linkStrength": 0.713541666666667,
+  "linkStrength": 0.802083333333333,
   "linkDistance": 86,
-  "scale": 0.38405663616747565,
+  "scale": 0.3662391727554691,
   "close": false
 }

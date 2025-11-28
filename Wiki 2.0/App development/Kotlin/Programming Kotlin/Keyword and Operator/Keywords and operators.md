@@ -101,7 +101,7 @@ The following tokens are always interpreted as keywords and cannot be used as id
 - `var` declares a mutable [property](https://kotlinlang.org/docs/properties.html) or [local variable](https://kotlinlang.org/docs/basic-syntax.html#variables).
     
 - `when` begins a [when expression](https://kotlinlang.org/docs/control-flow.html#when-expressions-and-statements) (executes one of the given branches).
-	- **Note:** A `when` statement doesn't need the `else` branch to be defined. However, in most cases, a `when` expression requires the `else` branch because the `when` expression needs to return a value. As such, the Kotlin compiler checks whether all the branches are exhaustive. An `else` branch ensures that there won't be a scenario in which the variable doesn't get assigned a value.
+	- **Note:** A `when` statement doesn't need the `else` branch to be defined. However, in most cases, a `when` expression requires the `else` branch because the `when` expression needs to return a value. As such, the [[Kotlin]] compiler checks whether all the branches are exhaustive. An `else` branch ensures that there won't be a scenario in which the variable doesn't get assigned a value.
     
 - `while` begins a [while loop](https://kotlinlang.org/docs/control-flow.html#while-loops) (a loop with a precondition).
     
@@ -304,4 +304,4 @@ Kotlin supports the following operators and special symbols:
     - substitutes an unused parameter in a [destructuring declaration](https://kotlinlang.org/docs/destructuring-declarations.html#underscore-for-unused-variables).
         
 
-For operator precedence, see [this reference](https://kotlinlang.org/docs/reference/grammar.html#expressions) in Kotlin grammar.
+For operator precedence, see [this reference](https://kotlinlang.org/docs/reference/grammar.html#expressions) in [[Kotlin]] grammar.

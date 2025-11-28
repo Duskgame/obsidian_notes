@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/28.11.2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "28.11.2025"
+              "title": "Lambda"
             }
           }
         ]
@@ -206,10 +206,14 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
-    "Daily notes/28.11.2025.md",
-    "Daily notes/Daily notes.md",
+    "App project/Planning/Facts to memorize.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
+    "Wiki 2.0/App development/Kotlin/Kotlin.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
+    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
+    "Daily notes/28.11.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Daily notes/Daily notes.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Delegates.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
@@ -220,7 +224,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Kotlin.md",
     "Wiki 2.0/App development/App development.md",
     "Wiki 2.0/Colima.md",
     "Wiki 2.0/App development/Swift UI.md",
@@ -234,9 +237,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
     "imports",
     "imports/Pasted image 20251127152646.png",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Backing Field.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Accessor.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
     "Daily notes/11.2025",
     "Daily notes/10.2025",

@@ -4,7 +4,7 @@ aliases:
   - propery
   - properties
 ---
-While methods define the actions that a [[Kotlin Class|Class]] can perform, the properties define the class's characteristics or data attributes. For example, a smart device has these properties:
+While methods define the actions that a [[Kotlin]] [[Kotlin Class|Class]] can perform, the properties define the class's characteristics or data attributes. For example, a smart device has these properties:
 
 - **Name.** Name of the device.
 - **Category.** Type of smart device, such as entertainment, utility, or cooking.
