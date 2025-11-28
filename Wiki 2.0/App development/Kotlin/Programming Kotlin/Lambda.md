@@ -11,9 +11,9 @@
 
 ## Store a function in a variable
 
-As a first-class construct, functions are also data types, so you can store functions in variables, pass them to functions, and return them from functions.
+As a first-[[Kotlin Class|Class]] construct, functions are also data types, so you can store functions in [[Variables]], pass them to functions, and return them from functions.
 
-to refer to a function as a value, you need to use the function reference operator (`::`).
+to refer to a [[Function]] as a value, you need to use the function reference [[Keywords and operators|operator]] (`::`).
 
 ```
 ::functionName
@@ -31,9 +31,9 @@ fun trick() {
 
 
 
-Lambda expressions provide a concise syntax to define a function without the `fun` keyword. You can store a lambda expression directly in a variable without a function reference on another function.
+Lambda expressions provide a concise syntax to define a function without the `fun` [[Keywords and operators|keyword]]. You can store a lambda expression directly in a variable without a function reference on another function.
 
-Before the assignment operator (`=`), you add the `val` or `var` keyword followed by the name of the variable, which is what you use when you call the function. After the assignment operator (`=`) is the lambda expression, which consists of a pair of curly braces that form the function body.
+Before the assignment [[Keywords and operators|operator]] (`=`), you add the `val` or `var` [[Keywords and operators|keyword]] followed by the name of the variable, which is what you use when you call the function. After the assignment [[Keywords and operators|operator]] (`=`) is the lambda expression, which consists of a pair of curly braces that form the function body.
 
 ```
 val variable name = {
@@ -48,15 +48,15 @@ When you define a function with a lambda expression, you have a variable that re
 
 ## Functions as data type
 
-Kotlin has type inference. When you declare a variable, you often don't need to explicitly specify the type.
+[[Kotlin]] has type inference. When you declare a variable, you often don't need to explicitly specify the type.
 
-However, if you want to specify the type of a function parameter or a return type, you need to know the syntax for expressing function types. Function types consist of a set of parentheses that contain an optional parameter list, the `->` symbol, and a return type.
+However, if you want to specify the type of a function [[Parameter]] or a return type, you need to know the syntax for expressing function types. Function types consist of a set of parentheses that contain an optional parameter list, the `->` symbol, and a return type.
 
 ```
 ( parameters ( optional ) ) -> return type
 ```
 
-If you had a function that took two `Int` parameters and returned an `Int`, its data type would be `(Int, Int) -> Int`.
+If you had a function that took two `Int` parameters and returned an `Int`, its [[Data Type]] would be `(Int, Int) -> Int`.
 
 ```
 val treat: () -> Unit = {
@@ -81,7 +81,7 @@ fun main() {
     
 }
 
-fun trickOrTreat(isTrick: Boolean): () -> Unit {
+fun trickOrTreat(isTrick: Boolean): () -> [[Unit]] {
 }
 
 ==val trick = {==
@@ -154,7 +154,7 @@ fun main() {
 
 ## Nullable function types
 
-Like other data types, function types can be declared as nullable. In these cases, a variable could contain a function or it could be `null`.
+Like other data types, function types can be declared as nullable. In these cases, a variable could contain a function or it could be `[[null]]`.
 
 To declare a function as nullable, surround the function type in parentheses followed by a `?` symbol outside the ending parenthesis. For example, if you want to make the `() -> String` type nullable, declare it as a `(() -> String)?` type.
 
@@ -229,7 +229,7 @@ This makes your code more readable because it separates the lambda expression fr
 val treatFunction = trickOrTreat(false) =={ "$it quarters" }==
 ``
 
-**Note:** The composable functions that you used to declare your UI take functions as parameters and are typically called using trailing lambda syntax.
+**Note:** The composable functions that you used to declare your [[User Interface|UI]] take functions as parameters and are typically called using trailing lambda syntax.
 
 ## Use the repeat() function
 
