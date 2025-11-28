@@ -8,6 +8,9 @@
 - [[#Pass a lambda expression directly into a function|Pass a lambda expression directly into a function]]
 - [[#Use trailing lambda syntax|Use trailing lambda syntax]]
 - [[#Use the repeat() function|Use the repeat() function]]
+- [[#**Summary**|**Summary**]]
+- [[#**Learn more**|**Learn more**]]
+
 
 ## Store a function in a variable
 
@@ -274,3 +277,19 @@ Have a treat!
 No treats!
 ```
 
+## **Summary**
+
+- Functions in Kotlin are first-class constructs and can be treated like data types.
+- Lambda expressions provide a shorthand syntax to write functions.
+- You can pass function types into other functions.
+- You can return a function type from another function.
+- A lambda expression returns the value of the last expression.
+- If a parameter label is omitted in a lambda expression with a single parameter, it's referred to with the `it` identifier.
+- Lambdas can be written inline without a variable name.
+- If a function's last parameter is a function type, you can use trailing lambda syntax to move the lambda expression after the last parenthesis when you call a function.
+- Higher-order functions are functions that take other functions as parameters or return a function.
+- The `repeat()` function is a higher-order function that works similarly to a `for` loop.
+
+## **Learn more**
+
+- [High-order functions and lambdas](https://kotlinlang.org/docs/lambdas.html)
