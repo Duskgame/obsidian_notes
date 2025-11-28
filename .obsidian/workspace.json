@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Delegates.md",
+                "file": "Daily notes/28.11.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Delegates"
+              "title": "28.11.2025"
             }
           }
         ]
@@ -206,15 +206,18 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Daily notes/28.11.2025.md",
+    "Daily notes/Daily notes.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Delegates.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/General/OOP.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Visibility modifiers.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
-    "Daily notes/28.11.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
@@ -234,10 +237,7 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Backing Field.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Accessor.md",
-    "Wiki 2.0/App development/Appium.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
     "Daily notes/11.2025",
     "Daily notes/10.2025",
     "Wiki 2.0/App development/Android/jetpack",
