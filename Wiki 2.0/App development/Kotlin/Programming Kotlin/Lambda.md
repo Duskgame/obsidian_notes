@@ -7,7 +7,7 @@
 	- [[#Write Lambda expression with  shorthand syntax#Omit parameter name|Omit parameter name]]
 - [[#Pass a lambda expression directly into a function|Pass a lambda expression directly into a function]]
 - [[#Use trailing lambda syntax|Use trailing lambda syntax]]
-
+- [[#Use the repeat() function|Use the repeat() function]]
 
 ## Store a function in a variable
 
@@ -225,7 +225,52 @@ fun main() {
 You can use another shorthand option to write lambdas ==when a function type is the last parameter of a function.== If so, you can place the lambda expression after the closing parenthesis to call the function.
 
 This makes your code more readable because it separates the lambda expression from the other parameters, but doesn't change what the code does.
-
+``
 val treatFunction = trickOrTreat(false) =={ "$it quarters" }==
+``
 
+**Note:** The composable functions that you used to declare your UI take functions as parameters and are typically called using trailing lambda syntax.
+
+## Use the repeat() function
+
+When a function returns a function _or_ takes a function as an argument, it's called a higher-order function. The `trickOrTreat()` function is an example of a higher-order function because it takes a function of `((Int) -> String)?` type as a parameter and returns a function of `() -> Unit` type. Kotlin provides several useful higher-order functions, which you can take advantage of with your newfound knowledge of lambdas.
+
+The [`repeat()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/repeat.html) function is one such higher-order function. The `repeat()` function is a concise way to express a `for` loop with functions. You use this and other higher-order functions frequently in later units. The `repeat()` function has this function signature:
+
+```
+repeat(times: Int, action: (Int) -> Unit)
+```
+
+The `times` parameter is the number of times that the action should happen. The `action` parameter is a function that takes a single `Int` parameter and returns a `Unit` type. The `action` function's `Int` parameter is the number of times that the action has executed so far, such as a `0` argument for the first iteration or a `1` argument for the second iteration. You can use the `repeat()` function to repeat code a specified number of times, similar to a `for` loop.
+
+```
+for (iteration in start...end){
+	//code
+}
+
+repeat(times) {iteration -> 
+	//code
+}
+```
+
+```
+fun main() {
+    val treatFunction = trickOrTreat(false) { "$it quarters" }
+    val trickFunction = trickOrTreat(true, null)
+    repeat(4) {
+        treatFunction()
+    }
+    trickFunction()
+}
+
+```
+
+```
+5 quarters
+Have a treat!
+Have a treat!
+Have a treat!
+Have a treat!
+No treats!
+```
 
