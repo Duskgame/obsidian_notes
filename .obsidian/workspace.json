@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
+                "file": "Daily notes/28.11.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inheritance"
+              "title": "28.11.2025"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "bab9281d9df76098",
+            "id": "ff97ea0663c8e74f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,11 +206,12 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "imports/imports.md",
+    "Daily notes/11.2025/27.11.2025.md",
+    "Daily notes/28.11.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
+    "imports/imports.md",
     "imports/Pasted image 20251127155408.png",
     "imports/Pasted image 20251127154743.png",
-    "Daily notes/27.11.2025.md",
     "Untitled.base",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
