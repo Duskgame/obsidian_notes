@@ -142,7 +142,7 @@ In Kotlin, declaring a function name (without a body) in an interface sets up a 
 
 - **Promotes consistency:** All classes that implement the interface promise to provide their own version (implementation) of the declared function, ensuring a consistent API.
 
-- **Supports polymorphism:** Code can interact with different objects through the interface, knowing those objects supply the required functions, regardless of their specific implementations.
+- **Supports [[OOP|polymorphism]]:** Code can interact with different objects through the interface, knowing those objects supply the required functions, regardless of their specific implementations.
 
 **Example:**
 
