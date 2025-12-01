@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Test solutions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kotlin Class"
+              "title": "Test solutions"
             }
           }
         ]
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,20 +206,21 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Daily notes/01.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Test solutions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Test solutions.md",
-    "Daily notes/01.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
     "imports/imports.md",
     "App project/Mobile Apps Team.md",
     "App project/Android Test/Android Studio setup.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Daily notes/12.2025/12.2025.md",
     "Daily notes/12.2025",
@@ -232,7 +233,6 @@
     "Wiki 2.0/General/OOP.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Visibility modifiers.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
     "imports/Pasted image 20251127154743.png",
