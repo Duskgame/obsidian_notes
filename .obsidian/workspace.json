@@ -11,24 +11,12 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Daily notes/01.12.2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "App project/Testing"
               },
               "icon": "lucide-file",
-              "title": "01.12.2025"
+              "title": "Testing"
             }
           }
         ]
@@ -204,9 +192,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "8df2141dd80ecbaf",
+  "active": "258b7516bd46e206",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Test solutions.md",
+    "Wiki 2.0/Wiki 2.0.md",
+    "App project/Untitled.md",
+    "App project/App project.md",
+    "App project/Testing/Testing.md",
+    "App project/Testing",
+    "App project/Mobile Apps Team.md",
+    "App project/Testing/Android Test/Android Studio setup.md",
+    "imports/imports.md",
+    "App project/Testing/Test solutions.md",
     "Daily notes/01.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
@@ -218,9 +214,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
-    "imports/imports.md",
-    "App project/Mobile Apps Team.md",
-    "App project/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Daily notes/12.2025/12.2025.md",
     "Daily notes/12.2025",
@@ -229,10 +222,6 @@
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
     "Daily notes/11.2025/28.11.2025.md",
     "Daily notes/Daily notes.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Delegates.md",
-    "Wiki 2.0/General/OOP.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Visibility modifiers.md",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
     "imports/Pasted image 20251127154743.png",
@@ -244,9 +233,8 @@
     "Wiki 2.0/App development/Android/jetpack",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "Tags",
-    "School/Lernfeld 1",
-    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
-    "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
+    "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
+    "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
     "Pasted image 20251027110846.png",
