@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/12.2025/01.12.2025.md",
+                "file": "App project/Testing/Dice Roller Test.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01.12.2025"
+              "title": "Dice Roller Test"
             }
           }
         ]
@@ -206,9 +206,9 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/12.2025/DiceRoller Test.md",
     "Daily notes/12.2025/01.12.2025.md",
-    "App project/Testing/Dice Roller Test .md",
+    "App project/Testing/Dice Roller Test.md",
+    "Daily notes/12.2025/DiceRoller Test.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",

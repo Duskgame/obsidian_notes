@@ -1,3 +1,7 @@
+https://developer.android.com/codelabs/basic-android-kotlin-compose-build-a-dice-roller-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-2-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-build-a-dice-roller-app#8
+
+
+
 ```
 package com.example.diceroller
 	import android.os.Bundle
@@ -87,3 +91,16 @@ fun GreetingPreview() {
     }
 }
 ```
+
+
+## Learn more
+
+- [Jetpack Compose Tutorial](https://developer.android.com/jetpack/compose/tutorial)
+- [Add Jetpack Compose toolkit dependencies](https://developer.android.com/jetpack/compose/setup#compose-compiler)
+- [Get started with Jetpack Compose](https://developer.android.com/jetpack/compose/documentation)
+- [Basics of Composable functions](https://developer.android.com/jetpack/compose/layouts/basics#composable-functions)
+- [`Button` composable](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#Button\(kotlin.Function0,androidx.compose.ui.Modifier,kotlin.Boolean,androidx.compose.ui.graphics.Shape,androidx.compose.material3.ButtonColors,androidx.compose.material3.ButtonElevation,androidx.compose.foundation.BorderStroke,androidx.compose.foundation.layout.PaddingValues,androidx.compose.foundation.interaction.MutableInteractionSource,kotlin.Function1\))
+- [`Image` composable](https://developer.android.com/reference/kotlin/androidx/compose/foundation/package-summary#Image\(androidx.compose.ui.graphics.ImageBitmap,kotlin.String,androidx.compose.ui.Modifier,androidx.compose.ui.Alignment,androidx.compose.ui.layout.ContentScale,kotlin.Float,androidx.compose.ui.graphics.ColorFilter,androidx.compose.ui.graphics.FilterQuality\))
+- [State and Jetpack Compose](https://developer.android.com/jetpack/compose/state)
+
+
