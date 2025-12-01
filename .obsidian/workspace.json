@@ -11,12 +11,24 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "App project/Testing"
+                "file": "Daily notes/12.2025/01.12.2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Testing"
+              "title": "01.12.2025"
             }
           }
         ]
@@ -192,18 +204,26 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "258b7516bd46e206",
+  "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Daily notes/12.2025/DiceRoller Test.md",
+    "Daily notes/12.2025/01.12.2025.md",
+    "App project/Testing/Dice Roller Test .md",
+    "App project/Testing/Android Test/Android Studio setup.md",
+    "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
+    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
+    "Wiki 2.0/App development/Android/Android.md",
+    "App project/Testing/Kotlin Test solutions.md",
+    "Daily notes/11.2025/11.2025.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/Daily notes.md",
+    "App project/Testing/Testing.md",
     "Wiki 2.0/Wiki 2.0.md",
     "App project/Untitled.md",
     "App project/App project.md",
-    "App project/Testing/Testing.md",
     "App project/Testing",
     "App project/Mobile Apps Team.md",
-    "App project/Testing/Android Test/Android Studio setup.md",
     "imports/imports.md",
-    "App project/Testing/Test solutions.md",
-    "Daily notes/01.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
@@ -213,15 +233,7 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
-    "Daily notes/12.2025/12.2025.md",
     "Daily notes/12.2025",
-    "App project/Planning/Facts to memorize.md",
-    "Wiki 2.0/App development/Kotlin/Kotlin.md",
-    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
-    "Daily notes/11.2025/28.11.2025.md",
-    "Daily notes/Daily notes.md",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
     "imports/Pasted image 20251127154743.png",
