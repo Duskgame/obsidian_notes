@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lambda"
+              "title": "Kotlin Class"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "ff97ea0663c8e74f",
+            "id": "8fa1b7bbb2ef4344",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -207,34 +207,35 @@
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
-    "App project/Planning/Facts to memorize.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Test solutions.md",
+    "Daily notes/01.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
+    "imports/imports.md",
+    "App project/Mobile Apps Team.md",
+    "App project/Android Test/Android Studio setup.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/12.2025",
+    "App project/Planning/Facts to memorize.md",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
-    "Daily notes/28.11.2025.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Daily notes/11.2025/28.11.2025.md",
     "Daily notes/Daily notes.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Serialization.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Delegates.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/General/OOP.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Visibility modifiers.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/App development/App development.md",
-    "Wiki 2.0/Colima.md",
-    "Wiki 2.0/App development/Swift UI.md",
-    "Wiki 2.0/Wiki 2.0.md",
     "Untitled.base",
-    "Daily notes/11.2025/27.11.2025.md",
-    "imports/imports.md",
     "imports/Pasted image 20251127155408.png",
     "imports/Pasted image 20251127154743.png",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
     "imports",
     "imports/Pasted image 20251127152646.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
@@ -244,7 +245,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "Tags",
     "School/Lernfeld 1",
-    "School",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "e8b488369268e737_1440 1.png",
