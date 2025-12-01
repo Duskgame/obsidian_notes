@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "App project/Testing/Dice Roller Test.md",
+                "file": "Daily notes/12.2025/01.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dice Roller Test"
+              "title": "01.12.2025"
             }
           }
         ]
@@ -206,13 +206,15 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/12.2025/01.12.2025.md",
+    "Wiki 2.0/App development/Android/Debugging Android Studio.md",
+    "Wiki 2.0/App development/Android/Minimum API Level.md",
+    "Wiki 2.0/App development/Android/Android.md",
     "App project/Testing/Dice Roller Test.md",
+    "Daily notes/12.2025/01.12.2025.md",
     "Daily notes/12.2025/DiceRoller Test.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Wiki 2.0/App development/Android/Android.md",
     "App project/Testing/Kotlin Test solutions.md",
     "Daily notes/11.2025/11.2025.md",
     "Daily notes/12.2025/12.2025.md",
@@ -231,8 +233,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
     "Daily notes/12.2025",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
