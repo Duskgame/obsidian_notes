@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/12.2025/01.12.2025.md",
+                "file": "Daily notes/02.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01.12.2025"
+              "title": "02.12.2025"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "8fa1b7bbb2ef4344",
+            "id": "81d0fe1734ccae86",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,18 +206,21 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Daily notes/02.12.2025.md",
+    "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/12.2025/01.12.2025.md",
+    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/Debugging Android Studio.md",
     "Wiki 2.0/App development/Android/Minimum API Level.md",
     "Wiki 2.0/App development/Android/Android.md",
     "App project/Testing/Dice Roller Test.md",
-    "Daily notes/12.2025/01.12.2025.md",
     "Daily notes/12.2025/DiceRoller Test.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "App project/Testing/Kotlin Test solutions.md",
     "Daily notes/11.2025/11.2025.md",
-    "Daily notes/12.2025/12.2025.md",
     "Daily notes/Daily notes.md",
     "App project/Testing/Testing.md",
     "Wiki 2.0/Wiki 2.0.md",
@@ -230,9 +233,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Method.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
     "Daily notes/12.2025",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
