@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/02.12.2025.md",
+                "file": "App project/Testing/Android Test/Lemonade Testproject.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02.12.2025"
+              "title": "Lemonade Testproject"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "81d0fe1734ccae86",
+            "id": "7c25944c49a2aec6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,6 +206,8 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "App project/Testing/Android Test/Android Studio setup.md",
+    "App project/Testing/Android Test/Lemonade Testproject.md",
     "Daily notes/02.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
     "Daily notes/12.2025/12.2025.md",
@@ -217,7 +219,6 @@
     "Wiki 2.0/App development/Android/Android.md",
     "App project/Testing/Dice Roller Test.md",
     "Daily notes/12.2025/DiceRoller Test.md",
-    "App project/Testing/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
     "App project/Testing/Kotlin Test solutions.md",
     "Daily notes/11.2025/11.2025.md",
@@ -232,7 +233,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class.md",
     "Daily notes/12.2025",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
