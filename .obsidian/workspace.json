@@ -24,7 +24,7 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
@@ -206,8 +206,9 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/03.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
+    "Daily notes/03.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
     "Daily notes/12.2025/02.12.2025.md",
     "App project/Testing/Android Test/Lemonade Testproject.md",
@@ -232,7 +233,6 @@
     "App project/App project.md",
     "App project/Testing",
     "App project/Mobile Apps Team.md",
-    "imports/imports.md",
     "Daily notes/12.2025",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",

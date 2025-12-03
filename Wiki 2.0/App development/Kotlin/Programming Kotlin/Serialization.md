@@ -70,7 +70,7 @@ fun main() {
 }
 ```
 
-As a result, you get a string containing the state of this object in the JSON format: `{"a": 42, "b": "str"}`
+As a result, you get a string containing the [[State in Compose|state]] of this object in the JSON format: `{"a": 42, "b": "str"}`
 
 You can also serialize object collections, such as lists, in a single call:
 

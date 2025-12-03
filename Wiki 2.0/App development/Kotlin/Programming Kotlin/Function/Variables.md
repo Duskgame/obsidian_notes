@@ -88,7 +88,7 @@ To remember the difference, think of `val` as a fixed _value_ and `var` as _vari
 
 Constant names use UPPER_SNAKE_CASE: all uppercase letters, with words separated by underscores. But what _is_ a constant, exactly?
 
-Constants are `val` [[Kotlin Class Properties|properties]] with no custom `get` [[Function]], whose contents are deeply immutable, and whose functions have no detectable side-effects. This includes immutable types and immutable collections of immutable types as well as scalars and string if marked as `const`. If any of an instance’s observable state can change, it is not a constant. Merely intending to never mutate the object is not enough.
+Constants are `val` [[Kotlin Class Properties|properties]] with no custom `get` [[Function]], whose contents are deeply immutable, and whose functions have no detectable side-effects. This includes immutable types and immutable collections of immutable types as well as scalars and string if marked as `const`. If any of an instance’s observable [[State in Compose|state]] can change, it is not a constant. Merely intending to never mutate the object is not enough.
 
 ```
 const val NUMBER = 5

@@ -1,3 +1,8 @@
+---
+aliases:
+  - " "
+  - State
+---
 You use the [`State`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/State) and [`MutableState`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/MutableState) types in Compose to make state in your app observable, or tracked, by Compose. The `State` type is immutable, so you can only read the value in it, while the [`MutableState`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/MutableState) type is mutable. You can use the [`mutableStateOf()`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#mutableStateOf\(kotlin.Any,androidx.compose.runtime.SnapshotMutationPolicy\)) [[Function]] to create an observable `MutableState`. It receives an initial value as a [[Parameter]] that is wrapped in a `State` [[Kotlin Object|Object]], which then makes its `value` observable.
 
 The value returned by the `mutableStateOf()` function:

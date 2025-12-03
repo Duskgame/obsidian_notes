@@ -2,7 +2,7 @@ https://kotlinlang.org/docs/interfaces.html
 
 Interfaces in [[Kotlin]] can contain declarations of abstract methods, as well as method implementations. 
 
-What makes them different from abstract classes is that interfaces cannot store state. 
+What makes them different from abstract classes is that interfaces cannot store [[State in Compose|state]]. 
 
 They can have [[Kotlin Class Properties|properties]], but these need to be abstract or provide [[Accessor]] implementations.
 
