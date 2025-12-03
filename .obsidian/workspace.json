@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "App project/Testing/Android Test/Lemonade Testproject.md",
+                "file": "Daily notes/03.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lemonade Testproject"
+              "title": "03.12.2025"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "7c25944c49a2aec6",
+            "id": "3ec99aa534ec704c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,9 +206,10 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "App project/Testing/Android Test/Android Studio setup.md",
-    "App project/Testing/Android Test/Lemonade Testproject.md",
     "Daily notes/02.12.2025.md",
+    "Daily notes/03.12.2025.md",
+    "App project/Testing/Android Test/Lemonade Testproject.md",
+    "App project/Testing/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
     "Daily notes/12.2025/12.2025.md",
     "Daily notes/12.2025/01.12.2025.md",
@@ -232,7 +233,6 @@
     "imports/imports.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Inheritance.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Daily notes/12.2025",
     "Untitled.base",
     "imports/Pasted image 20251127155408.png",
