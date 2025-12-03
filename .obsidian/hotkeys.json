@@ -41,5 +41,14 @@
       ],
       "key": "C"
     }
+  ],
+  "obisidian-note-linker:open-note-linker-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }
