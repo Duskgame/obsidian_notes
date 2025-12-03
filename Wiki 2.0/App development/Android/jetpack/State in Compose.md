@@ -25,3 +25,5 @@ fun EditNumberField(modifier: Modifier = Modifier) {
 }
 
 ```
+
+Composable functions can store an object across recompositions with the [`remember`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#remember\(kotlin.Function0\)). A value computed by the `remember` function is stored in the Composition during initial composition and the stored value is returned during recomposition. Usually `remember` and `mutableStateOf` functions are used together in composable functions to have the state and its updates be reflected properly in the UI.

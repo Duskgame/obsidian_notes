@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 14111456
       }
+    },
+    {
+      "query": "path:\"Wiki 2.0/App development/Android/jetpack\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5526240
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 5.3125,
   "linkStrength": 0.802083333333333,
   "linkDistance": 86,
-  "scale": 0.663201976959094,
+  "scale": 0.575114567644589,
   "close": false
 }
