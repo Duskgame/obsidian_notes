@@ -11,24 +11,10 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "State in Compose"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -206,9 +192,11 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/03.12.2025.md",
     "App project/Testing/Android Test/Tip Time Test.md",
+    "App project/Testing/Android Test/Android Studio setup.md",
+    "App project/Testing/Android Test/Lemonade Testproject.md",
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
+    "Daily notes/03.12.2025.md",
     "App project/Testing/Android Test/.md",
     "imports/imports.md",
     "imports/Pasted image 20251203160548.png",
@@ -220,8 +208,6 @@
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Daily notes/12.2025/02.12.2025.md",
-    "App project/Testing/Android Test/Lemonade Testproject.md",
-    "App project/Testing/Android Test/Android Studio setup.md",
     "Daily notes/12.2025/12.2025.md",
     "Daily notes/12.2025/01.12.2025.md",
     "Wiki 2.0/App development/Android/Debugging Android Studio.md",
