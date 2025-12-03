@@ -1,3 +1,5 @@
+rounding corner in [[jetpack compose]]
+
 Box(
     modifier = Modifier
         .background(
