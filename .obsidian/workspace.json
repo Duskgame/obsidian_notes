@@ -11,10 +11,24 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Daily notes/Daily template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily template"
             }
           }
         ]
@@ -71,7 +85,7 @@
             }
           },
           {
-            "id": "3ec99aa534ec704c",
+            "id": "a26bbea9a9c1f8e5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -192,20 +206,24 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Daily notes/04.12.2025.md",
+    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
+    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
+    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
+    "App project/Mobile Apps Team.md",
+    "Wiki 2.0/Colima.md",
+    "Daily notes/12.2025/03.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
     "App project/Testing/Android Test/Tip Time Test.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "App project/Testing/Android Test/Lemonade Testproject.md",
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
-    "Daily notes/03.12.2025.md",
     "App project/Testing/Android Test/.md",
     "imports/imports.md",
     "imports/Pasted image 20251203160548.png",
     "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
-    "Wiki 2.0/Colima.md",
     "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
     "Daily notes/12.2025/02.12.2025.md",
     "Daily notes/12.2025/12.2025.md",
@@ -215,10 +233,6 @@
     "Wiki 2.0/App development/Android/Android.md",
     "App project/Testing/Android Test/Dice Roller Test.md",
     "Daily notes/12.2025/DiceRoller Test.md",
-    "App project/Testing/Kotlin Test solutions.md",
-    "Daily notes/11.2025/11.2025.md",
-    "Daily notes/Daily notes.md",
-    "App project/Testing/Testing.md",
     "App project/Testing",
     "Daily notes/12.2025",
     "Untitled.base",

@@ -1,0 +1,1 @@
+**Note:** The `@StringRes` annotation is a type-safe way to use string resources. It indicates that the integer to be passed is a string resource from the `values/strings.xml` file. These annotations are useful to developers who work on your code and for code-inspection tools like [lint](https://developer.android.com/studio/write/lint) in Android Studio.

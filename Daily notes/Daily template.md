@@ -7,6 +7,8 @@ Progress:
 
 Problems:
 
-Questions/Vocabulary:
+Questions:
+
+Vocabulary:
 
 Noteworthy:
