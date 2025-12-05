@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/Daily template.md",
+                "file": "Daily notes/05.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily template"
+              "title": "05.12.2025"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "a26bbea9a9c1f8e5",
+            "id": "6b46ac998c34daf1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,7 +206,13 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/04.12.2025.md",
+    "Daily notes/12.2025/04.12.2025.md",
+    "Daily notes/05.12.2025.md",
+    "App project/Testing/Android Test/Basic Automated tests.md",
+    "App project/Testing/Android Test/Tip Time Test.md",
+    "App project/Testing/Android Test/Untitled 1.md",
+    "Wiki 2.0/Caddy.md",
+    "Daily notes/Daily template.md",
     "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
@@ -214,7 +220,6 @@
     "Wiki 2.0/Colima.md",
     "Daily notes/12.2025/03.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
-    "App project/Testing/Android Test/Tip Time Test.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "App project/Testing/Android Test/Lemonade Testproject.md",
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
@@ -228,11 +233,6 @@
     "Daily notes/12.2025/02.12.2025.md",
     "Daily notes/12.2025/12.2025.md",
     "Daily notes/12.2025/01.12.2025.md",
-    "Wiki 2.0/App development/Android/Debugging Android Studio.md",
-    "Wiki 2.0/App development/Android/Minimum API Level.md",
-    "Wiki 2.0/App development/Android/Android.md",
-    "App project/Testing/Android Test/Dice Roller Test.md",
-    "Daily notes/12.2025/DiceRoller Test.md",
     "App project/Testing",
     "Daily notes/12.2025",
     "Untitled.base",
