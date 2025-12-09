@@ -50,7 +50,10 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack",
     "//App project/App project/Testing/App project/Testing/Android Test",
-    "//Wiki 2.0/Wiki 2.0/App development"
+    "//Wiki 2.0/Wiki 2.0/App development",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Function"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
