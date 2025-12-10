@@ -1,3 +1,5 @@
+Sets are unordered collections and cannot contain duplicates.
+
 A set is a collection that does not have a specific order and does not allow duplicate values.
 
 ![[Pasted image 20251210115935.png]]

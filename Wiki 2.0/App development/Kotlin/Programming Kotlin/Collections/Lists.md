@@ -5,6 +5,7 @@
 - [[#Update elements at a specific index|Update elements at a specific index]]
 - [[#Remove elements from a list|Remove elements from a list]]
 
+Lists are a resizable, ordered collection.
 
 A list is an ordered, resizable collection, typically implemented as a resizable [[Arrays|Array]] . When the array is filled to capacity and you try to insert a new element, the array is copied to a new bigger array.
 
@@ -75,7 +76,7 @@ solarSystem.add(3, "Theia")
 
 ## Update elements at a specific index
 
-You can update existing elements with subscript syntax:
+You can update existing elements with [[subscript syntax]]:
 
 ```
 solarSystem[3] = "Future Moon"

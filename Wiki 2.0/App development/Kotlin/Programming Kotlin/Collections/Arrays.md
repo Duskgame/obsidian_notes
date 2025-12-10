@@ -3,6 +3,9 @@ aliases:
   - " "
   - array
 ---
+
+Arrays store ordered data of the same type, and have a fixed size.
+
 ## Create arrays﻿[](https://kotlinlang.org/docs/arrays.html#create-arrays)
 
 To create arrays in [[Kotlin]], you can use:
