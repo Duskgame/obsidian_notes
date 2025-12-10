@@ -71,3 +71,7 @@ solarSystem["Jupiter"] = 78
 solarSystem.put("Jupiter", 78)
 ```
 
+
+- [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/)
+- [MutableMap](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/)
+

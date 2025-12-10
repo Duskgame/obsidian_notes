@@ -56,3 +56,9 @@ The `remove()` function takes a single parameter and removes the specified eleme
 ```
 solarSystem.remove("Pluto")
 ```
+
+
+- [Set](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/)
+- [hashCode()](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/hash-code.html)
+- [MutableSet](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-set/)****
+

@@ -106,3 +106,9 @@ An even more concise syntax is to use the `in` [[Keywords and operators|operator
 ```
 println("Future Moon" in solarSystem)
 ```
+
+
+- [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/)
+- [Conditions and loops](https://kotlinlang.org/docs/control-flow.html)
+- [MutableList](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/)
+
