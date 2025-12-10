@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/10.12.2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10.12.2025"
+              "title": "Lists"
             }
           }
         ]
@@ -206,9 +206,16 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
+    "imports/Pasted image 20251210113210.png",
+    "imports/Pasted image 20251210113153.png",
+    "Daily notes/10.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Collections.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
     "App project/Testing/Android Test/Art Gallery Testproject.md",
     "App project/Testing/Testing.md",
-    "Daily notes/10.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
@@ -216,7 +223,6 @@
     "Daily notes/12.2025/09.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Scope Functions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Extending Classes.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Singelton Object.md",
@@ -228,10 +234,6 @@
     "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
     "Daily notes/12.2025/08.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Arrays.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
     "imports/Pasted image 20251203160548.png",
     "App project/Testing",
     "Daily notes/12.2025",
@@ -245,14 +247,11 @@
     "Daily notes/10.2025",
     "Wiki 2.0/App development/Android/jetpack",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
-    "Tags",
     "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "e8b488369268e737_1440 1.png",
     "e8b488369268e737_1440.png",
-    "Pasted image 20251027110846.png",
     "App project/Planning/Untitled.canvas",
-    "Pasted image 20251024140932.png",
     "Untitled 1.canvas"
   ]
 }
