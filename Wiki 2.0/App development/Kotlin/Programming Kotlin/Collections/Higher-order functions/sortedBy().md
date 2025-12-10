@@ -1,0 +1,1 @@
+When you first learned about collections, you learned that the `sort()` function could be used to sort the elements. However, this won't work on a collection of `Cookie` objects. The `Cookie` class has several properties and Kotlin won't know which properties (`name`, `price`, etc.) you want to sort by.
