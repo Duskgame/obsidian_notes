@@ -1,3 +1,8 @@
+---
+aliases:
+  - " "
+  - array
+---
 ## Create arrays﻿[](https://kotlinlang.org/docs/arrays.html#create-arrays)
 
 To create arrays in [[Kotlin]], you can use:

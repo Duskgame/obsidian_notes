@@ -20,7 +20,7 @@
 |Data Type|Definition|Example|
 |---|---|---|
 |String (string)|Sequence of characters, digits, or symbols—always treated as text|hello , ram , i am a girl|
-|array|List with a number of elements in a specific order—typically of the same type|arr[4]= [0 , 1 , 2 , 3 ]|
+|[[Arrays|array]]|List with a number of elements in a specific order—typically of the same type|arr[4]= [0 , 1 , 2 , 3 ]|
 |pointers|Blocks of memory that are dynamically allocated are managed and stored|*ptr=9|
 
 ## Common User-Defined Data Types:

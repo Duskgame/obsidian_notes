@@ -24,4 +24,4 @@ Which is equivalent to the code above
 val strings = someArray.map { it.toString() }
 ```
 
-`map` is used to transform a array of one type into another. If you just want to execute something for each element the `forEach` [[Function]] is used.
+`map` is used to transform a [[Arrays|array]] of one type into another. If you just want to execute something for each element the `forEach` [[Function]] is used.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
+                "file": "Daily notes/10.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "Lists"
+              "title": "10.12.2025"
             }
           }
         ]
@@ -206,11 +206,16 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Sets.md",
+    "imports/Pasted image 20251210120144.png",
+    "imports/Pasted image 20251210115935.png",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
+    "Wiki 2.0/General/Data Type.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/array.md",
     "imports/Pasted image 20251210113210.png",
     "imports/Pasted image 20251210113153.png",
     "Daily notes/10.12.2025.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Collections.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
@@ -231,9 +236,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Generics.md",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
     "Wiki 2.0/App development/Android/jetpack/Surface.md",
-    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
-    "Daily notes/12.2025/08.12.2025.md",
-    "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
     "imports/Pasted image 20251203160548.png",
     "App project/Testing",
     "Daily notes/12.2025",
@@ -249,8 +251,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
-    "e8b488369268e737_1440 1.png",
-    "e8b488369268e737_1440.png",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
