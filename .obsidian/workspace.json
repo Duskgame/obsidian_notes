@@ -11,10 +11,24 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Daily notes/10.12.2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "10.12.2025"
             }
           }
         ]
@@ -71,7 +85,7 @@
             }
           },
           {
-            "id": "7594cb2deb0a43e5",
+            "id": "0e42e15f596712bc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -192,16 +206,21 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/09.12.2025.md",
+    "App project/Testing/Android Test/Art Gallery Testproject.md",
+    "App project/Testing/Testing.md",
+    "Daily notes/10.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Daily notes/12.2025/09.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Scope Functions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Arguments.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Interface.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Extending Classes.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Singelton Object.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Accessor.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Enum.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Generics.md",
     "Wiki 2.0/App development/Kotlin/Kotlin.md",
@@ -213,11 +232,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Lambda.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Programming Kotlin.md",
-    "Daily notes/12.2025/12.2025.md",
-    "Daily notes/12.2025/05.12.2025.md",
-    "Daily notes/12.2025/04.12.2025.md",
-    "App project/Testing/Android Test/Basic Automated tests.md",
-    "App project/Testing/Android Test/Tip Time Test.md",
     "imports/Pasted image 20251203160548.png",
     "App project/Testing",
     "Daily notes/12.2025",
