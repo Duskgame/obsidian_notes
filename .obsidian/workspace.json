@@ -11,24 +11,10 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "sortedBy()"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -206,14 +192,20 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/10.12.2025.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/forEach().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/Higher-order functions.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Extending Classes.md",
+    "App project/Testing/Android Test/Test Tasks.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/fold().md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/forEach().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/groupBy().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
+    "App project/Testing/Android Test/Android Studio setup.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Enum.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
+    "Daily notes/10.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/map().md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/Higher-order functions.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Collections.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
@@ -228,16 +220,10 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/array.md",
     "imports/Pasted image 20251210113210.png",
     "imports/Pasted image 20251210113153.png",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
     "App project/Testing/Android Test/Art Gallery Testproject.md",
     "App project/Testing/Testing.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Constructor.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Object.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
-    "Daily notes/12.2025/09.12.2025.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Scope Functions.md",
     "imports/Pasted image 20251203160548.png",
     "App project/Testing",
     "Daily notes/12.2025",

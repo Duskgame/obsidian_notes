@@ -29,3 +29,4 @@ Snickerdoodle - $1.39
 Blueberry Tart - $1.79
 ```
 
+[filter()](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/filter.html)

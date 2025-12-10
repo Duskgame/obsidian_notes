@@ -39,3 +39,5 @@ Total price: $10.83
 **Note:** `fold()` is sometimes called `reduce()`. The `fold()` function in Kotlin works the same as the `reduce()` function found in JavaScript, Swift, Python, etc. Note that Kotlin also has its own function called [`reduce()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/reduce.html), where the accumulator starts with the first element in the collection, rather than an initial value passed as an argument.
 
 **Note:** Kotlin collections also have a [`sum()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sum.html) function for numeric types, as well as a higher-order [`sumOf()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sum-of.html) function.
+
+[fold()](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/fold.html)

@@ -44,3 +44,5 @@ Vanilla Creme - $1.59
 Chocolate Peanut Butter - $1.49
 Sugar and Sprinkles - $1.39
 ```
+
+[groupBy()](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/group-by.html)

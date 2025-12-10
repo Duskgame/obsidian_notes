@@ -36,3 +36,4 @@ cookies.forEach {
 }
 ```
 
+[forEach()](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/for-each.html)

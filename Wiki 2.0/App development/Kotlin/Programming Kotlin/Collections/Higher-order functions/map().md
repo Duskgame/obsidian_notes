@@ -30,3 +30,4 @@ Blueberry Tart - $1.79
 Sugar and Sprinkles - $1.39
 ```
 
+[map()](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/map.html)
