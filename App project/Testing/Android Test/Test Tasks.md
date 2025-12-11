@@ -70,3 +70,10 @@ Task 6 Solution
 println("Last event of the day: ${events.last().title}")
 ```
 
+
+Task 7 Solution
+
+```
+val Event.durationOfEvent: String  
+    get() = "${if (this.durationInMinutes < 60) "short" else "long"}"
+```
