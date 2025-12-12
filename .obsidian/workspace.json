@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/11.12.2025.md",
+                "file": "Daily notes/12.2025/11.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "d79bdffd496e84ce",
+            "id": "771b86ac11f14797",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,10 +206,13 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/Vector.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/12.12.2025.md",
+    "Daily notes/12.2025/11.12.2025.md",
+    "Daily notes/Untitled.md",
+    "Wiki 2.0/App development/Android/Vector Icons.md",
     "Wiki 2.0/App development/Android/Debugging Android Studio.md",
     "Wiki 2.0/App development/Android/Android.md",
-    "Daily notes/11.12.2025.md",
     "App project/Testing/Android Test/Affirmation Testproject.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
@@ -229,9 +232,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/groupBy().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Enum.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Classes and Objects.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Function.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "imports/Pasted image 20251210120144.png",
     "imports/Pasted image 20251210115935.png",
