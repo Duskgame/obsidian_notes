@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/12.2025/11.12.2025.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/fold().md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11.12.2025"
+              "title": "fold()"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "771b86ac11f14797",
+            "id": "cabbdf58248eb600",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,32 +206,32 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/12.2025/12.2025.md",
-    "Daily notes/12.12.2025.md",
-    "Daily notes/12.2025/11.12.2025.md",
-    "Daily notes/Untitled.md",
-    "Wiki 2.0/App development/Android/Vector Icons.md",
-    "Wiki 2.0/App development/Android/Debugging Android Studio.md",
-    "Wiki 2.0/App development/Android/Android.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
     "App project/Testing/Android Test/Affirmation Testproject.md",
-    "App project/Testing/Android Test/Android Studio setup.md",
-    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
-    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
-    "Daily notes/12.2025/10.12.2025.md",
-    "App project/Testing/Android Test/Art Gallery Testproject.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Generics.md",
-    "App project/Testing/Android Test/Test Tasks.md",
+    "Daily notes/15.12.2025.md",
+    "Daily notes/Daily template.md",
+    "imports/imports.md",
     "App project/Testing/Android Test/Tip Time Test.md",
+    "App project/Testing/Android Test/Test Tasks.md",
+    "App project/Testing/Kotlin Test solutions.md",
     "App project/Testing/Android Test/Lemonade Testproject.md",
     "App project/Testing/Android Test/Dice Roller Test.md",
     "App project/Testing/Android Test/Basic Automated tests.md",
+    "App project/Testing/Android Test/Art Gallery Testproject.md",
+    "App project/Testing/Android Test/Android Studio setup.md",
+    "Daily notes/12.2025/12.12.2025.md",
+    "Wiki 2.0/App development/Android/Vector Icons.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/12.2025/11.12.2025.md",
+    "Daily notes/Untitled.md",
+    "Wiki 2.0/App development/Android/Debugging Android Studio.md",
+    "Wiki 2.0/App development/Android/Android.md",
+    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
+    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
+    "Daily notes/12.2025/10.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Generics.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Extending Classes.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Kotlin Class Properties.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/fold().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/forEach().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/groupBy().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Enum.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "imports/Pasted image 20251210120144.png",
     "imports/Pasted image 20251210115935.png",
