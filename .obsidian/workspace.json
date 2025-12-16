@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/15.12.2025.md",
+                "file": "Daily notes/16.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15.12.2025"
+              "title": "16.12.2025"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "cabbdf58248eb600",
+            "id": "ff8c24c2636677a5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,22 +204,25 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "8df2141dd80ecbaf",
+  "active": "ff8c24c2636677a5",
   "lastOpenFiles": [
+    "App project/Testing/Android Test/Courses Testproject.md",
+    "App project/Testing/Android Test/Affirmation Testproject.md",
+    "App project/Testing/Android Test/Tip Time Test.md",
+    "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
+    "Daily notes/16.12.2025.md",
+    "Daily notes/12.2025/15.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Maps.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
-    "Daily notes/15.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/groupBy().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/forEach().md",
-    "App project/Testing/Android Test/Tip Time Test.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
     "App project/Testing/Android Test/Art Gallery Testproject.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/map().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/fold().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
-    "App project/Testing/Android Test/Affirmation Testproject.md",
     "Daily notes/Daily template.md",
     "imports/imports.md",
     "App project/Testing/Android Test/Test Tasks.md",
@@ -229,9 +232,6 @@
     "App project/Testing/Android Test/Basic Automated tests.md",
     "App project/Testing/Android Test/Android Studio setup.md",
     "Daily notes/12.2025/12.12.2025.md",
-    "Wiki 2.0/App development/Android/Vector Icons.md",
-    "Daily notes/12.2025/12.2025.md",
-    "Daily notes/12.2025/11.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "imports/Pasted image 20251210120144.png",
     "imports/Pasted image 20251210115935.png",
