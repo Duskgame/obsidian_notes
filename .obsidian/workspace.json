@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/16.12.2025.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Material Theming/Dark Theme.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "16.12.2025"
+              "title": "Dark Theme"
             }
           }
         ]
@@ -206,10 +206,12 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Daily notes/Daily template.md",
-    "Daily notes/16.12.2025.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Dimensions.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Color.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Dark Theme.md",
+    "Daily notes/16.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Material Theming.md",
+    "Daily notes/Daily template.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
     "Daily notes/12.2025/12.2025.md",
     "App project/Testing/Android Test/Courses Testproject.md",
@@ -231,8 +233,6 @@
     "imports/imports.md",
     "App project/Testing/Android Test/Test Tasks.md",
     "App project/Testing/Kotlin Test solutions.md",
-    "App project/Testing/Android Test/Lemonade Testproject.md",
-    "App project/Testing/Android Test/Dice Roller Test.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "imports/Pasted image 20251210120144.png",
     "imports/Pasted image 20251210115935.png",
