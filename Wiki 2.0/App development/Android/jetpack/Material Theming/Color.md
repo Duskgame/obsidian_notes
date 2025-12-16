@@ -192,3 +192,19 @@ The copied in **Theme.kt** file has `dynamicColor` set to false and the devices 
 
 Material components are automatically mapped to color slots. Other key components across the UI like Floating Action Buttons also default to the Primary color. This means that you don't need to explicitly assign a color to a component; it is automatically mapped to a color slot when you set the color theme in your app. You can override this by explicitly setting a color in the code. Read more about color roles [here](https://m3.material.io/styles/color/the-color-system/color-roles).
 
+## Dynamic Color
+
+Material 3 strongly focuses on user personalization - a new feature in Material 3 is Dynamic Color which creates a theme for your app based on the user's wallpaper. This way if the user loves green and has a blue phone background, their Woof app will also be blue to reflect that. Dynamic theming is only on certain devices that are running Android 12 and up.
+
+A custom theme can be used for apps that have strong branding colors and also needs to be implemented for devices that don't support dynamic theming so that your app is still themed.
+
+
+To enable dynamic color, open Theme.kt and go to the WoofTheme() composable and set the dynamicColor parameter to true.
+```
+@Composable
+fun WoofTheme(
+   darkTheme: Boolean = isSystemInDarkTheme(),
+   dynamicColor: Boolean = true,
+   content: @Composable () -> Unit
+)
+```
