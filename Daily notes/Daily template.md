@@ -9,7 +9,7 @@ Problems:
 
 Questions:
 
-Vocabulary:
+New Notes:
 
 Noteworthy:
 

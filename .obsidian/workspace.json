@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "ff8c24c2636677a5",
+            "id": "0b3cf67c15ba5081",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,13 +204,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "ff8c24c2636677a5",
+  "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Daily notes/Daily template.md",
+    "Daily notes/16.12.2025.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Color.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Material Theming.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming",
+    "Daily notes/12.2025/12.2025.md",
     "App project/Testing/Android Test/Courses Testproject.md",
     "App project/Testing/Android Test/Affirmation Testproject.md",
     "App project/Testing/Android Test/Tip Time Test.md",
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
-    "Daily notes/16.12.2025.md",
     "Daily notes/12.2025/15.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Maps.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
@@ -223,15 +228,11 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/map().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/fold().md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
-    "Daily notes/Daily template.md",
     "imports/imports.md",
     "App project/Testing/Android Test/Test Tasks.md",
     "App project/Testing/Kotlin Test solutions.md",
     "App project/Testing/Android Test/Lemonade Testproject.md",
     "App project/Testing/Android Test/Dice Roller Test.md",
-    "App project/Testing/Android Test/Basic Automated tests.md",
-    "App project/Testing/Android Test/Android Studio setup.md",
-    "Daily notes/12.2025/12.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "imports/Pasted image 20251210120144.png",
     "imports/Pasted image 20251210115935.png",
@@ -249,7 +250,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
     "Daily notes/11.2025",
     "Daily notes/10.2025",
-    "Wiki 2.0/App development/Android/jetpack",
     "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
     "imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "App project/Planning/Untitled.canvas",
