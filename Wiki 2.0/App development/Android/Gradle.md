@@ -1,0 +1,1 @@
+**Note on Gradle dependency:** To add a dependency to your project, specify a dependency configuration such as implementation in the `dependencies` block of your module's `build.gradle.kts` file. When you build your app, the build system compiles the library module and packages the resulting compiled contents in the app.
