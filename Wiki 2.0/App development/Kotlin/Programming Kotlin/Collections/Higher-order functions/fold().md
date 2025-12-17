@@ -1,4 +1,4 @@
-The `fold()` function is used to generate a single value from a collection. This is most commonly used for things like calculating a total of prices, or summing all the elements in a list to find an average.
+The [[Kotlin]] `fold()` function is used to generate a single value from a collection. This is most commonly used for things like calculating a total of prices, or summing all the elements in a list to find an average.
 
 The `fold()` function takes two parameters:
 

@@ -1,4 +1,4 @@
-The `filter()` function lets you create a subset of a collection. For example, if you had a list of numbers, you could use `filter()` to create a new list that only contains numbers divisible by 2.
+The [[Kotlin]] `filter()` function lets you create a subset of a collection. For example, if you had a list of numbers, you could use `filter()` to create a new list that only contains numbers divisible by 2.
 
 Whereas the result of the `map()` function always yields a collection of the same size, `filter()` yields a collection of the same size or smaller than the original collection. Unlike `map()`, the resulting collection also has the same data type, so filtering a `List<Cookie>` will result in another `List<Cookie>`.
 

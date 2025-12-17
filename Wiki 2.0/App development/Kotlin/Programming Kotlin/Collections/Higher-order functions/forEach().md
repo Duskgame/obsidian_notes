@@ -1,6 +1,6 @@
 ## Loop over a list with `forEach()`
 
-The `forEach()` function executes the function passed as a parameter once for each item in the collection.
+The [[Kotlin]] `forEach()` function executes the function passed as a parameter once for each item in the collection.
 
 This works similarly to the `repeat()` function, or a `for` loop. The lambda is executed for the first element, then the second element, and so on, until it's executed for each element in the collection. The method signature is as follows:
 
