@@ -32,7 +32,7 @@ Box(
 )
 
 Card/Surface(
-    ==shape = RoundedCornerShape(12.dp),==
+    ==[[shape]] = RoundedCornerShape(12.dp),==
     modifier = Modifier.fillMaxWidth()
 ) {
     Text(

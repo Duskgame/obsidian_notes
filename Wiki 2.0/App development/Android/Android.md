@@ -101,5 +101,5 @@ fun GreetingPreview() {
 - [Projects overview](https://developer.android.com/studio/projects)
 - [Create a project](https://developer.android.com/studio/projects/create-project)
 - [Add code from a template](https://developer.android.com/studio/projects/templates)
-- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [[[Jetpack Compose]]](https://developer.android.com/jetpack/compose)
 - [Padding – Material Design 3](https://m3.material.io/foundations/layout/understanding-layout/spacing#64eb2223-f5e8-4d2a-9edc-9e3a7002220a)

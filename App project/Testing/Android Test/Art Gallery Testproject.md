@@ -95,7 +95,9 @@ fun DisplayInfo(artworkArrayIndex: Int, modifier: Modifier) {
   
     Surface(  
         modifier = modifier,  
-        shape = RectangleShape,  
+```
+[[shape]] = RectangleShape,  
+```    
         color = MaterialTheme.colorScheme.surfaceContainerLow,  
         tonalElevation = 20.dp,  
         shadowElevation = 5.dp,  

@@ -7,7 +7,7 @@ Surface is a Material Design primitive that represents a sheet of material with 
 @NonRestartableComposable  
 fun Surface(  
     modifier: Modifier = Modifier,  
-    shape: Shape = RectangleShape,  
+    [[shape]]: Shape = RectangleShape,  
     color: Color = MaterialTheme.colorScheme.surface,  
     contentColor: Color = contentColorFor(color),  
     tonalElevation: Dp = 0.dp,  

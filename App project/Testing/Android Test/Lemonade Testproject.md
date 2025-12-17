@@ -139,7 +139,7 @@ fun PictureAndText(modifier: Modifier){
                     else -> current = 1u
                 }
                       },
-            shape = RoundedCornerShape(16.dp),
+            [[shape]] = RoundedCornerShape(16.dp),
             contentPadding = PaddingValues(0.dp)
         ) {
         Image(
