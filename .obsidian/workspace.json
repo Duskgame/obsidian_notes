@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/18.12.2025.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Animations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "18.12.2025"
+              "title": "Animations"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/jetpack/Animation.md",
     "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
+    "Wiki 2.0/App development/Android/jetpack/Animations.md",
     "Daily notes/18.12.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
