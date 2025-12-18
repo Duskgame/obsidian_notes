@@ -9,6 +9,10 @@ aliases:
 - Recomposition is the process of running the same composables again to update the tree when their data changes.
 - State hoisting is a pattern of moving state to its caller to make a component stateless.
 
+**Refresher on remember() and mutableStateOf():**
+
+Use the `mutableStateOf()` function so Compose observes any changes to the state value, and triggers a recomposition to update the UI. Wrap the `mutableStateOf()` function call with the `remember()` function to store the value in the Composition during initial composition, and the stored value is returned during recomposition.
+
 You use the [`State`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/State) and [`MutableState`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/MutableState) types in Compose to make state in your app observable, or tracked, by Compose. The `State` type is immutable, so you can only read the value in it, while the [`MutableState`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/MutableState) type is mutable. You can use the [`mutableStateOf()`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#mutableStateOf\(kotlin.Any,androidx.compose.runtime.SnapshotMutationPolicy\)) [[Function]] to create an observable `MutableState`. It receives an initial value as a [[Parameter]] that is wrapped in a `State` [[Kotlin Object|Object]], which then makes its `value` observable.
 
 The value returned by the `mutableStateOf()` function:

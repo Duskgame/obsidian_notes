@@ -250,6 +250,8 @@ Kotlin supports the following operators and special symbols:
 - `++`, `--` - [increment and decrement operators](https://kotlinlang.org/docs/operator-overloading.html#increments-and-decrements).
     
 - `&&`, `||`, `!` - logical 'and', 'or', 'not' operators (for bitwise operations, use the corresponding [infix functions](https://kotlinlang.org/docs/numbers.html#operations-on-numbers) instead).
+	**Note:** The logical NOT operator ( ! ) returns the negated value of the `Boolean` expression.
+	For example, if `expanded` is `true`, then `!expanded` evaluates to `false`.
     
 - `==`, `!=` - [equality operators](https://kotlinlang.org/docs/operator-overloading.html#equality-and-inequality-operators) (translated to calls of `equals()` for non-primitive types).
     

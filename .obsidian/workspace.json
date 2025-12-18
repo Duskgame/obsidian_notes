@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/17.12.2025.md",
+                "file": "Daily notes/18.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "17.12.2025"
+              "title": "18.12.2025"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "6bd2fe02289fde9e",
+            "id": "6ba70e49b7e801da",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,12 +206,18 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/jetpack/Animation.md",
+    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
+    "Daily notes/18.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
+    "Wiki 2.0/App development/Android/jetpack/Modifier.weight().md",
+    "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
+    "Daily notes/12.2025/17.12.2025.md",
     "Daily notes/Daily template.md",
-    "Daily notes/17.12.2025.md",
     "Daily notes/12.2025/11.12.2025.md",
     "Daily notes/12.2025/12.12.2025.md",
     "Daily notes/12.2025/12.2025.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
     "Wiki 2.0/App development/Android/Gradle.md",
     "Wiki 2.0/App development/Android/Debugging Android Studio.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/More Material Theming.md",
@@ -227,12 +233,6 @@
     "App project/Testing/Android Test/Art Gallery Testproject.md",
     "Daily notes/11.2025/24.11.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Collections.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/map().md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/groupBy().md",
     "imports/Pasted image 20251216180025.png",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
