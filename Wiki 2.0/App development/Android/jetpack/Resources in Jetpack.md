@@ -1,3 +1,4 @@
+#jetpack_compose
 Resources are the additional files and static content that your code uses, such as bitmaps, user-interface strings, animation instructions, and more. For more information about resources in [[Android]], see [App resources overview](https://developer.android.com/guide/topics/resources/providing-resources).
 
 You should always separate app resources, such as images and strings, from your code so that you can maintain them independently. At runtime, Android uses the appropriate resource based on the current configuration. For example, you might want to provide a different [[User Interface]] layout based on the screen size or different strings based on the language setting.

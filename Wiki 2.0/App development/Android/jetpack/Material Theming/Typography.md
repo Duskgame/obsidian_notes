@@ -1,3 +1,4 @@
+#jetpack_compose
 ## The Material Design type scale
 
 A type scale is a selection of font styles that can be used across an app, ensuring a flexible, yet consistent, style. The [Material Design type scale](https://m3.material.io/styles/typography/type-scale-tokens) includes fifteen font styles that are supported by the type system. The naming and grouping have been simplified to: display, headline, title, body, and label, with large, medium, and small sizes for each. You only need to use these choices if you want to customize your app. If you don't know what to set for each type scale category, know that there is a default typography scale that you can use.

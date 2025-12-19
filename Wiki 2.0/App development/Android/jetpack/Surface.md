@@ -1,3 +1,4 @@
+#jetpack_compose
 ## Understanding Surface
 
 Surface is a Material Design primitive that represents a sheet of material with configurable appearance [[Kotlin Class Properties|properties]]. It automatically handles color theming, elevation shadows, and content color selection based on Material Design guidelines. Every major [[User Interface|UI]] component in Material Design is built upon Surface concepts.

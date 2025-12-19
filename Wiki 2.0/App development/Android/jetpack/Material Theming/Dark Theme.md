@@ -1,3 +1,4 @@
+#jetpack_compose
 In the Android system, there is the option to switch your device to a dark theme. A dark theme uses darker, more subdued colors, and:
 
 - Can reduce power usage by a significant amount (depending on the device's screen technology).

@@ -1,3 +1,4 @@
+#jetpack_compose
 Icons are symbols that can help users understand a user interface by visually communicating the intended function. They often take inspiration from objects in the physical world that a user is expected to have experienced. Icon design often reduces the level of detail to the minimum required to be familiar to a user. For example, a pencil in the physical world is used for writing, so its icon counterpart usually indicates **create** or **edit**.
 
 Material Design provides a [number of icons](https://material.io/resources/icons/?style=baseline), arranged in common categories, for most of your needs.

@@ -1,3 +1,4 @@
+#jetpack_compose
 A `TopAppBar` can be used for many purposes, like use it for branding and to give your app personality. There are four different types of `TopAppBar`: center, small, medium and large. In this example you will implement a center top app bar. You will create a composable that looks like the screenshot below, and slot it into the `topBar` section of a `Scaffold`.
 
 Add image and text to the top bar

@@ -3,6 +3,7 @@ aliases:
   - " "
   - State
 ---
+#jetpack_compose
 - State in an app is any value that can change over time.
 - The _Composition_ is a description of the [[User Interface|UI]] built by [[Jetpack Compose|Compose]] when it executes composables. Compose apps call composable functions to transform data into UI.
 - Initial composition is a creation of the UI by Compose when it executes composable functions the first time.
