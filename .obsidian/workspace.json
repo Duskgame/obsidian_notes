@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/21.12.2025.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Clickable.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "21.12.2025"
+              "title": "Clickable"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "App project/Testing/Android Test/Month of Kotlin Tips.md",
     "Daily notes/21.12.2025.md",
+    "App project/Testing/Android Test/Month of Kotlin Tips.md",
     "App project/Examples/Sorting List to Date.md",
     "App project/Examples/Examples.md",
     "App project/Examples",
