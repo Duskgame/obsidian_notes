@@ -11,10 +11,24 @@
             "id": "8df2141dd80ecbaf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Daily notes/21.12.2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "21.12.2025"
             }
           }
         ]
@@ -71,7 +85,7 @@
             }
           },
           {
-            "id": "26e50f16926ab9fc",
+            "id": "2538f1be01d38b8d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -192,12 +206,24 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "App project/Testing/Android Test/Month of Kotlin Tips.md",
+    "Daily notes/21.12.2025.md",
+    "App project/Examples/Sorting List to Date.md",
+    "App project/Examples/Examples.md",
+    "App project/Examples",
+    "Daily notes/22.12.2025.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Shape.md",
+    "Wiki 2.0/App development/Android/jetpack/Clickable.md",
+    "Daily notes/12.2025/18.12.2025.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/12.2025/19.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Animations.md",
     "Wiki 2.0/App development/Android/jetpack/Modifier.weight().md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Typography.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Top App Bar.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Shape.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/More Material Theming.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Dimensions.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Dark Theme.md",
@@ -207,17 +233,6 @@
     "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
-    "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
-    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Daily notes/12.2025/12.2025.md",
-    "Daily notes/19.12.2025.md",
-    "Daily notes/12.2025/18.12.2025.md",
-    "App project/Testing/Android Test/Hero List.md",
-    "App project/Testing/Android Test/Android Studio setup.md",
-    "Wiki 2.0/App development/Android/Accessibility.md",
-    "Wiki 2.0/App development/Android/Debugging Android Studio.md",
     "imports/Pasted image 20251217133130.png",
     "imports/Pasted image 20251216180025.png",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
@@ -237,7 +252,6 @@
     "imports/Pasted image 20251127152646.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
     "Daily notes/11.2025",
-    "Daily notes/10.2025",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]

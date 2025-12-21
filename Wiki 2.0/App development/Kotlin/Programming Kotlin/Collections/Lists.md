@@ -112,3 +112,86 @@ println("Future Moon" in solarSystem)
 - [Conditions and loops](https://kotlinlang.org/docs/control-flow.html)
 - [MutableList](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/)
 
+Creating lists
+
+```
+val empty = emptyList<String>()
+val nums = listOf(1, 2, 3, 4, 5)
+val mutableNums = mutableListOf(1, 2, 3)
+```
+
+Adding/Removing (mutable only)
+```
+mutableNums.add(6)           // adds to end
+mutableNums.add(0, 0)        // adds at index 0
+mutableNums.remove(2)        // removes first occurrence
+mutableNums.clear()          // removes all
+```
+
+Querying elements
+```
+val first = nums.first()           // 1
+val last = nums.last()             // 5
+val firstEven = nums.first { it % 2 == 0 }  // 2
+val countEven = nums.count { it % 2 == 0 }  // 2
+val hasThree = nums.contains(3)    // true
+val indexThree = nums.indexOf(3)   // 2
+```
+
+Filtering
+```
+val evens = nums.filter { it % 2 == 0 }     // [2, 4]
+val odds = nums.filterNot { it % 2 == 0 }   // [1, 3, 5]
+val large = nums.filter { it > 3 }          // [4, 5]
+```
+
+Transforming
+```
+val doubled = nums.map { it * 2 }           // [2, 4, 6, 8, 10]
+val squared = nums.map { it * it }          // [1, 4, 9, 16, 25]
+val strings = nums.map { "Num $it" }        // ["Num 1", "Num 2", ...]
+```
+
+Aggregating
+```
+val sum = nums.sum()                        // 15
+val max = nums.maxOrNull()                  // 5
+val avg = nums.average()                    // 3.0
+val joined = nums.joinToString()            // "1, 2, 3, 4, 5"
+```
+
+Slicing/Partitions
+```
+val firstTwo = nums.take(2)                 // [1, 2]
+val lastTwo = nums.takeLast(2)              // [4, 5]
+val middle = nums.drop(1).dropLast(1)       // [2, 3, 4]
+val chunked = nums.chunked(2)               // [[1,2], [3,4], [5]]
+```
+
+```
+val nums = listOf(10, 20, 30, 40, 50, 60)
+
+// Continuous range (includes end index)
+val slice1 = nums.slice(1..3)      // [20, 30, 40]
+
+// Range with step
+val slice2 = nums.slice(0..4 step 2) // [10, 30, 50]
+
+// Specific indices list
+val slice3 = nums.slice(listOf(1, 3, 5)) // [20, 40, 60]
+
+```
+
+Sorting/Reordering
+```
+val sorted = nums.sorted()                  // [1,2,3,4,5]
+val desc = nums.sortedDescending()          // [5,4,3,2,1]
+val reversed = nums.reversed()              // [5,4,3,2,1]
+```
+
+Grouping
+```
+val grouped = nums.groupBy { it % 2 }       // {0=[2,4], 1=[1,3,5]}
+```
+
+All these return new lists except mutable operations like add/remove. Use mutableListOf when you need in-place changes.
