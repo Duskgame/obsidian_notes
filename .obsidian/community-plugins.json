@@ -7,5 +7,6 @@
   "make-md",
   "obsidian-git",
   "obsidian-plugin-toc",
-  "folders2graph"
+  "folders2graph",
+  "image-converter"
 ]

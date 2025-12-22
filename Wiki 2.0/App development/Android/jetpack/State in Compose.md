@@ -54,7 +54,7 @@ fun EditNumberField(modifier: Modifier = Modifier) {
 
 
 
-![[Pasted image 20251203160548.png]]
+![[Pasted image 20251203160548.png|382x393]]
 
 This pattern is called _state hoisting_. In the next section, you _hoist_, or lift, the state from a composable to make it stateless.
 
@@ -79,6 +79,31 @@ When applied to composables, this often means introducing two parameters to the 
 
 - A `value: T` parameter, which is the current value to display.
 - An `onValueChange: (T) -> [[Unit]]` – callback [[Lambda]], which is triggered when the value changes so that the state can be updated elsewhere, such as when a user enters some text in the text box.
+
+
+## Use `rememberSaveable` to save values across configuration changes
+
+You use the `rememberSaveable` function to save values that you need if Android OS destroys and recreates the activity.
+
+To save values during recompositions, you need to use `remember`. Use `rememberSaveable` to save values during recompositions AND configuration changes.
+
+Saving the value using `rememberSaveable` ensures that it is available when the activity is restored, if it is needed.
+
+```
+var revenue by remember { mutableStateOf(0) }
+...
+var currentDessertImageId by remember {
+    mutableStateOf(desserts[currentDessertIndex].imageId)
+}
+```
+
+```
+var revenue by rememberSaveable { mutableStateOf(0) }
+...
+var currentDessertImageId by rememberSaveable {
+    mutableStateOf(desserts[currentDessertIndex].imageId)
+}
+```
 
 ## **Learn more**
 

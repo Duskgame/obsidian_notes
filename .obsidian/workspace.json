@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/12.2025/21.12.2025.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "21.12.2025"
+              "title": "State in Compose"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "2538f1be01d38b8d",
+            "id": "64b4d6112fbdae75",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,7 +206,14 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/Composable Lifecycle.md",
+    "Wiki 2.0/App development/Android/Logging.md",
+    "Wiki 2.0/App development/Android/Activity Lifecycle.md",
     "Daily notes/22.12.2025.md",
+    "Wiki 2.0/App development/Android/Accessibility.md",
+    "Wiki 2.0/App development/Android/Android.md",
+    "Daily notes/Daily template.md",
+    "imports/Pasted image 20251222105640.png",
     "Daily notes/12.2025/21.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/Clickable.md",
     "App project/Testing/Android Test/Month of Kotlin Tips.md",
@@ -227,12 +234,6 @@
     "Wiki 2.0/App development/Android/jetpack/Material Theming/More Material Theming.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Dimensions.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Dark Theme.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Color.md",
-    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
-    "Wiki 2.0/App development/Android/jetpack/Surface.md",
-    "Wiki 2.0/App development/Android/jetpack/State in Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "imports/Pasted image 20251217133130.png",
     "imports/Pasted image 20251216180025.png",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
@@ -249,7 +250,6 @@
     "imports/Pasted image 20251127155408.png",
     "imports/Pasted image 20251127154743.png",
     "imports",
-    "imports/Pasted image 20251127152646.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
     "Daily notes/11.2025",
     "App project/Planning/Untitled.canvas",
