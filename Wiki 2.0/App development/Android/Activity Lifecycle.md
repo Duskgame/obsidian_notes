@@ -45,3 +45,13 @@ When `onPause()` is called, the app no longer has focus. After `onStop()`, the a
 When `onResume()` is called, the app gains the user focus–that is, the user can interact with the app. The part of the lifecycle in which the app is fully onscreen and has user focus is called the [foreground lifetime](https://developer.android.com/reference/android/app/Activity#activity-lifecycle).
 
 When the app goes into the background, the focus is lost after `onPause()`, and the app is no longer visible after `onStop()`.
+
+
+
+
+
+- The _activity lifecycle_ is a set of states through which an activity transitions. The activity lifecycle begins when the Android OS first creates the activity and ends when the OS destroys the activity.
+- As the user navigates between activities, and inside and outside of your app, each activity moves between states in the activity lifecycle.
+- Each state in the activity lifecycle has a corresponding callback method you can override in your `Activity` class. The core set of lifecycle methods are: [`onCreate()`](https://developer.android.com/reference/android/app/Activity.html#onCreate\(android.os.Bundle\)), [`onRestart()`](https://developer.android.com/reference/android/app/Activity.html#onRestart\(\)), [`onStart()`](https://developer.android.com/reference/android/app/Activity.html#onStart\(\)), [`onResume()`](https://developer.android.com/reference/android/app/Activity.html#onResume\(\)), [`onPause()`](https://developer.android.com/reference/android/app/Activity.html#onPause\(\)), [`onStop()`](https://developer.android.com/reference/android/app/Activity.html#onStop\(\)), [`onDestroy()`](https://developer.android.com/reference/android/app/Activity.html#onDestroy\(\)).
+- To add behavior that occurs when your activity transitions into a lifecycle state, override the state's callback method.
+- To add skeleton override methods to your classes in Android Studio, select **Code > Override Methods...** or press `Control+O`.

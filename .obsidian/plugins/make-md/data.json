@@ -55,7 +55,11 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
     "//App project",
-    "//App project/App project/Testing"
+    "//App project/App project/Testing",
+    "//Wiki 2.0/Wiki 2.0/General",
+    "//Wiki 2.0/Wiki 2.0/General/Wiki 2.0/General/Design Principles",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/State in jetpack compose"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

@@ -10,6 +10,9 @@ aliases:
 - Recomposition is the process of running the same composables again to update the tree when their data changes.
 - State hoisting is a pattern of moving state to its caller to make a component stateless.
 
+
+
+
 **Refresher on remember() and mutableStateOf():**
 
 Use the `mutableStateOf()` function so Compose observes any changes to the state value, and triggers a recomposition to update the UI. Wrap the `mutableStateOf()` function call with the `remember()` function to store the value in the Composition during initial composition, and the stored value is returned during recomposition.
@@ -104,6 +107,15 @@ var currentDessertImageId by rememberSaveable {
     mutableStateOf(desserts[currentDessertIndex].imageId)
 }
 ```
+
+
+## Configuration changes
+
+- A _configuration change_ occurs when the state of the device changes so radically that the easiest way for the system to resolve the change is to destroy and rebuild the activity.
+- The most common example of a configuration change is when the user rotates the device from portrait to landscape mode, or from landscape to portrait mode. A configuration change can also occur when the device language changes or a user plugs in a hardware keyboard.
+- When a configuration change occurs, Android invokes all the activity lifecycle's shutdown callbacks. Android then restarts the activity from scratch, running all the lifecycle startup callbacks.
+- When Android shuts down an app because of a configuration change, it restarts the activity with `onCreate()`.
+- To save a value that needs to survive a configuration change, declare its variables with `rememberSaveable`.
 
 ## **Learn more**
 
