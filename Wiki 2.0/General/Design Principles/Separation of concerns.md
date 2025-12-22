@@ -1,3 +1,15 @@
+
+Design your app architecture to follow a few specific principles.
+
+The most important principle is [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns). It's a common mistake to write all your code in an [`Activity`](https://developer.android.com/guide/components/activities/intro-activities) or a [`Fragment`](https://developer.android.com/guide/fragments).
+
+The primary role of an `Activity` or `Fragment` is to host your app's UI. The Android OS controls their lifecycle, frequently destroying and recreating them in response to user actions like screen rotation or system events like low memory.
+
+This ephemeral nature makes them unsuitable for holding application data or state. If you store data in an `Activity` or `Fragment`, that data is lost when the component is recreated. To ensure data persistence and provide a stable user experience, don't entrust state to these UI components.
+
+
+
+
 Separation of concerns is a design principle that says each part of a software system should deal with one distinct aspect (or “concern”) instead of mixing many responsibilities together.​
 Core idea
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
+                "file": "Daily notes/22.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "State in Compose"
+              "title": "22.12.2025"
             }
           }
         ]
@@ -206,15 +206,17 @@
   },
   "active": "8df2141dd80ecbaf",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/Activity Lifecycle.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/View model.md",
-    "Wiki 2.0/General/Design Principles/Unidirectional Flow.md",
+    "Wiki 2.0/General/Design Principles/App Architecture.md",
+    "Wiki 2.0/General/Design Principles/Separation of concerns.md",
     "Daily notes/22.12.2025.md",
+    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
+    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/View model.md",
+    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
+    "Wiki 2.0/App development/Android/Activity Lifecycle.md",
+    "Wiki 2.0/General/Design Principles/Unidirectional Flow.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in jetpack compose.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Wiki 2.0/General/Design Principles/Separation of concerns.md",
     "Wiki 2.0/General/Design Principles/Layered architecture (app).md",
     "Wiki 2.0/General/Design Principles/Design Principles.md",
     "Wiki 2.0/General/Design Principles",
@@ -234,8 +236,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/sortedBy().md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Shape.md",
     "Daily notes/12.2025/18.12.2025.md",
-    "Daily notes/12.2025/12.2025.md",
-    "Daily notes/12.2025/19.12.2025.md",
     "imports/Pasted image 20251217133130.png",
     "imports/Pasted image 20251216180025.png",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
