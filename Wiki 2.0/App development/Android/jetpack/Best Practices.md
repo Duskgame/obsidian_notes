@@ -42,7 +42,7 @@ Build UI components that are reusable and composable to support adaptive design.
 
 ## **Consider how to make each part of your app testable in isolation.**
 
-A well-defined [[API]] for fetching data from the network facilitates [[Testing]] the module that persists that data in a local database. If instead, you mix the logic from these two functions in one place, or distribute your networking code across your entire codebase, testing becomes much more difficult, if not impossible.
+A well-defined [[API]] for fetching data from the network facilitates [[Testing Projects]] the module that persists that data in a local database. If instead, you mix the logic from these two functions in one place, or distribute your networking code across your entire codebase, testing becomes much more difficult, if not impossible.
 
 ## **Types are responsible for their concurrency policy.**
 

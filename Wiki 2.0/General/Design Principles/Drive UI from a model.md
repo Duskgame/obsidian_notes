@@ -1,3 +1,5 @@
+https://developer.android.com/topic/architecture/ui-layer
+
 The drive [[User Interface|UI]] from a model principle states that you should drive your UI from a model, preferably a persistent model. Models are components responsible for handling the data for an app. They're independent from the UI elements and app components in your app, so they're unaffected by the app's lifecycle and associated concerns.
 
 ## Recommended app architecture

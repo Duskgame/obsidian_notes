@@ -3,6 +3,8 @@ aliases:
   - " "
   - UDF
 ---
+https://developer.android.com/topic/architecture/ui-layer#udf
+
 Unidirectional Data Flow (UDF), also called **one-way data flow**, is an architectural pattern where **state flows down** from parent to child components and **events flow up** via callbacks.
 
 ​

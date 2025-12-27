@@ -1,1 +1,5 @@
 _App architecture_ is a set of design rules for an app. Much like the blueprint of a house, your architecture provides the structure for your app. A good app architecture can make your code robust, flexible, scalable, testable, and maintainable for years to come. The [Guide to app architecture](https://developer.android.com/topic/libraries/architecture) provides recommendations on app architecture and recommended best practices.
+
+https://developer.android.com/topic/architecture
+
+https://developer.android.com/courses/pathways/android-architecture

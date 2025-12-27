@@ -1,3 +1,5 @@
+#jetpack_compose 
+
 A dialog is a small window that prompts the user to make a decision or enter additional information. 
 Normally, a dialog does not fill the entire screen, and it requires users to take an action before they can proceed. 
 Android provides different types of dialogs for example a Alert Dialog.

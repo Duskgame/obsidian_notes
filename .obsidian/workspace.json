@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
+                "file": "Daily notes/27.12.2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Alert Dialog"
+              "title": "27.12.2025"
             }
           }
         ]
@@ -206,13 +206,18 @@
   },
   "active": "a715fe857e9db9ad",
   "lastOpenFiles": [
+    "App project/Testing Projects/Testing Projects.md",
+    "App project/Testing Projects/Android Test/Unscramble Testproject.md",
+    "Daily notes/27.12.2025.md",
+    "App project/Testing Projects/Android Test/Affirmation Testproject.md",
+    "Wiki 2.0/General/Design Principles/App Architecture.md",
+    "Wiki 2.0/General/Design Principles/Drive UI from a model.md",
+    "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
+    "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
     "imports/image-4.png",
     "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
-    "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
-    "Daily notes/27.12.2025.md",
     "Daily notes/12.2025/23.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/onCopy().md",
-    "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
     "imports/image-3.png",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/UI State.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/View model.md",
@@ -223,12 +228,10 @@
     "Daily notes/12.2025/Untitled.md",
     "Daily notes/Untitled.md",
     "Daily notes/12.2025/12.2025.md",
-    "Wiki 2.0/General/Design Principles/Drive UI from a model.md",
     "imports/image-2.png",
     "imports/image-1.png",
     "imports/image.png",
     "Wiki 2.0/General/Design Principles/Separation of concerns.md",
-    "Wiki 2.0/General/Design Principles/App Architecture.md",
     "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
     "Wiki 2.0/App development/Android/Activity Lifecycle.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in jetpack compose.md",
@@ -236,8 +239,6 @@
     "Wiki 2.0/General/Design Principles/Layered architecture (app).md",
     "Wiki 2.0/General/Design Principles/Design Principles.md",
     "Wiki 2.0/General/Design Principles",
-    "Wiki 2.0/App development/Android/Logging.md",
-    "Wiki 2.0/App development/Android/Composable Lifecycle.md",
     "imports/Pasted image 20251222105640.png",
     "App project/Examples",
     "imports/Pasted image 20251217133130.png",
@@ -246,9 +247,8 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "imports/Pasted image 20251210120144.png",
     "imports/Pasted image 20251210115935.png",
-    "imports/Pasted image 20251210113210.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
-    "App project/Testing",
+    "App project/Testing Projects",
     "Daily notes/12.2025",
     "Untitled.base",
     "imports",
