@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/27.12.2025.md",
+                "file": "Daily notes/01.2026/01.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27.12.2025"
+              "title": "01.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "e284753e42651dee",
+            "id": "a20115f267a47ef0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,40 +204,41 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "a715fe857e9db9ad",
+  "active": "a20115f267a47ef0",
   "lastOpenFiles": [
-    "App project/Testing Projects/Testing Projects.md",
+    "Daily notes/01.2026/01.2026.md",
+    "Daily notes/01.2026",
+    "Daily notes/12.2025/17.12.2025.md",
+    "Daily notes/01.2026/01.01.2026.md",
+    "Daily notes/12.2025/18.12.2025.md",
+    "Daily notes/12.2025/19.12.2025.md",
+    "Daily notes/12.2025/21.12.2025.md",
+    "Daily notes/12.2025/22.12.2025.md",
+    "Daily notes/12.2025/23.12.2025.md",
+    "Daily notes/12.2025/27.12.2025.md",
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/28.12.2025.md",
+    "Wiki 2.0/App development/Android/Test Strategies.md",
     "App project/Testing Projects/Android Test/Unscramble Testproject.md",
-    "Daily notes/27.12.2025.md",
     "App project/Testing Projects/Android Test/Affirmation Testproject.md",
+    "Wiki 2.0/App development/Android/Accessibility.md",
+    "App project/Testing Projects/Testing Projects.md",
     "Wiki 2.0/General/Design Principles/App Architecture.md",
     "Wiki 2.0/General/Design Principles/Drive UI from a model.md",
     "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
     "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
     "imports/image-4.png",
     "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
-    "Daily notes/12.2025/23.12.2025.md",
     "Wiki 2.0/App development/Android/jetpack/onCopy().md",
     "imports/image-3.png",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/UI State.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/View model.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/StateFlow.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Daily notes/12.2025/22.12.2025.md",
-    "Daily notes/12.2025/Untitled.md",
-    "Daily notes/Untitled.md",
-    "Daily notes/12.2025/12.2025.md",
     "imports/image-2.png",
     "imports/image-1.png",
     "imports/image.png",
-    "Wiki 2.0/General/Design Principles/Separation of concerns.md",
-    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
-    "Wiki 2.0/App development/Android/Activity Lifecycle.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in jetpack compose.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
-    "Wiki 2.0/General/Design Principles/Layered architecture (app).md",
-    "Wiki 2.0/General/Design Principles/Design Principles.md",
     "Wiki 2.0/General/Design Principles",
     "imports/Pasted image 20251222105640.png",
     "App project/Examples",
@@ -251,7 +252,6 @@
     "App project/Testing Projects",
     "Daily notes/12.2025",
     "Untitled.base",
-    "imports",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
