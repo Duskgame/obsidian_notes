@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
+                "file": "Daily notes/03.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Icons"
+              "title": "03.01.2026"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:icon",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "60aafb66cbb44546",
+            "id": "d3168eaa003f4634",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,19 +204,24 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "60aafb66cbb44546",
+  "active": "a715fe857e9db9ad",
   "lastOpenFiles": [
-    "Daily notes/01.2026/02.01.2026.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation Controller.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Share Sheet.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/NavController.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/NavHost.md",
+    "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation Controller.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
+    "Wiki 2.0/App development/Android/Accessibility.md",
+    "Daily notes/01.2026/01.01.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
+    "Daily notes/03.01.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
+    "Daily notes/01.2026/02.01.2026.md",
     "imports/image-7.png",
     "imports/image-6.png",
     "imports/image-5.png",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation",
-    "Daily notes/01.2026/01.01.2026.md",
     "Daily notes/01.2026/01.2026.md",
     "Daily notes/01.2026",
     "Daily notes/12.2025/17.12.2025.md",
@@ -231,12 +236,7 @@
     "Wiki 2.0/App development/Android/Test Strategies.md",
     "App project/Testing Projects/Android Test/Unscramble Testproject.md",
     "App project/Testing Projects/Android Test/Affirmation Testproject.md",
-    "Wiki 2.0/App development/Android/Accessibility.md",
     "App project/Testing Projects/Testing Projects.md",
-    "Wiki 2.0/General/Design Principles/App Architecture.md",
-    "Wiki 2.0/General/Design Principles/Drive UI from a model.md",
-    "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
-    "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
     "imports/image-4.png",
     "imports/image-3.png",
     "imports/image-2.png",

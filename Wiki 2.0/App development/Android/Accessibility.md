@@ -8,7 +8,7 @@ Users of accessibility services, such as screen readers (like TalkBack), rely on
 
 In some cases, such as when information is conveyed graphically within an element, content descriptions can provide a text description of the meaning or action associated with the element.
 
-If elements in a user interface don't provide content labels, it can be difficult for some users to understand the information presented to them, or to perform actions in the interface. In Compose, you can describe visual elements using the `contentDescription` attribute. For strictly decorative visual elements, it's okay to set the `contentDescription` to `null`. Read more about how to apply content descriptions in the [documentation](https://developer.android.com/jetpack/compose/accessibility#describe-visual).
+If elements in a user interface don't provide content labels, it can be difficult for some users to understand the information presented to them, or to perform actions in the interface. In [[Jetpack Compose|Compose]], you can describe visual elements using the `contentDescription` attribute. For strictly decorative visual elements, it's okay to set the `contentDescription` to `null`. Read more about how to apply content descriptions in the [documentation](https://developer.android.com/jetpack/compose/accessibility#describe-visual).
 
 ## Touch target size
 
