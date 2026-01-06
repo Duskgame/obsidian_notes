@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
+                "file": "Daily notes/06.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Adaptive layout design to screen sizes"
+              "title": "06.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "1990863eb8174b5c",
+            "id": "b2787ca8666d6de4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,14 +206,14 @@
   },
   "active": "a715fe857e9db9ad",
   "lastOpenFiles": [
-    "imports/image-12.png",
-    "imports/image-11.png",
+    "Wiki 2.0/App development/Android/jetpack/Navigation/Sealed Classes Interfaces.md",
     "Daily notes/06.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
+    "imports/image-12.png",
+    "imports/image-11.png",
     "imports/image-10.png",
     "imports/image-9.png",
     "imports/image-8.png",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Sealed Classes Interfaces.md",
     "Daily notes/01.2026/05.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/NavController.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Sets.md",
@@ -243,7 +243,6 @@
     "Daily notes/01.2026",
     "imports/image-4.png",
     "imports/image-3.png",
-    "imports/image-2.png",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
     "Wiki 2.0/General/Design Principles",
     "App project/Examples",
