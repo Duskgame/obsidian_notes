@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.01.2026.md",
+                "file": "Daily notes/06.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05.01.2026"
+              "title": "06.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "d93940fb550a785d",
+            "id": "1990863eb8174b5c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,8 +206,19 @@
   },
   "active": "a715fe857e9db9ad",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/jetpack/Navigation/Sealed Classes Interfaces.md",
+    "Daily notes/06.01.2026.md",
+    "Daily notes/01.2026/05.01.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Navigation/NavController.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Sets.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/forEach().md",
+    "App project/Testing Projects/Android Test/Tip Time Test.md",
+    "App project/Testing Projects/Android Test/Test Tasks.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Maps.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Collections.md",
     "App project/Testing Projects/Android Test/Lunch Tray Testproject.md",
-    "Daily notes/05.01.2026.md",
     "Daily notes/01.2026/04.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Material Theming.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Typography.md",
@@ -215,28 +226,17 @@
     "Daily notes/Daily template.md",
     "Daily notes/01.2026/03.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Share Sheet.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/NavController.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/NavHost.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation Controller.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/Accessibility.md",
     "Daily notes/01.2026/01.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
-    "Daily notes/01.2026/02.01.2026.md",
     "imports/image-7.png",
     "imports/image-6.png",
     "imports/image-5.png",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation",
-    "Daily notes/01.2026/01.2026.md",
     "Daily notes/01.2026",
-    "Daily notes/12.2025/17.12.2025.md",
-    "Daily notes/12.2025/18.12.2025.md",
-    "Daily notes/12.2025/19.12.2025.md",
-    "Daily notes/12.2025/21.12.2025.md",
-    "Daily notes/12.2025/22.12.2025.md",
-    "Daily notes/12.2025/23.12.2025.md",
     "imports/image-4.png",
     "imports/image-3.png",
     "imports/image-2.png",
