@@ -65,3 +65,11 @@ Similarly, a [persistent/permanent navigation drawer](https://developer.android.
 - [Support different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes)
 - [Design for large screens](https://m3.material.io/foundations/adaptive-design/large-screens/layout-anatomy)
 - [Jetnews for every screen](https://medium.com/androiddevelopers/jetnews-for-every-screen-4d8e7927752)
+
+## **Learn more**
+
+- [Build adaptive layouts](https://developer.android.com/jetpack/compose/layouts/adaptive)
+- [Support different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes)
+- [Design for large screens](https://m3.material.io/foundations/adaptive-design/large-screens/layout-anatomy)
+- [Jetnews for every screen](https://medium.com/androiddevelopers/jetnews-for-every-screen-4d8e7927752)
+- [Multipreview annotations](https://developer.android.com/jetpack/compose/tooling#preview-multipreview)
