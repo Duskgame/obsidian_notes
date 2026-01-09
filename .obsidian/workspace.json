@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/08.01.2026.md",
+                "file": "Daily notes/01.2026/09.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "08.01.2026"
+              "title": "09.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "2c97d13202c56cc8",
+            "id": "e076687784d5c9ee",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -207,10 +207,12 @@
   "active": "a715fe857e9db9ad",
   "lastOpenFiles": [
     "Daily notes/01.2026/01.2026.md",
+    "Daily notes/01.2026/09.01.2026.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
+    "Daily notes/01.2026/08.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/by lazy.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "Wiki 2.0/AWS.md",
-    "Daily notes/01.2026/08.01.2026.md",
     "Daily notes/01.2026/07.01.2026.md",
     "Untitled.base",
     "Wiki 2.0/Wiki 2.0.md",
@@ -236,8 +238,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/forEach().md",
-    "App project/Testing Projects/Android Test/Tip Time Test.md",
-    "App project/Testing Projects/Android Test/Test Tasks.md",
     "imports/image-7.png",
     "imports/image-6.png",
     "imports/image-5.png",
