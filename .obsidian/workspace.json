@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
+                "file": "Daily notes/01.2026/13.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Suspend Function"
+              "title": "13.01.2026"
             }
           }
         ]
@@ -206,7 +206,7 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Untitled.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Structured concurrency.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
     "Daily notes/01.2026/13.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Concurrency.md",
