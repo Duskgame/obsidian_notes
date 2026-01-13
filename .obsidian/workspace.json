@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Exceptions and cancellations.md",
+                "file": "Daily notes/01.2026/13.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Exceptions and cancellations"
+              "title": "13.01.2026"
             }
           }
         ]
@@ -206,16 +206,27 @@
   },
   "active": "c0fd717bf0d0fed7",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
+    "App project/Testing Projects/Android Test/MyCityNavigation.md",
+    "Daily notes/01.2026/13.01.2026.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutines.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/CoroutineContext.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/Job.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/Dispatcher.md",
+    "Wiki 2.0/General/General.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Kotlin Concurrency.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/Coroutine concepts.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/CoroutineScope.md",
+    "imports/image-14.png",
+    "Daily notes/10.2025/10.2025.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Exceptions and cancellations.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Untitled.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
     "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
-    "Wiki 2.0/General/Coroutines.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Synchronous Code.md",
     "imports/image-13.png",
-    "Daily notes/01.2026/13.01.2026.md",
     "Wiki 2.0/App development/Ktor/Ktor.md",
     "App project/Mobile Apps Team.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Kotlin Concurrency.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
     "Daily notes/Daily notes.md",
@@ -226,16 +237,7 @@
     "Daily notes/01.2026/09.01.2026.md",
     "Daily notes/01.2026/01.2026.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/App development/Android/jetpack/by lazy.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Wiki 2.0/AWS.md",
     "Untitled.base",
-    "Wiki 2.0/Wiki 2.0.md",
-    "Daily notes/Daily template.md",
-    "Daily notes/01.2026/06.01.2026.md",
-    "imports/imports.md",
-    "Daily notes/01.2026/04.01.2026.md",
-    "Daily notes/01.2026/05.01.2026.md",
     "imports/image-12.png",
     "imports/image-11.png",
     "imports/image-10.png",
@@ -246,13 +248,11 @@
     "imports/image-5.png",
     "Wiki 2.0/App development/Android/jetpack/Navigation",
     "Daily notes/01.2026",
-    "imports/image-4.png",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
     "Wiki 2.0/General/Design Principles",
     "App project/Examples",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
