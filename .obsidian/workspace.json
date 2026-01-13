@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe97a0073a5b1fc",
+        "id": "902f3b97328dc668",
         "type": "tabs",
         "children": [
           {
-            "id": "c0fd717bf0d0fed7",
+            "id": "2c94903687819254",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/13.01.2026.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "13.01.2026"
+              "title": "Suspend Function"
             }
           }
         ]
@@ -204,10 +204,15 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "c0fd717bf0d0fed7",
+  "active": "2c94903687819254",
   "lastOpenFiles": [
-    "App project/Testing Projects/Android Test/MyCityNavigation.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Untitled.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
     "Daily notes/01.2026/13.01.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Concurrency.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
+    "Wiki 2.0/App development/Android/jetpack/.md",
+    "App project/Testing Projects/Android Test/MyCityNavigation.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutines.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/CoroutineContext.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/Job.md",
@@ -233,10 +238,6 @@
     "Daily notes/01.2026/12.01.2026.md",
     "Untitled.canvas",
     "Daily notes/01.2026/07.01.2026.md",
-    "Daily notes/01.2026/08.01.2026.md",
-    "Daily notes/01.2026/09.01.2026.md",
-    "Daily notes/01.2026/01.2026.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Untitled.base",
     "imports/image-12.png",
     "imports/image-11.png",
@@ -252,7 +253,6 @@
     "Wiki 2.0/General/Design Principles",
     "App project/Examples",
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
