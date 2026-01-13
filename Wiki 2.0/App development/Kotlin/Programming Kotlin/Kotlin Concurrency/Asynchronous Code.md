@@ -1,0 +1,5 @@
+## **launch()**
+
+Use the `launch()` function from the coroutines library to launch a new coroutine. To execute tasks concurrently, add multiple `launch()` functions to your code so that multiple coroutines can be in progress at the same time.
+
+Coroutines in Kotlin follow a key concept called [**structured concurrency**](https://kotlinlang.org/docs/coroutines-basics.html#structured-concurrency), where your code is sequential by default and cooperates with an underlying event loop, unless you explicitly ask for concurrent execution (e.g. using `launch()`). The assumption is that if you call a function, it should finish its work completely by the time it returns regardless of how many coroutines it may have used in its implementation details. Even if it fails with an exception, once the exception is thrown, there are no more pending tasks from the function. Hence, all work is finished once control flow returns from the function, whether it threw an exception or completed its work successfully. 

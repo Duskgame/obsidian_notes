@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "imports",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "openBehavior": "daily"
 }

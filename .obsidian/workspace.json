@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f424b185bc2485d2",
+        "id": "9fe97a0073a5b1fc",
         "type": "tabs",
         "children": [
           {
-            "id": "a715fe857e9db9ad",
+            "id": "c0fd717bf0d0fed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/12.01.2026.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12.01.2026"
+              "title": "Asynchronous Code"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "7e886f25653193ca",
+            "id": "84ab6794f57fbf95",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,12 +204,20 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "a715fe857e9db9ad",
+  "active": "c0fd717bf0d0fed7",
   "lastOpenFiles": [
+    "Daily notes/01.2026/13.01.2026.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Synchronous Code.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Kotlin Concurrency.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
+    "Daily notes/Daily notes.md",
+    "Daily notes/01.2026/12.01.2026.md",
+    "Untitled.canvas",
     "Daily notes/01.2026/07.01.2026.md",
     "Daily notes/01.2026/08.01.2026.md",
     "Daily notes/01.2026/09.01.2026.md",
-    "Daily notes/01.2026/12.01.2026.md",
     "Daily notes/01.2026/01.2026.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/App development/Android/jetpack/by lazy.md",
@@ -217,7 +225,6 @@
     "Wiki 2.0/AWS.md",
     "Untitled.base",
     "Wiki 2.0/Wiki 2.0.md",
-    "Daily notes/Daily notes.md",
     "Daily notes/Daily template.md",
     "Daily notes/01.2026/06.01.2026.md",
     "imports/imports.md",
@@ -228,16 +235,11 @@
     "Daily notes/01.2026/02.01.2026.md",
     "Daily notes/01.2026/03.01.2026.md",
     "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Sealed Classes Interfaces.md",
     "imports/image-12.png",
     "imports/image-11.png",
     "imports/image-10.png",
     "imports/image-9.png",
     "imports/image-8.png",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/NavController.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Sets.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Arrays.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Lists.md",
     "imports/image-7.png",
     "imports/image-6.png",
     "imports/image-5.png",
@@ -251,7 +253,6 @@
     "Wiki 2.0/App development/Android/jetpack/Material Theming",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
-    "App project/Testing Projects",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
