@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
+                "file": "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Exceptions and cancellations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asynchronous Code"
+              "title": "Exceptions and cancellations"
             }
           }
         ]
@@ -206,9 +206,15 @@
   },
   "active": "c0fd717bf0d0fed7",
   "lastOpenFiles": [
-    "Daily notes/01.2026/13.01.2026.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Synchronous Code.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Exceptions and cancellations.md",
+    "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
+    "Wiki 2.0/General/Coroutines.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Synchronous Code.md",
+    "imports/image-13.png",
+    "Daily notes/01.2026/13.01.2026.md",
+    "Wiki 2.0/App development/Ktor/Ktor.md",
+    "App project/Mobile Apps Team.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Kotlin Concurrency.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
@@ -230,11 +236,6 @@
     "imports/imports.md",
     "Daily notes/01.2026/04.01.2026.md",
     "Daily notes/01.2026/05.01.2026.md",
-    "Daily notes/10.2025/10.2025.md",
-    "Daily notes/01.2026/01.01.2026.md",
-    "Daily notes/01.2026/02.01.2026.md",
-    "Daily notes/01.2026/03.01.2026.md",
-    "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
     "imports/image-12.png",
     "imports/image-11.png",
     "imports/image-10.png",
@@ -246,7 +247,6 @@
     "Wiki 2.0/App development/Android/jetpack/Navigation",
     "Daily notes/01.2026",
     "imports/image-4.png",
-    "imports/image-3.png",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
     "Wiki 2.0/General/Design Principles",
     "App project/Examples",

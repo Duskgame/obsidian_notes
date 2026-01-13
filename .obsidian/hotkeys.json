@@ -58,5 +58,23 @@
       ],
       "key": "D"
     }
+  ],
+  "hyperlink-remover:remove-links-from-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "hyperlink-remover:remove-links-from-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
   ]
 }

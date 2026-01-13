@@ -1,6 +1,6 @@
-**Concurrency** involves performing multiple tasks in your app at the same time. For example, your app can get data from a web server or save user data on the device, while responding to user input events and updating the UI accordingly.
+**Concurrency** involves performing multiple tasks in your app at the same time. For example, your app can get data from a web server or save user data on the device, while responding to user input events and updating the [[User Interface|UI]] accordingly.
 
-To do work concurrently in your app, you will be using Kotlin **coroutines**. Coroutines allow the execution of a block of code to be suspended and then resumed later, so that other work can be done in the meantime. Coroutines make it easier to write **asynchronous** code, which means one task doesn't need to finish completely before starting the next task, enabling multiple tasks to run concurrently.
+To do work concurrently in your app, you will be using [[Kotlin]] **[[Coroutines]]**. Coroutines allow the execution of a block of code to be suspended and then resumed later, so that other work can be done in the meantime. Coroutines make it easier to write **asynchronous** code, which means one task doesn't need to finish completely before starting the next task, enabling multiple tasks to run concurrently.
 
 ## Simple Program
 
@@ -52,13 +52,13 @@ fun main() {
 
 ```
 
-`runBlocking()` is synchronous; it will not return until all work within its lambda block is completed. That means it will wait for the work in the `delay()` call to complete (until one second elapses), and then continue with executing the `Sunny` print statement. Once all the work in the `runBlocking()` function is complete, the function returns, which ends the program.
+`runBlocking()` is synchronous; it will not return until all work within its [[Lambda]] block is completed. That means it will wait for the work in the `delay()` call to complete (until one second elapses), and then continue with executing the `Sunny` print statement. Once all the work in the `runBlocking()` function is complete, the function returns, which ends the program.
 
 The output is the same as before. The code is still synchronous - it runs in a straight line and only does one thing at a time. However, the difference now is that it runs over a longer period of time due to the delay.
 
 The "co-" in coroutine means cooperative. The code cooperates to share the underlying event loop when it suspends to wait for something, which allows other work to be run in the meantime. (The "-routine" part in "coroutine" means a set of instructions like a function.) In the case of this example, the coroutine suspends when it reaches the `delay()` call. Other work can be done in that one second when the coroutine is suspended (even though in this program, there is no other work to do). Once the duration of the delay elapses, then the coroutine resumes execution and can proceed with printing `Sunny` to the output.
 
-**Note:** In general, only use `runBlocking()` within a `main()` function like this for learning purposes. In your Android app code, you do not need `runBlocking()` because Android provides an event loop for your app to process resumed work when it becomes ready. `runBlocking()` can be useful in your tests, however, and can let your test await specific conditions in your app before invoking the test assertions.
+**Note:** In general, only use `runBlocking()` within a `main()` function like this for learning purposes. In your [[Android]] app code, you do not need `runBlocking()` because Android provides an event loop for your app to process resumed work when it becomes ready. `runBlocking()` can be useful in your tests, however, and can let your test await specific conditions in your app before invoking the test assertions.
 
 
 ## Suspending functions
@@ -136,5 +136,5 @@ Next the `printTemperature()` function gets called. That coroutine suspends when
 
 In the `runBlocking()` body, there are no further tasks to execute, so the `runBlocking()` function returns, and the program ends.
 
-As mentioned earlier, `runBlocking()` is synchronous and each call in the body will be called sequentially. Note that a well-designed suspending function returns only once all work has been completed. As a result, these suspending functions run one after the other.
+As mentioned earlier, `runBlocking()` is synchronous and each call in the body will be called sequentially. Note that a well-designed suspending function returns only once all work has been completed. As a result, these [[Suspending Functions]] run one after the other.
 
