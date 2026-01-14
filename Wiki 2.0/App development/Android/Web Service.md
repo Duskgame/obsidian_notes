@@ -11,7 +11,7 @@ A URL (Uniform Resource Locator) is a subset of a URI that specifies where a res
 
 **For example:**
 
-The following URL gets a list of available real estate properties on Mars:
+The following URL gets a list of available real estate [[Kotlin Class Properties|properties]] on Mars:
 
 [https://android-kotlin-fun-mars-server.appspot.com/realestate](https://android-kotlin-fun-mars-server.appspot.com/realestate)
 
@@ -39,5 +39,5 @@ Your app makes an HTTP GET request to the server for the Mars photos information
 ![[image-17.png|598x239]]
 ![[image-18.png|600x245]]
 
-The response from a web service is formatted in one of the common data formats, like XML (eXtensible Markup Language) or JSON (JavaScript Object Notation). The JSON format represents structured data in key-value pairs. An app communicates with the REST API using JSON, which you learn more about in a later task.
+The response from a web service is formatted in one of the common data formats, like XML (eXtensible Markup Language) or [[JSON]] (JavaScript [[Kotlin Object|Object]] Notation). The JSON format represents structured data in key-value pairs. An app communicates with the REST [[API]] using JSON, which you learn more about in a later task.
 

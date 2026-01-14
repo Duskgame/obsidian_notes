@@ -1,3 +1,11 @@
+## **Why different layers?**
+
+Separating the code into different layers makes your app more scalable, more robust, and easier to test. Having multiple layers with clearly defined boundaries also makes it easier for multiple developers to work on the same app without negatively impacting each other.
+
+[Android's Recommended app architecture](https://developer.android.com/topic/architecture#recommended-app-arch) states that an app should have at least a UI layer and a data layer.
+
+
+
 Layered architecture in [[App development]] organizes code into horizontal layers where each handles a specific responsibility, following a strict top-down dependency flow.
 
 ​

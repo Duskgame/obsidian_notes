@@ -1,5 +1,8 @@
 https://kotlinlang.org/docs/serialization.html
-Serialization is the process of converting data used by an application to a format that can be transferred over a network or stored in a database or a file. 
+[_Serialization_](https://kotlinlang.org/docs/serialization.html) is the process of converting data used by an application to a format that can be transferred over a network. As opposed to _serialization_, _deserialization_ is the process of reading data from an external source (like a server) and converting it into a runtime object. They are both essential components of most applications that exchange data over the network.
+
+The `kotlinx.serialization` provides sets of libraries that convert a JSON string into Kotlin objects. There is a community developed third party library that works with Retrofit, [Kotlin Serialization Converter](https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter#kotlin-serialization-converter).
+
 In turn, deserialization is the opposite process of reading data from an external source and converting it into a runtime object. Together, ==they are essential to most applications that exchange data with third parties.==
 
 Some data serialization formats, such as [JSON](https://www.json.org/json-en.html) and [protocol buffers](https://developers.google.com/protocol-buffers) are particularly common. Being language-neutral and platform-neutral, they enable data exchange between systems written in any modern language.
@@ -93,4 +96,18 @@ val jsonList = Json.encodeToString(dataList)
         val obj = Json.decodeFromString<Data>("""{"a":42, "b": "str"}""")
     }
     ```
-    
+
+### **@SerialName Annotation**
+
+Sometimes the key names in a JSON response can make confusing Kotlin properties or may not match recommended coding style. For example, in the JSON file, the `img_src` key uses an underscore, whereas Kotlin convention for properties uses upper and lowercase letters (camel case).
+
+To use variable names in your data class that differ from the key names in the JSON response, use the `@SerialName` annotation. In the following example, the name of the variable in the data class is `imgSrc`. The variable can be mapped to the JSON attribute `img_src` using `@SerialName(value = "img_src")`.
+
+1. Replace the line for the `img_src` key with the line shown below.
+
+```
+import kotlinx.serialization.SerialName
+
+@SerialName(value = "img_src") 
+val imgSrc: String
+```
