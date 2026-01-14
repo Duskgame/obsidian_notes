@@ -1,0 +1,1 @@
+The [Factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern) is a creational pattern used to create objects.

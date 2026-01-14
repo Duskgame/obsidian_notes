@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/14.01.2026.md",
+                "file": "Wiki 2.0/App development/Android/Web Service.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14.01.2026"
+              "title": "Web Service"
             }
           }
         ]
@@ -206,16 +206,20 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
+    "Daily notes/01.2026/14.01.2026.md",
+    "App project/Testing Projects/Android Test/Amphibian App.md",
+    "Wiki 2.0/General/Dependency Injection.md",
+    "Wiki 2.0/General/Design Principles/Data Layer.md",
+    "Wiki 2.0/General/Design Principles/App Architecture.md",
+    "Wiki 2.0/General/Design Principles/Factory.md",
+    "imports/image-23.png",
     "Wiki 2.0/General/Design Principles/Repository.md",
     "imports/image-22.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutines.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/CoroutineContext.md",
-    "Daily notes/01.2026/14.01.2026.md",
-    "Wiki 2.0/General/Design Principles/Data Layer.md",
     "imports/image-21.png",
     "imports/image-20.png",
     "Wiki 2.0/General/Design Principles/Layered architecture (app).md",
-    "Wiki 2.0/General/Design Principles/App Architecture.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation.md",
     "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
     "Wiki 2.0/App development/Android/Exception Handling.md",
@@ -237,12 +241,9 @@
     "imports/image-15.png",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Coroutines.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Structured concurrency.md",
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Concurrency.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
     "imports/image-14.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
-    "imports/image-13.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
     "Untitled.canvas",
     "Untitled.base",

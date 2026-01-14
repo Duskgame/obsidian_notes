@@ -1,3 +1,5 @@
+ [Guide to app architecture - Data layer](https://developer.android.com/topic/architecture/data-layer)
+
 ## **What is a data layer?**
 
 A data layer is responsible for the business logic of your app and for sourcing and saving data for your app. The data layer exposes data to the [[User Interface]] layer using the [Unidirectional Data Flow](https://developer.android.com/topic/architecture#unidirectional-data-flow) pattern. Data can come from multiple sources, like a network request, a local database, or from a file on the device.
