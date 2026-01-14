@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/General/Design Principles/Data Layer.md",
+                "file": "Daily notes/01.2026/14.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data Layer"
+              "title": "14.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "3f1d1deb3a0df2f6",
+            "id": "7827b54676411bba",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,9 +206,14 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
-    "imports/image-20.png",
+    "Wiki 2.0/General/Design Principles/Repository.md",
+    "imports/image-22.png",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutines.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts/CoroutineContext.md",
     "Daily notes/01.2026/14.01.2026.md",
     "Wiki 2.0/General/Design Principles/Data Layer.md",
+    "imports/image-21.png",
+    "imports/image-20.png",
     "Wiki 2.0/General/Design Principles/Layered architecture (app).md",
     "Wiki 2.0/General/Design Principles/App Architecture.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation.md",
@@ -235,18 +240,12 @@
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Concurrency.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
-    "Wiki 2.0/App development/Android/jetpack/.md",
-    "App project/Testing Projects/Android Test/MyCityNavigation.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutines.md",
     "imports/image-14.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
     "imports/image-13.png",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
     "Untitled.canvas",
     "Untitled.base",
-    "imports/image-12.png",
-    "imports/image-11.png",
-    "imports/image-10.png",
     "Wiki 2.0/App development/Android/jetpack/Navigation",
     "Daily notes/01.2026",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",

@@ -18,8 +18,10 @@ Launch, completion, cancellation, and failure are four common operations in the 
 
 Through hands-on practice with coroutines and understanding the concepts behind coroutines, you are now better equipped to write concurrent code in your [[Android]] app. By using coroutines for asynchronous programming, your code is simpler to read and reason about, more robust in situations of cancellations and exceptions, and delivers a more optimal and responsive experience for end users.
 
+
 ## **Summary**
 
+- Coroutines always run on threads, but they are lighter-weight tasks managed by the Kotlin runtime instead of the operating system. They can suspend without blocking a thread, and can move between threads depending on their dispatcher.
 - Coroutines enable you to write long running code that runs concurrently without learning a new style of programming. The execution of a coroutine is sequential by design.
 - Coroutines follow the principle of structured concurrency, which helps ensure that work is not lost and tied to a scope with a certain boundary on how long it lives. Your code is sequential by default and cooperates with an underlying event loop, unless you explicitly ask for concurrent execution (e.g. using `launch()` or `async()`). The assumption is that if you call a function, it should finish its work completely (unless it fails with an exception) by the time it returns regardless of how many coroutines it may have used in its implementation details.
 - The `suspend` modifier is used to mark a function whose execution can be suspended and resumed at a later point.
