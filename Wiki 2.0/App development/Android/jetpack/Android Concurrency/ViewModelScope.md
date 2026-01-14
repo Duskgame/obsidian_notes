@@ -1,0 +1,3 @@
+A [`viewModelScope`](https://developer.android.com/topic/libraries/architecture/coroutines#viewmodelscope) is the built-in coroutine scope defined for each ViewModel in your app. Any coroutine launched in this scope is automatically canceled if the `ViewModel` is cleared.
+
+You can use `viewModelScope` to launch the coroutine and make the web service request in the background. Since the `viewModelScope` belongs to the `ViewModel`, the request continues even if the app goes through a configuration change.

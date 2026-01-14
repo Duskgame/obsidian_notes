@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/13.01.2026.md",
+                "file": "Daily notes/01.2026/14.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "13.01.2026"
+              "title": "14.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "84ab6794f57fbf95",
+            "id": "3f1d1deb3a0df2f6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,8 +206,19 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Coroutines.md",
+    "Wiki 2.0/App development/Android/Internet Permissions.md",
+    "Daily notes/01.2026/14.01.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/ViewModelScope.md",
+    "Wiki 2.0/App development/Android/Web Service.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/.md",
+    "Wiki 2.0/General/JSON.md",
+    "imports/image-18.png",
+    "imports/image-17.png",
+    "Wiki 2.0/App development/Android/Accessibility.md",
+    "imports/image-16.png",
+    "imports/image-15.png",
     "Daily notes/01.2026/13.01.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Coroutines.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Structured concurrency.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Concurrency.md",
@@ -228,25 +239,14 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Untitled.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Asynchronous Code.md",
-    "Wiki 2.0/General/Design Principles/Unidirectional data Flow.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Synchronous Code.md",
     "imports/image-13.png",
-    "Wiki 2.0/App development/Ktor/Ktor.md",
-    "App project/Mobile Apps Team.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Untitled.md",
-    "Daily notes/Daily notes.md",
-    "Daily notes/01.2026/12.01.2026.md",
     "Untitled.canvas",
     "Untitled.base",
     "imports/image-12.png",
     "imports/image-11.png",
     "imports/image-10.png",
     "imports/image-9.png",
-    "imports/image-8.png",
-    "imports/image-7.png",
-    "imports/image-6.png",
-    "imports/image-5.png",
     "Wiki 2.0/App development/Android/jetpack/Navigation",
     "Daily notes/01.2026",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
