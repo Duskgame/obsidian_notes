@@ -11,5 +11,7 @@
   "image-converter",
   "obsidian-rollover-daily-todos",
   "hyperlink-remover",
-  "quick-preview"
+  "quick-preview",
+  "inline-code-highlight",
+  "highlightr-plugin"
 ]

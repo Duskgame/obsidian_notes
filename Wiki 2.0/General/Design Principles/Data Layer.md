@@ -14,6 +14,6 @@ The data layer is made up of one or more repositories. Repositories themselves c
 
 ![[image-20.png|376x336]]
 
-[[Best Practices]] require the app to have a [[repository]] for each type of data source your app uses.
+[[Best Practices]] require the app to have a [[Wiki 2.0/General/Design Principles/Repository]] for each type of data source your app uses.
 
 For this app, the repository that retrieves data from the internet completes the data source's responsibilities. It does so by making a network request to an [[API]]. If the data source coding is more complex or additional data sources are added, the data source responsibilities are encapsulated in separate data source classes, and the repository is responsible for managing all the data sources.
