@@ -1,16 +1,16 @@
 #dailynote
 
-Daily goal:
+## Daily goal/s:
 - [ ] 
 
-Progress:
+## Progress:
 
-Problems:
+## Problems:
 
-Questions:
+## Questions:
 
-New Notes:
+## New Notes:
 
-Noteworthy:
+## Noteworthy:
 
-Meetings:
+## Meetings:

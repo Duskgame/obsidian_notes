@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 314.5
   },
   "right": {
     "id": "b97cbf4c0916cc18",
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +206,12 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
-    "Daily notes/01.2026/01.2026.md",
-    "Daily notes/Daily template.md",
-    "Daily notes/01.2026/19.01.2026.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIMIT.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL ORDER BY.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL GROUP BY.md",
+    "Daily notes/01.2026/19.01.2026.md",
+    "Daily notes/Daily template.md",
+    "Daily notes/01.2026/01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL WHERE.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DISTINCT.md",
@@ -237,8 +239,6 @@
     "Wiki 2.0/App development/Android/Data Persistence",
     "Daily notes/01.2026/18.01.2026.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
-    "Wiki 2.0/Wiki 2.0.md",
-    "Daily notes/01.2026/13.01.2026.md",
     "Imports/image-6.png",
     "Imports/image-12.png",
     "App project/Examples/Amphibian Network Architecture ",
