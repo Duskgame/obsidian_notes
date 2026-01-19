@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
+                "file": "Daily notes/01.2026/19.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQLite (Android)"
+              "title": "19.01.2026"
             }
           }
         ]
@@ -206,8 +206,9 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DELETE.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DELETE.md",
     "Imports/image-28.png",
     "Wiki 2.0/App development/Android/Test Strategies.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
@@ -232,7 +233,6 @@
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Typography.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Top App Bar.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Shape.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "Imports/image-27.png",
     "Imports/image-26.png",

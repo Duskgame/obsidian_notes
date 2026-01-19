@@ -35,6 +35,7 @@ These skills will translate directly to Room, and with your knowledge of SQL, yo
 
 ![[image-28.png|788x294]]
 
+
 - [Database Inspector](https://developer.android.com/studio/inspect/database)
 - [Save data using SQLite](https://developer.android.com/training/data-storage/sqlite)
 - [Aggregate functions](https://www.sqlite.org/lang_aggfunc.html)
