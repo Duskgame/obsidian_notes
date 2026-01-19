@@ -33,4 +33,13 @@ These skills will translate directly to Room, and with your knowledge of SQL, yo
 
 `SELECT` statement syntax:
 
-![[image-28.png]]
+![[image-28.png|788x294]]
+
+- [Database Inspector](https://developer.android.com/studio/inspect/database)
+- [Save data using SQLite](https://developer.android.com/training/data-storage/sqlite)
+- [Aggregate functions](https://www.sqlite.org/lang_aggfunc.html)
+- [SQL Quick reference](https://www.w3schools.com/sql/sql_quickref.asp)
+- [Creating data tables](https://www.w3schools.com/sql/sql_create_db.asp)
+- [SQL Joins](https://www.w3schools.com/sql/sql_join.asp)
+- [SQLite Performance](https://developer.android.com/topic/performance/sqlite-performance-best-practices)
+
