@@ -66,7 +66,8 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Android Concurrency",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Material Theming",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Navigation",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/State in jetpack compose"
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

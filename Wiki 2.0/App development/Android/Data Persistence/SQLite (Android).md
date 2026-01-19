@@ -32,3 +32,5 @@ An SQLite database  you can now read from a database using [[SQL SELECT]] statem
 These skills will translate directly to Room, and with your knowledge of SQL, you'll be more than prepared to take on [[Data Persistence]] in your future apps.
 
 `SELECT` statement syntax:
+
+![[image-28.png]]

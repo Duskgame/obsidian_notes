@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Test Strategies.md",
+                "file": "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Test Strategies"
+              "title": "SQLite (Android)"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
+    "Imports/image-28.png",
+    "Wiki 2.0/App development/Android/Test Strategies.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "Wiki 2.0/App development/Android/jetpack/Composable Lifecycle.md",
     "Wiki 2.0/App development/Android/jetpack/Surface.md",
@@ -230,8 +232,6 @@
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Top App Bar.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Shape.md",
     "Wiki 2.0/App development/Android/jetpack/Material Theming/Dimensions.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Dark Theme.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Color.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "Imports/image-27.png",
     "Imports/image-26.png",
