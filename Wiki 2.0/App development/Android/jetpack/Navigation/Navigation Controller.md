@@ -1,4 +1,5 @@
-#jetpack_compose 
+[[Jetpack Compose]]
+
 ## Parts of the Navigation Component
 
 The Navigation component has three main parts:

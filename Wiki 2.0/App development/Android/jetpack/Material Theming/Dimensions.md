@@ -1,4 +1,4 @@
-#jetpack_compose
+[[Jetpack Compose]]
 ## Dimens file
 
 Just like you use the **strings.xml** to store the strings in your app, it is also a good practice to use a file called **dimens.xml** to store dimension values. This is helpful so you don't hard code values and so if you need to, you can change them in a single place.

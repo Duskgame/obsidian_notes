@@ -1,5 +1,5 @@
+[[Jetpack Compose]]
 
-#jetpack_compose
 Applying a shape can change so much about the look and feel of a composable. Shapes direct attention, identify components, communicate [[State in Compose|State]], and express brand.
 
 Many shapes are defined using [`RoundedCornerShape`](https://developer.android.com/reference/kotlin/androidx/compose/foundation/shape/RoundedCornerShape), which describes a rectangle with rounded corners. The number passed in defines how round the corners are. If `RoundedCornerShape(0.dp)` is used, the rectangle has no rounded corners; if `RoundedCornerShape(50.dp)` is used, the corners will be fully circular.

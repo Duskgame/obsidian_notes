@@ -1,3 +1,5 @@
+[[Jetpack Compose]]
+
 The [[User Interface|UI]] of your app is initially built from running composable functions in a process called Composition.
 
 When the [[State in Compose|State]] of your app changes, a recomposition is scheduled. Recomposition is when [[Jetpack Compose|Compose]] re-executes the composable functions whose state might have changed and creates an updated UI. The Composition is updated to reflect these changes.

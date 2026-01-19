@@ -1,4 +1,5 @@
-#jetpack_compose 
+[[Jetpack Compose]]
+
 A NavHost is a Composable that displays other composable destinations, based on a given route. For example, if the route is `Flavor`, then the `NavHost` would show the screen to choose the cupcake flavor. If the route is `Summary`, then the app displays the summary screen.
 
 The syntax for `NavHost` is just like any other Composable.

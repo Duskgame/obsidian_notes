@@ -1,4 +1,5 @@
-#jetpack_compose 
+[[Jetpack Compose]]
+
 [`StateFlow`](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-state-flow/) is a data holder observable flow that emits the current and new state updates. Its [`value`](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-state-flow/value.html) property reflects the current state value. To update state and send it to the flow, assign a new value to the value property of the [`MutableStateFlow`](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-mutable-state-flow/index.html) class.
 
 In Android, `StateFlow` works well with classes that must maintain an observable immutable state.

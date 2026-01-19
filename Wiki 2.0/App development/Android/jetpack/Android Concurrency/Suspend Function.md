@@ -1,3 +1,4 @@
+[[Jetpack Compose]]
 you can only call a suspend [[Function]] from another suspend function. To call suspend functions safely from inside a composable, you need to use the `LaunchedEffect()` composable. `LaunchedEffect()` composable runs the provided suspending function for as long as it remains in the composition. You can use the `LaunchedEffect()` composable [[Function]] to accomplish all of the following:
 
 - The `LaunchedEffect()` composable allows you to safely call suspend functions from composables.

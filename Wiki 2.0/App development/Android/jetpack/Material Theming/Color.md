@@ -1,4 +1,4 @@
-#jetpack_compose
+[[Jetpack Compose]]
 https://developer.android.com/codelabs/basic-android-kotlin-compose-material-theming?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-[[Unit]]-3-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-material-theming#3
 
 A color scheme is the combination of colors that your app uses. Different color combinations evoke different moods, which influences how people feel when they use your app.

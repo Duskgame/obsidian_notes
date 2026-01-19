@@ -1,3 +1,4 @@
+[[Jetpack Compose]]
 The way you write code using [[Coroutines]] is called structured concurrency. This style of programming improves the readability and development time of your code. The idea of structured concurrency is that coroutines have a hierarchy—tasks might launch subtasks, which might launch subtasks in turn. The [[Unit]] of this hierarchy is referred to as a coroutine scope. Coroutine scopes should always be associated with a lifecycle.
 
 The Coroutines APIs adhere to this structured concurrency by design. You cannot call a suspend [[Function]] from a function which is not marked suspend. This limitation ensures that you call the suspend functions from coroutine builders, such as `launch`. These builders are, in turn, tied to a [[CoroutineScope]].

@@ -1,4 +1,5 @@
-#jetpack_compose
+[[Jetpack Compose]]
+
 **Note:** [`Modifier.weight()`](https://developer.android.com/reference/kotlin/androidx/compose/foundation/layout/RowScope#\(androidx.compose.ui.Modifier\).weight\(kotlin.Float,kotlin.Boolean\)) sets the UI element's width/height proportionally to the element's weight, relative to its weighted siblings (other child elements in the row or column).
 
 Example: Consider three child elements in a row with weights `1f`, `1f`, and `2f`. All child elements have assigned weights in this case. The available space for the row is divided proportionally to the specified weight value, with more available space going to children with higher weight values. The child elements will distribute the weight as shown below:

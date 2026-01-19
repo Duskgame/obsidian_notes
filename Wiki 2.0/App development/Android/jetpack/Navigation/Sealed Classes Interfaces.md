@@ -2,7 +2,7 @@
 aliases:
   - Sealed Classes/Interfaces
 ---
-#jetpack_compose 
+[[Jetpack Compose]] 
 
 - [[#1. Example setup: fixed start + per‑object destination|1. Example setup: fixed start + per‑object destination]]
 
