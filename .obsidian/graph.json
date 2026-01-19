@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#dailynote  ",
@@ -55,11 +55,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.67421875,
   "lineSizeMultiplier": 1.14635416666667,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.502604166666667,
   "repelStrength": 7.65625,
   "linkStrength": 1,
   "linkDistance": 107,
-  "scale": 0.2189593351713565,
+  "scale": 0.1898768482633774,
   "close": false
 }

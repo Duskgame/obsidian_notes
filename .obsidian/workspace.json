@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
+                "file": "Daily notes/01.2026/19.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQLite (Android)"
+              "title": "19.01.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "7427b245988d94ef",
+            "id": "0d4d87aa9245b91d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,7 +206,25 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
+    "Daily notes/01.2026/01.2026.md",
+    "Daily notes/Daily template.md",
     "Daily notes/01.2026/19.01.2026.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL GROUP BY.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL WHERE.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DISTINCT.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Aggregate Functions.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL SELECT.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
+    "Daily notes/11.2025/11.2025.md",
+    "School/Lernen an der Itech.md",
+    "School/Lernfeld 1/Lernfeld 1.md",
+    "School/Lernfeld 1/Interviewleitfaden.md",
+    "School/Lernfeld 1/Interview vorbereitung.md",
+    "School/Onboarding.md",
+    "Imports/image-27.png",
     "Wiki 2.0/General/Database.md",
     "Imports/image-26.png",
     "Imports/image-25.png",
@@ -215,34 +233,18 @@
     "Imports/.md",
     "Imports/image.png",
     "Imports/Imports.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
     "Wiki 2.0/App development/Android/Data Persistence/Data Persistence.md",
     "Wiki 2.0/App development/Android/Data Persistence",
     "Daily notes/01.2026/18.01.2026.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Wiki 2.0/Wiki 2.0.md",
     "Daily notes/01.2026/13.01.2026.md",
-    "Daily notes/01.2026/14.01.2026.md",
-    "Daily notes/01.2026/17.01.2026.md",
-    "Daily notes/01.2026/15.01.2026.md",
-    "App project/Examples/Amphibian Network Architecture /AppDataClss.md",
-    "App project/Examples/Amphibian Network Architecture /AppApplication.md",
-    "App project/Examples/Amphibian Network Architecture /AppContainer.md",
-    "App project/App project.md",
     "Imports/image-6.png",
     "Imports/image-12.png",
-    "App project/Examples/Amphibian Network Architecture /Network Architecture.md",
-    "App project/Examples/Amphibian Network Architecture /AppHomeScreen.md",
-    "App project/Examples/Amphibian Network Architecture /AppApp.md",
-    "App project/Examples/Amphibian Network Architecture /AppUiState.md",
-    "App project/Examples/Amphibian Network Architecture /AppViewModel.md",
-    "App project/Examples/Amphibian Network Architecture /AppApiService.md",
-    "App project/Examples/Amphibian Network Architecture /AppRepository.md",
     "App project/Examples/Amphibian Network Architecture ",
     "Imports/image-23.png",
     "Imports/image-22.png",
     "Imports/image-21.png",
-    "Imports/image-20.png",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
@@ -251,7 +253,6 @@
     "Wiki 2.0/App development/Android/jetpack/Navigation",
     "Daily notes/01.2026",
     "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
-    "Wiki 2.0/General/Design Principles",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]

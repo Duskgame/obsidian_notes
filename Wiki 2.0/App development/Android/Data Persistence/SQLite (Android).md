@@ -25,8 +25,4 @@ In Kotlin, you're familiar with data types like `Int` and `Boolean`. SQLite data
 
 The tables in a database and the columns in each table are collectively known as the _schema_. In the next section, you download the starter data set and learn more about its schema.
 
-## SQL `SELECT` statement
 
-A SQL statement—sometimes called a query—is used to read or manipulate a database.
-
-You read data from a SQLite database with a `SELECT` statement. A simple `SELECT` statement consists of the `SELECT` keyword, followed by the column name, followed by the `FROM` keyword, followed by the table name. Every SQL statement ends with a semicolon (`;`).

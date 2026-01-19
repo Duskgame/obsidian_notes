@@ -1,8 +1,6 @@
 #dailynote
 
 Daily goal:
-- [ ] Kwizz
-	- [ ] 
 - [ ] 
 
 Progress:
