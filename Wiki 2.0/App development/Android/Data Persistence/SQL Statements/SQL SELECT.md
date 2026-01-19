@@ -3,6 +3,8 @@ aliases:
   - " "
   - select
 ---
+[[Android]]
+
 ## SQL `SELECT` statement
 
 A SQL statement—sometimes called a query—is used to read or manipulate a database.

@@ -3,6 +3,7 @@ aliases:
   - " "
   - like keyword
 ---
+[[Android]]
 ## Search for text using `LIKE`
 
 One super useful thing you can do with a `WHERE` clause is to search for text in a specific column. You achieve this result when you specify a column name, followed by the `LIKE` keyword, followed by a search string.

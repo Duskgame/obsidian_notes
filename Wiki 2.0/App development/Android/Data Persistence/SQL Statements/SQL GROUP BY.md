@@ -3,6 +3,8 @@ aliases:
   - " "
   - group by
 ---
+[[Android]]
+
 You just saw how to use aggregate functions and the WHERE clause to filter and reduce results. SQL offers several other clauses that can help you format the results of your query. Among these clauses are grouping, ordering, and limiting results.
 
 You can use a GROUP BY clause to group results so that all rows that have the same value for a given column are grouped next to each other in the results. This clause doesn't change the results, but only the order in which they're returned.

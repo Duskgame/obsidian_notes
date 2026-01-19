@@ -3,6 +3,7 @@ aliases:
   - " "
   - aggregate functions
 ---
+[[Android]]
 ## Reduce columns with aggregate functions
 
 SQL statements aren't limited to returning rows. SQL offers a variety of functions that can perform an operation or calculation on a specific column, such as finding the maximum value, or counting the number of unique possible values for a particular column. These functions are called **aggregate functions**. Instead of returning all the data of a specific column, you can return a single value from a specific column.

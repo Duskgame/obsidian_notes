@@ -3,6 +3,7 @@ aliases:
   - " "
   - limit
 ---
+[[Android]]
 ## Restrict the number of results with `LIMIT`
 
 So far, all the examples return every single result from the database that matches the query. In many cases, you only need to display a limited number of rows from your database. You can add a `LIMIT` clause to your query to only return a specific number of results. Add the `LIMIT` keyword followed by the maximum number of rows you want to return. If applicable, the `LIMIT` clause comes after the `ORDER BY` clause.

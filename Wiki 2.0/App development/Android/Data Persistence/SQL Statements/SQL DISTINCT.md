@@ -3,6 +3,7 @@ aliases:
   - " "
   - distinct
 ---
+[[Android]]
 ## Filter duplicate results with `DISTINCT`
 
 When you select a column, you can precede it with the `DISTINCT` keyword. This approach can be useful if you want to remove duplicates from the query result.

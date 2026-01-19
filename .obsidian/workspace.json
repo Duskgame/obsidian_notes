@@ -11,24 +11,10 @@
             "id": "2c94903687819254",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/01.2026/19.01.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "19.01.2026"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -206,18 +192,21 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL UPDATE.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL INSERT.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIMIT.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL ORDER BY.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL GROUP BY.md",
-    "Daily notes/01.2026/19.01.2026.md",
-    "Daily notes/Daily template.md",
-    "Daily notes/01.2026/01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL WHERE.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DISTINCT.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Aggregate Functions.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL SELECT.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL GROUP BY.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DELETE.md",
+    "Daily notes/01.2026/19.01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
+    "Daily notes/Daily template.md",
+    "Daily notes/01.2026/01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "Daily notes/11.2025/11.2025.md",
@@ -235,10 +224,7 @@
     "Imports/.md",
     "Imports/image.png",
     "Imports/Imports.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Data Persistence.md",
     "Wiki 2.0/App development/Android/Data Persistence",
-    "Daily notes/01.2026/18.01.2026.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Keywords and operators.md",
     "Imports/image-6.png",
     "Imports/image-12.png",
     "App project/Examples/Amphibian Network Architecture ",

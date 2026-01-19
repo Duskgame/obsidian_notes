@@ -3,6 +3,7 @@ aliases:
   - " "
   - order by
 ---
+[[Android]]
 ## Sort results with `ORDER BY`
 
 You can also change the order of query results when you sort them with the `ORDER BY` clause. Add the `ORDER BY` keyword, followed by a column name, followed by the sort direction.

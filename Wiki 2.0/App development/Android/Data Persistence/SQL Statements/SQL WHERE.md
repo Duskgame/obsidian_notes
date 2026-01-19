@@ -3,6 +3,7 @@ aliases:
   - " "
   - where clause
 ---
+[[Android]]
 ## Filter queries with a `WHERE` clause
 
 Many email apps offer the feature to filter the messages shown based on certain criteria, such as data, search term, folder, sender, etc. For these types of use cases, you can add a `WHERE` clause to your `SELECT` query.
