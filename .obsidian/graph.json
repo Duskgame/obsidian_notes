@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 34178
       }
+    },
+    {
+      "query": "path:\"Wiki 2.0/App development/Android\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +60,6 @@
   "repelStrength": 7.65625,
   "linkStrength": 1,
   "linkDistance": 107,
-  "scale": 0.23793964428477313,
+  "scale": 0.2189593351713565,
   "close": false
 }
