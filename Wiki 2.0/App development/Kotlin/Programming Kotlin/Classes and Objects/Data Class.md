@@ -27,3 +27,7 @@ When a class is defined as a data class, the following methods are implemented.
 - `copy()`
 
 **Note:** A data class needs to have at least one [[Parameter]] in its [[Kotlin Constructor|constructor]], and all constructor parameters must be marked with `val` or `var`. A data class also cannot be `abstract`, `open`, `sealed`, or `inner`.
+
+
+
+To learn more about Data classes, check out the [Data classes](https://kotlinlang.org/docs/data-classes.html) documentation.

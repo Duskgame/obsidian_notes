@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c94903687819254",
+            "id": "1045b881791f5def",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#dailynote",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,11 +201,21 @@
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obisidian-note-linker:Note Linker": false
+      "obisidian-note-linker:Note Linker": false,
+      "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "2c94903687819254",
+  "active": "1045b881791f5def",
   "lastOpenFiles": [
+    "Tasks Plugin - Review and check your Statuses 2026-01-20 15-32-50.md",
+    "Tasks Plugin - Review and check your Statuses 2026-01-20 15-43-06.md",
+    "Daily notes/01.2026/20.01.2026.md",
+    "Daily notes/01.2026/19.01.2026.md",
+    "Tasks Plugin - Review and check your Statuses 2026-01-20 15-34-10.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
+    "Imports/image-32.png",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable Lifecycle.md",
     "Wiki 2.0/App development/Android/jetpack/Composable function.md",
@@ -221,21 +231,13 @@
     "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
     "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
     "Wiki 2.0/App development/Android/jetpack/jetpack.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
     "Imports/image-31.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
     "Imports/image-30.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
     "Imports/image-29.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Library.md",
-    "Daily notes/01.2026/20.01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library",
-    "Wiki 2.0/App development/Android/Data Persistence/Untitled.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
-    "Daily notes/01.2026/19.01.2026.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/null.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/it keyword.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
     "Imports/image-28.png",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "Imports/image-27.png",
@@ -244,7 +246,6 @@
     "Imports/image-24.png",
     "Imports/image.png",
     "Wiki 2.0/App development/Android/Data Persistence",
-    "Imports/image-6.png",
     "App project/Examples/Amphibian Network Architecture ",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",

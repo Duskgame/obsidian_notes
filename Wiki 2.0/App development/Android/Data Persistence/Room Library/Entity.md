@@ -10,3 +10,78 @@ In this task, you create an Entity class and define fields to store the followin
 1. Open the starter code in the Android Studio.
 2. Open the `data` package under the `com.example.inventory` base package.
 3. Inside the `data` package, open the `Item` Kotlin class, which represents a database entity in your app.
+
+```
+// No need to copy over, this is part of the starter code
+class Item(
+    val id: Int,
+    val name: String,
+    val price: Double,
+    val quantity: Int
+)
+```
+
+**Note**: As a reminder, the primary constructor is part of the class header in a Kotlin class. It goes after the class name (and optional type parameters).
+
+### Data classes
+
+Data classes are primarily used to hold data in Kotlin. They are defined with the keyword `data`. Kotlin data class objects have some extra benefits. For example, the compiler automatically generates utilities to compare, print, and copy such as `toString()`, [`copy()`](https://kotlinlang.org/docs/data-classes.html#copying), and `equals()`.
+
+To ensure consistency and meaningful behavior of the generated code, data classes must fulfill the following requirements:
+
+- The primary constructor must have at least one parameter.
+- All primary constructor parameters must be `val` or `var`.
+- Data classes cannot be `abstract`, `open`, or `sealed`.
+
+**Warning**: The compiler only uses the properties defined inside the primary constructor for the automatically generated functions. The compiler excludes properties declared inside the class body from the generated implementations.
+
+
+Prefix the definition of the `Item` class with the `data` keyword to convert it to a data class.
+```
+data class Item(
+    val id: Int,
+    val name: String,
+    val price: Double,
+    val quantity: Int
+)
+```
+
+Above the `Item` class declaration, annotate the data class with `@Entity`. Use the `tableName` argument to set the `items` as the SQLite table name.
+
+```
+import androidx.room.Entity
+
+@Entity(tableName = "items")
+data class Item(
+   ...
+)
+```
+
+**Note**: The `@Entity` annotation has several possible arguments. By default (no arguments to `@Entity`), the table name is the same as the class name. Use the `tableName` argument to customize the table name. For simplicity, you use an `item`. There are several other arguments for `@Entity` you can investigate in the [Entity documentation](https://developer.android.com/reference/androidx/room/Entity).
+
+
+Annotate the `id` property with `@PrimaryKey` to make the `id` the primary key. A primary key is an ID to uniquely identify every record/entry in your `Item` table
+
+```
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "items")
+data class Item(
+    @PrimaryKey
+    val id: Int,
+    ...
+)
+```
+
+Assign the `id` a default value of `0`, which is necessary for the `id` to auto generate `id` values.
+
+Add the `autoGenerate` parameter to the `@PrimaryKey` annotation to specify whether the primary key column should be auto-generated. If `autoGenerate` is set to `true`, Room will automatically generate a unique value for the primary key column when a new entity instance is inserted into the database. This ensures that each entity instance has a unique identifier, without having to manually assign values to the primary key column
+
+```
+data class Item(
+    @PrimaryKey(autoGenerate = true)
+    val id: Int = 0,
+    // ...
+)
+```
+

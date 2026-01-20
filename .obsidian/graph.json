@@ -11,14 +11,7 @@
       "query": "tag:#dailynote  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"App project\" ",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
+        "rgb": 14367033
       }
     },
     {
@@ -60,6 +53,6 @@
   "repelStrength": 7.65625,
   "linkStrength": 1,
   "linkDistance": 107,
-  "scale": 0.22766731574192098,
+  "scale": 0.26253797949053653,
   "close": false
 }
