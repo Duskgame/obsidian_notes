@@ -1,6 +1,6 @@
 [[Jetpack Compose]] 
 
-https://developer.android.com/codelabs/basic-android-kotlin-compose-adaptive-navigation-for-large-screens?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-4-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-adaptive-navigation-for-large-screens#0
+https://developer.[[Android]].com/codelabs/basic-android-kotlin-compose-adaptive-navigation-for-large-screens?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-4-pathway-3%23codelab-https%3A%2F%2Fdeveloper.[[Android]].com%2Fcodelabs%2Fbasic-android-kotlin-compose-adaptive-navigation-for-large-screens#0
 
 - [[#What are breakpoints?|What are breakpoints?]]
 - [[#Use Window Size Classes|Use Window Size Classes]]
@@ -11,7 +11,7 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-adaptive-nav
 
 You may wonder how you can show different layouts for the same app. The short answer is by using conditionals on different states, the way you did in the beginning of this codelab.
 
-To create an adaptive app, you need the layout to change based on screen size. The measurement point where a layout changes is known as a breakpoint. Material Design created an [opinionated breakpoint range](https://m3.material.io/foundations/adaptive-design/large-screens/overview) that covers most Android screens.
+To create an adaptive app, you need the layout to change based on screen size. The measurement point where a layout changes is known as a breakpoint. Material Design created an [opinionated breakpoint range](https://m3.material.io/foundations/adaptive-design/large-screens/overview) that covers most [[Android]] screens.
 
 ![[image-8.png|884x304]]
 
@@ -19,7 +19,7 @@ To create an adaptive app, you need the layout to change based on screen size. T
 
 ## Use Window Size Classes
 
-The `WindowSizeClass` API introduced for Compose makes the implementation of Material Design breakpoints simpler.
+The `WindowSizeClass` [[API]] introduced for [[Jetpack Compose|Compose]] makes the implementation of Material Design breakpoints simpler.
 
 Window Size Classes introduces three categories of sizes: Compact, Medium, and Expanded, for both width and height.
 
@@ -36,11 +36,11 @@ Complete the following steps to implement the `WindowSizeClass` API in the Reply
 ...dependencies {...    implementation("androidx.compose.material3:material3-window-size-class")...
 ```
 
-2. Click **Sync Now** to sync gradle after adding the dependency.
+2. Click **Sync Now** to sync [[Gradle]] after adding the dependency.
 
 With the `build.gradle.kts` file up to date, you now can create a variable that stores the size of the app's window at any given time.
 
-4. In the `onCreate()` function in the `MainActivity.kt` file, assign the `calculateWindowSizeClass()` method with `this` context passed in the parameter to a variable named `windowSize`.
+4. In the `onCreate()` [[Function]] in the `MainActivity.kt` file, assign the `calculateWindowSizeClass()` method with `this` context passed in the [[Parameter]] to a variable named `windowSize`.
 5. Import the appropriate `calculateWindowSizeClass` package.
 
 
@@ -50,7 +50,7 @@ Currently, the [bottom navigation](https://developer.android.com/reference/kotli
 
 ![[image-11.png|357x89]]
 
-As previously discussed, this navigation element is not ideal because users can find it difficult to reach these essential navigation elements on larger screens. Fortunately, there are recommended patterns for different navigation elements for various window size classes in [navigation for responsive UIs](https://developer.android.com/guide/topics/large-screens/navigation-for-responsive-uis#responsive_ui_navigation). For the Reply app, you can implement the following elements:
+As previously discussed, this navigation element is not ideal because users can find it difficult to reach these essential [[Navigation]] elements on larger screens. Fortunately, there are recommended patterns for different navigation elements for various window size classes in [navigation for responsive UIs](https://developer.android.com/guide/topics/large-screens/navigation-for-responsive-uis#responsive_ui_navigation). For the Reply app, you can implement the following elements:
 
 ![[image-12.png|485x217]]
 

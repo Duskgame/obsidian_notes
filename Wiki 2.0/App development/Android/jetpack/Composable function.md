@@ -1,7 +1,7 @@
 [[Jetpack Compose]]
 https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-text-composables#2
 
-Composable functions are the basic building block of a [[User Interface]] in [[Jetpack Compose|Compose]]. A composable [[Function]]:
+Composable functions are the basic building block of a User [[Interface]] in Jetpack Compose. A composable [[Function]]:
 
 - Describes some part of your UI.
 - Doesn't return anything.
@@ -9,9 +9,9 @@ Composable functions are the basic building block of a [[User Interface]] in [[J
 
 ## Annotations
 
-Annotations are means of attaching extra information to code. This information helps tools like the [[Jetpack Compose]] compiler, and other developers understand the app's code.
+Annotations are means of attaching extra information to code. This information helps tools like the Jetpack Compose compiler, and other developers understand the app's code.
 
-An annotation is applied by prefixing its name (the annotation) with the `@` character at the beginning of the declaration you are annotating. Different code elements, including [[Kotlin Class Properties|properties]], functions, and classes, can be annotated. Later on in the course, you'll learn about classes.
+An annotation is applied by prefixing its name (the annotation) with the `@` character at the beginning of the declaration you are annotating. Different code elements, including [[Kotlin Class]] Properties, functions, and classes, can be annotated. Later on in the course, you'll learn about classes.
 
 The following diagram is an example of annotated function:
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/19.01.2026.md",
+                "file": "Daily notes/01.2026/20.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "19.01.2026"
+              "title": "20.01.2026"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:/",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "0d4d87aa9245b91d",
+            "id": "fac70936ab6bc9c5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,33 +206,37 @@
   },
   "active": "2c94903687819254",
   "lastOpenFiles": [
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DELETE.md",
-    "Imports/image-28.png",
-    "Wiki 2.0/App development/Android/Test Strategies.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable Lifecycle.md",
-    "Wiki 2.0/App development/Android/jetpack/Surface.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/View model.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/UI State.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/StateFlow.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/State in jetpack compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Round Corners.md",
-    "Wiki 2.0/App development/Android/jetpack/Resources in Jetpack.md",
-    "Wiki 2.0/App development/Android/jetpack/onCopy().md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Share Sheet.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Sealed Classes Interfaces.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation Controller.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/NavHost.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/NavController.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Navigation.md",
-    "Wiki 2.0/App development/Android/jetpack/Modifier.weight().md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/More Material Theming.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Icons.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Typography.md",
-    "Wiki 2.0/App development/Android/jetpack/Material Theming/Top App Bar.md",
+    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
+    "Wiki 2.0/App development/Android/jetpack/Clickable.md",
+    "Wiki 2.0/App development/Android/jetpack/by lazy.md",
+    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
+    "Wiki 2.0/App development/Android/jetpack/Animations.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/ViewModelScope.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Structured concurrency.md",
+    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Coroutines.md",
+    "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
+    "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
+    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
+    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
+    "Imports/image-31.png",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
+    "Imports/image-30.png",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
+    "Imports/image-29.png",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Library.md",
+    "Daily notes/01.2026/20.01.2026.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library",
+    "Wiki 2.0/App development/Android/Data Persistence/Untitled.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
+    "Daily notes/01.2026/19.01.2026.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/null.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/it keyword.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
+    "Imports/image-28.png",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "Imports/image-27.png",
     "Imports/image-26.png",
@@ -241,10 +245,7 @@
     "Imports/image.png",
     "Wiki 2.0/App development/Android/Data Persistence",
     "Imports/image-6.png",
-    "Imports/image-12.png",
     "App project/Examples/Amphibian Network Architecture ",
-    "Imports/image-23.png",
-    "Imports/image-22.png",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
@@ -252,7 +253,6 @@
     "Untitled.base",
     "Wiki 2.0/App development/Android/jetpack/Navigation",
     "Daily notes/01.2026",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]

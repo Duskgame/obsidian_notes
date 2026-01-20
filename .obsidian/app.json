@@ -3,5 +3,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Imports",
   "readableLineLength": false,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "showLineNumber": false
 }

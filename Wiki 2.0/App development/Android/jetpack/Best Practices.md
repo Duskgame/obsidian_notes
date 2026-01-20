@@ -15,7 +15,7 @@ Avoid designating your app's entry points—such as activities, services, and br
 
 ## **Reduce dependencies on Android classes.**
 
-Your app components should be the only classes that rely on Android framework SDK APIs such as [`Context`](https://developer.android.com/reference/android/content/Context) or [`Toast`](https://developer.android.com/guide/topics/ui/notifiers/toasts). Abstracting other classes in your app away from the app components helps with testability and reduces [coupling](https://en.wikipedia.org/wiki/Coupling_\(computer_programming\)) within your app.
+Your app components should be the only classes that rely on [[Android]] framework SDK APIs such as [`Context`](https://developer.android.com/reference/android/content/Context) or [`Toast`](https://developer.android.com/guide/topics/ui/notifiers/toasts). Abstracting other classes in your app away from the app components helps with testability and reduces [coupling](https://en.wikipedia.org/wiki/Coupling_\(computer_programming\)) within your app.
 
 ## **Define clear boundaries of responsibility between modules in your app.**
 
@@ -31,19 +31,19 @@ Don't reinvent the wheel by writing the same boilerplate code again and again. I
 
 ## **Use canonical layouts and app design patterns.**
 
-The [[jetpack]] Compose libraries provide robust APIs for building adaptive user interfaces. Use the [canonical layouts](https://developer.android.com/develop/ui/compose/layouts/adaptive/canonical-layouts) in your app to optimize the user experience on multiple form factors and display sizes. Review the [gallery](https://developer.android.com/large-screens/gallery) of app design patterns to select the layouts that work best for your use cases.
+The [[jetpack]] [[Jetpack Compose|Compose]] libraries provide robust APIs for building adaptive user interfaces. Use the [canonical layouts](https://developer.android.com/develop/ui/compose/layouts/adaptive/canonical-layouts) in your app to optimize the user experience on multiple form factors and display sizes. Review the [gallery](https://developer.android.com/large-screens/gallery) of app design patterns to select the layouts that work best for your use cases.
 
 ## **Preserve UI state across configuration changes.**
 
-When designing for adaptive layouts, preserve [[User Interface|UI]] [[State in Compose|State]] across configuration changes such as display resizing, folding, and orientation changes. Your architecture should verify that the user's current state is maintained, providing a seamless experience.
+When designing for adaptive layouts, preserve [[User Interface|UI]] [[State in Compose|State]] across configuration changes such as display resizing, folding, and orientation changes. Your architecture should verify that the user's current [[State in Compose|State]] is maintained, providing a seamless experience.
 
 ## **Design reusable and composable UI components.**
 
-Build UI components that are reusable and composable to support adaptive design. This lets you combine and rearrange components to fit various screen sizes and postures without significant refactoring.
+Build [[User Interface|UI]] components that are reusable and composable to support adaptive design. This lets you combine and rearrange components to fit various screen sizes and postures without significant refactoring.
 
 ## **Consider how to make each part of your app testable in isolation.**
 
-A well-defined [[API]] for fetching data from the network facilitates [[Testing Projects]] the module that persists that data in a local database. If instead, you mix the logic from these two functions in one place, or distribute your networking code across your entire codebase, testing becomes much more difficult, if not impossible.
+A well-defined [[API]] for fetching data from the network facilitates [[Testing Projects]] the module that persists that data in a local [[Database]]. If instead, you mix the logic from these two functions in one place, or distribute your networking code across your entire codebase, testing becomes much more difficult, if not impossible.
 
 ## **Types are responsible for their concurrency policy.**
 

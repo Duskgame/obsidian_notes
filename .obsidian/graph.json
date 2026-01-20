@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#dailynote  ",
@@ -60,6 +60,6 @@
   "repelStrength": 7.65625,
   "linkStrength": 1,
   "linkDistance": 107,
-  "scale": 0.31640964003567057,
+  "scale": 0.22766731574192098,
   "close": false
 }
