@@ -139,3 +139,5 @@ private fun ItemDetailsBody(
 13. Run the app. When you click any list element on the **Inventory** screen, the **Item Details** screen displays.
 14. Notice that the screen is not blank anymore. It displays the entity details retrieved from the inventory database.
 Tap the **Sell** button. Nothing happens!
+
+

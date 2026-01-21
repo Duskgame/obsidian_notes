@@ -62,7 +62,6 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Navigation",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/Room Library",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects",
     "//App project/App project/Examples/App project/Examples/Amphibian Network Architecture ",
@@ -70,7 +69,9 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture ",
     "//Daily notes",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
-    "//Daily notes/Daily notes/01.2026"
+    "//Daily notes/Daily notes/01.2026",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/Room Library",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/Room Library/Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
