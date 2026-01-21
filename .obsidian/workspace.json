@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApiService.md",
+                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AppApiService"
+              "title": "Database ViewModel interaction"
             }
           }
         ],
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dailynote",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,12 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "App project/Mobile Apps Team.md",
+                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mobile Apps Team"
+              "title": "Outgoing links from Database ViewModel interaction"
             }
           },
           {
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily notes/24-11-2025.md",
-                "followCursor": false,
+                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 24-11-2025"
+              "title": "Outline of Database ViewModel interaction"
             }
           },
           {
@@ -213,12 +213,25 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obisidian-note-linker:Note Linker": false,
-      "3d-graph-new:Global 3D Graph": false
+      "3d-graph-new:Global 3D Graph": false,
+      "ace-code-editor:Open CSS snippet manager": false
     }
   },
   "active": "50e49efc5a192f4d",
   "lastOpenFiles": [
+    "Daily notes/01.2026/21.01.2026.md",
+    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Companion Object.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Inspector.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database AppContainer.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Repository.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Instance.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Jetpack Examples.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApiService.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Sorting List to Date.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /Network Architecture.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppViewModel.md",
@@ -229,22 +242,10 @@
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppContainer.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApplication.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApp.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApiService.md",
     "App project/App project.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Instance.md",
     "Daily notes/01.2026/20.01.2026.md",
-    "Daily notes/01.2026/21.01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
-    "Tasks Plugin - Review and check your Statuses 2026-01-20 15-32-50.md",
-    "Tasks Plugin - Review and check your Statuses 2026-01-20 15-43-06.md",
-    "Daily notes/01.2026/19.01.2026.md",
-    "Tasks Plugin - Review and check your Statuses 2026-01-20 15-34-10.md",
     "Imports/image-32.png",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
-    "Wiki 2.0/App development/Android/jetpack/Composable Lifecycle.md",
     "Imports/image-31.png",
     "Imports/image-30.png",
     "Imports/image-29.png",

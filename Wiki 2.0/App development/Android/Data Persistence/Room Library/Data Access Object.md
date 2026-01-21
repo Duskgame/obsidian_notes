@@ -41,7 +41,7 @@ Complete the following steps to implement the item DAO in your app:
 1. In the `data` package, create the Kotlin interface `ItemDao.kt`.
 2. Annotate the `ItemDao` interface with `@Dao`.
 
-```
+```kotlin
 import androidx.room.Dao
 
 @Dao
@@ -58,7 +58,7 @@ interface ItemDao {
 
 The database operations can take a long time to execute, so they need to run on a separate thread. Room doesn't allow database access on the main thread.
 
-```
+```kotlin
 import androidx.room.Insert
 
 @Insert
@@ -73,7 +73,7 @@ The argument `onConflict` tells the Room what to do in case of a conflict. The `
 
 To know more about the available conflict strategies, check out the [`OnConflictStrategy`](https://developer.android.com/reference/androidx/room/OnConflictStrategy.html) documentation.
 
-```
+```kotlin
 import androidx.room.OnConflictStrategy
 
 @Insert(onConflict = OnConflictStrategy.IGNORE)
@@ -90,7 +90,7 @@ The entity that's updated has the same primary key as the entity that's passed i
 
 8. Similar to the `insert()` method, mark this function with the `suspend` keyword.
 
-```
+```kotlin
 import androidx.room.Update
 
 @Update
@@ -103,7 +103,7 @@ Add another function with the `@Delete` annotation to delete item(s), and make i
 
 **Note**: The `@Delete` annotation deletes an item or a list of items. You need to pass the entities you want to delete. If you don't have the entity, you might have to fetch it before calling the `delete()` function.
 
-```
+```kotlin
 import androidx.room.Delete
 
 @Delete
@@ -117,7 +117,7 @@ There is no convenience annotation for the remaining functionality, so you have 
 9. Write a SQLite query to retrieve a particular item from the item table based on the given `id`. The following code provides a sample query that selects all columns from the `items`, where the `id` matches a specific value and `id` is a unique identifier.
 
 **Example:**
-```
+```kotlin
 // Example, no need to copy over
 SELECT * from items WHERE id = 1
 ```
@@ -128,13 +128,13 @@ SELECT * from items WHERE id = 1
 
 The query now says to select all columns from the `items`, where the `id` matches the :`id` argument. Notice the `:id` uses the colon notation in the query to reference arguments in the function.
 
-```
+```kotlin
 @Query("SELECT * from items WHERE id = :id")
 ```
 
 13. After the `@Query` annotation, add a `getItem()` function that takes an `Int` argument and returns a `Flow<Item>`.
 
-```
+```kotlin
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
 
@@ -150,14 +150,14 @@ It is recommended to use `Flow` in the persistence layer. With `Flow` as the ret
 15. Have the SQLite query return all columns from the `item` table, ordered in ascending order.
 16. Have `getAllItems()` return a list of `Item` entities as `Flow`. `Room` keeps this `Flow` updated for you, which means you only need to explicitly get the data once.
 
-```
+```kotlin
 @Query("SELECT * from items ORDER BY name ASC")
 fun getAllItems(): Flow<List<Item>>
 ```
 
 ## Completed `ItemDao`:
 
-```
+```kotlin
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert

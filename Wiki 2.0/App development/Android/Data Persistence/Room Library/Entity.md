@@ -11,7 +11,7 @@ In this task, you create an Entity class and define fields to store the followin
 2. Open the `data` package under the `com.example.inventory` base package.
 3. Inside the `data` package, open the `Item` Kotlin class, which represents a database entity in your app.
 
-```
+```kotlin
 // No need to copy over, this is part of the starter code
 class Item(
     val id: Int,
@@ -37,7 +37,7 @@ To ensure consistency and meaningful behavior of the generated code, data classe
 
 
 Prefix the definition of the `Item` class with the `data` keyword to convert it to a data class.
-```
+```kotlin
 data class Item(
     val id: Int,
     val name: String,
@@ -48,7 +48,7 @@ data class Item(
 
 Above the `Item` class declaration, annotate the data class with `@Entity`. Use the `tableName` argument to set the `items` as the SQLite table name.
 
-```
+```kotlin
 import androidx.room.Entity
 
 @Entity(tableName = "items")
@@ -62,7 +62,7 @@ data class Item(
 
 Annotate the `id` property with `@PrimaryKey` to make the `id` the primary key. A primary key is an ID to uniquely identify every record/entry in your `Item` table
 
-```
+```kotlin
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "items")
@@ -77,7 +77,7 @@ Assign the `id` a default value of `0`, which is necessary for the `id` to auto 
 
 Add the `autoGenerate` parameter to the `@PrimaryKey` annotation to specify whether the primary key column should be auto-generated. If `autoGenerate` is set to `true`, Room will automatically generate a unique value for the primary key column when a new entity instance is inserted into the database. This ensures that each entity instance has a unique identifier, without having to manually assign values to the primary key column
 
-```
+```kotlin
 data class Item(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,

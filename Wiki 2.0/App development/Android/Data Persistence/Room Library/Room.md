@@ -5,3 +5,11 @@ An _abstraction layer_ is a set of functions that hide the underlying implementa
 The image below shows how Room, as a data source, fits in with the overall architecture recommended in this course. Room is a Data Source.
 
 ![[image-29.png|296x264]]
+
+
+- [7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
+- [The one and only object. Kotlin Vocabulary](https://medium.com/androiddevelopers/the-one-and-only-object-5dfd2cf7ab9b)
+- [Save data in a local database using Room](https://developer.android.com/training/data-storage/room)
+- [androidx.room](https://developer.android.com/reference/androidx/room/package-summary)
+- [Debug your database with the Database Inspector](https://developer.android.com/studio/inspect/database)
+
