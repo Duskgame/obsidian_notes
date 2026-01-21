@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1deabbc2d36d76b6",
-            "type": "leaf",
-            "state": {
-              "type": "3d-graph-view-global",
-              "state": {},
-              "icon": "orbit",
-              "title": "Global 3D Graph"
-            }
-          },
-          {
-            "id": "50e49efc5a192f4d",
+            "id": "adeb89ad560e1d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
+                "file": "Daily notes/01.2026/21.01.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Database ViewModel interaction"
+              "title": "21.01.2026"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             }
           },
           {
-            "id": "fac70936ab6bc9c5",
+            "id": "29c6970c0b06758f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -145,12 +134,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Database ViewModel interaction"
+              "title": "Outgoing links"
             }
           },
           {
@@ -174,13 +162,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database ViewModel interaction"
+              "title": "Outline"
             }
           },
           {
@@ -213,17 +200,26 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obisidian-note-linker:Note Linker": false,
-      "3d-graph-new:Global 3D Graph": false,
-      "ace-code-editor:Open CSS snippet manager": false
+      "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "50e49efc5a192f4d",
+  "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Display Entity Details.md",
     "Daily notes/01.2026/21.01.2026.md",
+    "Daily notes/10.2025/31.10.2025.md",
+    "Daily notes/10.2025/28.10.2025.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Untitled.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Display Database data.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Dis.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Untitled .md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Untitled 1.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Emit UI State in ViewModel.md",
+    "Wiki 2.0/General/API.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Companion Object.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Inspector.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
@@ -235,16 +231,6 @@
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Sorting List to Date.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /Network Architecture.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppViewModel.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppUiState.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppRepository.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppHomeScreen.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppDataClss.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppContainer.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApplication.md",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApp.md",
-    "App project/App project.md",
-    "Daily notes/01.2026/20.01.2026.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
     "Imports/image-32.png",
     "Imports/image-31.png",
     "Imports/image-30.png",

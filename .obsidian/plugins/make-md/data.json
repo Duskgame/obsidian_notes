@@ -58,7 +58,6 @@
     "//imports/imports/Excalidraw",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator",
     "//Wiki 2.0",
-    "//Daily notes/Daily notes/01.2026",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Material Theming",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Navigation",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/State in jetpack compose",
@@ -70,13 +69,16 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Examples",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture ",
     "//Daily notes",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin"
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
+    "//Daily notes/Daily notes/01.2026"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
   "suppressedWarnings": [],
   "spaceSubFolder": ".space",
-  "hiddenFiles": [],
+  "hiddenFiles": [
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Untitled 1.md"
+  ],
   "hiddenExtensions": [
     ".mdb",
     "_assets",
