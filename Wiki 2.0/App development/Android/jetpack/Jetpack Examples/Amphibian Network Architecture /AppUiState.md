@@ -1,3 +1,5 @@
+[[Jetpack Compose]]
+
 ```
 sealed interface AmphibianUiState {
     data class Success(val infos: List<AmphibianInfo>) : AmphibianUiState

@@ -11,9 +11,19 @@
             "id": "1deabbc2d36d76b6",
             "type": "leaf",
             "state": {
+              "type": "3d-graph-view-global",
+              "state": {},
+              "icon": "orbit",
+              "title": "Global 3D Graph"
+            }
+          },
+          {
+            "id": "50e49efc5a192f4d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/20.01.2026.md",
+                "file": "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApiService.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +38,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "20.01.2026"
+              "title": "AppApiService"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,12 +216,26 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "1deabbc2d36d76b6",
+  "active": "50e49efc5a192f4d",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Jetpack Examples.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Sorting List to Date.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /Network Architecture.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppViewModel.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppUiState.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppRepository.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppHomeScreen.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppDataClss.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppContainer.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApplication.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApp.md",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture /AppApiService.md",
+    "App project/App project.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Instance.md",
+    "Daily notes/01.2026/20.01.2026.md",
+    "Daily notes/01.2026/21.01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQLite (Android).md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
-    "Daily notes/01.2026/20.01.2026.md",
     "Tasks Plugin - Review and check your Statuses 2026-01-20 15-32-50.md",
     "Tasks Plugin - Review and check your Statuses 2026-01-20 15-43-06.md",
     "Daily notes/01.2026/19.01.2026.md",
@@ -220,21 +245,7 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Data Class.md",
     "Wiki 2.0/App development/Android/jetpack/Jetpack Compose.md",
     "Wiki 2.0/App development/Android/jetpack/Composable Lifecycle.md",
-    "Wiki 2.0/App development/Android/jetpack/Composable function.md",
-    "Wiki 2.0/App development/Android/jetpack/Clickable.md",
-    "Wiki 2.0/App development/Android/jetpack/by lazy.md",
-    "Wiki 2.0/App development/Android/jetpack/Best Practices.md",
-    "Wiki 2.0/App development/Android/jetpack/Animations.md",
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/ViewModelScope.md",
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Suspend Function.md",
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Structured concurrency.md",
-    "Wiki 2.0/App development/Android/jetpack/Android Concurrency/Android Coroutines.md",
-    "Wiki 2.0/App development/Android/jetpack/Alert Dialog.md",
-    "Wiki 2.0/App development/Android/jetpack/Adaptive layout design to screen sizes.md",
-    "Wiki 2.0/App development/Android/jetpack/@StringRes.md",
-    "Wiki 2.0/App development/Android/jetpack/jetpack.md",
     "Imports/image-31.png",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
     "Imports/image-30.png",
     "Imports/image-29.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library",
@@ -246,7 +257,7 @@
     "Imports/image-24.png",
     "Imports/image.png",
     "Wiki 2.0/App development/Android/Data Persistence",
-    "App project/Examples/Amphibian Network Architecture ",
+    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture ",
     "Wiki 2.0/App development/Android/jetpack/Android Concurrency",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",

@@ -1,3 +1,5 @@
+[[Jetpack Compose]]
+
 ```
 interface AmphibianInfoRepository {  
     suspend fun getAmphibianInfos(): List<AmphibianInfo>  

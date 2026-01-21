@@ -1,3 +1,5 @@
+[[Jetpack Compose]]
+
 ```
 class AmphibianViewModel(private val amphibianInfoRepository: AmphibianInfoRepository) :
     ViewModel() {
