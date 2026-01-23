@@ -11,24 +11,10 @@
             "id": "adeb89ad560e1d0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Room"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -205,6 +191,16 @@
   },
   "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Emit UI State in ViewModel.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Inspector.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database AppContainer.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Repository.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Instance.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
     "Wiki 2.0/App development/Android/Data Persistence/Data Persistence.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEntryViewModel.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDetailsScreen.md",
@@ -221,16 +217,6 @@
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryNavGraph.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryApplication.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/HomeViewModel.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/AppViewModelProvider.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryApp.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEditScreen.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEditViewModel.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEntryScreen.md",
-    "Wiki 2.0/App development/Android/User Interface.md",
-    "Wiki 2.0/App development/Android/Activity Lifecycle.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Edit Entity.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Delete Entity.md",
     "Imports/android_startup_flowchart.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example",
     "Imports/image-32.png",

@@ -1,14 +1,14 @@
-To save the app's transient data and to also access the [[Database]], you need to update the [[ViewModel]]s. Your `ViewModel`s interact with the [[Database]] via the [[Data Access Object|DAO]] and provide data to the UI. All [[Database]] operations need to be run away from the main UI thread; you do so with [[Coroutines]] and [`viewModelScope`](https://developer.android.com/topic/libraries/architecture/coroutines#viewmodelscope).
+To save the app's transient data and to also access the [[Database]], you need to update the ViewModels. Your `ViewModel`s interact with the Database via the [[Data Access Object|DAO]] and provide data to the UI. All Database operations need to be run away from the main UI thread; you do so with [[Coroutines]] and [`viewModelScope`](https://developer.android.com/topic/libraries/architecture/coroutines#viewmodelscope).
 
 ## UI state class walkthrough
 
-Open the ui/item/[[ItemEntryViewModel]].kt file. The `ItemUiState` [[Data Class]] represents the [[UI State]] of an Item. The `ItemDetails` data class represents a single item.
+Open the ui/item/ItemEntryViewModel.kt file. The `ItemUiState` Data Class represents the UI State of an Item. The `ItemDetails` data class represents a single item.
 
 The starter code provides you with three extension functions:
 
-- The `ItemDetails.toItem()` extension [[Function]] converts the `ItemUiState` UI state [[Kotlin Object|Object]] to the `Item` [[Entity]] type.
-- The `Item.toItemUiState()` extension function converts the `Item` [[Room]] [[Entity]] object to the `ItemUiState` UI state type.
-- The `Item.toItemDetails()` extension function converts the `Item` [[Room]] [[Entity]] object to the `ItemDetails`.
+- The `ItemDetails.toItem()` extension Function converts the `ItemUiState` UI state [[Kotlin]] Object to the `Item` [[Entity]] type.
+- The `Item.toItemUiState()` extension function converts the `Item` [[Room]] Entity object to the `ItemUiState` UI state type.
+- The `Item.toItemDetails()` extension function converts the `Item` Room Entity object to the `ItemDetails`.
 
 ```kotlin
 // No need to copy, this is part of starter code
@@ -67,9 +67,9 @@ You use the above class in the view models to read and update the UI.
 
 ## Update ItemEntry ViewModel
 
-In this task, you pass in the [[Repository]] to the [[ItemEntryViewModel]].kt file. You also save the item details entered in the **Add Item** screen into the database.
+In this task, you pass in the Repository to the [[ItemEntryViewModel]].kt file. You also save the item details entered in the **Add Item** screen into the database.
 
-1. Notice the `validateInput()` private function in the [[ItemEntryViewModel]] class.
+1. Notice the `validateInput()` private function in the ItemEntryViewModel class.
 
 ```kotlin
 // No need to copy over, this is part of starter code
@@ -82,7 +82,7 @@ private fun validateInput(uiState: ItemDetails = itemUiState.itemDetails): Boole
 
 The above function checks if the `name`, `price`, and `quantity` are empty. You use this function to verify user input before adding or updating the entity in the database.
 
-2. Open the `ItemEntryViewModel` class and add a `private` default [[Kotlin Constructor|constructor]] [[Parameter]] of the type [[ItemsRepository]].
+2. Open the `ItemEntryViewModel` class and add a `private` default [[Kotlin Constructor]] Parameter of the type [[ItemsRepository]].
 
 ```kotlin
 import com.example.inventory.data.ItemsRepository
@@ -106,7 +106,7 @@ object AppViewModelProvider {
 }
 ```
 
-4. Go to the `ItemEntryViewModel.kt` file and at the end of the `ItemEntryViewModel` class and add a [[Suspend Function]] called `saveItem()` to insert an item into the [[Room]] database. This function adds the data to the database in a non-blocking way.
+4. Go to the `ItemEntryViewModel.kt` file and at the end of the `ItemEntryViewModel` class and add a [[Suspend Function]] called `saveItem()` to insert an item into the Room database. This function adds the data to the database in a non-blocking way.
 
 ```kotlin
 suspend fun saveItem() {
@@ -114,7 +114,7 @@ suspend fun saveItem() {
 ```
 
 5. Inside the function, check if `itemUiState` is valid and convert it to `Item` type so Room can understand the data.
-6. Call `insertItem()` on [[ItemsRepository]] and pass in the data. The UI calls this function to add Item details to the database.
+6. Call `insertItem()` on ItemsRepository and pass in the data. The UI calls this function to add Item details to the database.
 
 ```kotlin
 suspend fun saveItem() {
@@ -128,7 +128,7 @@ You have now added all the required functions to add entities to the database. I
 
 ### ItemEntryBody() composable walkthrough
 
-1. In the ui/item/[[ItemEntryScreen]].kt file, the `ItemEntryBody()` composable is partially implemented for you as part of the stater code. Look at the `ItemEntryBody()` composable in the [[ItemEntryScreen]]() function call.
+1. In the ui/item/ItemEntryScreen.kt file, the `ItemEntryBody()` composable is partially implemented for you as part of the stater code. Look at the `ItemEntryBody()` composable in the [[ItemEntryScreen]]() function call.
 
 ```kotlin
 // No need to copy over, part of the starter code
@@ -143,7 +143,7 @@ ItemEntryBody(
 )
 ```
 
-2. Note that the UI state and the `updateUiState` [[Lambda]] are being passed as function parameters. Look at the function definition to see how the UI state is being updated.
+2. Note that the UI state and the `updateUiState` Lambda are being passed as function parameters. Look at the function definition to see how the UI state is being updated.
 
 ```kotlin
 // No need to copy over, part of the starter code
@@ -177,7 +177,7 @@ fun ItemEntryBody(
 
 You are displaying `ItemInputForm` and a **Save** button in this composable. In the `ItemInputForm()` composable, you are displaying three text fields. The **Save** is only enabled if text is entered in the text fields. The _`isEntryValid`_ value is true if the text in all the text fields is valid (not empty).
 
-3. Take a look at the `ItemInputForm()` [[Composable function]] implementation and notice the `onValueChange` function parameter. You are updating the _`itemDetails`_ value with the value entered by the user in the text fields. By the time the **Save** button is enabled, `itemUiState.itemDetails` has the values that need to be saved.
+3. Take a look at the `ItemInputForm()` Composable function implementation and notice the `onValueChange` function parameter. You are updating the _`itemDetails`_ value with the value entered by the user in the text fields. By the time the **Save** button is enabled, `itemUiState.itemDetails` has the values that need to be saved.
 
 ```kotlin
 // No need to copy over, part of the starter code
@@ -231,9 +231,9 @@ fun ItemInputForm(
 
 To tie everything together, add a click handler to the **Save** button. Inside the click handler, you launch a coroutine and call `saveItem()` to save the data in the Room database.
 
-1. In the [[ItemEntryScreen]].kt, inside the `ItemEntryScreen` composable function, create a `val` named [[CoroutineScope]] with the `rememberCoroutineScope()` composable function.
+1. In the ItemEntryScreen.kt, inside the `ItemEntryScreen` composable function, create a `val` named [[CoroutineScope]] with the `rememberCoroutineScope()` composable function.
 
-**Note:** The `rememberCoroutineScope()` is a composable function that returns a `[[CoroutineScope]]` bound to the composition where it's called. You can use the `rememberCoroutineScope()` composable function when you want to launch a coroutine outside of a composable and ensure the coroutine is canceled after the scope leaves the composition. You can use this function when you need to control the lifecycle of coroutines manually, for example, to cancel an animation whenever a user event happens.
+**Note:** The `rememberCoroutineScope()` is a composable function that returns a `CoroutineScope` bound to the composition where it's called. You can use the `rememberCoroutineScope()` composable function when you want to launch a coroutine outside of a composable and ensure the coroutine is canceled after the scope leaves the composition. You can use this function when you need to control the lifecycle of coroutines manually, for example, to cancel an animation whenever a user event happens.
 
 ```kotlin
 import androidx.compose.runtime.rememberCoroutineScope
@@ -254,7 +254,7 @@ ItemEntryBody(
 )
 ```
 
-3. Look at the `saveItem()` function implementation in the `ItemEntryViewModel.kt` file to check if `itemUiState` is valid, converting `itemUiState` to `Item` type, and inserting it in the database using [[ItemsRepository]].insertItem().
+3. Look at the `saveItem()` function implementation in the `ItemEntryViewModel.kt` file to check if `itemUiState` is valid, converting `itemUiState` to `Item` type, and inserting it in the database using ItemsRepository.insertItem().
 
 ```kotlin
 // No need to copy over, you have already implemented this as part of the Room implementation 
@@ -280,7 +280,7 @@ ItemEntryBody(
 )
 ```
 
-Notice that you did not use [[ViewModelScope]].launch() for `saveItem()` in the `ItemEntryViewModel.kt` file, but it is necessary for _`ItemEntryBody`_`()` when you call a [[Repository]] [[Kotlin Class Method|Method]]. You can only call suspend functions from a coroutine or another suspend function. The function `viewModel.saveItem()` is a suspend function.
+Notice that you did not use [[ViewModelScope]].launch() for `saveItem()` in the `ItemEntryViewModel.kt` file, but it is necessary for _`ItemEntryBody`_`()` when you call a Repository Kotlin Class Method. You can only call suspend functions from a coroutine or another suspend function. The function `viewModel.saveItem()` is a suspend function.
 
 5. Build and run your app.
 6. Tap the **+** FAB.
