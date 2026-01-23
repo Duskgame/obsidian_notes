@@ -7,6 +7,20 @@ The image below shows how Room, as a data source, fits in with the overall archi
 ![[image-29.png|296x264]]
 
 
+### **app/build.gradle.kts**
+
+```
+implementation("androidx.room:room-ktx:${rootProject.extra["room_version"]}")implementation("androidx.room:room-runtime:${rootProject.extra["room_version"]}")ksp("androidx.room:room-compiler:${rootProject.extra["room_version"]}")
+```
+
+You should get the most current stable version of `room` from the [Room documentation](https://developer.android.com/jetpack/androidx/releases/room) and add the correct version number. At this moment the latest version is:
+
+### **build.gradle.kts**
+
+```
+set("room_version", "2.5.1")
+```
+
 - [7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
 - [The one and only object. Kotlin Vocabulary](https://medium.com/androiddevelopers/the-one-and-only-object-5dfd2cf7ab9b)
 - [Save data in a local database using Room](https://developer.android.com/training/data-storage/room)

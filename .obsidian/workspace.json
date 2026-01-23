@@ -11,10 +11,24 @@
             "id": "adeb89ad560e1d0c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Room"
             }
           }
         ]
@@ -191,6 +205,7 @@
   },
   "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/Data Persistence/Data Persistence.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEntryViewModel.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDetailsScreen.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDetailsViewModel.md",
@@ -216,7 +231,6 @@
     "Wiki 2.0/App development/Android/Activity Lifecycle.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Edit Entity.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Delete Entity.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Update Entity.md",
     "Imports/android_startup_flowchart.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example",
     "Imports/image-32.png",
