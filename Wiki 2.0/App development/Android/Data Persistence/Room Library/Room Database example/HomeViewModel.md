@@ -28,15 +28,15 @@ data class HomeUiState(val itemList: List<Item> = listOf())
 
 ```
 
-This `HomeViewModel` fetches and exposes the full inventory list from Room database as reactive UI state, following Android's MVVM architecture with Kotlin Flows for automatic database-to-UI synchronization.
+This `HomeViewModel` fetches and exposes the full inventory list from [[Room]] [[Database]] as reactive [[UI State]], following [[Android]]'s [[Model-View-ViewModel|MVVM]] architecture with [[Kotlin]] Flows for automatic [[Database]]-to-[[User Interface|UI]] synchronization.
 
 ## Reactive Data Flow Explained
 
-The core line `itemsRepository.getAllItemsStream().map { HomeUiState(it) }.stateIn(...)` creates a reactive pipeline:
-- `getAllItemsStream()` returns a `Flow<List<Item>>` from Room DAO (`@Query("SELECT * FROM items") Flow<List<Item>>`)
-- Room automatically emits new results whenever the database table changes (insert/update/delete)
+The core line [[ItemsRepository]].getAllItemsStream().map { HomeUiState(it) }.stateIn(...) creates a reactive pipeline:
+- `getAllItemsStream()` returns a `Flow<List<Item>>` from [[Room]] [[Data Access Object|DAO]] (`@Query("`[[SQL SELECT|SELECT]]` * FROM items") Flow<List<Item>>`)
+- [[Room]] automatically emits new results whenever the [[Database]] table changes (insert/update/delete)
 - `.map()` transforms raw items into `HomeUiState` for UI consumption
-- `.stateIn()` converts to StateFlow with lifecycle-aware collection and initial empty state[ from prior]
+- `.stateIn()` converts to [[StateFlow]] with lifecycle-aware collection and initial empty [[State in Compose|State]][ from prior]
 
 ## StateFlow Configuration Details
 ```kotlin
@@ -60,15 +60,15 @@ InventoryApplication → AppDataContainer → ItemsRepository → Room DAO → S
 
 ```
 
-**HomeScreen** collects `homeUiState` in `LaunchedEffect` or `collectAsState()`, rebuilding UI automatically when inventory changes elsewhere (ItemEntry/Edit screens). Repository typically runs queries on `Dispatchers.IO` for thread safety.
+**HomeScreen** collects `homeUiState` in `LaunchedEffect` or `collectAsState()`, rebuilding UI automatically when inventory changes elsewhere (ItemEntry/Edit screens). [[Repository]] typically runs queries on `Dispatchers.IO` for thread safety.
 
 ## Benefits Over LiveData
 
 Modern Kotlin-first approach replaces LiveData:
 
 - Type-safe, composable with other Flows (filter, combine, etc.)
-- Works natively with Jetpack Compose
-- Survives ViewModel lifecycle, config changes via SavedStateHandle (seen in other ViewModels)  
+- Works natively with [[Jetpack Compose]]
+- Survives [[ViewModel]] lifecycle, config changes via SavedStateHandle (seen in other ViewModels)  
     Repository pattern centralizes data logic, enabling offline-first with network sync later.
 
 Any database mutation (via other ViewModels) instantly updates HomeScreen—no manual refresh needed.

@@ -53,29 +53,29 @@ fun InventoryNavHost(
 
 ```
 
-This `InventoryNavHost` defines the complete navigation graph for the single-activity app, routing between screens that all share the same Room database repository via centralized ViewModel factory.
+This `InventoryNavHost` defines the complete [[Navigation]] graph for the single-activity app, routing between screens that all share the same [[Room]] [[Database]] [[Repository]] via centralized [[ViewModel]] [[Factory]].
 
 ## Navigation Graph Structure
 
-The `NavHost` declares four composable destinations forming the inventory workflow:
+The [[NavHost]] declares four composable destinations forming the inventory workflow:
 
-- **HomeDestination**: Entry point showing item list (`HomeScreen` with `HomeViewModel`)
+- **HomeDestination**: Entry point showing item list (`HomeScreen` with [[HomeViewModel]])
 - **ItemEntryDestination**: Add new item screen
 - **ItemDetailsDestination**: View single item (receives `itemId: Int` argument)
 - **ItemEditDestination**: Edit existing item (receives `itemId: Int` argument)
 
-Routes use string templates for arguments: `"${ItemDetailsDestination.route}/{it}"` where `{it}` is the item ID from the list click.[](https://c1ctech.com/android-jetpack-compose-navigation-example/)​
+Routes use string templates for [[Arguments]]: `"${ItemDetailsDestination.route}/{it}"` where `{it}` is the item ID from the list click.[](https://c1ctech.com/android-jetpack-compose-navigation-example/)​
 
 ## Database State Preservation Across Screens
 
-Critical for Room database architecture—**ViewModels survive navigation** unlike Activities/Fragments:
+Critical for [[Room]] [[Database]] architecture—**ViewModels survive navigation** unlike Activities/Fragments:
 ```
 HomeScreen ←→ ItemEntryScreen     (new item → Home list auto-updates via Flow)
      ↓
 ItemDetailsScreen ←→ ItemEditScreen  (edit item → Home list instantly reflects via shared Repository)
 ```
 
-When `ItemEntryScreen` calls `repository.insert(newItem)`, `HomeViewModel.homeUiState` automatically emits updated list due to Room's Flow reactivity—no manual refresh needed.
+When [[ItemEntryScreen]] calls `repository.insert(newItem)`, [[HomeViewModel]].homeUiState automatically emits updated list due to [[Room]]'s Flow reactivity—no manual refresh needed.
 
 ## Argument Passing Pattern
 
@@ -86,7 +86,7 @@ navArgument(ItemDetailsDestination.itemIdArg) { type = NavType.IntType }
 Item ID flows through navigation to target ViewModels:
 
 1. Home clicks item → navigates with ID
-2. `ItemDetailsViewModel` extracts ID from `SavedStateHandle` (injected via factory)
+2. [[ItemDetailsViewModel]] extracts ID from `SavedStateHandle` (injected via factory)
 3. `SavedStateHandle.get<Int>("itemId")` → `repository.getItem(id)` → displays item
 4. Edit button → passes same ID to ItemEdit screen
 
@@ -100,7 +100,7 @@ ViewModel Layer: Each screen observes its ViewModel (HomeViewModel, ItemDetailsV
 Repository Layer: Single shared instance across all ViewModels → Room database
 ```
 
-**No data duplication**—all screens read/write through `AppDataContainer.itemsRepository`. Mutations propagate instantly via Kotlin Flows.
+**No data duplication**—all screens read/write through AppDataContainer.[[ItemsRepository]]. Mutations propagate instantly via [[Kotlin]] Flows.
 
 ## Back Navigation Handling
 
@@ -108,4 +108,4 @@ Multiple back strategies ensure proper stack management:
 
 - `navigateUp()`: Goes to logical parent (Home → Details → Edit → Details)
 - `popBackStack()`: Pops top screen (Entry/Edit → previous)  
-	Prevents stack overflow and maintains database consistency during navigation.
+	Prevents stack overflow and maintains [[Database]] consistency during navigation.

@@ -32,7 +32,7 @@ project directory
 
 ## Executive Summary
 
-This inventory app implements Google's recommended modern Android architecture combining **MVVM (Model-View-ViewModel)**, **Repository Pattern**, **Jetpack Compose**, **Kotlin Flows**, and **Room Database**. Every component works in concert to ensure **single source of truth**, **automatic UI synchronization**, and **zero stale state**. Understanding this architecture unlocks scalable, testable Android development.
+This inventory app implements Google's recommended modern [[Android]] architecture combining **[[Model-View-ViewModel|MVVM]] (Model-View-ViewModel)**, **[[Repository]] Pattern**, **[[Jetpack Compose]]**, **[[Kotlin]] Flows**, and **[[Room]] [[Database]]**. Every component works in concert to ensure **single source of truth**, **automatic [[User Interface|UI]] synchronization**, and **zero stale [[State in Compose]]**. Understanding this architecture unlocks scalable, testable Android development.
 
 ---
 ## Architecture Layers
@@ -346,28 +346,28 @@ class ItemEditViewModel {
 
 ## Why This Architecture Solves Real Problems
 
-|Real Problem|This Architecture's Solution|
-|---|---|
-|**Stale state**: Different screens show different values for same item|Single repository instance queried by all ViewModels → automatic consistency|
-|**Lost form data during rotation**: User's edits disappear|SavedStateHandle + ViewModel scope survive lifecycle|
-|**Manual refresh buttons**: User forgets to refresh|Room Flows automatically emit on change|
-|**Race conditions**: Two screens update same item simultaneously|Room transactions (SQLite) handle concurrency|
-|**ANR crashes**: Database queries block UI thread|Room suspend functions auto-dispatch to IO thread|
-|**Memory leaks**: Context held in ViewModels|Repository takes Context only once during init, no leaks|
-|**Tight coupling**: UI directly queries database|Repository abstraction enables testing with mock implementations|
-|**Configuration change crashes**: Screen state lost during rotation|ViewModel + SavedStateHandle survive|
+| Real Problem                                                                              | This Architecture's Solution                                                                    |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Stale [[State in Compose]]**: Different screens show different values for same item     | Single repository [[Kotlin Object\|Instance]] queried by all ViewModels → automatic consistency |
+| **Lost form data during rotation**: User's edits disappear                                | SavedStateHandle + [[ViewModel]] scope survive lifecycle                                        |
+| **Manual refresh buttons**: User forgets to refresh                                       | [[Room]] Flows automatically emit on change                                                     |
+| **Race conditions**: Two screens update same item simultaneously                          | [[Room]] transactions (SQLite) handle concurrency                                               |
+| **ANR crashes**: [[Database]] queries block [[User Interface]] thread                     | Room suspend functions auto-dispatch to IO thread                                               |
+| **Memory leaks**: Context held in ViewModels                                              | Repository takes Context only once during init, no leaks                                        |
+| **Tight coupling**: [[User Interface]] directly queries database                          | Repository abstraction enables testing with mock implementations                                |
+| **Configuration change crashes**: Screen [[State in Compose\|State]] lost during rotation | ViewModel + SavedStateHandle survive                                                            |
 
 ## Scalability Pattern
 
 This exact pattern scales to apps with **dozens of screens and tables**:
 
-- Add new entity → define @Entity, @Dao, update repository interface
+- Add new [[Entity]] → define @Entity, @[[Data Access Object|DAO]], update repository [[Interface]]
 - New ViewModel → inject repository, observe relevant Flow
-- New screen → use AppViewModelProvider.Factory (works automatically)
-- New database operation → all screens auto-update via reactive Flows
+- New screen → use [[AppViewModelProvider]].[[Factory]] (works automatically)
+- New [[Database]] operation → all screens auto-update via reactive Flows
 
 Companies like **Google I/O, Netflix, Spotify** use variations of this pattern for production apps serving millions of concurrent users.[](https://www.youtube.com/watch?v=bgS9VpNIP8s)[](https://www.geeksforgeeks.org/android/how-to-build-a-simple-note-android-app-using-mvvm-and-room-database/)​
 
 ## Conclusion
 
-The inventory app is a masterclass in modern Android architecture. Every component serves a specific purpose: Jetpack Compose renders UI, Navigation orchestrates screens, ViewModels hold reactive state, Repository abstracts data, Room handles persistence, and Kotlin Flows provide automatic synchronization. Together they eliminate entire classes of bugs (stale state, configuration crashes, race conditions) and compress hundreds of lines of synchronization code into zero. This is why Google recommends this pattern—it works.[](https://developer.android.com/training/data-storage/room)
+The inventory app is a masterclass in modern Android architecture. Every component serves a specific purpose: Jetpack Compose renders UI, [[Navigation]] orchestrates screens, ViewModels hold reactive [[State in Compose]], Repository abstracts data, Room handles persistence, and [[Kotlin]] Flows provide automatic synchronization. Together they eliminate entire classes of bugs (stale state, configuration crashes, race conditions) and compress hundreds of lines of synchronization code into zero. This is why Google recommends this pattern—it works.[](https://developer.android.com/training/data-storage/room)

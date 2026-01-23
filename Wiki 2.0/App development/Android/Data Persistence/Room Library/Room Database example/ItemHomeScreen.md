@@ -136,11 +136,11 @@ private fun InventoryItem(
 }
 ```
 
-This `HomeScreen` Compose UI consumes the reactive `homeUiState` from `HomeViewModel`, displaying inventory items from Room database in a scrollable list while enabling navigation to entry/update screens.
+This `HomeScreen` [[Jetpack Compose|Compose]] [[User Interface|UI]] consumes the reactive `homeUiState` from [[HomeViewModel]], displaying inventory items from [[Room]] [[Database]] in a scrollable list while enabling [[Navigation]] to entry/update screens.
 
 ## Navigation Architecture Integration
 
-`HomeDestination` defines the screen's route (`"home"`) as a navigation destination, used in `NavHost` elsewhere in the app. The callbacks `navigateToItemEntry()` and `navigateToItemUpdate(Int)` handle routing to other screens via NavController, passing item IDs for detail/edit views. This single-activity pattern keeps database-unaware UI composables decoupled from navigation logic.[](https://blog.mobcoder.com/android-navigation-architecture/)
+`HomeDestination` defines the screen's route (`"home"`) as a navigation destination, used in [[NavHost]] elsewhere in the app. The callbacks `navigateToItemEntry()` and `navigateToItemUpdate(Int)` handle routing to other screens via [[NavController]], passing item IDs for detail/edit views. This single-activity pattern keeps database-unaware UI composables decoupled from navigation logic.[](https://blog.mobcoder.com/android-navigation-architecture/)
 
 ## Reactive UI Consumption
 
@@ -148,7 +148,7 @@ This `HomeScreen` Compose UI consumes the reactive `homeUiState` from `HomeViewM
 `val homeUiState by viewModel.homeUiState.collectAsState()`
 ```
 
-Automatically rebuilds the UI when Room database emits new item lists through the ViewModel's StateFlow. `HomeBody` renders empty state or `LazyColumn` of items—efficient for large inventories since only visible items compose. Clicking items extracts `it.id` from the database-backed list, navigating to update screen with the ID.
+Automatically rebuilds the UI when [[Room]] [[Database]] emits new item [[Lists]] through the [[ViewModel]]'s [[StateFlow]]. `HomeBody` renders empty [[State in Compose|State]] or `LazyColumn` of items—efficient for large inventories since only visible items compose. Clicking items extracts `it.id` from the database-backed list, navigating to update screen with the ID.
 
 ## Complete MVVM Data Flow
 
@@ -156,15 +156,15 @@ Automatically rebuilds the UI when Room database emits new item lists through th
 `Room DB → Repository Flow → HomeViewModel StateFlow → collectAsState() → LazyColumn rebuilds`
 ```
 
-**Key benefits**: No manual refresh needed. Adding items via `ItemEntryViewModel` (FAB click) instantly updates HomeScreen list. Updates/deletes propagate similarly. ViewModel survives navigation via `AppViewModelProvider.Factory`, preserving state across back/forth navigation.
+**Key benefits**: No manual refresh needed. Adding items via [[ItemEntryViewModel]] (FAB click) instantly updates HomeScreen list. Updates/deletes propagate similarly. ViewModel survives navigation via [[AppViewModelProvider]].[[Factory]], preserving state across back/forth navigation.
 
 ## UI Layer Patterns
 
 - **Scaffold** provides Material3 structure (TopAppBar, FAB positioned safely).
-- **LazyColumn** with stable `key = { it.id }` optimizes recomposition—critical for database lists.
+- **LazyColumn** with stable `key = { it.id }` optimizes recomposition—critical for [[Database]] lists.
 - **InventoryItem** displays `Item` fields (`name`, `quantity`, `formatedPrice()`), unaware of data source.  
     Navigation triggers database operations in destination ViewModels, feeding back to HomeScreen reactively.
 
 ## Architecture Summary
 
-**UI** observes state → **ViewModel** transforms repository Flows → **Repository** (in container) queries Room on IO dispatcher → **SQLite** persists locally. Unidirectional flow ensures database changes anywhere instantly reflect in all screens without coupling.
+**UI** observes state → **ViewModel** transforms [[Repository]] Flows → **Repository** (in container) queries [[Room]] on IO [[Dispatcher]] → **SQLite** persists locally. Unidirectional flow ensures database changes anywhere instantly reflect in all screens without coupling.

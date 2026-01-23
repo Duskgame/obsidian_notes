@@ -25,28 +25,28 @@ abstract class InventoryDatabase : RoomDatabase() {
 
 ```
 
-This class is your **Room database definition** plus a **singleton creator** so the app has exactly one database instance.
+This [[Kotlin Class|Class]] is your **[[Room]] [[Database]] definition** plus a **singleton creator** so the app has exactly one [[Database]] [[Kotlin Object|Instance]].
 
 ## Database role
 
 - `@Database(entities = [Item::class], version = 1, exportSchema = false)`
-    - Marks this as the Room database class and tells Room which **entities** (tables) it manages – here, only `Item`, so the DB has an `items` table.
+    - Marks this as the [[Room]] [[Database]] class and tells [[Room]] which **entities** (tables) it manages – here, only `Item`, so the DB has an `items` table.
     - `version = 1` is the schema version, used for migrations when you change the schema in future versions.
     - `exportSchema = false` disables schema export to a file; in production apps you often set this to `true` for version control of schema.
 - `abstract class InventoryDatabase : RoomDatabase()`
     - Must extend `RoomDatabase`.
     - Room generates the implementation at compile time; you never instantiate this class directly, you only get it through the builder.
-- `abstract fun itemDao(): ItemDao`
-    - Exposes your DAO.
-    - Room generates the implementation so you can call `db.itemDao()` to get an `ItemDao` and then run `insert`, `update`, `getAllItems()`, etc.
+- `abstract fun `[[ItemDao]](): [[ItemDao]]
+    - Exposes your [[Data Access Object|DAO]].
+    - Room generates the implementation so you can call db.[[ItemDao]]() to get an `ItemDao` and then run `insert`, `update`, `getAllItems()`, etc.
 
-This class is the **main entry point** to all persistent data in your app: UI → ViewModel/Repository → `InventoryDatabase.itemDao()` → SQLite.
+This class is the **main entry point** to all persistent data in your app: [[User Interface|UI]] → [[ViewModel]]/[[Repository]] → `InventoryDatabase.itemDao()` → SQLite.
 
 ## Singleton pattern
 
-The companion object ensures there is **only one database instance**:
+The [[Companion Object]] ensures there is **only one [[Database Instance]]**:
 
-- `@Volatile private var Instance: InventoryDatabase? = null`
+- `@Volatile private var Instance: InventoryDatabase? = `[[null]]
     - `@Volatile` ensures that changes to `Instance` are visible across threads immediately.
     - Room DBs are expensive to create; you should not build them more than once.
 - `fun getDatabase(context: Context): InventoryDatabase`
@@ -64,5 +64,5 @@ This “double-checked lock” style is the standard pattern recommended for Roo
 
 In a typical architecture:
 
-- An `Application` or a DI container calls `InventoryDatabase.getDatabase(applicationContext)` once and then passes `itemDao()` into a repository.
+- An `Application` or a [[Dependency Injection|DI]] container calls `InventoryDatabase.getDatabase(applicationContext)` once and then passes `itemDao()` into a repository.
 - The repository is used by ViewModels, which expose Flows/LiveData of `Item` data to the UI.
