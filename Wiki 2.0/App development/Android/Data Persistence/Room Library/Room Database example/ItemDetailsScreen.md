@@ -196,7 +196,7 @@ private fun DeleteConfirmationDialog(
 
 ```
 
-This code defines the “Item details” [[Navigation]] destination and the entire [[User Interface|UI]] for viewing, selling, and deleting a single item, wired into the [[Room]]‑backed architecture through [[ItemDetailsViewModel]] and the shared [[ItemsRepository]].[](https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room)​
+This code defines the “Item details” [[Navigation]] destination and the entire UI for viewing, selling, and deleting a single item, wired into the [[Room]]‑backed architecture through [[ItemDetailsViewModel]] and the shared [[ItemsRepository]].[](https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room)​
 
 ## Destination and ID → DB lookup
 

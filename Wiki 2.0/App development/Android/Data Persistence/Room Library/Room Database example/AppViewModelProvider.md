@@ -40,7 +40,7 @@ fun CreationExtras.inventoryApplication(): InventoryApplication =
 
 ```
 
-This [[Kotlin]] code defines a centralized [[Factory]] for creating ViewModels in an [[Android]] inventory app, enabling [[Dependency Injection|DI]] for [[Database]]-related components without tight coupling between [[User Interface|UI]] layers and [[Data Persistence]].
+This [[Kotlin]] code defines a centralized [[Factory]] for creating ViewModels in an [[Android]] inventory app, enabling [[Dependency Injection|DI]] for [[Database]]-related components without tight coupling between UI layers and [[Data Persistence]].
 
 ## Purpose of AppViewModelProvider
 

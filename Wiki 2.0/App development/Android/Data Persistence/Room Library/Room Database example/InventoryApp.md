@@ -34,7 +34,7 @@ fun InventoryTopAppBar(
 }
 ```
 
-`InventoryApp` serves as the root composable orchestrating the entire [[Navigation]] graph, while `InventoryTopAppBar` provides consistent navigation [[User Interface|UI]] across all screens—both operate **above** the [[Database]] layer but enable the [[Room]]-backed [[CRUD]] workflow.
+`InventoryApp` serves as the root composable orchestrating the entire [[Navigation]] graph, while `InventoryTopAppBar` provides consistent navigation UI across all screens—both operate **above** the [[Database]] layer but enable the [[Room]]-backed [[CRUD]] workflow.
 
 ## App Entry Point Architecture
 

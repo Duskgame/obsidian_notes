@@ -25,7 +25,7 @@ Android's `Application.onCreate()` runs once when the app process starts—befor
 The `container: `[[AppContainer]] acts as a manual [[Dependency Injection]] (DI) container following Google's recommended architecture:
 
 - `AppDataContainer(this)` receives the `Application` Context to build [[Room]] [[Database Instance]] (thread-safe, singleton scoped to app process).
-- [[ItemsRepository]] inside abstracts data sources (local [[Room]] DB + optional network), exposing Flow/[[StateFlow]] for reactive [[User Interface|UI]] updates.  
+- [[ItemsRepository]] inside abstracts data sources (local [[Room]] DB + optional network), exposing Flow/[[StateFlow]] for reactive UI updates.  
     This pattern avoids Context leaks in ViewModels and enables testing by swapping containers.[](https://developer.android.com/guide/components/activities/activity-lifecycle)​
 
 ## Connection to ViewModel Factory

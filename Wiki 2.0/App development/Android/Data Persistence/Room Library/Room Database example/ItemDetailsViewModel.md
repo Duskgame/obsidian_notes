@@ -194,7 +194,7 @@ private fun DeleteConfirmationDialog(
 }
 ```
 
-This [[ItemDetailsScreen]] displays a single inventory item from [[Room]] [[Database]] while enabling sell/delete operations, maintaining reactive [[User Interface|UI]] updates through the shared `ItemDetailsViewModel` and [[Repository]] pattern.
+This [[ItemDetailsScreen]] displays a single inventory item from [[Room]] [[Database]] while enabling sell/delete operations, maintaining reactive UI updates through the shared `ItemDetailsViewModel` and [[Repository]] pattern.
 
 ## Database-Driven UI State
 

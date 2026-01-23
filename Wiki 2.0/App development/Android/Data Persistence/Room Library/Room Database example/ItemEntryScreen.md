@@ -139,7 +139,7 @@ fun ItemInputForm(
 
 ```
 
-This `ItemEntryScreen` provides the [[User Interface|UI]] for creating new inventory items with real-time form validation, connecting user input directly to [[Room]] [[Database]] insertion through the [[ItemEntryViewModel]].
+This `ItemEntryScreen` provides the UI for creating new inventory items with real-time form validation, connecting user input directly to [[Room]] [[Database]] insertion through the [[ItemEntryViewModel]].
 
 ## Two-Way Data Binding Pattern
 

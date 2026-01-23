@@ -31,7 +31,7 @@ In a typical architecture:
 - **[[Entity]]**: `Item` defines the table schema.
 - **[[Data Access Object|DAO]]**: `ItemDao` defines operations on that table. 
 - **RoomDatabase**: holds the DB and exposes `fun itemDao(): ItemDao`.
-- **[[Repository]]/ViewModel/[[User Interface|UI]]**: call [[Data Access Object|DAO]] methods to persist and observe data.[](https://daily.dev/blog/android-room-persistence-library-complete-guide)
+- **[[Repository]]/ViewModel/UI**: call [[Data Access Object|DAO]] methods to persist and observe data.[](https://daily.dev/blog/android-room-persistence-library-complete-guide)
 
 ## CRUD operations
 

@@ -22,7 +22,7 @@ This [[Kotlin Class|Class]] is a **[[Repository]] implementation** that connects
 
 The typical dependency chain looks like:
 
-[[User Interface|UI]] → [[ViewModel]] → [[ItemsRepository]] → [[ItemDao]] → InventoryDatabase → SQLite
+UI → [[ViewModel]] → [[ItemsRepository]] → [[ItemDao]] → InventoryDatabase → SQLite
 
 The ViewModel only knows about [[ItemsRepository]], so you can swap this class with a fake in tests or with a different data source without touching UI code.
 

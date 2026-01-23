@@ -1,4 +1,4 @@
-To save the app's transient data and to also access the [[Database]], you need to update the [[ViewModel]]s. Your `ViewModel`s interact with the [[Database]] via the [[Data Access Object|DAO]] and provide data to the [[User Interface|UI]]. All [[Database]] operations need to be run away from the main UI thread; you do so with [[Coroutines]] and [`viewModelScope`](https://developer.android.com/topic/libraries/architecture/coroutines#viewmodelscope).
+To save the app's transient data and to also access the [[Database]], you need to update the [[ViewModel]]s. Your `ViewModel`s interact with the [[Database]] via the [[Data Access Object|DAO]] and provide data to the UI. All [[Database]] operations need to be run away from the main UI thread; you do so with [[Coroutines]] and [`viewModelScope`](https://developer.android.com/topic/libraries/architecture/coroutines#viewmodelscope).
 
 ## UI state class walkthrough
 

@@ -16,7 +16,7 @@ interface NavigationDestination {
 
 ```
 
-The `NavigationDestination` [[Interface]] defines a type-safe contract for all app screens in the [[Navigation]] graph, completely decoupling [[User Interface|UI]] navigation from [[Database]] operations while enabling consistent routing to screens that perform [[CRUD]] actions.
+The `NavigationDestination` [[Interface]] defines a type-safe contract for all app screens in the [[Navigation]] graph, completely decoupling UI navigation from [[Database]] operations while enabling consistent routing to screens that perform [[CRUD]] actions.
 
 ## Navigation Abstraction Purpose
 

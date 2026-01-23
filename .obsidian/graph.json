@@ -36,6 +36,13 @@
       }
     },
     {
+      "query": "path:\"Wiki 2.0/App development/Android/Data Persistence\"",
+      "color": {
+        "a": 1,
+        "rgb": 15456000
+      }
+    },
+    {
       "query": "path:\"Wiki 2.0/App development/Android\"  ",
       "color": {
         "a": 1,
@@ -48,11 +55,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.67421875,
   "lineSizeMultiplier": 1.14635416666667,
-  "collapse-forces": true,
-  "centerStrength": 0.502604166666667,
-  "repelStrength": 7.65625,
-  "linkStrength": 1,
-  "linkDistance": 107,
-  "scale": 0.3185505872545858,
+  "collapse-forces": false,
+  "centerStrength": 0.497395833333333,
+  "repelStrength": 9.42708333333333,
+  "linkStrength": 0.888020833333333,
+  "linkDistance": 90,
+  "scale": 0.3502993784307945,
   "close": false
 }

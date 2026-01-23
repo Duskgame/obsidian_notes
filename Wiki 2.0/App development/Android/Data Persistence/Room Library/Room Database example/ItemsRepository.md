@@ -41,7 +41,7 @@ In a typical [[Room]]-based app, the layers are:
 - **ViewModel** → depends on `ItemsRepository`, not on the [[Data Access Object|DAO]] directly
 - **UI ([[Jetpack Compose|Compose]]/Activities)** → observes Flows from the [[ViewModel]]
 
-This interface is that repository boundary: the ViewModel knows only `ItemsRepository`, so you can change the underlying storage (Room, network, in‑memory) without touching [[User Interface|UI]] code. This follows the Repository pattern recommended for [[Android]] apps to separate [[Data Layer]] from presentation.[](https://dev.to/rodrassilva/android-repository-pattern-using-room-retrofit-and-coroutines-58kb)​​
+This interface is that repository boundary: the ViewModel knows only `ItemsRepository`, so you can change the underlying storage (Room, network, in‑memory) without touching UI code. This follows the Repository pattern recommended for [[Android]] apps to separate [[Data Layer]] from presentation.[](https://dev.to/rodrassilva/android-repository-pattern-using-room-retrofit-and-coroutines-58kb)​​
 
 ## Meaning of each method
 

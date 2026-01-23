@@ -40,7 +40,7 @@ This [[Kotlin Class|Class]] is your **[[Room]] [[Database]] definition** plus a 
     - Exposes your [[Data Access Object|DAO]].
     - Room generates the implementation so you can call db.[[ItemDao]]() to get an `ItemDao` and then run `insert`, `update`, `getAllItems()`, etc.
 
-This class is the **main entry point** to all persistent data in your app: [[User Interface|UI]] → [[ViewModel]]/[[Repository]] → `InventoryDatabase.itemDao()` → SQLite.
+This class is the **main entry point** to all persistent data in your app: UI → [[ViewModel]]/[[Repository]] → `InventoryDatabase.itemDao()` → SQLite.
 
 ## Singleton pattern
 

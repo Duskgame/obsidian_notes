@@ -51,7 +51,7 @@ fun ItemEditScreen(
 }
 ```
 
-This `ItemEditScreen` provides the [[User Interface|UI]] for editing existing inventory items, reusing the `ItemEntryBody` form component while triggering **[[Room]] [[Database]] UPDATE** operations through [[ItemEditViewModel]].
+This `ItemEditScreen` provides the UI for editing existing inventory items, reusing the `ItemEntryBody` form component while triggering **[[Room]] [[Database]] UPDATE** operations through [[ItemEditViewModel]].
 
 ## Reused Form Components for Consistency
 

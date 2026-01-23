@@ -51,7 +51,7 @@ Conceptually:
     - Gets the [[Data Access Object|DAO]] that can perform SQL operations on the `items` table (insert, update, delete, queries).
 3. [[OfflineItemsRepository]]([[ItemDao]])
     - Wraps the [[Data Access Object|DAO]] in a repository implementation that matches the `ItemsRepository` interface.
-    - ViewModels talk to `ItemsRepository`, not directly to the DAO or DB, which keeps the [[User Interface|UI]] layer independent of Room APIs.
+    - ViewModels talk to `ItemsRepository`, not directly to the DAO or DB, which keeps the UI layer independent of Room APIs.
 4. `by lazy { ... }`
     - Ensures the repository (and underlying DB + DAO) is created **only once**, on first use, and then reused.
     - This avoids repeatedly creating expensive database objects.

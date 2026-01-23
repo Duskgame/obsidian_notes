@@ -32,7 +32,7 @@ project directory
 
 ## Executive Summary
 
-This inventory app implements Google's recommended modern [[Android]] architecture combining **[[Model-View-ViewModel|MVVM]] (Model-View-ViewModel)**, **[[Repository]] Pattern**, **[[Jetpack Compose]]**, **[[Kotlin]] Flows**, and **[[Room]] [[Database]]**. Every component works in concert to ensure **single source of truth**, **automatic [[User Interface|UI]] synchronization**, and **zero stale [[State in Compose]]**. Understanding this architecture unlocks scalable, testable Android development.
+This inventory app implements Google's recommended modern [[Android]] architecture combining **[[Model-View-ViewModel|MVVM]] (Model-View-ViewModel)**, **[[Repository]] Pattern**, **[[Jetpack Compose]]**, **[[Kotlin]] Flows**, and **[[Room]] [[Database]]**. Every component works in concert to ensure **single source of truth**, **automatic UI synchronization**, and **zero stale [[State in Compose]]**. Understanding this architecture unlocks scalable, testable Android development.
 
 ---
 ## Architecture Layers

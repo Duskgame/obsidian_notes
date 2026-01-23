@@ -91,7 +91,7 @@ This `ItemEntryViewModel` handles form input validation and new item insertion i
 
 ## Form State Management and Validation
 
-The [[ViewModel]] maintains `itemUiState: ItemUiState` as mutable [[State in Compose|State]] that [[Jetpack Compose|Compose]] [[User Interface|UI]] binds to directly:
+The [[ViewModel]] maintains `itemUiState: ItemUiState` as mutable [[State in Compose|State]] that [[Jetpack Compose|Compose]] UI binds to directly:
 
 - `updateUiState(itemDetails)` validates user input on every keystroke (`name.isNotBlank() && price.isNotBlank() && quantity.isNotBlank()`)
 - `isEntryValid` immediately reflects validation result, enabling/disabling the Save button in UI    

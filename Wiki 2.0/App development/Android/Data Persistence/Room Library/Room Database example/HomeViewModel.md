@@ -28,7 +28,7 @@ data class HomeUiState(val itemList: List<Item> = listOf())
 
 ```
 
-This `HomeViewModel` fetches and exposes the full inventory list from [[Room]] [[Database]] as reactive [[UI State]], following [[Android]]'s [[Model-View-ViewModel|MVVM]] architecture with [[Kotlin]] Flows for automatic [[Database]]-to-[[User Interface|UI]] synchronization.
+This `HomeViewModel` fetches and exposes the full inventory list from [[Room]] [[Database]] as reactive [[UI State]], following [[Android]]'s [[Model-View-ViewModel|MVVM]] architecture with [[Kotlin]] Flows for automatic [[Database]]-to-UI synchronization.
 
 ## Reactive Data Flow Explained
 

@@ -47,7 +47,7 @@ In a typical Room-based app:
 - **RoomDatabase subclass**
     - Annotated with `@Database(entities = [Item::class], …)` to register `Item` as a table.
     - Provides access to the [[Data Access Object|DAO]](s). The app gets the [[Database]] instance and then uses the [[Data Access Object|DAO]] to interact with `Item` rows.[](https://daily.dev/blog/android-room-persistence-library-complete-guide)
-- **[[Repository]] + [[ViewModel]] + [[User Interface|UI]]**
+- **[[Repository]] + [[ViewModel]] + UI**
     - Repository calls DAO methods to read/write `Item` rows.
     - ViewModel exposes `List<Item>` (often as `Flow` / `[[StateFlow]]`) to the UI.
     - Composables observe that [[State in Compose|State]] and display or edit items (e.g., inventory list, detail screen).

@@ -136,7 +136,7 @@ private fun InventoryItem(
 }
 ```
 
-This `HomeScreen` [[Jetpack Compose|Compose]] [[User Interface|UI]] consumes the reactive `homeUiState` from [[HomeViewModel]], displaying inventory items from [[Room]] [[Database]] in a scrollable list while enabling [[Navigation]] to entry/update screens.
+This `HomeScreen` [[Jetpack Compose|Compose]] UI consumes the reactive `homeUiState` from [[HomeViewModel]], displaying inventory items from [[Room]] [[Database]] in a scrollable list while enabling [[Navigation]] to entry/update screens.
 
 ## Navigation Architecture Integration
 
