@@ -1,6 +1,6 @@
-The [Database Inspector](https://developer.android.com/studio/inspect/database) lets you inspect, query, and modify your app's databases while your app runs. This feature is especially useful for database debugging. The Database Inspector works with plain SQLite and with libraries built on top of SQLite, such as Room. Database Inspector works best on emulators/devices running API level 26.
+The [Database Inspector](https://developer.android.com/studio/inspect/database) lets you inspect, query, and modify your app's databases while your app runs. This feature is especially useful for [[Database]] debugging. The [[Database]] Inspector works with plain SQLite and with libraries built on top of SQLite, such as [[Room]]. [[Database]] Inspector works best on emulators/devices running [[API]] level 26.
 
-**Note**: The Database Inspector only works with the SQLite library included in the Android operating system on API level 26 and higher. It doesn't work with other SQLite libraries that you bundle with your app.
+**Note**: The Database Inspector only works with the SQLite library included in the [[Android]] operating system on API level 26 and higher. It doesn't work with other SQLite libraries that you bundle with your app.
 
 1. Run your app on an emulator or connected device running API level 26 or higher, if you have not done so already.
 2. In Android Studio, select **View** > **Tool Windows** > **App Inspection** from the menu bar.

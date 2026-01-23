@@ -39,7 +39,7 @@ object_name.property_name
 
 ## Declare objects as companion objects
 
-Classes and objects in Kotlin can be defined inside other types, and can be a great way to organize your code. You can define a singleton object inside another class using a _companion object_. A companion object allows you to access its properties and methods from inside the class, if the object's properties and methods belong to that class, allowing for more concise syntax.
+Classes and objects in Kotlin can be defined inside other types, and can be a great way to organize your code. You can define a singleton object inside another class using a _companion object_. A [[companion object]] allows you to access its properties and methods from inside the class, if the object's properties and methods belong to that class, allowing for more concise syntax.
 
 To declare a companion object, simply add the `companion` keyword before the `object` keyword.
 

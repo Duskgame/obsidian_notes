@@ -1,6 +1,6 @@
-In this task, you collect and update the UI state in the `HomeScreen`.
+In this task, you collect and update the [[UI State]] in the `HomeScreen`.
 
-1. In the `HomeScreen.kt` file, in the `HomeScreen` composable function, add a new function parameter of the type `HomeViewModel` and initialize it.
+1. In the `HomeScreen.kt` file, in the `HomeScreen` composable [[Function]], add a new function [[Parameter]] of the type [[HomeViewModel]] and initialize it.
 
 ```kotlin
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -16,7 +16,7 @@ fun HomeScreen(
 )
 ```
 
-2. In the `HomeScreen` composable function, add a `val` called `homeUiState` to collect the UI state from the `HomeViewModel`. You use _`collectAsState`_`()`, which collects values from this [`StateFlow`](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-state-flow/index.html) and represents its latest value via [`State`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/State).
+2. In the `HomeScreen` composable function, add a `val` called `homeUiState` to collect the [[User Interface|UI]] [[State in Compose|State]] from the [[HomeViewModel]]. You use _`collectAsState`_`()`, which collects values from this [`StateFlow`](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-state-flow/index.html) and represents its latest value via [`State`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/State).
 
 ```kotlin
 import androidx.compose.runtime.collectAsState
@@ -35,4 +35,4 @@ HomeBody(
 )
 ```
 
-4. Run the app. Notice that the inventory list displays if you saved items in your app database. If the list is empty, add some inventory items to the app database.
+4. Run the app. Notice that the inventory list displays if you saved items in your app [[Database]]. If the list is empty, add some inventory items to the app database.

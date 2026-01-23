@@ -1,10 +1,10 @@
-In this task, you read and display the entity details on the **Item Details** screen. You use the item UI state, such as name, price, and quantity from the inventory app database and display them on the **Item Details** screen with the `ItemDetailsScreen` composable. The `ItemDetailsScreen` composable function is prewritten for you and contains three Text composables that display the item details.
+In this task, you read and display the [[Entity]] details on the **Item Details** screen. You use the item [[UI State]], such as name, price, and quantity from the inventory app [[Database]] and display them on the **Item Details** screen with the [[ItemDetailsScreen]] composable. The [[ItemDetailsScreen]] composable [[Function]] is prewritten for you and contains three Text composables that display the item details.
 
 ### ui/item/ItemDetailsScreen.kt
 
-This screen is part of the starter code and displays the details of the items, which you see in a later codelab. You do not work on this screen in this codelab. The `ItemDetailsViewModel.kt` is the corresponding `ViewModel` for this screen.
+This screen is part of the starter code and displays the details of the items, which you see in a later codelab. You do not work on this screen in this codelab. The [[ItemDetailsViewModel]].kt is the corresponding [[ViewModel]] for this screen.
 
-1. In the `HomeScreen` composable function, notice the `HomeBody()` function call. `navigateToItemUpdate` is being passed to the `onItemClick` parameter, which gets called when you click on any item in your list.
+1. In the `HomeScreen` composable function, notice the `HomeBody()` function call. `navigateToItemUpdate` is being passed to the `onItemClick` [[Parameter]], which gets called when you click on any item in your list.
 
 ```kotlin
 // No need to copy over 
@@ -17,7 +17,7 @@ HomeBody(
 )
 ```
 
-2. Open `ui/navigation/InventoryNavGraph.kt` and notice the `navigateToItemUpdate` parameter in the `HomeScreen` composable. This parameter specifies the destination for navigation as the item details screen.
+2. Open [[User Interface|UI]]/navigation/[[InventoryNavGraph]].kt and notice the `navigateToItemUpdate` parameter in the `HomeScreen` composable. This parameter specifies the destination for [[Navigation]] as the item details screen.
 
 ```kotlin
 // No need to copy over 
@@ -32,9 +32,9 @@ This part of the `onItemClick` functionality is already implemented for you. Whe
 
 3. Click any item in the inventory list to see the item details screen with empty fields.
 
-To fill the text fields with item details, you need to collect the UI state in `ItemDetailsScreen()`.
+To fill the text fields with item details, you need to collect the UI state in [[ItemDetailsScreen]]().
 
-4. In `UI/Item/ItemDetailsScreen.kt`, add a new parameter to the `ItemDetailsScreen` composable of the type `ItemDetailsViewModel` and use the factory method to initialize it.
+4. In `UI/Item/ItemDetailsScreen.kt`, add a new parameter to the `ItemDetailsScreen` composable of the type [[ItemDetailsViewModel]] and use the [[Factory]] [[Kotlin Class Method|Method]] to initialize it.
 
 ```kotlin
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -49,7 +49,7 @@ fun ItemDetailsScreen(
 )
 ```
 
-5. Inside the `ItemDetailsScreen()` composable, create a `val` called `uiState` to collect the UI state. Use `collectAsState()` to collect `uiState` `StateFlow` and represent its latest value via `State`. Android Studio displays an unresolved reference error.
+5. Inside the `ItemDetailsScreen()` composable, create a `val` called `uiState` to collect the UI state. Use `collectAsState()` to collect `uiState` [[StateFlow]] and represent its latest value via [[State in Compose|State]]. [[Android]] Studio displays an unresolved reference error.
 
 ```kotlin
 import androidx.compose.runtime.collectAsState
@@ -57,8 +57,8 @@ import androidx.compose.runtime.collectAsState
 val uiState = viewModel.uiState.collectAsState()
 ```
 
-6. To resolve the error, create a `val` called `uiState` of the type `StateFlow<ItemDetailsUiState>` in the `ItemDetailsViewModel` class.
-7. Retrieve the data from the item repository and map it to `ItemDetailsUiState` using the extension function `toItemDetails()`. The extension function `Item.toItemDetails()` is already written for you as part of the starter code.
+6. To resolve the error, create a `val` called `uiState` of the type `StateFlow<ItemDetailsUiState>` in the [[ItemDetailsViewModel]] [[Kotlin Class|Class]].
+7. Retrieve the data from the item [[Repository]] and map it to `ItemDetailsUiState` using the extension [[Function]] `toItemDetails()`. The extension [[Function]] `Item.toItemDetails()` is already written for you as part of the starter code.
 
 ```kotlin
 import androidx.lifecycle.viewModelScope
@@ -80,7 +80,7 @@ val uiState: StateFlow<ItemDetailsUiState> =
              )
 ```
 
-8. Pass `ItemsRepository` into the `ItemDetailsViewModel` to resolve the `Unresolved reference: itemsRepository` error.
+8. Pass [[ItemsRepository]] into the `ItemDetailsViewModel` to resolve the `Unresolved reference:` [[ItemsRepository]] error.
 
 ```kotlin
 class ItemDetailsViewModel(
@@ -89,7 +89,7 @@ class ItemDetailsViewModel(
     ) : ViewModel() {
 ```
 
-9. In `ui/AppViewModelProvider.kt`, update the initializer for `ItemDetailsViewModel` as shown in the following code snippet:
+9. In `ui/`[[AppViewModelProvider]]`.kt`, update the initializer for `ItemDetailsViewModel` as shown in the following code snippet:
 
 ```kotlin
 initializer {
@@ -137,7 +137,7 @@ private fun ItemDetailsBody(
 ```
 
 13. Run the app. When you click any list element on the **Inventory** screen, the **Item Details** screen displays.
-14. Notice that the screen is not blank anymore. It displays the entity details retrieved from the inventory database.
+14. Notice that the screen is not blank anymore. It displays the [[Entity]] details retrieved from the inventory database.
 Tap the **Sell** button. Nothing happens!
 
 

@@ -1,7 +1,7 @@
 ---
 aliases:
   - " "
-  - select
+  - SELECT
 ---
 [[Android]]
 

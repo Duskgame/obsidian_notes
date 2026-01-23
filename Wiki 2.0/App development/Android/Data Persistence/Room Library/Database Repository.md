@@ -1,7 +1,7 @@
-In this task, you implement the `ItemsRepository` interface and `OfflineItemsRepository` class to provide `get`, `insert`, `delete`, and `update` entities from the database.
+In this task, you implement the [[ItemsRepository]] [[Interface]] and [[OfflineItemsRepository]] [[Kotlin Class|Class]] to provide `get`, `insert`, `delete`, and `update` entities from the [[Database]].
 
-1. Open the `ItemsRepository.kt` file under the `data` package.
-2. Add the following functions to the interface, which map to the DAO implementation.
+1. Open the [[ItemsRepository]].kt file under the `data` package.
+2. Add the following functions to the interface, which map to the [[Data Access Object|DAO]] implementation.
 
 ```kotlin
 import kotlinx.coroutines.flow.Flow
@@ -37,14 +37,14 @@ interface ItemsRepository {
 }
 ```
 
-3. Open the `OfflineItemsRepository.kt` file under the `data` package.
-4. Pass in a constructor parameter of the type `ItemDao`.
+3. Open the [[OfflineItemsRepository]].kt file under the `data` package.
+4. Pass in a [[Kotlin Constructor|constructor]] [[Parameter]] of the type [[ItemDao]].
 
 ```kotlin
 class OfflineItemsRepository(private val itemDao: ItemDao) : ItemsRepository
 ```
 
-5. In the `OfflineItemsRepository` class, override the functions defined in the `ItemsRepository` interface and call the corresponding functions from the `ItemDao`.
+5. In the [[OfflineItemsRepository]] class, override the functions defined in the [[ItemsRepository]] interface and call the corresponding functions from the [[ItemDao]].
 
 ```kotlin
 import kotlinx.coroutines.flow.Flow

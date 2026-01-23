@@ -22,7 +22,7 @@ The role of the UI layer, or presentation layer, is to display the application d
 The UI layer is made up of the following components:
 
 - **UI elements:** components that render the data on the screen. You build these elements using [Jetpack Compose](https://developer.android.com/jetpack/compose).
-- **[[State in Compose|State]] holders:** components that hold the data, expose it to the UI, and handle the app logic. An example state holder is [[View model]].
+- **[[State in Compose|State]] holders:** components that hold the data, expose it to the UI, and handle the app logic. An example state holder is [[ViewModel]].
 
 ![[image-1.png|457x319]]
 

@@ -40,24 +40,24 @@ fun CreationExtras.inventoryApplication(): InventoryApplication =
 
 ```
 
-This Kotlin code defines a centralized factory for creating ViewModels in an Android inventory app, enabling dependency injection for database-related components without tight coupling between UI layers and data persistence.
+This [[Kotlin]] code defines a centralized [[Factory]] for creating ViewModels in an [[Android]] inventory app, enabling [[Dependency Injection|DI]] for [[Database]]-related components without tight coupling between [[User Interface|UI]] layers and [[Data Persistence]].
 
 ## Purpose of AppViewModelProvider
 
-The `object AppViewModelProvider` serves as a singleton factory provider for the app's ViewModels, using `viewModelFactory` (from AndroidX Lifecycle library). This pattern follows recommended Android architecture—separating UI (ViewModels), business logic, and data layers (Repository pattern)—to manage database operations cleanly. ViewModels like `ItemEditViewModel` depend on `itemsRepository`, which typically abstracts Room database access, coroutines/Flow for async queries, and possibly remote APIs.[](https://stackoverflow.com/questions/27915801/android-app-architecture-separate-code-and-database-layers)
+The [[Kotlin Object|Object]] AppViewModelProvider serves as a singleton [[Factory]] provider for the app's ViewModels, using `viewModelFactory` (from AndroidX Lifecycle library). This pattern follows recommended Android architecture—separating UI (ViewModels), business logic, and data layers ([[Repository]] pattern)—to manage [[Database]] operations cleanly. ViewModels like [[ItemEditViewModel]] depend on [[ItemsRepository]], which typically abstracts [[Room]] [[Database]] access, [[Coroutines]]/Flow for async queries, and possibly remote APIs.[](https://stackoverflow.com/questions/27915801/android-app-architecture-separate-code-and-database-layers)
 
 ## ViewModel Initializers Explained
 
-Each `initializer` block creates a specific ViewModel instance with required dependencies:
+Each `initializer` block creates a specific [[ViewModel]] instance with required dependencies:
 
-- `ItemEditViewModel` and `ItemDetailsViewModel` receive a `SavedStateHandle` (for surviving configuration changes like rotations) and the repository from `inventoryApplication().container.itemsRepository`.
-- `ItemEntryViewModel` and `HomeViewModel` only need the repository.  
-    The factory matches ViewModel classes automatically at runtime, injecting the shared `itemsRepository`—ensuring all UI components use the same database instance without passing Context or Repository manually.[](https://stackoverflow.com/questions/76210060/android-correct-way-to-initialize-viewmodel-with-dependencies-viewmodelprovide)
+- [[ItemEditViewModel]] and [[ItemDetailsViewModel]] receive a `SavedStateHandle` (for surviving configuration changes like rotations) and the [[Repository]] from [[InventoryApplication]]().container.[[ItemsRepository]].
+- [[ItemEntryViewModel]] and [[HomeViewModel]] only need the [[Repository]].  
+    The factory matches ViewModel classes automatically at runtime, injecting the shared [[ItemsRepository]]—ensuring all UI components use the same [[Database Instance]] without passing Context or Repository manually.[](https://stackoverflow.com/questions/76210060/android-correct-way-to-initialize-viewmodel-with-dependencies-viewmodelprovide)
 
 ## Dependency Injection Flow
 
-`inventoryApplication().container.itemsRepository` retrieves the app-wide Repository from a custom `InventoryApplication` subclass. In Android architecture:
-- `Application.container` holds singletons like Database (Room), DAO, and Repository.
+[[InventoryApplication]]().container.itemsRepository retrieves the app-wide Repository from a custom [[InventoryApplication]] subclass. In Android architecture:
+- `Application.container` holds singletons like Database ([[Room]]), [[Data Access Object|DAO]], and Repository.
 - This avoids leaking Context into ViewModels and promotes testability (e.g., swap Repository for fakes).[](https://stackoverflow.com/questions/76210060/android-correct-way-to-initialize-viewmodel-with-dependencies-viewmodelprovide)​  
     Usage in Activity/Fragment: `viewModel(factory = AppViewModelProvider.Factory)` creates instances transparently.
 
@@ -67,8 +67,8 @@ The `inventoryApplication()` extension on `CreationExtras` extracts `InventoryAp
 
 ## Database Architecture Benefits
 
-In broader Android MVVM with Room:
+In broader Android [[Model-View-ViewModel|MVVM]] with [[Room]]:
 
-- Repository handles CRUD on database (e.g., `Flow<List<Item>> getAllItems()`).
-- ViewModels expose this as StateFlow/LiveData to UI, surviving config changes.
+- Repository handles [[CRUD]] on database (e.g., `Flow<List<Item>> getAllItems()`).
+- ViewModels expose this as [[StateFlow]]/LiveData to UI, surviving config changes.
 - Factory centralizes access, reducing boilerplate and enabling Hilt/Dagger integration for production apps.

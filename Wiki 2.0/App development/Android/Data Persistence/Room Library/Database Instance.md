@@ -1,22 +1,22 @@
-In this task, you create a [`RoomDatabase`](https://developer.android.com/reference/androidx/room/RoomDatabase) that uses your Entity and DAO from the previous tasks. The database class defines the list of entities and DAOs.
+In this task, you create a [`RoomDatabase`](https://developer.android.com/reference/androidx/room/RoomDatabase) that uses your [[Entity]] and [[Data Access Object|DAO]] from the previous tasks. The [[Database]] [[Kotlin Class|Class]] defines the list of entities and DAOs.
 
-The [`Database`](https://developer.android.com/reference/androidx/room/Database) class provides your app with instances of the DAOs you define. In turn, the app can use the DAOs to retrieve data from the database as instances of the associated data entity objects. The app can also use the defined data entities to update rows from the corresponding tables or to create new rows for insertion.
+The [`Database`](https://developer.android.com/reference/androidx/room/Database) class provides your app with instances of the DAOs you define. In turn, the app can use the DAOs to retrieve data from the database as instances of the associated data [[Entity]] objects. The app can also use the defined data entities to update rows from the corresponding tables or to create new rows for insertion.
 
-==You need to create an abstract `RoomDatabase` class and annotate it with `@Database`. This class has one method that returns the existing instance of the `RoomDatabase` if the database doesn't exist.==
+==You need to create an abstract `RoomDatabase` class and annotate it with @[[Database]]. This class has one [[Kotlin Class Method|Method]] that returns the existing [[Kotlin Object|Instance]] of the `RoomDatabase` if the database doesn't exist.==
 
 Here's the general process for getting the `RoomDatabase` instance:
 
-- Create a `public abstract` class that extends `RoomDatabase`. The new abstract class you define acts as a database holder. The class you define is abstract because `Room` creates the implementation for you.
-- Annotate the class with `@Database`. In the arguments, list the entities for the database and set the version number.
-- Define an abstract method or property that returns an `ItemDao` instance, and the `Room` generates the implementation for you.
+- Create a `public abstract` class that extends `RoomDatabase`. The new abstract class you define acts as a database holder. The class you define is abstract because [[Room]] creates the implementation for you.
+- Annotate the class with @[[Database]]. In the [[Arguments]], list the entities for the database and set the version number.
+- Define an abstract method or property that returns an [[ItemDao]] instance, and the [[Room]] generates the implementation for you.
 - You only need one instance of the `RoomDatabase` for the whole app, so make the `RoomDatabase` a singleton.
-- Use `Room`'s [`Room.databaseBuilder`](https://developer.android.com/reference/androidx/room/Room#databaseBuilder%28android.content.Context,java.lang.Class,kotlin.String%29) to create your (`item_database`) database only if it doesn't exist. Otherwise, return the existing database
+- Use [[Room]]'s [`Room.databaseBuilder`](https://developer.android.com/reference/androidx/room/Room#databaseBuilder%28android.content.Context,java.lang.Class,kotlin.String%29) to create your (`item_database`) database only if it doesn't exist. Otherwise, return the existing database
 
 ## Create the Database
 
-1. In the `data` package, create a Kotlin class `InventoryDatabase.kt`.
+1. In the `data` package, create a [[Kotlin]] class `InventoryDatabase.kt`.
 2. In the `InventoryDatabase.kt` file, make `InventoryDatabase` class an `abstract` class that extends `RoomDatabase`.
-3. Annotate the class with `@Database`. Disregard the missing parameters error, which you fix in the next step.
+3. Annotate the class with `@[[Database]]`. Disregard the missing parameters error, which you fix in the next step.
 
 ```kotlin
 import androidx.room.Database
@@ -26,7 +26,7 @@ import androidx.room.RoomDatabase
 abstract class InventoryDatabase : RoomDatabase() {}
 ```
 
-The `@Database` annotation requires several arguments so that `Room` can build the database.
+The `@Database` annotation requires several arguments so that `Room` can build the [[Database]].
 
 4. Specify the `Item` as the only class with the list of `entities`.
 5. Set the `version` as `1`**.** Whenever you change the schema of the database table, you have to increase the version number.
@@ -36,19 +36,19 @@ The `@Database` annotation requires several arguments so that `Room` can build t
 @Database(entities = [Item::class], version = 1, exportSchema = false)
 ```
 
-7. Inside the body of the class, declare an abstract function that returns the `ItemDao` so that the database knows about the DAO.
+7. Inside the body of the class, declare an abstract [[Function]] that returns the [[ItemDao]] so that the database knows about the [[Data Access Object|DAO]].
 
 ```kotlin
 abstract fun itemDao(): ItemDao
 ```
 
-8. Below the abstract function, define a `companion object`, which allows access to the methods to create or get the database and uses the class name as the qualifier.
+8. Below the abstract function, define a companion [[Kotlin Object|Object]], which allows access to the methods to create or get the database and uses the class name as the qualifier.
 
 ```kotlin
  companion object {}
 ```
 
-9. Inside the `companion` object, declare a private nullable variable `Instance` for the database and initialize it to `null`.
+9. Inside the [[companion object]], declare a private nullable variable `Instance` for the database and initialize it to `null`.
 
 The `Instance` variable keeps a reference to the database, when one has been created. This helps maintain a single instance of the database opened at a given time, which is an expensive resource to create and maintain.
 
@@ -61,7 +61,7 @@ The value of a volatile variable is never cached, and all reads and writes are t
 private var Instance: InventoryDatabase? = null
 ```
 
-11. Below `Instance`, while still inside the `companion` object, define a `getDatabase()`method with a `Context` parameter that the database builder needs.
+11. Below `Instance`, while still inside the `companion` object, define a `getDatabase()`method with a `Context` [[Parameter]] that the database builder needs.
 12. Return a type `InventoryDatabase`. An error message appears because `getDatabase()` isn't returning anything yet.
 
 ```kotlin
@@ -70,16 +70,16 @@ import android.content.Context
 fun getDatabase(context: Context): InventoryDatabase {}
 ```
 
-Multiple threads can potentially ask for a database instance at the same time, which results in two databases instead of one. This issue is known as a [race condition](https://en.wikipedia.org/wiki/Race_condition). Wrapping the code to get the database inside a `synchronized` block means that only one thread of execution at a time can enter this block of code, which makes sure the database only gets initialized once. Use `synchronized{}` block to avoid the race condition.
+Multiple threads can potentially ask for a [[Database]] instance at the same time, which results in two databases instead of one. This issue is known as a [race condition](https://en.wikipedia.org/wiki/Race_condition). Wrapping the code to get the [[Database]] inside a `synchronized` block means that only one thread of execution at a time can enter this block of code, which makes sure the [[Database]] only gets initialized once. Use `synchronized{}` block to avoid the race condition.
 
-13. Inside `getDatabase()`, return the `Instance` variable—or, if `Instance` is null, initialize it inside a `synchronized{}` block. Use the elvis operator(`?:`) to do this.
-14. Pass in `this`, the companion object. You fix the error in later steps.
+13. Inside `getDatabase()`, return the `Instance` variable—or, if `Instance` is [[null]], initialize it inside a `synchronized{}` block. Use the [[Elvis Operator]](`?:`) to do this.
+14. Pass in `this`, the [[Companion Object]]. You fix the error in later steps.
 
 ```kotlin
 return Instance ?: synchronized(this) { }
 ```
 
-15. Inside the synchronized block, use the database builder to get the database. Continue to ignore the errors, which you fix in the next steps.
+15. Inside the synchronized block, use the [[Database]] builder to get the [[Database]]. Continue to ignore the errors, which you fix in the next steps.
 
 ```kotlin
 import androidx.room.Room
@@ -93,7 +93,7 @@ Room.databaseBuilder()
 Room.databaseBuilder(context, InventoryDatabase::class.java, "item_database")
 ```
 
-Android Studio generates a Type Mismatch error. To remove this error, you have to add a `build()` in the following steps.
+[[Android]] Studio generates a Type Mismatch error. To remove this error, you have to add a `build()` in the following steps.
 
 17. Add the required migration strategy to the builder. Use `.` [`fallbackToDestructiveMigration()`](https://developer.android.com/reference/androidx/room/RoomDatabase.Builder#fallbackToDestructiveMigration\(\)).
 
@@ -101,7 +101,7 @@ Android Studio generates a Type Mismatch error. To remove this error, you have t
 .fallbackToDestructiveMigration()
 ```
 
-**Note**: Normally, you would provide a migration object with a migration strategy for when the schema changes. A _migration object_ is an object that defines how you take all rows with the old schema and convert them to rows in the new schema, so that no data is lost. [Migration](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929) is beyond the scope of this codelab, but the term refers to when the schema is changed and you need to move your date without losing the data. Since this is a sample app, a simple alternative is to destroy and rebuild the database, which means that the inventory data is lost. For example, if you change something in the entity class, like adding a new parameter, you can allow the app to delete and re-initialize the database.
+**Note**: Normally, you would provide a migration object with a migration strategy for when the schema changes. A _migration object_ is an object that defines how you take all rows with the old schema and convert them to rows in the new schema, so that no data is lost. [Migration](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929) is beyond the scope of this codelab, but the term refers to when the schema is changed and you need to move your date without losing the data. Since this is a sample app, a simple alternative is to destroy and rebuild the database, which means that the inventory data is lost. For example, if you change something in the [[Entity]] class, like adding a new parameter, you can allow the app to delete and re-initialize the database.
 
 18. To create the database instance, call `.build()`. This call removes the Android Studio errors.
 

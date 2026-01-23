@@ -1,15 +1,15 @@
 ### Add a function in the `ViewModel`
 
-1. In `ItemDetailsViewModel.kt`, inside the `ItemDetailsViewModel` class, add a function called `reduceQuantityByOne()` with no parameters.
+1. In [[ItemDetailsViewModel]].kt, inside the [[ItemDetailsViewModel]] [[Kotlin Class|Class]], add a [[Function]] called `reduceQuantityByOne()` with no parameters.
 
 ```kotlin
 fun reduceQuantityByOne() {
 }
 ```
 
-2. Inside the function, start a coroutine with `viewModelScope.launch{}`.
+2. Inside the function, start a coroutine with [[ViewModelScope]].launch{}.
 
-**Note:** You must run database operations inside a coroutine.
+**Note:** You must run [[Database]] operations inside a coroutine.
 
 ```kotlin
 import kotlinx.coroutines.launch
@@ -26,10 +26,10 @@ viewModelScope.launch {
 val currentItem = uiState.value.toItem()
 ```
 
-The `uiState.value` is of the type **`ItemUiState`**. You convert it to the `Item` entity type with the extension function _`toItem`_`()`.
+The `uiState.value` is of the type **`ItemUiState`**. You convert it to the `Item` [[Entity]] type with the extension function _`toItem`_`()`.
 
 4. Add an `if` statement to check if the `quality` is greater than `0`.
-5. Call `updateItem()` on `itemsRepository` and pass in the updated `currentItem`. Use `copy()` to update the `quantity` value so that the function looks like the following:
+5. Call `updateItem()` on [[ItemsRepository]] and pass in the updated `currentItem`. Use `copy()` to update the `quantity` value so that the function looks like the following:
 
 ```kotlin
 fun reduceQuantityByOne() {
@@ -42,9 +42,9 @@ fun reduceQuantityByOne() {
 }
 ```
 
-6. Go back to `ItemDetailsScreen.kt`.
-7. In the `ItemDetailsScreen` composable, go to the `ItemDetailsBody()` function call.
-8. In the `onSellItem` lambda, call `viewModel.reduceQuantityByOne()`.
+6. Go back to [[ItemDetailsScreen]].kt.
+7. In the [[ItemDetailsScreen]] composable, go to the `ItemDetailsBody()` function call.
+8. In the `onSellItem` [[Lambda]], call [[ViewModel]]`.reduceQuantityByOne()`.
 
 ```kotlin
 ItemDetailsBody(
@@ -65,7 +65,7 @@ After the quantity reaches zero, tap **Sell** again. There is no visual change b
 
 To give users better feedback, you might want to disable the **Sell** button when there is no item to sell.
 
-12. In the `ItemDetailsViewModel` class, set `outOfStock` value based on the **`it`**`.quantity` in the `map` transformation.
+12. In the [[ItemDetailsViewModel]] class, set `outOfStock` value based on the **`it`**`.quantity` in the `map` transformation.
 13. Run your app. Notice that the app disables the **Sell** button when the quantity in stock is zero.
 
 (Needed to update button logic with uistate. outOfStock)
