@@ -1,5 +1,5 @@
 [[Kotlin Class Properties|properties]] in [[Kotlin]] use a [[Backing Field]] to hold their values in memory. You use the `field` identifier to reference it.
-
+	
 You can reuse the range-check code in the setter [[Function]] with _delegates_. Instead of using a field, and a [[Accessor|getter and setter]] function to manage the value, the delegate manages it.
 
 The syntax to create property delegates starts with the declaration of a variable followed by the `by` [[Keywords and operators|keyword]], and the delegate [[Kotlin Object|Object]] that handles the getter and setter functions for the property.
