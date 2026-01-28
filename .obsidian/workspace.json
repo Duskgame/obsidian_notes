@@ -11,10 +11,24 @@
             "id": "adeb89ad560e1d0c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Daily notes/01.2026/28.01.2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "28.01.2026"
             }
           }
         ]
@@ -71,7 +85,7 @@
             }
           },
           {
-            "id": "c9216079da645902",
+            "id": "a08baba5dacee0fb",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -191,32 +205,33 @@
   },
   "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "Daily notes/01.2026/27.01.2026.md",
+    "Daily notes/01.2026/28.01.2026.md",
+    "School/Lernfeld 2/Lernfeld 2 Link.md",
+    "Daily notes/01.2026/26.01.2026.md",
+    "School/Lernfeld 2/Nutzwertanalyse.md",
+    "School/Onboarding.md",
+    "School/Lernfeld 2/Angebotsschreiben.md",
+    "School/Lernfeld 2/Übergabegeschpräch.md",
+    "School/Lernfeld 2/Lernfeld 2.md",
+    "School/Lernfeld 2/.md",
+    "School/Lernfeld 2",
+    "School/Untitled.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Instance.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Repository.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database AppContainer.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Update Entity.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Display Entity Details.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Display Database data.md",
+    "Daily notes/01.2026/25.01.2026.md",
+    "Daily notes/01.2026/23.01.2026.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
+    "Daily notes/01.2026/22.01.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Emit UI State in ViewModel.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Inspector.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database ViewModel interaction.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database AppContainer.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Repository.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Database Instance.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Data Access Object.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Entity.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Main Components.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Data Persistence.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEntryViewModel.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDetailsScreen.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDetailsViewModel.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/Room Exampleproject Structure.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/OfflineItemsRepository.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemsRepository.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemHomeScreen.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemEntity.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDatabase.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemDao.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/ItemAppContainer.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryNavigationDestination.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryNavGraph.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryApplication.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/HomeViewModel.md",
     "Imports/android_startup_flowchart.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example",
     "Imports/image-32.png",
@@ -237,7 +252,6 @@
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
     "Untitled.canvas",
     "Untitled.base",
-    "Wiki 2.0/App development/Android/jetpack/Navigation",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
