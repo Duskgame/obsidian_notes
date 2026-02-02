@@ -53,20 +53,20 @@
       "query": "path:School  ",
       "color": {
         "a": 1,
-        "rgb": 16741120
+        "rgb": 26129
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -0.8,
+  "textFadeMultiplier": 1.1,
   "nodeSizeMultiplier": 0.44453125,
-  "lineSizeMultiplier": 0.67421875,
+  "lineSizeMultiplier": 0.29140625,
   "collapse-forces": false,
-  "centerStrength": 0.669270833333333,
-  "repelStrength": 8.07291666666667,
-  "linkStrength": 0.752604166666667,
-  "linkDistance": 122,
-  "scale": 0.2172319452248518,
+  "centerStrength": 0.544270833333333,
+  "repelStrength": 10.0520833333333,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.16530975256262362,
   "close": false
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/Daily template.md",
+                "file": "Daily notes/02.2026/02.02.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily template"
+              "title": "02.02.2026"
             }
           }
         ]
@@ -206,6 +206,7 @@
   "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
     "Daily notes/02.2026/02.02.2026.md",
+    "Daily notes/Daily template.md",
     "School/Lernfeld 4/1. Teilhandlung Arbeitsprozess organisieren.md",
     "Daily notes/10.2025/10.2025.md",
     "School/Lernfeld 4/Erweiterungsauftag LF 4.md",
@@ -237,7 +238,6 @@
     "FOSDEM/Browser and Web Devroom/Browser and Web Devroom.md",
     "FOSDEM/Browser and Web Devroom",
     "FOSDEM",
-    "Daily notes/01.2026/30.01.2026.md",
     "Untitled.base",
     "Untitled.canvas",
     "School/Nebenfächer/Fachenglisch",
