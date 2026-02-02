@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/02.02.2026.md",
+                "file": "School/Lernfeld 4/Erweiterungsauftag LF 4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02.02.2026"
+              "title": "Erweiterungsauftag LF 4"
             }
           }
         ]
@@ -203,10 +203,25 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "adeb89ad560e1d0c",
+  "active": "88de073c18d1e185",
   "lastOpenFiles": [
+    "Daily notes/02.2026/02.02.2026.md",
+    "School/Lernfeld 4/Erweiterungsauftag LF 4.md",
+    "School/Lernfeld 4/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
+    "School/Lernfeld 4/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
+    "School/Lernfeld 4/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
+    "School/Lernfeld 4/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
+    "School/Lernfeld 4/1. Teilhandlung Arbeitsprozess organisieren.md",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
+    "Daily notes/02.2026/02.2026.md",
+    "Daily notes/02.2026",
+    "Imports/image-33.png",
+    "School/Lernfeld 4/Lernfeld 4.md",
+    "School/Lernfeld 2/Lernfeld 2.md",
+    "School/Lernfeld 1/Lernfeld 1.md",
+    "School/Lernfeld 4",
     "FOSDEM/Database Devroom/You dont need an ORM.md",
-    "Daily notes/01.2026/02.02.2026.md",
     "FOSDEM/Database Devroom/Database Devroom.md",
     "FOSDEM/FOSS on Mobile Devroom/Reproducible Builds for Android apps.md",
     "FOSDEM/Database Devroom",
@@ -223,26 +238,12 @@
     "FOSDEM",
     "Daily notes/01.2026/30.01.2026.md",
     "Daily notes/01.2026/29.01.2026.md",
-    "Wiki 2.0/Wiki 2.0.md",
     "Untitled.base",
     "Untitled.canvas",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Aggregate Functions.md",
-    "Wiki 2.0/AWS.md",
-    "School/Nebenfächer/Fachenglisch/Fachenglisch 29.1.26.md",
-    "School/Nebenfächer/Fachenglisch/Fachenglisch.md",
-    "School/Nebenfächer/Fachenglisch/Fachenglisch Links.md",
     "School/Nebenfächer/Fachenglisch",
-    "School/Nebenfächer/Nebenfächer.md",
     "School/Nebenfächer",
-    "School/Untitled.md",
-    "Daily notes/01.2026/28.01.2026.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL ORDER BY.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIMIT.md",
     "Wiki 2.0/App development/Android/Data Persistence/DataStore Jetpack Component",
-    "School/Lernfeld 2",
     "Imports/android_startup_flowchart.png",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example",
     "Imports/image-32.png",
     "Imports/image-31.png",
     "Imports/image-30.png",
@@ -251,7 +252,6 @@
     "Imports/image-27.png",
     "Imports/image-26.png",
     "Imports/image-25.png",
-    "Imports/image-24.png",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]

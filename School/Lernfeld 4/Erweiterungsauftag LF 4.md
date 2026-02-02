@@ -1,0 +1,1 @@
+Da Sie auch in Zukunft mit der Schutzbedarfsanalyse in Ihrem Unternehmen beschäftigt sein werden, bittet die Geschäftsleitung Sie, weitere, aus Ihrer Sicht relevante Datensicherheitsprobleme zu beleuchten und mögliche Lösungen vorzustellen. Sie sind dabei in der Wahl der Themen und technischen Bereiche frei.
