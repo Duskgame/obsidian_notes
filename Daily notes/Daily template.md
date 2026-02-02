@@ -1,6 +1,6 @@
 #dailynote
 
-## Daily goal/s:
+## To Do's:
 - [ ] 
 
 ## Progress:

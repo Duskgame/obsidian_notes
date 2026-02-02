@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 5419488
       }
+    },
+    {
+      "query": "path:School  ",
+      "color": {
+        "a": 1,
+        "rgb": 16741120
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +67,6 @@
   "repelStrength": 8.07291666666667,
   "linkStrength": 0.752604166666667,
   "linkDistance": 122,
-  "scale": 0.5231034502232312,
+  "scale": 0.2172319452248518,
   "close": false
 }
