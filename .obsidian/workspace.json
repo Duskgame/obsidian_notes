@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/01.2026/29.01.2026.md",
+                "file": "Daily notes/01.2026/02.02.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "29.01.2026"
+              "title": "02.02.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "a08baba5dacee0fb",
+            "id": "88de073c18d1e185",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -205,9 +205,26 @@
   },
   "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "FOSDEM/Database Devroom/You dont need an ORM.md",
+    "Daily notes/01.2026/02.02.2026.md",
+    "FOSDEM/Database Devroom/Database Devroom.md",
+    "FOSDEM/FOSS on Mobile Devroom/Reproducible Builds for Android apps.md",
+    "FOSDEM/Database Devroom",
+    "FOSDEM/FOSS on Mobile Devroom/FOSS on Mobile Devroom.md",
+    "FOSDEM/FOSS on Mobile Devroom/Why Android Builds Are so slow and what we can do about it.md",
+    "FOSDEM/FOSS on Mobile Devroom/.md",
+    "Daily notes/01.2026/31.01.2026.md",
+    "FOSDEM/FOSDEM.md",
+    "FOSDEM/Browser and Web Devroom/Outside the beaten pth of CSS.md",
+    "FOSDEM/FOSS on Mobile Devroom",
+    "FOSDEM/Browser and Web Devroom/Improving the experience of developing for the web, one feature at a time.md",
+    "FOSDEM/Browser and Web Devroom/Browser and Web Devroom.md",
+    "FOSDEM/Browser and Web Devroom",
+    "FOSDEM",
+    "Daily notes/01.2026/30.01.2026.md",
+    "Daily notes/01.2026/29.01.2026.md",
     "Wiki 2.0/Wiki 2.0.md",
     "Untitled.base",
-    "Daily notes/01.2026/29.01.2026.md",
     "Untitled.canvas",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Aggregate Functions.md",
     "Wiki 2.0/AWS.md",
@@ -222,20 +239,7 @@
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL ORDER BY.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIMIT.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL INSERT.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DISTINCT.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL DELETE.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Classes and Objects/Delegates.md",
-    "Wiki 2.0/App development/Android/Data Persistence/DataStore Jetpack Component/DataStore.md",
-    "Wiki 2.0/App development/Android/Data Persistence/DataStore Jetpack Component/DataStore Jetpack Component.md",
     "Wiki 2.0/App development/Android/Data Persistence/DataStore Jetpack Component",
-    "Daily notes/01.2026/27.01.2026.md",
-    "School/Lernfeld 2/Angebotsschreiben.md",
-    "School/Lernfeld 2/Lernfeld 2 Link.md",
-    "Daily notes/01.2026/26.01.2026.md",
-    "School/Lernfeld 2/Nutzwertanalyse.md",
     "School/Lernfeld 2",
     "Imports/android_startup_flowchart.png",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example",
@@ -243,15 +247,11 @@
     "Imports/image-31.png",
     "Imports/image-30.png",
     "Imports/image-29.png",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library",
     "Imports/image-28.png",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "Imports/image-27.png",
     "Imports/image-26.png",
     "Imports/image-25.png",
     "Imports/image-24.png",
-    "Wiki 2.0/App development/Android/Data Persistence",
-    "Wiki 2.0/App development/Android/jetpack/Jetpack Examples/Amphibian Network Architecture ",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]

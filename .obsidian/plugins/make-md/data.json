@@ -70,7 +70,9 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/DataStore Jetpack Component",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
-    "//School/School/Nebenfächer/School/Nebenfächer/Fachenglisch"
+    "//School/School/Nebenfächer/School/Nebenfächer/Fachenglisch",
+    "//FOSDEM",
+    "//FOSDEM/FOSDEM/Database Devroom"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
