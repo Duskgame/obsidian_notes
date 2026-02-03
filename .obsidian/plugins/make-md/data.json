@@ -44,10 +44,8 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin",
-    "//Wiki 2.0/Wiki 2.0/App development",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android",
     "//App project/App project/Testing",
-    "//Wiki 2.0/Wiki 2.0/General",
     "//App project/App project/Testing/App project/Testing/Android Test",
     "//App project/App project/Testing Projects",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Concurrency",
@@ -75,7 +73,11 @@
     "//School/School/Lernfeld 4",
     "//School/School/Lernfeld 2",
     "//Daily notes",
-    "//Daily notes/Daily notes/02.2026"
+    "//Daily notes/Daily notes/02.2026",
+    "//Wiki 2.0",
+    "//Wiki 2.0/Wiki 2.0/School Wiki/Wiki 2.0/School Wiki/Projektmanagement",
+    "//Imports/Imports/Excalidraw",
+    "//Excalidraw"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

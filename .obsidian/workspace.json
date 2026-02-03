@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/02.2026/02.02.2026.md",
+                "file": "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,48 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02.02.2026"
+              "title": "3. Teilhandlung Brainstorming zur Problemanalyse durchführen"
+            }
+          },
+          {
+            "id": "bdab97f86af5cf6d",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "73a7a5de55c99c51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily notes/02.2026/03.02.2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "03.02.2026"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,55 +241,55 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "adeb89ad560e1d0c",
+  "active": "73a7a5de55c99c51",
   "lastOpenFiles": [
-    "Daily notes/02.2026/02.02.2026.md",
-    "Daily notes/Daily template.md",
-    "School/Lernfeld 4/1. Teilhandlung Arbeitsprozess organisieren.md",
-    "Daily notes/10.2025/10.2025.md",
+    "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
+    "School/Lernfeld 4/Brainstorming zur Problemanalyse.md",
+    "Excalidraw/Excalidraw.md",
+    "Daily notes/02.2026/03.02.2026.md",
+    "Untitled.base",
+    "Imports/image-33.png",
+    "Imports/android_startup_flowchart.png",
+    "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
+    "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
+    "Imports/Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
+    "Imports/Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
+    "Imports/image-31.png",
+    "Imports/image-32.png",
+    "Excalidraw/Drawing 2026-02-03 12.39.46.excalidraw.md",
+    "Excalidraw",
     "School/Lernfeld 4/Erweiterungsauftag LF 4.md",
+    "School/Lernfeld 4/Lernfeld 4.md",
+    "School/Lernfeld 4/1. Teilhandlung Arbeitsprozess organisieren.md",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
+    "School/Lernfeld 4/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
+    "Daily notes/02.2026/02.02.2026.md",
+    "Wiki 2.0/School Wiki/Projektmanagement/SMART Methode.md",
+    "Wiki 2.0/School Wiki/Projektmanagement/Projektmanagement.md",
+    "Wiki 2.0/School Wiki/Projektmanagement",
+    "Wiki 2.0/School Wiki/School Wiki.md",
+    "Wiki 2.0/School Wiki",
+    "Wiki 2.0/App development/App development.md",
+    "Daily notes/Daily template.md",
+    "Daily notes/10.2025/10.2025.md",
     "School/Lernfeld 4/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
     "School/Lernfeld 4/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "School/Lernfeld 4/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
-    "School/Lernfeld 4/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "Daily notes/02.2026/02.2026.md",
     "Daily notes/02.2026",
-    "Imports/image-33.png",
-    "School/Lernfeld 4/Lernfeld 4.md",
     "School/Lernfeld 2/Lernfeld 2.md",
     "School/Lernfeld 1/Lernfeld 1.md",
     "School/Lernfeld 4",
     "FOSDEM/Database Devroom/You dont need an ORM.md",
-    "FOSDEM/Database Devroom/Database Devroom.md",
-    "FOSDEM/FOSS on Mobile Devroom/Reproducible Builds for Android apps.md",
     "FOSDEM/Database Devroom",
-    "FOSDEM/FOSS on Mobile Devroom/FOSS on Mobile Devroom.md",
-    "FOSDEM/FOSS on Mobile Devroom/Why Android Builds Are so slow and what we can do about it.md",
-    "FOSDEM/FOSS on Mobile Devroom/.md",
-    "Daily notes/01.2026/31.01.2026.md",
-    "FOSDEM/FOSDEM.md",
-    "FOSDEM/Browser and Web Devroom/Outside the beaten pth of CSS.md",
     "FOSDEM/FOSS on Mobile Devroom",
-    "FOSDEM/Browser and Web Devroom/Improving the experience of developing for the web, one feature at a time.md",
-    "FOSDEM/Browser and Web Devroom/Browser and Web Devroom.md",
     "FOSDEM/Browser and Web Devroom",
     "FOSDEM",
-    "Untitled.base",
     "Untitled.canvas",
-    "School/Nebenfächer/Fachenglisch",
-    "School/Nebenfächer",
-    "Wiki 2.0/App development/Android/Data Persistence/DataStore Jetpack Component",
-    "Imports/android_startup_flowchart.png",
-    "Imports/image-32.png",
-    "Imports/image-31.png",
     "Imports/image-30.png",
     "Imports/image-29.png",
     "Imports/image-28.png",
     "Imports/image-27.png",
-    "Imports/image-26.png",
-    "Imports/image-25.png",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
