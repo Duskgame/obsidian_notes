@@ -11,65 +11,13 @@
             "id": "adeb89ad560e1d0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3. Teilhandlung Brainstorming zur Problemanalyse durchführen"
-            }
-          },
-          {
-            "id": "bdab97f86af5cf6d",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "73a7a5de55c99c51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/02.2026/03.02.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "03.02.2026"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +71,7 @@
             }
           },
           {
-            "id": "88de073c18d1e185",
+            "id": "48aee0bca5296558",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -241,13 +189,24 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "73a7a5de55c99c51",
+  "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "Daily notes/02.2026/04.02.2026.md",
+    "App project/Testing Projects/Android Test/MyCityNavigation.md",
+    "App project/Testing Projects/Android Test/Affirmation Testproject.md",
+    "App project/Testing Projects/Android Test/Android Test.md",
+    "App project/Testing Projects/Android Test/Courses Testproject.md",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
-    "School/Lernfeld 4/Brainstorming zur Problemanalyse.md",
-    "Excalidraw/Excalidraw.md",
+    "School/Onboarding.md",
+    "School/Lernfeld 4/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
+    "School/Lernfeld 4/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "Daily notes/02.2026/02.02.2026.md",
     "Daily notes/02.2026/03.02.2026.md",
+    "School/Lernfeld 4/Brainstorming zur Problemanalyse.md",
+    "Wiki 2.0/General/Design Principles/Repository.md",
     "Untitled.base",
+    "Excalidraw/Excalidraw.md",
     "Imports/image-33.png",
     "Imports/android_startup_flowchart.png",
     "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
@@ -261,9 +220,6 @@
     "School/Lernfeld 4/Erweiterungsauftag LF 4.md",
     "School/Lernfeld 4/Lernfeld 4.md",
     "School/Lernfeld 4/1. Teilhandlung Arbeitsprozess organisieren.md",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "School/Lernfeld 4/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
-    "Daily notes/02.2026/02.02.2026.md",
     "Wiki 2.0/School Wiki/Projektmanagement/SMART Methode.md",
     "Wiki 2.0/School Wiki/Projektmanagement/Projektmanagement.md",
     "Wiki 2.0/School Wiki/Projektmanagement",
@@ -271,16 +227,8 @@
     "Wiki 2.0/School Wiki",
     "Wiki 2.0/App development/App development.md",
     "Daily notes/Daily template.md",
-    "Daily notes/10.2025/10.2025.md",
-    "School/Lernfeld 4/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
-    "School/Lernfeld 4/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
-    "School/Lernfeld 4/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "Daily notes/02.2026/02.2026.md",
     "Daily notes/02.2026",
-    "School/Lernfeld 2/Lernfeld 2.md",
-    "School/Lernfeld 1/Lernfeld 1.md",
     "School/Lernfeld 4",
-    "FOSDEM/Database Devroom/You dont need an ORM.md",
     "FOSDEM/Database Devroom",
     "FOSDEM/FOSS on Mobile Devroom",
     "FOSDEM/Browser and Web Devroom",

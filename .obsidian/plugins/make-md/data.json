@@ -77,7 +77,9 @@
     "//Wiki 2.0",
     "//Wiki 2.0/Wiki 2.0/School Wiki/Wiki 2.0/School Wiki/Projektmanagement",
     "//Imports/Imports/Excalidraw",
-    "//Excalidraw"
+    "//Excalidraw",
+    "//App project",
+    "//App project/App project/Testing Projects/App project/Testing Projects/Android Test"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
