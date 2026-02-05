@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/Lernfeld 4 Links.md",
+                "file": "Daily notes/02.2026/05.02.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lernfeld 4 Links"
+              "title": "05.02.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "48aee0bca5296558",
+            "id": "262b825875b7944d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -205,9 +205,11 @@
   },
   "active": "adeb89ad560e1d0c",
   "lastOpenFiles": [
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL ORDER BY.md",
+    "Daily notes/02.2026/05.02.2026.md",
     "School/SuK/Workshop SuK 05.02.2026.md",
     "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "Daily notes/02.2026/05.02.2026.md",
     "School/SuK/SuK.md",
     "School/WuG/Workshop WuG 05.02.2026.md",
     "School/SuK",
@@ -239,8 +241,6 @@
     "Imports/image-32.png",
     "Excalidraw/Drawing 2026-02-03 12.39.46.excalidraw.md",
     "Excalidraw",
-    "School/Lernfeld 4/Erweiterungsauftag LF 4.md",
-    "School/Lernfeld 4/Lernfeld 4.md",
     "Wiki 2.0/School Wiki/Projektmanagement",
     "Wiki 2.0/School Wiki",
     "Daily notes/02.2026",
