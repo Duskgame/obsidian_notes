@@ -47,7 +47,6 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android",
     "//App project/App project/Testing",
     "//App project/App project/Testing/App project/Testing/Android Test",
-    "//App project/App project/Testing Projects",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Concurrency",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Wiki 2.0/App development/Kotlin/Programming Kotlin/Kotlin Concurrency/Coroutine concepts",
@@ -70,8 +69,6 @@
     "//School/School/Nebenfächer/School/Nebenfächer/Fachenglisch",
     "//FOSDEM/FOSDEM/Database Devroom",
     "//School",
-    "//School/School/Lernfeld 4",
-    "//School/School/Lernfeld 2",
     "//Daily notes",
     "//Daily notes/Daily notes/02.2026",
     "//Wiki 2.0",
@@ -79,7 +76,9 @@
     "//Imports/Imports/Excalidraw",
     "//Excalidraw",
     "//App project",
-    "//App project/App project/Testing Projects/App project/Testing Projects/Android Test"
+    "//App project/App project/Testing Projects/App project/Testing Projects/Android Test",
+    "//School/School/WuG",
+    "//School/School/SuK"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

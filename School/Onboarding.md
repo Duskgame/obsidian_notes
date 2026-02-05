@@ -34,3 +34,9 @@ webex
 https://web.webex.com/meetings
 
 	"jonas.hauschild@bonprix.net"
+
+
+einschreibekennwort für kurse
+```
+get (user_id course_id)
+```
