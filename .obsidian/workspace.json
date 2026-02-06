@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "06.02.2026"
             }
+          },
+          {
+            "id": "03b566078b1b02bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             }
           },
           {
-            "id": "262b825875b7944d",
+            "id": "b6de8c2ea2be90df",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -203,18 +228,22 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "adeb89ad560e1d0c",
+  "active": "03b566078b1b02bc",
   "lastOpenFiles": [
+    "School/Lernfeld 4/todo/todo.md",
+    "School/Lernfeld 4/Brainstorming zur Problemanalyse.md",
     "School/SuK/Diskussion Verbot Social Media für Jugendliche unter 16 in Deutschland.md",
+    "School/Lernfeld 4/todone/todone.md",
+    "School/Lernfeld 4/todone",
+    "School/Lernfeld 4/todo",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "Daily notes/02.2026/06.02.2026.md",
+    "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
     "Daily notes/02.2026/05.02.2026.md",
     "Daily notes/Daily template.md",
     "School/SuK/Workshop SuK 05.02.2026.md",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "School/SuK/Workshop Projektdokumentation 06.02.2026.md",
-    "School/Lernfeld 4/Brainstorming zur Problemanalyse.md",
     "Daily notes/11.2025/11.2025.md",
-    "School/Lernfeld 4/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
     "Daily notes/02.2026/02.02.2026.md",
     "Daily notes/02.2026/03.02.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
@@ -231,8 +260,6 @@
     "App project/Testing Projects/Android Test/Affirmation Testproject.md",
     "App project/Testing Projects/Android Test/Android Test.md",
     "App project/Testing Projects/Android Test/Courses Testproject.md",
-    "School/Lernfeld 4/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
-    "School/Lernfeld 4/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
     "Untitled.base",
     "Imports/image-33.png",
     "Imports/android_startup_flowchart.png",
@@ -245,8 +272,6 @@
     "Wiki 2.0/School Wiki",
     "Daily notes/02.2026",
     "School/Lernfeld 4",
-    "FOSDEM/Database Devroom",
-    "FOSDEM/FOSS on Mobile Devroom",
     "Untitled.canvas",
     "Imports/image-30.png",
     "Imports/image-29.png",
