@@ -13,6 +13,17 @@ https://moodle.itech-bs14.de/mod/page/view.php?id=63965&inpopup=1
 Vereinbarung Orga
 https://moodle.itech-bs14.de/mod/book/view.php?id=159719
 
+
+Einen Client-PC mit Hilfe der IT-Grundschutz-Bausteine aus dem IT-Grundschutz-Kompendium des BSI absichern
+https://moodle.itech-bs14.de/mod/page/view.php?id=62725&inpopup=1
+
+Link Liste BSI Bausteine 
+https://moodle.itech-bs14.de/mod/page/view.php?id=89472
+übersicht mindmap zum abgleich welche bausteine geprüft werden muss
+bausteine welche anforderungen vorhanden seien sollen
+checkliste zum dokumentieren
+keine kosten
+
   
 
 - Ihr führt ein Fachgespräch und präsentiert eure Ergebnisse vor euren Fachlehrkräften. 
