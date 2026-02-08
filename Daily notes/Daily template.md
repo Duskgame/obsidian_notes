@@ -1,8 +1,5 @@
 #dailynote
 
-## To Do's:
-- [ ] 
-
 ## Progress:
 
 ## Problems:
@@ -14,3 +11,5 @@
 ## Noteworthy:
 
 ## Meetings:
+
+## To Do's:
