@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
+                "file": "Daily notes/02.2026/17.02.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.1. Auswahl und Priorisierung"
+              "title": "17.02.2026"
             }
           }
         ],
@@ -110,7 +110,7 @@
             }
           },
           {
-            "id": "b6de8c2ea2be90df",
+            "id": "9b96ed3ba38e9208",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -230,10 +230,18 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
+    "Daily notes/02.2026/16.02.2026.md",
+    "Daily notes/02.2026/17.02.2026.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryNavigationDestination.md",
+    "App project/Testing Projects/Testing Projects.md",
+    "Daily notes/02.2026/10.02.2026.md",
     "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "School/SuK/Workshop SuK 05.02.2026.md",
     "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung1.md",
+    "Daily notes/02.2026/09.02.2026.md",
     "Daily notes/02.2026/08.02.2026.md",
+    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
     "Daily notes/Daily template.md",
     "School/Lernfeld 4/todo/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "Daily notes/02.2026/06.02.2026.md",
@@ -247,19 +255,11 @@
     "School/Lernfeld 4/todo",
     "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
     "Daily notes/02.2026/05.02.2026.md",
-    "School/SuK/Workshop SuK 05.02.2026.md",
     "School/SuK/Workshop Projektdokumentation 06.02.2026.md",
     "Daily notes/11.2025/11.2025.md",
     "Daily notes/02.2026/02.02.2026.md",
-    "Daily notes/02.2026/03.02.2026.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL ORDER BY.md",
-    "School/SuK/SuK.md",
-    "School/WuG/Workshop WuG 05.02.2026.md",
     "School/SuK",
-    "School/WuG/WuG.md",
     "School/WuG",
-    "School/Onboarding.md",
     "Untitled.base",
     "Imports/image-33.png",
     "Imports/android_startup_flowchart.png",

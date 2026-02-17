@@ -38,7 +38,6 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Keywords and operators",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and operators",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Keywords and Operators1",
@@ -68,7 +67,6 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "//School/School/Nebenfächer/School/Nebenfächer/Fachenglisch",
     "//FOSDEM/FOSDEM/Database Devroom",
-    "//School",
     "//Daily notes",
     "//Daily notes/Daily notes/02.2026",
     "//Wiki 2.0",
@@ -76,11 +74,14 @@
     "//Imports/Imports/Excalidraw",
     "//Excalidraw",
     "//App project",
-    "//App project/App project/Testing Projects/App project/Testing Projects/Android Test",
-    "//School/School/Lernfeld 4",
     "//School/School/SuK",
     "//Wiki 2.0/Wiki 2.0/App development",
-    "//School/School/Lernfeld 4/School/Lernfeld 4/todo"
+    "/",
+    "//School",
+    "//School/School/Lernfeld 4",
+    "//School/School/Lernfeld 4/School/Lernfeld 4/todo",
+    "//App project/App project/Testing Projects",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/Room Library"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
