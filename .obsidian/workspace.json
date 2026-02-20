@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:test",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,8 +230,9 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
-    "Daily notes/02.2026/19.02.2026.md",
+    "App project/Testing Projects/Android Test/Basic Automated tests.md",
     "Daily notes/02.2026/20.02.2026.md",
+    "Daily notes/02.2026/19.02.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
     "Daily notes/02.2026/18.02.2026.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
@@ -255,7 +256,6 @@
     "School/Lernfeld 4/todo/todo.md",
     "School/Lernfeld 4/Brainstorming zur Problemanalyse.md",
     "School/SuK/Diskussion Verbot Social Media für Jugendliche unter 16 in Deutschland.md",
-    "School/Lernfeld 4/todone/todone.md",
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
