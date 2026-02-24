@@ -110,7 +110,7 @@
             }
           },
           {
-            "id": "5f5bffb37c568379",
+            "id": "3b7e86c41a0d920b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -230,9 +230,11 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
-    "Daily notes/02.2026/23.02.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Navigation/Bottom Navigation Bar.md",
     "Daily notes/02.2026/24.02.2026.md",
     "Daily notes/02.2026/20.02.2026.md",
+    "Daily notes/02.2026/23.02.2026.md",
+    "App project/bypass netscope @ bonprinx.md",
     "App project/Testing Projects/Android Test/Basic Automated tests.md",
     "Daily notes/02.2026/19.02.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIKE.md",
@@ -254,8 +256,6 @@
     "School/Lernfeld 4/todo/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "Daily notes/02.2026/06.02.2026.md",
     "Daily notes/10.2025/31.10.2025.md",
-    "Daily notes/10.2025/28.10.2025.md",
-    "School/Lernfeld 4/todo/todo.md",
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
