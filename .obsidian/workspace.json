@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/02.2026/24.02.2026.md",
+                "file": "Daily notes/03.2026/02.03.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "24.02.2026"
+              "title": "02.03.2026"
             }
           }
         ],
@@ -228,9 +228,20 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "03b566078b1b02bc",
+  "active": "3b7e86c41a0d920b",
   "lastOpenFiles": [
+    "Daily notes/03.2026/03.2026.md",
+    "Daily notes/03.2026",
+    "Wiki 2.0/App development/Android/Worker/WorkManager.md",
+    "Daily notes/03.2026/02.03.2026.md",
+    "Daily notes/02.2026/27.02.2026.md",
+    "Wiki 2.0/App development/Android/Worker/Worker.md",
+    "Wiki 2.0/App development/Android/Worker",
+    "Wiki 2.0/App development/Android/Untitled.md",
+    "Daily notes/02.2026/26.02.2026.md",
+    "Daily notes/02.2026/25.02.2026.md",
     "Daily notes/02.2026/24.02.2026.md",
+    "Wiki 2.0/App development/Android/jetpack/Animations.md",
     "App project/bypass netscope @ bonprinx.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Bottom Navigation Bar.md",
     "Daily notes/02.2026/20.02.2026.md",
@@ -247,15 +258,6 @@
     "Daily notes/02.2026/10.02.2026.md",
     "School/Lernfeld 4/Lernfeld 4 Links.md",
     "School/SuK/Workshop SuK 05.02.2026.md",
-    "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
-    "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung1.md",
-    "Daily notes/02.2026/09.02.2026.md",
-    "Daily notes/02.2026/08.02.2026.md",
-    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "Daily notes/Daily template.md",
-    "School/Lernfeld 4/todo/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
-    "Daily notes/02.2026/06.02.2026.md",
-    "Daily notes/10.2025/31.10.2025.md",
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
@@ -270,8 +272,6 @@
     "Excalidraw",
     "Wiki 2.0/School Wiki/Projektmanagement",
     "Wiki 2.0/School Wiki",
-    "Daily notes/02.2026",
-    "School/Lernfeld 4",
     "Untitled.canvas",
     "Imports/image-30.png",
     "Imports/image-29.png",
