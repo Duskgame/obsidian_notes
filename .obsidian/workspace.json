@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03.2026/02.03.2026.md",
+                "file": "Daily notes/03.2026/09.03.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02.03.2026"
+              "title": "09.03.2026"
             }
           }
         ],
@@ -110,7 +110,7 @@
             }
           },
           {
-            "id": "3b7e86c41a0d920b",
+            "id": "3d732487d9473ac8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -228,12 +228,19 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "3b7e86c41a0d920b",
+  "active": "03b566078b1b02bc",
   "lastOpenFiles": [
+    "Daily notes/03.2026/04.03.2026.md",
+    "Daily notes/03.2026/09.03.2026.md",
+    "Daily notes/03.2026/03.03.2026.md",
+    "App project/App Team/Manual Testing.md",
+    "App project/App Team/Mobile Apps Team.md",
+    "Daily notes/03.2026/02.03.2026.md",
+    "App project/App Team/App Team.md",
+    "App project/App Team",
+    "Wiki 2.0/App development/Android/Worker/WorkManager.md",
     "Daily notes/03.2026/03.2026.md",
     "Daily notes/03.2026",
-    "Wiki 2.0/App development/Android/Worker/WorkManager.md",
-    "Daily notes/03.2026/02.03.2026.md",
     "Daily notes/02.2026/27.02.2026.md",
     "Wiki 2.0/App development/Android/Worker/Worker.md",
     "Wiki 2.0/App development/Android/Worker",
@@ -252,12 +259,6 @@
     "Daily notes/02.2026/18.02.2026.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions/filter().md",
     "Daily notes/02.2026/17.02.2026.md",
-    "Daily notes/02.2026/16.02.2026.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room Database example/InventoryNavigationDestination.md",
-    "App project/Testing Projects/Testing Projects.md",
-    "Daily notes/02.2026/10.02.2026.md",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "School/SuK/Workshop SuK 05.02.2026.md",
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
@@ -271,7 +272,6 @@
     "Imports/image-32.png",
     "Excalidraw",
     "Wiki 2.0/School Wiki/Projektmanagement",
-    "Wiki 2.0/School Wiki",
     "Untitled.canvas",
     "Imports/image-30.png",
     "Imports/image-29.png",
