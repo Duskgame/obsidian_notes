@@ -103,5 +103,14 @@
       ],
       "key": "N"
     }
+  ],
+  "obsidian-carry-forward:carry-line-forward-link-only-selection": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }

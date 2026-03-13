@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "adeb89ad560e1d0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/02.2026/06.02.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "06.02.2026"
-            }
-          },
-          {
             "id": "03b566078b1b02bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03.2026/11.03.2026.md",
+                "file": "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11.03.2026"
+              "title": "4.1. Auswahl und Priorisierung"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             }
           },
           {
-            "id": "3d732487d9473ac8",
+            "id": "b376903cd3cdad8f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -230,12 +205,15 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
+    "Daily notes/03.2026/13.03.2026.md",
+    "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todo/APP.1.1.md",
+    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
     "Daily notes/03.2026/12.03.2026.md",
+    "Daily notes/02.2026/06.02.2026.md",
     "Daily notes/03.2026/11.03.2026.md",
     "Daily notes/03.2026/10.03.2026.md",
     "Daily notes/03.2026/09.03.2026.md",
-    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
     "Daily notes/03.2026/02.03.2026.md",
     "Daily notes/03.2026/03.03.2026.md",
     "Daily notes/03.2026/04.03.2026.md",
@@ -256,9 +234,6 @@
     "Wiki 2.0/App development/Android/jetpack/Animations.md",
     "App project/bypass netscope @ bonprinx.md",
     "Wiki 2.0/App development/Android/jetpack/Navigation/Bottom Navigation Bar.md",
-    "Daily notes/02.2026/20.02.2026.md",
-    "Daily notes/02.2026/23.02.2026.md",
-    "App project/Testing Projects/Android Test/Basic Automated tests.md",
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
