@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
+                "file": "Daily notes/03.2026/17.03.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.1. Auswahl und Priorisierung"
+              "title": "17.03.2026"
             }
           }
         ]
@@ -205,11 +205,21 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
-    "Daily notes/03.2026/13.03.2026.md",
-    "School/Lernfeld 4/todo/4.1. Auswahl und Priorisierung.md",
-    "School/Lernfeld 4/todo/APP.1.1.md",
     "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "Daily notes/03.2026/17.03.2026.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
+    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "Imports/image-35.png",
+    "Imports/image-34.png",
+    "Daily notes/03.2026/16.03.2026.md",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "Daily notes/03.2026/12.03.2026.md",
+    "Daily notes/10.2025/31.10.2025.md",
+    "Daily notes/10.2025/28.10.2025.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
+    "Daily notes/03.2026/14.03.2026.md",
+    "Daily notes/03.2026/13.03.2026.md",
+    "School/Lernfeld 4/todo/APP.1.1.md",
     "Daily notes/02.2026/06.02.2026.md",
     "Daily notes/03.2026/11.03.2026.md",
     "Daily notes/03.2026/10.03.2026.md",
@@ -225,15 +235,7 @@
     "Daily notes/03.2026/03.2026.md",
     "Daily notes/03.2026",
     "Daily notes/02.2026/27.02.2026.md",
-    "Wiki 2.0/App development/Android/Worker/Worker.md",
     "Wiki 2.0/App development/Android/Worker",
-    "Wiki 2.0/App development/Android/Untitled.md",
-    "Daily notes/02.2026/26.02.2026.md",
-    "Daily notes/02.2026/25.02.2026.md",
-    "Daily notes/02.2026/24.02.2026.md",
-    "Wiki 2.0/App development/Android/jetpack/Animations.md",
-    "App project/bypass netscope @ bonprinx.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Bottom Navigation Bar.md",
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
@@ -250,8 +252,6 @@
     "Untitled.canvas",
     "Imports/image-30.png",
     "Imports/image-29.png",
-    "Imports/image-28.png",
-    "Imports/image-27.png",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
   ]
