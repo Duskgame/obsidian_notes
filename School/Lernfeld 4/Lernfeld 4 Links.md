@@ -10,6 +10,9 @@ https://moodle.itech-bs14.de/course/view.php?id=803
 Szenario A
 https://moodle.itech-bs14.de/mod/page/view.php?id=63965&inpopup=1
 
+Beispiel
+https://moodle.itech-bs14.de/pluginfile.php/62693/mod_resource/content/1/Beschreibung%20der%20RECAPLAST%202018.pdf
+
 Vereinbarung Orga
 https://moodle.itech-bs14.de/mod/book/view.php?id=159719
 
