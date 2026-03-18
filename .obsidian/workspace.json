@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/Root Certificate.md",
+                "file": "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Root Certificate"
+              "title": "Online Certificate Status Protocol"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,17 +253,19 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "987693cfdc949cb8",
+  "active": "09721190bfeb5752",
   "lastOpenFiles": [
+    "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
+    "Wiki 2.0/Webbrowser/Certificate revocation list.md",
     "Daily notes/03.2026/18.03.2026.md",
-    "School/Lernfeld 4/todone/todone.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
-    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+    "Wiki 2.0/Webbrowser/Sandboxing.md",
     "Wiki 2.0/Webbrowser/Root Certificate.md",
+    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
+    "School/Lernfeld 4/todone/todone.md",
     "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
     "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
     "Wiki 2.0/Webbrowser/CSP Stufe.md",
-    "Wiki 2.0/Webbrowser/Sandboxing.md",
     "School/Lernfeld 4/todo/BSI Tables/4.2.1 APP 1.1 Office Produkte.md",
     "Wiki 2.0/Webbrowser/Site Isolation.md",
     "Wiki 2.0/Webbrowser/Webbrowser.md",
@@ -291,8 +293,6 @@
     "Daily notes/10.2025/28.10.2025.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
     "Daily notes/03.2026/14.03.2026.md",
-    "Daily notes/03.2026/13.03.2026.md",
-    "School/Lernfeld 4/todo/APP.1.1.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
