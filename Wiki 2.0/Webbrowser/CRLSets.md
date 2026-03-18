@@ -1,7 +1,7 @@
 
 CRLSets ([background](https://www.imperialviolet.org/2012/02/05/crlsets.html)) are primarily a means by which Chrome can quickly block certificates in emergency situations. As a secondary function they can also contain some number of non-emergency revocations. These latter revocations are obtained by crawling CRLs published by CAs.
 
-Online (i.e. OCSP and CRL) checks are not, generally, performed by Chrome. They can be enabled in the options and, in some cases, the underlying system certificate library always performs these checks no matter what Chromium does. Otherwise they are only performed when verifying an EV certificate that is not covered by a fresh CRLSet.
+Online (i.e. [[Online Certificate Status Protocol|OCSP]] and [[Certificate revocation list|CRL]] ) checks are not, generally, performed by Chrome. They can be enabled in the options and, in some cases, the underlying system certificate library always performs these checks no matter what Chromium does. Otherwise they are only performed when verifying an EV certificate that is not covered by a fresh CRLSet.
 
 The Chromium source code that implements CRLSets is, of course, [public](https://chromium.googlesource.com/chromium/src/+/master/net/cert/crl_set_storage.cc). But the process by which they are generated is not.
 

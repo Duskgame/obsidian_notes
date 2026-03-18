@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/CRLSets.md",
+                "file": "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CRLSets"
+              "title": "DNS over HTTPS"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,12 +253,14 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "09721190bfeb5752",
+  "active": "987693cfdc949cb8",
   "lastOpenFiles": [
+    "Daily notes/03.2026/18.03.2026.md",
+    "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
+    "Wiki 2.0/Webbrowser/Data Protection API.md",
     "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
     "Wiki 2.0/Webbrowser/CRLSets.md",
     "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
-    "Daily notes/03.2026/18.03.2026.md",
     "Wiki 2.0/Webbrowser/Certificate revocation list.md",
     "Wiki 2.0/Webbrowser/Sandboxing.md",
     "Wiki 2.0/Webbrowser/Root Certificate.md",
@@ -291,8 +293,6 @@
     "Daily notes/03.2026/16.03.2026.md",
     "Daily notes/03.2026/12.03.2026.md",
     "Daily notes/10.2025/31.10.2025.md",
-    "Daily notes/10.2025/28.10.2025.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
