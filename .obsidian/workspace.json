@@ -162,12 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 4.2.2 App 1.2 Webbrowser"
             }
           },
           {
@@ -205,9 +206,10 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
-    "School/Lernfeld 4/todo/BSI Tables/4.2.1 APP 1.1 Office Produkte.md",
+    "Daily notes/03.2026/18.03.2026.md",
     "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todo/BSI Tables/4.2.1 APP 1.1 Office Produkte.md",
     "School/Lernfeld 4/Lernfeld 4 Links.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "Imports/image-43.png",
@@ -241,7 +243,6 @@
     "Daily notes/03.2026/04.03.2026.md",
     "App project/App Team/Manual Testing.md",
     "App project/App Team/Mobile Apps Team.md",
-    "App project/App Team/App Team.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
