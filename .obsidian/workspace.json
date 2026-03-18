@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03.2026/18.03.2026.md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "18.03.2026"
+              "title": "4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,18 +253,22 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "987693cfdc949cb8",
+  "active": "09721190bfeb5752",
   "lastOpenFiles": [
+    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+    "School/Lernfeld 4/todo/BSI Tables/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
+    "Imports/image-44.png",
+    "Imports/image-45.png",
     "Daily notes/03.2026/18.03.2026.md",
     "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
     "Wiki 2.0/Webbrowser/Data Protection API.md",
-    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
     "Wiki 2.0/Webbrowser/CRLSets.md",
     "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
     "Wiki 2.0/Webbrowser/Certificate revocation list.md",
     "Wiki 2.0/Webbrowser/Sandboxing.md",
     "Wiki 2.0/Webbrowser/Root Certificate.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "School/Lernfeld 4/todone/todone.md",
     "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
     "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
@@ -274,7 +278,6 @@
     "Wiki 2.0/Webbrowser/Webbrowser.md",
     "Wiki 2.0/Untitled.md",
     "Wiki 2.0/Webbrowser",
-    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
     "School/Lernfeld 4/Lernfeld 4 Links.md",
     "Imports/image-43.png",
     "Daily notes/03.2026/17.03.2026.md",
@@ -288,11 +291,7 @@
     "Imports/image-37.png",
     "Imports/image-36.png",
     "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "Imports/image-35.png",
-    "Imports/image-34.png",
     "Daily notes/03.2026/16.03.2026.md",
-    "Daily notes/03.2026/12.03.2026.md",
-    "Daily notes/10.2025/31.10.2025.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
