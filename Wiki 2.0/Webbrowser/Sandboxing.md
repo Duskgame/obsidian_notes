@@ -1,0 +1,1 @@
+Moderne Browser wie Chrome nutzen Sandboxing, indem jede Tab- oder Render-Prozess in einem separaten, eingeschränkten Prozess läuft, der keinen Zugriff auf Dateien, Netzwerk oder Hardware des Hosts hat. Das schützt vor Exploits schädlicher Websites, die versuchen, über Schwachstellen auszubrechen

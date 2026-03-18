@@ -1,0 +1,4 @@
+https://b13.com/de/blog/einfuehrung-in-content-security-policy-csp
+Bis 2023 wird das CSP weiter ausgebaut und die ursprüngliche Norm um verschiedene Elemente erweitert. Mit jeder CSP-Stufe werden anspruchsvollere Sicherheitsmerkmale eingeführt. CSP Stufe 1 bietet den grundlegenden Rahmen für die Definition vertrauenswürdiger Inhaltsquellen. CSP Stufe 2 führt mehr Richtlinien ein und bietet strengere Möglichkeiten zur Durchsetzung von Richtlinien, während CSP Stufe 3 dies mit noch mehr Richtlinien und Verbesserungen, wie z. B. einer verfeinerten Kontrolle über die Ausführung von Inline-Skripten, weiter verfeinert.
+
+Google Chrome: Chrome unterstützt CSP seit Version 25. Ursprünglich wurde CSP Level 1 unterstützt, später kam die Unterstützung für CSP Level 2 und 3 hinzu, die eine detailliertere Kontrolle über Skript- und Style-Quellen bieten.
