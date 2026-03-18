@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
+                "file": "Wiki 2.0/Webbrowser/Root Certificate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transport Layer Security (TLS)"
+              "title": "Root Certificate"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTTP Strict Transport Security (HSTS)"
+              "title": "4.2.2 App 1.2 Webbrowser"
             }
           },
           {
@@ -134,7 +134,7 @@
             }
           },
           {
-            "id": "b376903cd3cdad8f",
+            "id": "b554fd43b5c57681",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTTP Strict Transport Security (HSTS)"
+              "title": "Outline of 4.2.2 App 1.2 Webbrowser"
             }
           },
           {
@@ -255,12 +255,15 @@
   },
   "active": "987693cfdc949cb8",
   "lastOpenFiles": [
+    "Daily notes/03.2026/18.03.2026.md",
+    "School/Lernfeld 4/todone/todone.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+    "Wiki 2.0/Webbrowser/Root Certificate.md",
     "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
     "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
     "Wiki 2.0/Webbrowser/CSP Stufe.md",
     "Wiki 2.0/Webbrowser/Sandboxing.md",
-    "Daily notes/03.2026/18.03.2026.md",
     "School/Lernfeld 4/todo/BSI Tables/4.2.1 APP 1.1 Office Produkte.md",
     "Wiki 2.0/Webbrowser/Site Isolation.md",
     "Wiki 2.0/Webbrowser/Webbrowser.md",
@@ -268,7 +271,6 @@
     "Wiki 2.0/Webbrowser",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
     "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "Imports/image-43.png",
     "Daily notes/03.2026/17.03.2026.md",
     "School/Lernfeld 4/todo/BSI Tables/BSI Tables.md",
@@ -291,8 +293,6 @@
     "Daily notes/03.2026/14.03.2026.md",
     "Daily notes/03.2026/13.03.2026.md",
     "School/Lernfeld 4/todo/APP.1.1.md",
-    "Daily notes/02.2026/06.02.2026.md",
-    "Daily notes/03.2026/11.03.2026.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
