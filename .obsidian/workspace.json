@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
+                "file": "Wiki 2.0/Webbrowser/CRLSets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Online Certificate Status Protocol"
+              "title": "CRLSets"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+                "file": "Daily notes/03.2026/18.03.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.2.2 App 1.2 Webbrowser"
+              "title": "18.03.2026"
             }
           }
         ],
@@ -255,12 +255,13 @@
   },
   "active": "09721190bfeb5752",
   "lastOpenFiles": [
-    "Daily notes/03.2026/18.03.2026.md",
+    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+    "Wiki 2.0/Webbrowser/CRLSets.md",
     "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
+    "Daily notes/03.2026/18.03.2026.md",
     "Wiki 2.0/Webbrowser/Certificate revocation list.md",
     "Wiki 2.0/Webbrowser/Sandboxing.md",
     "Wiki 2.0/Webbrowser/Root Certificate.md",
-    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "School/Lernfeld 4/todone/todone.md",
     "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
@@ -292,7 +293,6 @@
     "Daily notes/10.2025/31.10.2025.md",
     "Daily notes/10.2025/28.10.2025.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/Room.md",
-    "Daily notes/03.2026/14.03.2026.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
