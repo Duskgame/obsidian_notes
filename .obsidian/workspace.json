@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03.2026/19.03.2026.md",
+                "file": "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Minimalitätsprinzip.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "19.03.2026"
+              "title": "Minimalitätsprinzip"
             }
           },
           {
@@ -256,6 +256,9 @@
   },
   "active": "03b566078b1b02bc",
   "lastOpenFiles": [
+    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Anforderungskatalog.md",
+    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Schutzbedarf.md",
+    "Daily notes/03.2026/19.03.2026.md",
     "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
     "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
     "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.7 SYS.2.2.3 Clients unter Windows.md",
@@ -273,15 +276,12 @@
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/IMAP.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/EOL.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Minimalitätsprinzip.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Anforderungskatalog.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Schutzbedarf.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Incident Response.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Patch-Management.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Windows-Sicherheit/Wake on LAN.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Windows-Sicherheit/Telemetrie.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Windows-Sicherheit/Active Directory.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Windows-Sicherheit/Service Branch (Windows).md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Windows-Sicherheit/SAC.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Physische Sicherheit",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management",
