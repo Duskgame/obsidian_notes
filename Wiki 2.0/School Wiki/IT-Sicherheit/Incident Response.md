@@ -4,9 +4,11 @@ aliases:
   - Sicherheitsvorfallbehandlung
   - IR
 ---
+> **Quelle:** [NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
+
 **Incident Response** bezeichnet den strukturierten Prozess zur Erkennung, Analyse, Eindämmung und Behebung von IT-Sicherheitsvorfällen (Incidents).
 
-**Typische Phasen (nach NIST SP 800-61):**
+**Typische Phasen nach [NIST SP 800-61](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final):**
 1. **Vorbereitung:** Richtlinien, Tools und Verantwortlichkeiten festlegen
 2. **Erkennung & Analyse:** Vorfall identifizieren, Ausmaß bewerten
 3. **Eindämmung:** Betroffene Systeme isolieren (z. B. Netzwerktrennung)

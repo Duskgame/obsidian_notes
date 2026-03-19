@@ -3,6 +3,8 @@ aliases:
   - Trusted Platform Module
   - TPM 2.0
 ---
+> **Quelle:** [Trusted Computing Group – TPM Library Specification](https://trustedcomputinggroup.org/resource/tpm-library-specification/)
+
 Ein **Trusted Platform Module (TPM)** ist ein dedizierter Sicherheitschip (oder eine Firmware-Komponente) auf einem Mainboard, der kryptografische Schlüssel sicher speichert und grundlegende Sicherheitsfunktionen bereitstellt.
 
 **Funktionen:**

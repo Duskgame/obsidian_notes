@@ -9,6 +9,8 @@ aliases:
   - Current Branch for Business
   - Long-Term Servicing Channel
 ---
+> **Quelle:** [Microsoft Learn – Windows as a Service (WaaS)](https://learn.microsoft.com/de-de/windows/deployment/update/waas-overview)
+
 **Service Branch** bezeichnet den Update-Kanal, über den ein Windows-System Feature-Updates erhält. Microsoft bietet verschiedene Kanäle mit unterschiedlicher Update-Frequenz und Unterstützungsdauer.
 
 **Übersicht der Service Branches:**

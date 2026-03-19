@@ -7,6 +7,8 @@ aliases:
   - MD5
   - SHA-256
 ---
+> **Quelle:** [BSI – Kryptographie und Schlüsselmanagement](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kryptographie/Kryptographie_node.html)
+
 Eine **Prüfsumme** (auch *Checksum* oder *Hash-Wert*) ist ein numerischer Wert, der aus den Daten einer Datei durch eine mathematische Funktion (Hash-Funktion) berechnet wird und als kompakter Fingerabdruck dieser Datei dient.
 
 **Verwendungszweck:**
@@ -15,6 +17,7 @@ Eine **Prüfsumme** (auch *Checksum* oder *Hash-Wert*) ist ein numerischer Wert,
 - **Software-Verifikation:** Hersteller veröffentlichen Prüfsummen ihrer Downloads, damit Nutzer die Echtheit prüfen können
 
 **Gängige Hash-Algorithmen:**
+
 | Algorithmus | Hash-Länge | Sicherheit |
 |-------------|-----------|------------|
 | MD5 | 128 Bit | unsicher (Kollisionen möglich), nur zur Fehlererkennung |

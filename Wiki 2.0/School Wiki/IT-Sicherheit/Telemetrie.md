@@ -5,6 +5,8 @@ aliases:
   - Nutzungsdaten
   - Diagnose- und Nutzungsdaten
 ---
+> **Quelle:** [Microsoft Learn – Windows-Diagnosedaten konfigurieren](https://learn.microsoft.com/de-de/windows/privacy/configure-windows-diagnostic-data-in-your-organization)
+
 **Telemetrie** bezeichnet im IT-Kontext die automatische Übermittlung von Diagnose-, Nutzungs- und Systemdaten von einem Gerät oder einer Software an den Hersteller, um Fehler zu analysieren, die Produktentwicklung zu unterstützen oder den Betrieb zu überwachen.
 
 **Datenschutzrelevanz:**

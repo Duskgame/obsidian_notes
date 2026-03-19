@@ -2,6 +2,8 @@
 aliases:
   - Windows Server Update Services
 ---
+> **Quelle:** [Microsoft Learn – Windows Server Update Services (WSUS)](https://learn.microsoft.com/de-de/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+
 **WSUS (Windows Server Update Services)** ist ein kostenloser Microsoft-Dienst, der es IT-Administratoren ermöglicht, Windows-Updates und Microsoft-Patches zentral zu verwalten und auf Client-Systemen im Netzwerk zu verteilen.
 
 **Funktionen:**

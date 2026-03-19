@@ -5,7 +5,9 @@ aliases:
   - X.509
   - S/MIME (X.509)
 ---
-**S/MIME** (Secure/Multipurpose Internet Mail Extensions) ist ein kryptografischer Standard für die Ende-zu-Ende-Verschlüsselung und digitale Signierung von E-Mails auf Basis von X.509-Zertifikaten.
+> **Quelle:** [RFC 5751 – Secure/Multipurpose Internet Mail Extensions (S/MIME)](https://www.rfc-editor.org/rfc/rfc5751)
+
+**S/MIME** (Secure/Multipurpose Internet Mail Extensions) ist ein kryptografischer Standard für die Ende-zu-Ende-Verschlüsselung und digitale Signierung von E-Mails auf Basis von X.509-Zertifikaten. Der Standard ist in RFC 5751 spezifiziert.
 
 **Funktionen:**
 - **Verschlüsselung:** E-Mails werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt — nur der Empfänger kann sie entschlüsseln

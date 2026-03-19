@@ -5,6 +5,8 @@ aliases:
   - GnuPG
   - GPG
 ---
+> **Quelle:** [OpenPGP.org – Standard](https://www.openpgp.org/)
+
 **OpenPGP** ist ein offener kryptografischer Standard (RFC 4880) für die Ende-zu-Ende-Verschlüsselung und digitale Signierung von E-Mails und Dateien.
 
 **Grundprinzip (asymmetrische Kryptografie):**

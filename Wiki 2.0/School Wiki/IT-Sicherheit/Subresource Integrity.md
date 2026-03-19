@@ -2,6 +2,8 @@
 aliases:
   - SRI
 ---
+> **Quelle:** [W3C – Subresource Integrity](https://www.w3.org/TR/SRI/)
+
 **Subresource Integrity (SRI)** ist ein Sicherheitsmechanismus im Webbrowser, der sicherstellt, dass extern geladene Ressourcen (z. B. JavaScript-Bibliotheken von CDNs) nicht manipuliert wurden.
 
 **Funktionsweise:**

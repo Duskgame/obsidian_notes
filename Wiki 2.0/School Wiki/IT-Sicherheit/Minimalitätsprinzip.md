@@ -5,7 +5,11 @@ aliases:
   - Need-to-know-Prinzip
   - Least Privilege
 ---
+> **Quelle:** [NIST CSRC – Least Privilege](https://csrc.nist.gov/glossary/term/least_privilege)
+
 Das **Minimalitätsprinzip** (auch *Principle of Least Privilege*) ist ein grundlegendes IT-Sicherheitsprinzip, das besagt, dass Systeme, Software und Nutzer nur die minimal notwendigen Ressourcen, Funktionen und Berechtigungen erhalten sollen, die für ihre jeweilige Aufgabe erforderlich sind.
+
+Laut NIST CSRC umfasst das Prinzip alle Zugriffe, Funktionen und Systemberechtigungen — nicht nur Benutzerkonten.
 
 **Anwendungsbereiche:**
 

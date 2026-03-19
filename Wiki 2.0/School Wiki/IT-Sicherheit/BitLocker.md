@@ -2,6 +2,8 @@
 aliases:
   - BitLocker Drive Encryption
 ---
+> **Quelle:** [Microsoft Learn – BitLocker](https://learn.microsoft.com/de-de/windows/security/operating-system-security/data-protection/bitlocker/)
+
 **BitLocker** ist die in Windows integrierte Festplattenverschlüsselungslösung von Microsoft. Sie verschlüsselt ganze Laufwerke (Volumes) und schützt so Daten vor unbefugtem Zugriff, insbesondere bei Diebstahl oder Verlust des Geräts.
 
 **Funktionsweise:**

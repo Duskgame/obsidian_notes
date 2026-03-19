@@ -3,7 +3,9 @@ aliases:
   - SOP
   - Same-Origin
 ---
-Die **Same-Origin-Policy (SOP)** ist ein grundlegendes Sicherheitsprinzip in Webbrowsern, das verhindert, dass Skripte einer Webseite auf Ressourcen oder Daten einer anderen Webseite zugreifen, wenn diese einen unterschiedlichen Ursprung (*Origin*) haben.
+> **Quelle:** [RFC 6454 – The Web Origin Concept](https://www.rfc-editor.org/rfc/rfc6454)
+
+Die **Same-Origin-Policy (SOP)** ist ein grundlegendes Sicherheitsprinzip in Webbrowsern, das verhindert, dass Skripte einer Webseite auf Ressourcen oder Daten einer anderen Webseite zugreifen, wenn diese einen unterschiedlichen Ursprung (*Origin*) haben. Der Begriff *Origin* ist formal in RFC 6454 definiert.
 
 **Definition "Origin":**
 Ein Ursprung setzt sich zusammen aus:

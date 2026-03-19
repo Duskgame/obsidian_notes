@@ -3,6 +3,8 @@ aliases:
   - Open Relay
   - Mail-Relay
 ---
+> **Quelle:** [RFC 2505 – Anti-Spam Recommendations for SMTP MTAs](https://www.rfc-editor.org/rfc/rfc2505)
+
 Ein **Spam-Relay** (auch *Open Relay*) bezeichnet einen E-Mail-Server, der E-Mails von beliebigen Absendern an beliebige Empfänger weiterleitet — also nicht auf eigene Nutzer oder Domains beschränkt ist.
 
 **Problem:**

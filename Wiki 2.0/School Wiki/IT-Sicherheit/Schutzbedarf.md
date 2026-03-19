@@ -5,6 +5,8 @@ aliases:
   - Schutzniveau
   - Schutzbedarfskategorie
 ---
+> **Quelle:** [BSI – IT-Grundschutz-Kompendium](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+
 Der **Schutzbedarf** beschreibt im IT-Grundschutz das Ausmaß des Schutzes, das für Informationen, IT-Systeme oder Räume erforderlich ist, um Schäden durch Verlust von **Vertraulichkeit, Integrität oder Verfügbarkeit** zu vermeiden.
 
 **Schutzbedarfskategorien (BSI IT-Grundschutz):**

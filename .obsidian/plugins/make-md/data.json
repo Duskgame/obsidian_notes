@@ -34,7 +34,7 @@
   "folderNoteInsideFolder": true,
   "folderNoteName": "",
   "sidebarTabs": true,
-  "showRibbon": false,
+  "showRibbon": true,
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [

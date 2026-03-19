@@ -3,6 +3,8 @@ aliases:
   - Clean Desk Policy
   - Aufgeräumter Arbeitsplatz
 ---
+> **Quelle:** [BSI – IT-Grundschutz-Kompendium INF.7](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+
 Die **Clean-Desk-Policy** (auch: *Aufgeräumter Arbeitsplatz*) ist eine organisatorische Sicherheitsrichtlinie, die vorschreibt, dass Mitarbeitende ihren Arbeitsplatz beim Verlassen (auch kurzzeitig) in einem gesicherten Zustand hinterlassen.
 
 **Typische Regelungen:**

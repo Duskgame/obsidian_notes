@@ -5,6 +5,8 @@ aliases:
   - CBB
   - Windows Update-Kanal
 ---
+> **Quelle:** [Microsoft Learn – Windows as a Service (WaaS)](https://learn.microsoft.com/de-de/windows/deployment/update/waas-overview)
+
 Der **Semi-Annual Channel (SAC)** ist ein Windows-Update-Modell, bei dem Microsoft zweimal jährlich (im Frühjahr und Herbst) ein größeres Feature-Update für Windows 10/11 veröffentlicht.
 
 **Windows-Servicing-Kanäle im Überblick:**

@@ -4,6 +4,8 @@ aliases:
   - Requirements Catalog
   - Softwareanforderungen
 ---
+> **Quelle:** [BSI – IT-Grundschutz-Kompendium APP.6 Allgemeine Software](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+
 Ein **Anforderungskatalog** ist ein strukturiertes Dokument, das alle Anforderungen an ein System oder eine Software systematisch erfasst und beschreibt. Er dient als Grundlage für die Beschaffung, Entwicklung und Bewertung von Software.
 
 **Inhalte eines Anforderungskatalogs:**

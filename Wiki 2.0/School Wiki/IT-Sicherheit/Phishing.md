@@ -3,6 +3,8 @@ aliases:
   - Phishingangriff
   - Spear Phishing
 ---
+> **Quelle:** [BSI – Phishing](https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminellen/Phishing/phishing_node.html)
+
 **Phishing** ist eine Form des Social Engineering, bei der Angreifer gefälschte E-Mails, Webseiten oder Nachrichten einsetzen, um Benutzende zur Preisgabe vertraulicher Daten (Passwörter, Kreditkartendaten) oder zur Ausführung schädlicher Aktionen (Öffnen von Anhängen, Klicken auf Links) zu verleiten.
 
 **Varianten:**

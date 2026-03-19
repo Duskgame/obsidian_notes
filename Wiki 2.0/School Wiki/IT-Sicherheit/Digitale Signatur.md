@@ -5,6 +5,8 @@ aliases:
   - Code Signing
   - kryptografische Signatur
 ---
+> **Quelle:** [BSI – Kryptographie und Schlüsselmanagement](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kryptographie/Kryptographie_node.html)
+
 Eine **digitale Signatur** ist ein kryptografisches Verfahren, das die **Authentizität** (Herkunft) und **Integrität** (Unverändertheit) von Daten, Dokumenten oder Software sicherstellt.
 
 **Funktionsweise:**

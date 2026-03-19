@@ -5,6 +5,8 @@ aliases:
   - Patch-Prozess
   - Softwareaktualisierung
 ---
+> **Quelle:** [BSI – IT-Grundschutz-Kompendium SYS.2.1](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+
 **Patch-Management** bezeichnet den strukturierten Prozess zur Identifikation, Bewertung, Priorisierung und Installation von Software-Updates (Patches) in einer IT-Infrastruktur.
 
 **Ziele:**

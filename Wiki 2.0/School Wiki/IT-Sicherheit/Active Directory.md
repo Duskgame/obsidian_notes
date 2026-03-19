@@ -4,6 +4,8 @@ aliases:
   - Active Directory Domain Services
   - AD DS
 ---
+> **Quelle:** [Microsoft Learn – Active Directory Domain Services](https://learn.microsoft.com/de-de/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+
 **Active Directory (AD)** ist ein Verzeichnisdienst von Microsoft, der in Windows-Domänennetzwerken zur zentralen Verwaltung von Benutzern, Computern, Gruppen und Ressourcen eingesetzt wird.
 
 **Kernfunktionen:**

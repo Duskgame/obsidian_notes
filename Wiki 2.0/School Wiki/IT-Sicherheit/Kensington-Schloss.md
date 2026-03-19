@@ -5,6 +5,8 @@ aliases:
   - Diebstahlsicherung
   - Laptop-Schloss
 ---
+> **Quelle:** [Kensington – Security Solutions](https://www.kensington.com/de-de/c/security/)
+
 Ein **Kensington-Schloss** (auch *K-Lock*) ist ein physisches Sicherheitsschloss zum Schutz von Laptops, Monitoren und anderen IT-Geräten vor Diebstahl.
 
 **Funktionsweise:**

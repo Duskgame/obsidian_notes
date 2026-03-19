@@ -5,6 +5,8 @@ aliases:
   - Distributed Denial-of-Service
   - DoS-Angriff
 ---
+> **Quelle:** [BSI – Bundesamt für Sicherheit in der Informationstechnik](https://www.bsi.bund.de/)
+
 Ein **Denial-of-Service (DoS)-Angriff** ist ein Cyberangriff, bei dem ein Angreifer ein System, einen Dienst oder ein Netzwerk durch Überlastung gezielt außer Betrieb setzt, sodass legitime Nutzer nicht mehr darauf zugreifen können.
 
 **Varianten:**

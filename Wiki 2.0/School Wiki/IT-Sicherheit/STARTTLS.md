@@ -3,7 +3,9 @@ aliases:
   - Opportunistic TLS
   - STARTTLS-Erweiterung
 ---
-**STARTTLS** ist eine Protokollerweiterung, die es ermöglicht, eine zunächst unverschlüsselte Verbindung nachträglich auf eine verschlüsselte [[Transport Layer Security (TLS)|TLS]]-Verbindung hochzustufen (*Upgrade*).
+> **Quelle:** [RFC 3207 – SMTP Service Extension for Secure SMTP over TLS](https://www.rfc-editor.org/rfc/rfc3207)
+
+**STARTTLS** ist eine Protokollerweiterung, die es ermöglicht, eine zunächst unverschlüsselte Verbindung nachträglich auf eine verschlüsselte [[Transport Layer Security (TLS)|TLS]]-Verbindung hochzustufen (*Upgrade*). Für SMTP ist die Erweiterung in RFC 3207 spezifiziert.
 
 **Funktionsweise:**
 1. Client verbindet sich unverschlüsselt auf dem Standard-Port (z. B. SMTP Port 25 oder IMAP Port 143)

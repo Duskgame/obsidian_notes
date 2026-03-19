@@ -4,6 +4,8 @@ aliases:
   - End-of-Life
   - EoL
 ---
+> **Quelle:** [BSI – IT-Grundschutz-Kompendium APP.6](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+
 **EOL (End of Life)** bezeichnet den Zeitpunkt, ab dem ein Softwareprodukt oder eine Hardwarekomponente vom Hersteller nicht mehr aktiv unterstützt wird. Ab diesem Zeitpunkt werden keine Sicherheitsupdates, Bugfixes oder technischer Support mehr bereitgestellt.
 
 **Sicherheitsrelevanz:**
