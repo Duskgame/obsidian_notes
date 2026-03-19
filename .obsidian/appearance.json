@@ -3,5 +3,6 @@
   "baseFontSize": 19,
   "cssTheme": "Reverie",
   "accentColor": "#006b59",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": true
 }
