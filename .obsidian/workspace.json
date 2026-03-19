@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
+                "file": "Daily notes/03.2026/19.03.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DNS over HTTPS"
+              "title": "19.03.2026"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
+                "file": "Daily notes/03.2026/19.03.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.2.2 App 1.2 Webbrowser"
+              "title": "19.03.2026"
             }
           },
           {
             "id": "09721190bfeb5752",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "/"
               },
               "icon": "lucide-file",
-              "title": "4.2.4 APP.5.4 Unified Communications und Collaboration (UCC)"
+              "title": "OneNote Notebooks"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             }
           },
           {
-            "id": "b554fd43b5c57681",
+            "id": "bb41e5ef22f1e989",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -148,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 246.5
   },
   "right": {
     "id": "b97cbf4c0916cc18",
@@ -164,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "App project/Mobile Apps Team.md",
+                "file": "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mobile Apps Team"
+              "title": "Backlinks for DNS over HTTPS"
             }
           },
           {
@@ -183,11 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from DNS over HTTPS"
             }
           },
           {
@@ -211,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+                "file": "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4.2.2 App 1.2 Webbrowser"
+              "title": "Outline of DNS over HTTPS"
             }
           },
           {
@@ -253,22 +242,24 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "09721190bfeb5752",
+  "active": "987693cfdc949cb8",
   "lastOpenFiles": [
-    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
+    "Daily notes/03.2026/19.03.2026.md",
+    "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
+    "Vault.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/APP Bausteine.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
     "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
     "School/Lernfeld 4/todo/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "Imports/image-44.png",
     "Imports/image-45.png",
     "Daily notes/03.2026/18.03.2026.md",
-    "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
     "Wiki 2.0/Webbrowser/Data Protection API.md",
     "Wiki 2.0/Webbrowser/CRLSets.md",
     "Wiki 2.0/Webbrowser/Online Certificate Status Protocol.md",
@@ -283,9 +274,7 @@
     "Wiki 2.0/Webbrowser/Webbrowser.md",
     "Wiki 2.0/Untitled.md",
     "Wiki 2.0/Webbrowser",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "Imports/image-43.png",
-    "Daily notes/03.2026/17.03.2026.md",
     "School/Lernfeld 4/todo/BSI Tables",
     "Imports/image-42.png",
     "Imports/image-41.png",

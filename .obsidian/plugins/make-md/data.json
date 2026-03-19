@@ -68,7 +68,6 @@
     "//Imports/Imports/Excalidraw",
     "//App project",
     "//School/School/SuK",
-    "/",
     "//School/School/Lernfeld 4",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
@@ -83,7 +82,8 @@
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables",
     "//Wiki 2.0/Wiki 2.0/Webbrowser",
     "//School",
-    "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/APP Bausteine"
+    "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
+    "/"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
