@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
+                "file": "Wiki 2.0/Mail Client Server/Group Policy Object.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.2.8 INF.7 Büroarbeitsplatz"
+              "title": "Group Policy Object"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
+                "file": "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.2.8 INF.7 Büroarbeitsplatz"
+              "title": "4.2. IT-Grundschutz-Check"
             }
           },
           {
@@ -79,7 +79,8 @@
               "title": "19.03.2026"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,11 +254,20 @@
       "3d-graph-new:Global 3D Graph": true
     }
   },
-  "active": "7017f3fd0e22916d",
+  "active": "03b566078b1b02bc",
   "lastOpenFiles": [
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
+    "Wiki 2.0/Mail Client Server/Group Policy Object.md",
+    "Wiki 2.0/Mail Client Server/Mail Client Server.md",
+    "Wiki 2.0/Mail Client Server",
+    "Wiki 2.0/Webbrowser/Webbrowser.md",
+    "Wiki 2.0/Untitled.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
+    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.9 INF.12 Verkabelung.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.7 SYS.2.2.3 Clients unter Windows.md",
     "Imports/image-44.png",
     "Daily notes/03.2026/19.03.2026.md",
@@ -272,20 +282,12 @@
     "School/Lernfeld 4/todone/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
     "School/Lernfeld 4/todone/1. Teilhandlung Arbeitsprozess organisieren.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/SYS Bausteine.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine",
     "School/Lernfeld 4/todone/Erweiterungsauftag LF 4.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
-    "Vault.md",
-    "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
-    "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/APP Bausteine.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine",
     "Imports/image-45.png",
-    "Daily notes/03.2026/18.03.2026.md",
     "Wiki 2.0/Webbrowser",
     "Imports/image-43.png",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen",
@@ -300,7 +302,6 @@
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
     "School/Lernfeld 4/todone",
-    "School/Lernfeld 4/todo",
     "Untitled.canvas",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
