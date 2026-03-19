@@ -35,6 +35,16 @@
             "id": "987693cfdc949cb8",
             "type": "leaf",
             "state": {
+              "type": "3d-graph-view-global",
+              "state": {},
+              "icon": "orbit",
+              "title": "Global 3D Graph"
+            }
+          },
+          {
+            "id": "7017f3fd0e22916d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Daily notes/03.2026/19.03.2026.md",
@@ -54,21 +64,9 @@
               "icon": "lucide-file",
               "title": "19.03.2026"
             }
-          },
-          {
-            "id": "09721190bfeb5752",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "/"
-              },
-              "icon": "lucide-file",
-              "title": "OneNote Notebooks"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +120,7 @@
             }
           },
           {
-            "id": "80982318e232b9ba",
+            "id": "46e784a1946e95e6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -228,36 +226,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
       "bases:Create new base": true,
       "obsidian-importer:Open Importer": true,
       "obsidian-git:Open Git source control": true,
-      "obsidian-excalidraw-plugin:New drawing": true,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "obisidian-note-linker:Note Linker": true,
       "3d-graph-new:Global 3D Graph": true
     }
   },
-  "active": "80982318e232b9ba",
+  "active": "7017f3fd0e22916d",
   "lastOpenFiles": [
-    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
-    "Daily notes/03.2026/19.03.2026.md",
-    "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
-    "Vault.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "Imports/image-44.png",
+    "Daily notes/03.2026/19.03.2026.md",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todone/Erweiterungsauftag LF 4.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
+    "Vault.md",
+    "Wiki 2.0/Webbrowser/DNS over HTTPS.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/APP Bausteine.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
     "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
     "School/Lernfeld 4/todo/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
-    "Imports/image-44.png",
     "Imports/image-45.png",
     "Daily notes/03.2026/18.03.2026.md",
     "Wiki 2.0/Webbrowser/Data Protection API.md",
@@ -271,8 +270,6 @@
     "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
     "Wiki 2.0/Webbrowser/CSP Stufe.md",
     "Wiki 2.0/Webbrowser/Site Isolation.md",
-    "Wiki 2.0/Webbrowser/Webbrowser.md",
-    "Wiki 2.0/Untitled.md",
     "Wiki 2.0/Webbrowser",
     "Imports/image-43.png",
     "School/Lernfeld 4/todo/BSI Tables",
