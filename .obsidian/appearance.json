@@ -4,5 +4,6 @@
   "cssTheme": "Reverie",
   "accentColor": "#006b59",
   "nativeMenus": false,
-  "showRibbon": true
+  "showRibbon": true,
+  "showViewHeader": true
 }

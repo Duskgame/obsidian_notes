@@ -4,5 +4,6 @@
   "attachmentFolderPath": "Imports",
   "readableLineLength": false,
   "openBehavior": "daily",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "showInlineTitle": true
 }
