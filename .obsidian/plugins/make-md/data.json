@@ -9,7 +9,7 @@
   "noteThumbnails": false,
   "spacesMDBInHidden": true,
   "cacheIndex": true,
-  "spacesRightSplit": false,
+  "spacesRightSplit": true,
   "contextEnabled": true,
   "spaceViewEnabled": true,
   "saveAllContextToFrontmatter": true,
@@ -34,7 +34,7 @@
   "folderNoteInsideFolder": true,
   "folderNoteName": "",
   "sidebarTabs": true,
-  "showRibbon": true,
+  "showRibbon": false,
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
@@ -82,7 +82,8 @@
     "//School/School/Lernfeld 4/School/Lernfeld 4/todone",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables",
     "//Wiki 2.0/Wiki 2.0/Webbrowser",
-    "//School"
+    "//School",
+    "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/APP Bausteine"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -119,7 +120,7 @@
   "enableDefaultSpaces": true,
   "showSpacePinIcon": true,
   "experimental": false,
-  "systemName": "OneNote Notebooks",
+  "systemName": "Vault 101",
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todo/BSI Tables/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server"
+              "title": "4.2.4 APP.5.4 Unified Communications und Collaboration (UCC)"
             }
           }
         ],
@@ -148,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 316.5
   },
   "right": {
     "id": "b97cbf4c0916cc18",
@@ -255,9 +255,15 @@
   },
   "active": "09721190bfeb5752",
   "lastOpenFiles": [
-    "School/Lernfeld 4/todo/BSI Tables/4.2.2 App 1.2 Webbrowser.md",
-    "School/Lernfeld 4/todo/BSI Tables/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/APP Bausteine.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
+    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
+    "School/Lernfeld 4/todo/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "Imports/image-44.png",
     "Imports/image-45.png",
@@ -273,7 +279,6 @@
     "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
     "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
     "Wiki 2.0/Webbrowser/CSP Stufe.md",
-    "School/Lernfeld 4/todo/BSI Tables/4.2.1 APP 1.1 Office Produkte.md",
     "Wiki 2.0/Webbrowser/Site Isolation.md",
     "Wiki 2.0/Webbrowser/Webbrowser.md",
     "Wiki 2.0/Untitled.md",
@@ -281,7 +286,6 @@
     "School/Lernfeld 4/Lernfeld 4 Links.md",
     "Imports/image-43.png",
     "Daily notes/03.2026/17.03.2026.md",
-    "School/Lernfeld 4/todo/BSI Tables/BSI Tables.md",
     "School/Lernfeld 4/todo/BSI Tables",
     "Imports/image-42.png",
     "Imports/image-41.png",
@@ -290,8 +294,6 @@
     "Imports/image-38.png",
     "Imports/image-37.png",
     "Imports/image-36.png",
-    "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "Daily notes/03.2026/16.03.2026.md",
     "App project/App Team",
     "Daily notes/03.2026",
     "Wiki 2.0/App development/Android/Worker",
@@ -299,7 +301,6 @@
     "School/Lernfeld 4/todo",
     "School/SuK",
     "School/WuG",
-    "Untitled.base",
     "Untitled.canvas",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
