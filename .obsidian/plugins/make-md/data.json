@@ -9,7 +9,7 @@
   "noteThumbnails": false,
   "spacesMDBInHidden": true,
   "cacheIndex": true,
-  "spacesRightSplit": true,
+  "spacesRightSplit": false,
   "contextEnabled": true,
   "spaceViewEnabled": true,
   "saveAllContextToFrontmatter": true,
@@ -99,7 +99,6 @@
     "_blocks"
   ],
   "newFileLocation": "current",
-  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
