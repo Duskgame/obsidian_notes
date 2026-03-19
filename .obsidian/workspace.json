@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/03.2026/19.03.2026.md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "19.03.2026"
+              "title": "4.2.6 SYS.2.1 Allgemeiner Client"
             }
           }
         ],
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily notes/03.2026/19.03.2026.md",
+                "file": "School/Lernfeld 4/todo/BSI Tables/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 19.03.2026"
+              "title": "Outline of 4.2.6 SYS.2.1 Allgemeiner Client"
             }
           },
           {
@@ -242,11 +242,17 @@
   },
   "active": "7017f3fd0e22916d",
   "lastOpenFiles": [
-    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
-    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
+    "School/Lernfeld 4/todo/BSI Tables/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
     "Imports/image-44.png",
-    "Daily notes/03.2026/19.03.2026.md",
     "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todo/BSI Tables/SYS Bausteine/SYS Bausteine.md",
+    "School/Lernfeld 4/todo/BSI Tables/SYS Bausteine",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
+    "School/Lernfeld 4/todo/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
+    "Daily notes/03.2026/19.03.2026.md",
+    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
     "School/Lernfeld 4/todone/Erweiterungsauftag LF 4.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
     "Vault.md",
@@ -254,8 +260,6 @@
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/APP Bausteine.md",
     "School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
     "School/Lernfeld 4/todo/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "School/Lernfeld 4/todo/BSI Tables/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
-    "School/Lernfeld 4/todo/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
     "School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check.md",
     "Imports/image-45.png",
     "Daily notes/03.2026/18.03.2026.md",
@@ -267,9 +271,6 @@
     "Wiki 2.0/Webbrowser/Root Certificate.md",
     "School/Lernfeld 4/todone/todone.md",
     "Wiki 2.0/Webbrowser/HTTP Strict Transport Security (HSTS).md",
-    "Wiki 2.0/Webbrowser/Transport Layer Security (TLS).md",
-    "Wiki 2.0/Webbrowser/CSP Stufe.md",
-    "Wiki 2.0/Webbrowser/Site Isolation.md",
     "Wiki 2.0/Webbrowser",
     "Imports/image-43.png",
     "School/Lernfeld 4/todo/BSI Tables",
@@ -286,7 +287,6 @@
     "School/Lernfeld 4/todone",
     "School/Lernfeld 4/todo",
     "School/SuK",
-    "School/WuG",
     "Untitled.canvas",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"
