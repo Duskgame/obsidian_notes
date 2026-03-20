@@ -5,7 +5,7 @@ aliases:
   - IEEE 802.3af
   - IEEE 802.3at
 ---
-> **Quelle:** [IEEE Standards – 802.3 Ethernet Working Group](https://www.ieee802.org/3/)
+[IEEE Standards – 802.3 Ethernet Working Group](https://www.ieee802.org/3/)
 
 **Power over Ethernet (PoE)** ist eine Technologie, die es ermöglicht, Netzwerkgeräte über das Ethernet-Kabel mit elektrischer Energie zu versorgen — ohne separate Stromversorgung.
 
@@ -14,6 +14,7 @@ aliases:
 - Das angeschlossene Gerät (*Powered Device*, PD) empfängt sowohl Netzwerkdaten als auch Strom über dasselbe Kabel
 
 **Standards:**
+
 | Standard | Leistung | Typische Anwendung |
 |----------|----------|-------------------|
 | IEEE 802.3af (PoE) | bis 15,4 W | IP-Telefone, WLAN-APs |

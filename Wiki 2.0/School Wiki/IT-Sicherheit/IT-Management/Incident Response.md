@@ -4,7 +4,7 @@ aliases:
   - Sicherheitsvorfallbehandlung
   - IR
 ---
-> **Quelle:** [NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
+[NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
 
 **Incident Response** bezeichnet den strukturierten Prozess zur Erkennung, Analyse, Eindämmung und Behebung von IT-Sicherheitsvorfällen (Incidents).
 

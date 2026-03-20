@@ -3,7 +3,7 @@ aliases:
   - WoL
   - WakeOnLAN
 ---
-> **Quelle:** [Microsoft Learn – Wake on LAN](https://learn.microsoft.com/de-de/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
+[Microsoft Learn – Wake on LAN](https://learn.microsoft.com/de-de/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
 
 **Wake on LAN (WoL)** ist eine Netzwerkfunktion, die es ermöglicht, einen ausgeschalteten oder im Standby befindlichen Computer durch ein spezielles Netzwerkpaket (sogenanntes *Magic Packet*) aus der Ferne einzuschalten.
 

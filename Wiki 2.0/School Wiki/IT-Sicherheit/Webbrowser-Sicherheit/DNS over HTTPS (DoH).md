@@ -4,7 +4,7 @@ aliases:
   - DNS over HTTPS
   - DNS-over-HTTPS
 ---
-> **Quelle:** [RFC 8484 – DNS Queries over HTTPS (DoH)](https://www.rfc-editor.org/rfc/rfc8484)
+[RFC 8484 – DNS Queries over HTTPS (DoH)](https://www.rfc-editor.org/rfc/rfc8484)
 
 **DNS over HTTPS (DoH)** ist ein Protokoll, das DNS-Anfragen über verschlüsselte HTTPS-Verbindungen überträgt, anstatt sie unverschlüsselt über UDP/Port 53 zu senden.
 

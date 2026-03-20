@@ -4,7 +4,7 @@ aliases:
   - Data Protection API
   - Windows DPAPI
 ---
-> **Quelle:** [Microsoft Learn – Data Protection API](https://learn.microsoft.com/en-us/windows/win32/seccng/cng-dpapi)
+[Microsoft Learn – Data Protection API](https://learn.microsoft.com/en-us/windows/win32/seccng/cng-dpapi)
 
 **DPAPI (Data Protection API)** ist eine Windows-Komponente zur transparenten Verschlüsselung sensibler Daten auf Benutzer- oder Maschinenebene. Browser wie Google Chrome und Microsoft Edge nutzen DPAPI, um gespeicherte Passwörter, Cookies und Token zu schützen.
 
@@ -15,6 +15,7 @@ aliases:
 - Kein manuelles Schlüsselmanagement nötig
 
 **Schutzebenen:**
+
 | Ebene | Binding | Nutzung |
 |-------|---------|---------|
 | Benutzer | Angemeldeter Benutzer | Browser-Passwörter, Zertifikate |

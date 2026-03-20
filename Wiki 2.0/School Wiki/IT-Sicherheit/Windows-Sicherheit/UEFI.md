@@ -3,7 +3,7 @@ aliases:
   - Unified Extensible Firmware Interface
   - BIOS
 ---
-> **Quelle:** [UEFI Forum – Spezifikationen](https://uefi.org/specifications)
+[UEFI Forum – Spezifikationen](https://uefi.org/specifications)
 
 **UEFI (Unified Extensible Firmware Interface)** ist der Nachfolger des klassischen BIOS und dient als Schnittstelle zwischen Hardware und Betriebssystem beim Startvorgang eines Computers.
 

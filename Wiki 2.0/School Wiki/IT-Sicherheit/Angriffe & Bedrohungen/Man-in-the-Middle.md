@@ -4,7 +4,7 @@ aliases:
   - Man-in-the-Middle-Angriff
   - MITM
 ---
-> **Quelle:** [BSI – Bundesamt für Sicherheit in der Informationstechnik](https://www.bsi.bund.de/)
+[BSI – Bundesamt für Sicherheit in der Informationstechnik](https://www.bsi.bund.de/)
 
 Ein **Man-in-the-Middle-Angriff (MitM)** ist ein Angriff, bei dem sich ein Angreifer unbemerkt zwischen zwei kommunizierende Parteien schaltet und deren Datenverkehr mitlesen, manipulieren oder umleiten kann.
 

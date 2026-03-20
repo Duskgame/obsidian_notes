@@ -4,7 +4,7 @@ aliases:
   - Certificate Revocation List
   - Zertifikatssperrliste
 ---
-> **Quelle:** [RFC 5280 – Internet X.509 PKI Certificate and CRL Profile](https://www.rfc-editor.org/rfc/rfc5280)
+[RFC 5280 – Internet X.509 PKI Certificate and CRL Profile](https://www.rfc-editor.org/rfc/rfc5280)
 
 **CRL (Certificate Revocation List)** ist eine von einer Zertifizierungsstelle (CA) veröffentlichte Liste widerrufener Zertifikate. Webbrowser und andere TLS-Clients können anhand dieser Liste prüfen, ob ein Zertifikat noch gültig ist.
 

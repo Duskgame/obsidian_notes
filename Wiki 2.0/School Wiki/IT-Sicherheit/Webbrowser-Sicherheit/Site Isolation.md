@@ -3,7 +3,7 @@ aliases:
   - Site-Isolation
   - Cross-Site-Isolation
 ---
-> **Quelle:** [Chromium – Site Isolation](https://www.chromium.org/Home/chromium-security/site-isolation/)
+[Chromium – Site Isolation](https://www.chromium.org/Home/chromium-security/site-isolation/)
 
 **Site Isolation** ist eine Sicherheitsarchitektur in Webbrowsern (insbesondere Google Chrome), bei der jede Website in einem eigenen dedizierten Prozess ausgeführt wird.
 

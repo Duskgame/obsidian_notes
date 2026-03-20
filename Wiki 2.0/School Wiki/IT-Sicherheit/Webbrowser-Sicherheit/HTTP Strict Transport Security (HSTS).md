@@ -3,7 +3,7 @@ aliases:
   - HSTS
   - Strict Transport Security
 ---
-> **Quelle:** [RFC 6797 – HTTP Strict Transport Security (HSTS)](https://www.rfc-editor.org/rfc/rfc6797)
+[RFC 6797 – HTTP Strict Transport Security (HSTS)](https://www.rfc-editor.org/rfc/rfc6797)
 
 **HTTP Strict Transport Security (HSTS)** ist ein Sicherheitsmechanismus, der Browser anweist, eine bestimmte Website ausschließlich über verschlüsselte [[Transport Layer Security (TLS)|HTTPS]]-Verbindungen zu laden und HTTP-Verbindungen automatisch abzulehnen.
 

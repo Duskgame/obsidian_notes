@@ -4,7 +4,7 @@ aliases:
   - Online Certificate Status Protocol
   - OCSP Stapling
 ---
-> **Quelle:** [RFC 6960 – Online Certificate Status Protocol (OCSP)](https://www.rfc-editor.org/rfc/rfc6960)
+[RFC 6960 – Online Certificate Status Protocol (OCSP)](https://www.rfc-editor.org/rfc/rfc6960)
 
 **OCSP (Online Certificate Status Protocol)** ist ein Internetprotokoll zur Echtzeit-Prüfung, ob ein TLS-Zertifikat widerrufen wurde. Es ist die modernere Alternative zur [[CRL (Certificate Revocation List)|Certificate Revocation List (CRL)]].
 

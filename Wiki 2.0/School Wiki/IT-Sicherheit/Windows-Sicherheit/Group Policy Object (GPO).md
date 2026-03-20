@@ -6,7 +6,7 @@ aliases:
   - Group Policy Objects
   - Domänen-GPO
 ---
-> **Quelle:** [Microsoft Learn – Gruppenrichtlinien](https://learn.microsoft.com/de-de/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
+[Microsoft Learn – Gruppenrichtlinien](https://learn.microsoft.com/de-de/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
 
 Ein **Group Policy Object (GPO)** ist ein zentrales Konfigurationsobjekt in Windows-Domänen, das Sicherheits- und Konfigurationseinstellungen für Benutzer und Computer automatisch durchsetzt.
 

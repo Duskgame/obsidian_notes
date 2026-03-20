@@ -3,7 +3,7 @@ aliases:
   - ExecutionPolicy
   - PowerShell-Ausführungsrichtlinie
 ---
-> **Quelle:** [Microsoft Learn – Set-ExecutionPolicy](https://learn.microsoft.com/de-de/powershell/module/microsoft.powershell.security/set-executionpolicy)
+[Microsoft Learn – Set-ExecutionPolicy](https://learn.microsoft.com/de-de/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
 Die **PowerShell ExecutionPolicy** (Ausführungsrichtlinie) legt fest, welche PowerShell-Skripte auf einem Windows-System ausgeführt werden dürfen. Sie ist eine Sicherheitsmaßnahme, die das versehentliche oder böswillige Ausführen nicht autorisierter Skripte verhindern soll.
 

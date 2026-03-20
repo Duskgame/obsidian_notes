@@ -8,7 +8,7 @@ aliases:
   - Root CA
   - Stammzertifikat
 ---
-> **Quelle:** [BSI – Public-Key-Infrastruktur (PKI)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kryptographie/Kryptographie_node.html)
+[BSI – Public-Key-Infrastruktur (PKI)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kryptographie/Kryptographie_node.html)
 
 Ein **Root Certificate** (Wurzelzertifikat) ist das oberste Zertifikat in einer **Public-Key-Infrastruktur (PKI)**. Es wird von einer vertrauenswürdigen Zertifizierungsstelle (Root Certificate Authority, Root CA) selbstsigniert und bildet den Vertrauensanker für alle untergeordneten Zertifikate.
 

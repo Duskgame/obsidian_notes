@@ -4,7 +4,7 @@ aliases:
   - Verschlüsselung in Transit
   - sichere Transportverschlüsselung
 ---
-> **Quelle:** [BSI TR-02102 – Kryptographische Verfahren: Empfehlungen und Schlüssellängen](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html)
+ [BSI TR-02102 – Kryptographische Verfahren: Empfehlungen und Schlüssellängen](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html)
 
 **Transportverschlüsselung** bezeichnet die Verschlüsselung von Daten während ihrer Übertragung über ein Netzwerk, um sie vor unbefugtem Mitlesen oder Manipulation zu schützen.
 

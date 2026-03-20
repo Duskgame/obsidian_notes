@@ -4,7 +4,7 @@ aliases:
   - Sandboxed
   - Isolierte Umgebung
 ---
-> **Quelle:** [BSI – Bundesamt für Sicherheit in der Informationstechnik](https://www.bsi.bund.de/)
+[BSI – Bundesamt für Sicherheit in der Informationstechnik](https://www.bsi.bund.de/)
 
 **Sandboxing** bezeichnet eine Sicherheitstechnik, bei der Prozesse oder Anwendungen in einer isolierten Umgebung (*Sandbox*) ausgeführt werden, die keinen oder nur eingeschränkten Zugriff auf das restliche System hat.
 

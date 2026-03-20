@@ -3,7 +3,7 @@ aliases:
   - CSP
   - Content-Security-Policy
 ---
-> **Quelle:** [W3C – Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
+[W3C – Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
 
 Eine **Content Security Policy (CSP)** ist ein Sicherheitsmechanismus im Webbrowser, der über einen HTTP-Header festlegt, welche Inhaltsquellen (Skripte, Styles, Bilder, etc.) eine Webseite laden und ausführen darf.
 

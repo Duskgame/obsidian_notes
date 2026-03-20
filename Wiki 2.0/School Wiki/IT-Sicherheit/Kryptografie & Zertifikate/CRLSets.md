@@ -3,7 +3,7 @@ aliases:
   - CRL Sets
   - Chrome CRLSets
 ---
-> **Quelle:** [Chromium – CRLSets](https://www.chromium.org/Home/chromium-security/crlsets/)
+[Chromium – CRLSets](https://www.chromium.org/Home/chromium-security/crlsets/)
 
 **CRLSets** ist ein von Google Chrome verwendeter Mechanismus zum schnellen Widerruf von TLS-Zertifikaten, der als Alternative zu den langsameren traditionellen Methoden [[OCSP (Online Certificate Status Protocol)|OCSP]] und [[CRL (Certificate Revocation List)|CRL]] entwickelt wurde.
 

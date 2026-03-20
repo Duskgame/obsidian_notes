@@ -3,7 +3,7 @@ aliases:
   - Internet Message Access Protocol
   - IMAP4
 ---
-> **Quelle:** [RFC 9051 – Internet Message Access Protocol (IMAP) – Version 4rev2](https://www.rfc-editor.org/rfc/rfc9051)
+[RFC 9051 – Internet Message Access Protocol (IMAP) – Version 4rev2](https://www.rfc-editor.org/rfc/rfc9051)
 
 **IMAP (Internet Message Access Protocol)** ist ein E-Mail-Protokoll, das den Zugriff auf E-Mails direkt auf dem Mailserver ermöglicht, ohne diese zwingend lokal herunterzuladen.
 

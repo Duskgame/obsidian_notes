@@ -3,7 +3,7 @@ aliases:
   - Erpressungssoftware
   - Verschlüsselungstrojaner
 ---
-> **Quelle:** [BSI – Ransomware](https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminellen/Ransomware/ransomware_node.html)
+[BSI – Ransomware](https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminellen/Ransomware/ransomware_node.html)
 
 **Ransomware** ist eine Art von Schadsoftware (Malware), die Dateien auf einem infizierten System verschlüsselt und anschließend ein Lösegeld (englisch: *ransom*) für die Entschlüsselung fordert.
 

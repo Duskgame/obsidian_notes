@@ -2,7 +2,7 @@
 aliases:
   - SecureBoot
 ---
-> **Quelle:** [Microsoft Learn – Secure Boot](https://learn.microsoft.com/de-de/windows-hardware/design/device-experiences/oem-secure-boot)
+[Microsoft Learn – Secure Boot](https://learn.microsoft.com/de-de/windows-hardware/design/device-experiences/oem-secure-boot)
 
 **Secure Boot** ist ein [[UEFI]]-Sicherheitsmechanismus, der sicherstellt, dass beim Systemstart nur digital signierte und vertrauenswürdige Software (Bootloader, Betriebssystem-Kernel) ausgeführt wird.
 

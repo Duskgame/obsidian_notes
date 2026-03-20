@@ -7,7 +7,7 @@ aliases:
   - TLS-Handschlag
   - TLS-Handshake
 ---
-> **Quelle:** [RFC 8446 – The Transport Layer Security (TLS) Protocol Version 1.3](https://www.rfc-editor.org/rfc/rfc8446)
+[RFC 8446 – The Transport Layer Security (TLS) Protocol Version 1.3](https://www.rfc-editor.org/rfc/rfc8446)
 
 **Transport Layer Security (TLS)** ist das wichtigste kryptografische Protokoll zur sicheren Übertragung von Daten über Netzwerke. Es schützt Verbindungen durch Verschlüsselung, Authentifizierung und Integritätssicherung.
 
