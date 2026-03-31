@@ -56,51 +56,15 @@
             }
           },
           {
-            "id": "9c9e6686c09fc00b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/03.2026/31.03.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "31.03.2026"
-            }
-          },
-          {
             "id": "e29cb8389dc1557e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Daily notes/03.2026/19.03.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "Daily notes/04.2026"
               },
               "icon": "lucide-file",
-              "title": "19.03.2026"
+              "title": "04.2026"
             }
           }
         ],
@@ -278,8 +242,15 @@
       "3d-graph-new:Global 3D Graph": true
     }
   },
-  "active": "9c9e6686c09fc00b",
+  "active": "a7e28bf38e0144eb",
   "lastOpenFiles": [
+    "Daily notes/12.2025/12.2025.md",
+    "Daily notes/01.2026/01.2026.md",
+    "Daily notes/03.2026/11.03.2026.md",
+    "Daily notes/Untitled.md",
+    "Daily notes/04.2026/04.2026.md",
+    "Daily notes/04.2026",
+    "Daily notes/03.2026/19.03.2026.md",
     "Daily notes/03.2026/31.03.2026.md",
     "Daily notes/03.2026/30.03.2026.md",
     "Daily notes/03.2026/27.03.2026.md",
@@ -305,17 +276,10 @@
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/Power over Ethernet (PoE).md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/UCC.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/IMAP.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/EOL.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Minimalitätsprinzip.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Anforderungskatalog.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Schutzbedarf.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Incident Response.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management/Patch-Management.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Physische Sicherheit",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Windows-Sicherheit",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Angriffe & Bedrohungen",
     "Imports/image-44.png",
     "Imports/image-45.png",
     "Imports/image-43.png",
