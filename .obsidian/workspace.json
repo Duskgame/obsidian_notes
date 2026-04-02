@@ -8,67 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7017f3fd0e22916d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki 2.0/Mail Client Server/Group Policy Object.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Group Policy Object"
-            }
-          },
-          {
-            "id": "03b566078b1b02bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/03.2026/31.03.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "31.03.2026"
-            }
-          },
-          {
             "id": "e29cb8389dc1557e",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Daily notes/04.2026"
+                "file": "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "04.2026"
+              "title": "4.2.1 APP 1.1 Office Produkte"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,17 +205,29 @@
       "3d-graph-new:Global 3D Graph": true
     }
   },
-  "active": "a7e28bf38e0144eb",
+  "active": "e29cb8389dc1557e",
   "lastOpenFiles": [
+    "Daily notes/03.2026/31.03.2026.md",
+    "Wiki 2.0/Mail Client Server/Group Policy Object.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
+    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
+    "School/Lernfeld 4/todone/1. Teilhandlung Arbeitsprozess organisieren.md",
+    "School/Lernfeld 4/todone/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
+    "Daily notes/04.2026/01.04.2026.md",
+    "Daily notes/04.2026/02.04.2026.md",
+    "Daily notes/03.2026/30.03.2026.md",
+    "Daily notes/03.2026/03.2026.md",
+    "Daily notes/04.2026/04.2026.md",
+    "Daily notes/Daily template.md",
     "Daily notes/12.2025/12.2025.md",
     "Daily notes/01.2026/01.2026.md",
     "Daily notes/03.2026/11.03.2026.md",
     "Daily notes/Untitled.md",
-    "Daily notes/04.2026/04.2026.md",
     "Daily notes/04.2026",
     "Daily notes/03.2026/19.03.2026.md",
-    "Daily notes/03.2026/31.03.2026.md",
-    "Daily notes/03.2026/30.03.2026.md",
     "Daily notes/03.2026/27.03.2026.md",
     "Daily notes/03.2026/26.03.2026.md",
     "Daily notes/03.2026/24.03.2026.md",
@@ -260,22 +235,10 @@
     "Daily notes/03.2026/23.03.2026.md",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257756376",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257321597",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257177000",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257057692",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774255912862",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check Tabellen.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Physische Sicherheit/Kensington-Schloss.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Physische Sicherheit/Clean-Desk-Policy.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/Power over Ethernet (PoE).md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/UCC.md",
-    "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle/IMAP.md",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Physische Sicherheit",
     "Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle",
     "Wiki 2.0/School Wiki/IT-Sicherheit/IT-Management",
