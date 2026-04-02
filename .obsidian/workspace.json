@@ -11,24 +11,12 @@
             "id": "e29cb8389dc1557e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "School/Lernfeld 4/todone"
               },
               "icon": "lucide-file",
-              "title": "4.2.1 APP 1.1 Office Produkte"
+              "title": "todone"
             }
           }
         ]
@@ -205,17 +193,21 @@
       "3d-graph-new:Global 3D Graph": true
     }
   },
-  "active": "e29cb8389dc1557e",
+  "active": "305e8ee1b3a1131e",
   "lastOpenFiles": [
+    "School/Lernfeld 4/todone/todone.md",
+    "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
+    "School/Lernfeld 4/todone/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
+    "School/Lernfeld 4/todone/1. Teilhandlung Arbeitsprozess organisieren.md",
+    "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "School/Lernfeld 4/todo/6. Teilhandlung Ergebnisse Ihrer Arbeit darstellen.md",
+    "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
+    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todone/Erweiterungsauftag LF 4.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
     "Daily notes/03.2026/31.03.2026.md",
     "Wiki 2.0/Mail Client Server/Group Policy Object.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
-    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
-    "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
-    "School/Lernfeld 4/todone/1. Teilhandlung Arbeitsprozess organisieren.md",
-    "School/Lernfeld 4/todone/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
     "Daily notes/04.2026/01.04.2026.md",
     "Daily notes/04.2026/02.04.2026.md",
     "Daily notes/03.2026/30.03.2026.md",
@@ -230,10 +222,6 @@
     "Daily notes/03.2026/19.03.2026.md",
     "Daily notes/03.2026/27.03.2026.md",
     "Daily notes/03.2026/26.03.2026.md",
-    "Daily notes/03.2026/24.03.2026.md",
-    "Daily notes/03.2026/25.03.2026.md",
-    "Daily notes/03.2026/23.03.2026.md",
-    "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257756376",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257321597",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md.tmp.79020.1774257177000",
