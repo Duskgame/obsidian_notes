@@ -11,12 +11,14 @@
             "id": "e29cb8389dc1557e",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "split-diff-view",
               "state": {
-                "path": "School/Lernfeld 4/todone"
+                "aFile": ".obsidian/plugins/make-md/data.json",
+                "bFile": ".obsidian/plugins/make-md/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "todone"
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "aec98bd3b3bbeb33",
+            "id": "45b03fb4ddc7fe25",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -193,9 +195,11 @@
       "3d-graph-new:Global 3D Graph": true
     }
   },
-  "active": "305e8ee1b3a1131e",
+  "active": "e29cb8389dc1557e",
   "lastOpenFiles": [
+    "Daily notes/04.2026/02.04.2026.md",
     "School/Lernfeld 4/todone/todone.md",
+    "Daily notes/03.2026/03.2026.md",
     "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
     "School/Lernfeld 4/todone/2. Teilhandlung Informationsmedium zum Thema 'Datenschutz und Datensicherheit' erstellen.md",
     "School/Lernfeld 4/todone/1. Teilhandlung Arbeitsprozess organisieren.md",
@@ -209,9 +213,7 @@
     "Daily notes/03.2026/31.03.2026.md",
     "Wiki 2.0/Mail Client Server/Group Policy Object.md",
     "Daily notes/04.2026/01.04.2026.md",
-    "Daily notes/04.2026/02.04.2026.md",
     "Daily notes/03.2026/30.03.2026.md",
-    "Daily notes/03.2026/03.2026.md",
     "Daily notes/04.2026/04.2026.md",
     "Daily notes/Daily template.md",
     "Daily notes/12.2025/12.2025.md",
