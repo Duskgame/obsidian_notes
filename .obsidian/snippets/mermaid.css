@@ -1,0 +1,9 @@
+.theme-dark .mermaid {
+  --mermaid-mindmap-text-color: #F3F4F6;
+  --mermaid-mindmap-root-color: #0F766E;
+  --mermaid-mindmap-section-0-color: #006b59;
+  --mermaid-mindmap-section-1-color: #0E9F6E;
+  --mermaid-mindmap-section-2-color: #14B8A6;
+  --mermaid-mindmap-section-3-color: #2563EB;
+  --mermaid-mindmap-section-4-color: #7C3AED;
+}
