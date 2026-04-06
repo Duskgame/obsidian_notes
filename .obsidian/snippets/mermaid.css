@@ -7,3 +7,42 @@
   --mermaid-mindmap-section-3-color: #2563EB;
   --mermaid-mindmap-section-4-color: #7C3AED;
 }
+
+.theme-dark .mermaid .mindmap-nodes text {
+  fill: #F3F4F6 !important;
+}
+
+.theme-dark .mermaid .mindmap-nodes .section-root .node-bkg,
+.theme-dark .mermaid .mindmap-nodes .section-root .node-line--1,
+.theme-dark .mermaid .mindmap-edges .section-edge-0 {
+  fill: #006b59 !important;
+  stroke: #006b59 !important;
+}
+
+.theme-dark .mermaid .mindmap-nodes .section-0 .node-bkg,
+.theme-dark .mermaid .mindmap-nodes .section-0 .node-line-0,
+.theme-dark .mermaid .mindmap-edges .section-edge-1 {
+  fill: #0E9F6E !important;
+  stroke: #0E9F6E !important;
+}
+
+.theme-dark .mermaid .mindmap-nodes .section-1 .node-bkg,
+.theme-dark .mermaid .mindmap-nodes .section-1 .node-line-1,
+.theme-dark .mermaid .mindmap-edges .section-edge-2 {
+  fill: #14B8A6 !important;
+  stroke: #14B8A6 !important;
+}
+
+.theme-dark .mermaid .mindmap-nodes .section-2 .node-bkg,
+.theme-dark .mermaid .mindmap-nodes .section-2 .node-line-2,
+.theme-dark .mermaid .mindmap-edges .section-edge-3 {
+  fill: #2563EB !important;
+  stroke: #2563EB !important;
+}
+
+.theme-dark .mermaid .mindmap-nodes .section-3 .node-bkg,
+.theme-dark .mermaid .mindmap-nodes .section-3 .node-line-3,
+.theme-dark .mermaid .mindmap-edges .section-edge-4 {
+  fill: #7C3AED !important;
+  stroke: #7C3AED !important;
+}
