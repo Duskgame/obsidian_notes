@@ -95,8 +95,9 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/Room Library",
     "//Excalidraw",
     "//App project",
-    "//App project/App project/Planning",
-    "//School"
+    "//School",
+    "//Daily notes",
+    "//App project/App project/Planning"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

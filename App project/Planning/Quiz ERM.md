@@ -1,3 +1,4 @@
+
 ```mermaid
 ---
 title: Quiz
@@ -18,11 +19,23 @@ erDiagram
 	user_answer_history {
 		int answerId
 		int questionId
-		int answeredCorrectly
-		int answeredWrong
+		int answeredCorrectId
+		int answeredWrongId
 		bool lastAnsweredCorrectly
+	}
+	
+	answered_correct {
+		int answeredCorrectId
+		string timestamp
+	}
+	
+	answered_wrong {
+		int answeredWrongId
+		string timestamp
 	}
 	
 	quiz ||--|{ question: has
 	question ||--|| user_answer_history: has
+	user_answer_history ||--|| answered_correct: has
+	user_answer_history ||--|| answered_wrong: has
 ```
