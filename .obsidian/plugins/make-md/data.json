@@ -63,7 +63,6 @@
     "//School/School/Nebenfächer/School/Nebenfächer/Fachenglisch",
     "//FOSDEM/FOSDEM/Database Devroom",
     "//Wiki 2.0/Wiki 2.0/School Wiki/Wiki 2.0/School Wiki/Projektmanagement",
-    "//Imports/Imports/Excalidraw",
     "//School/School/Lernfeld 4",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
@@ -71,7 +70,6 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Worker",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
-    "/",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/SYS Bausteine",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine",
@@ -98,7 +96,9 @@
     "//School",
     "//Daily notes",
     "//App project/App project/Planning",
-    "//Imports"
+    "/",
+    "//Imports",
+    "//Imports/Imports/Excalidraw"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

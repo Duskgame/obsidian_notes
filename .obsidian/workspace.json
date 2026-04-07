@@ -11,12 +11,12 @@
             "id": "e29cb8389dc1557e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg"
+                "file": "Imports/Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md"
               },
-              "icon": "lucide-image",
-              "title": "Untitled-2025-09-30-1104.excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-31 11.23.49.excalidraw"
             }
           }
         ]
@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "87b88845715ff6b3",
+            "id": "0d3b837e05b79213",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -195,12 +195,13 @@
   },
   "active": "e29cb8389dc1557e",
   "lastOpenFiles": [
-    "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
+    "Imports/Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
+    "Daily notes/04.2026/07.04.2026.md",
+    "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Imports/Excalidraw/Drawing 2025-11-24 10.49.59.excalidraw.md",
     "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
-    "Imports/Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
     "Excalidraw/Excalidraw.md",
     "Excalidraw/Drawing 2026-02-03 12.39.46.excalidraw.md",
     "App project/Planning/Quiz ERM.md",
@@ -214,7 +215,6 @@
     "App project/App Team/Manual Testing.md",
     "Wiki 2.0/Wiki 2.0.md",
     "Untitled.base",
-    "Daily notes/04.2026/07.04.2026.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/@Transaction.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/@Embedded.md",
     "Wiki 2.0/App development/Android/Data Persistence/Room Library/@Relation.md",
