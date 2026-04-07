@@ -97,7 +97,8 @@
     "//App project",
     "//School",
     "//Daily notes",
-    "//App project/App project/Planning"
+    "//App project/App project/Planning",
+    "//Imports"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
