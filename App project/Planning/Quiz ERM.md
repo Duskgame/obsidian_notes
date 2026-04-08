@@ -17,12 +17,20 @@ erDiagram
 	}
 	
 	answer_history {
-		int answerId
 		int questionId
 		bool answeredCorrect
 		string timestamp
 	}
+	
+	question_progress {
+		int questionId
+		int answeredCorrct
+		int answeredWrong
+		bool lastAnsweredCorrect
+		int currentStreak
+	}
 		
 	quiz ||--|{ question: has
 	question ||--o| answer_history: has
+	question ||--o| question_progress: has
 ```
