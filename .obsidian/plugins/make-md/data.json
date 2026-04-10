@@ -98,7 +98,8 @@
     "//App project/App project/Planning",
     "/",
     "//Imports",
-    "//Imports/Imports/Excalidraw"
+    "//Imports/Imports/Excalidraw",
+    "//App project/App project/Testing Projects"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
