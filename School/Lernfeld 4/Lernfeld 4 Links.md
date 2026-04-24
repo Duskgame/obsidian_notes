@@ -35,6 +35,6 @@ keine kosten
     1. **_Schutzbedarfsanalyse_ + Maßnahmenkatalog**
     2. **Brainstorming dokumentiert in einer Mindmap**
 
-![[image-33.png|379|486x476]]
+![[image-33.png|379|828x811]]
 
 

@@ -1,5 +1,8 @@
 #dailynote
 
+## Todays todos: 
+- [ ] 
+
 ## Progress:
 
 ## Problems:

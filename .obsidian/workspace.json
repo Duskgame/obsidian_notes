@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/04.2026/12.04.2026.md",
+                "file": "School/Lernfeld 4/todone/Präsentation Sprechnotizen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12.04.2026"
+              "title": "Präsentation Sprechnotizen"
+            }
+          },
+          {
+            "id": "18b69307eb6a59a8",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Wiki 2.0"
+              },
+              "icon": "lucide-file",
+              "title": "Wiki 2.0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             }
           },
           {
-            "id": "c9cdbf53467205dd",
+            "id": "1f49827296c728bf",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -202,57 +215,58 @@
       "obsidian-git:Open Git source control": true,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obisidian-note-linker:Note Linker": true,
-      "3d-graph-new:Global 3D Graph": true
+      "3d-graph-new:Global 3D Graph": true,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e29cb8389dc1557e",
+  "active": "1f49827296c728bf",
   "lastOpenFiles": [
-    "Daily notes/04.2026/11.04.2026.md",
-    "Daily notes/04.2026/12.04.2026.md",
-    "Daily notes/04.2026/10.04.2026.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/One-time Events in UiState.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/One-time Events in UiState.md.tmp.8264.1775831773967",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/UI Action Pattern.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/UI Action Pattern.md.tmp.8264.1775831757169",
-    "Daily notes/04.2026/10.04.2026.md.tmp.8264.1775831740993",
-    "Daily notes/04.2026/10.04.2026.md.tmp.8264.1775831737301",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Shared ViewModel.md",
-    "Wiki 2.0/App development/Android/jetpack/Navigation/Shared ViewModel.md.tmp.8264.1775805330887",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/remember() key.md",
-    "Wiki 2.0/App development/Android/jetpack/State in jetpack compose/remember() key.md.tmp.8264.1775805317066",
-    "Wiki 2.0/App development/Android/jetpack/LazyColumn.md",
-    "Wiki 2.0/App development/Android/jetpack/LazyColumn.md.tmp.8264.1775805304425",
-    "Wiki 2.0/App development/Android/jetpack/Scaffold.md",
-    "Wiki 2.0/App development/Android/jetpack/Scaffold.md.tmp.8264.1775805292111",
-    "Daily notes/04.2026/10.04.2026.md.tmp.8264.1775805277020",
-    "Daily notes/04.2026/10.04.2026.md.tmp.8264.1775805272664",
-    "Daily notes/04.2026/09.04.2026.md",
-    "Imports/Excalidraw/Drawing 2025-10-31 11.23.49.excalidraw.md",
+    "Wiki 2.0/Wiki 2.0.md",
+    "Daily notes/04.2026/24.04.2026.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
+    "School/Lernfeld 4/lu29899913yswa.tmp",
+    "School/Lernfeld 4/lu29899913ysw8.tmp",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
+    "School/Lernfeld 4/lu29899913ysja.tmp",
+    "School/Lernfeld 4/lu29899913ysj8.tmp",
+    "School/Lernfeld 4/lu29899913ysj6.tmp",
+    "School/Lernfeld 4/lu29899913ysii.tmp",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.7 SYS.2.2.3 Clients unter Windows.md",
+    "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
+    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md.tmp.357571.1777016831095",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
+    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIMIT.md",
+    "School/Lernfeld 4/lu29899913ymh5.tmp",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
+    "School/Lernfeld 4/lu28988013ocf0.tmp",
+    "School/Lernfeld 4/lu18798912k7w1.tmp",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
+    "School/Lernfeld 5/todo/Projektvorgehensmethode.md",
+    "Daily notes/04.2026/23.04.2026.md",
+    "School/Lernfeld 5/todone/todone.md",
+    "School/Lernfeld 4/todone/Präsentation Sprechnotizen.md",
+    "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
+    "School/Lernfeld 4/Anforderungen.md",
+    "Imports/image-45.png",
+    "School/Lernfeld 4/Lernfeld 4.md",
+    "Daily notes/04.2026/22.04.2026.md",
+    "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
+    "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
+    "Imports/Screenshot 2026-04-13 at 10-15-48 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_ERD.pdf.png",
     "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.svg",
-    "App project/Testing Projects/Testing Projects.md",
-    "Wiki 2.0/App development/Kotlin/kotlinx.serialization.md",
-    "Wiki 2.0/General/Offline-first Sync.md",
-    "Wiki 2.0/App development/Android/Emulator Networking.md",
-    "Wiki 2.0/General/HTTP Payload.md",
-    "Wiki 2.0/App development/Ktor/Ktor Client.md",
-    "Daily notes/04.2026/08.04.2026.md",
-    "Wiki 2.0/General/JDBC.md",
-    "Wiki 2.0/App development/Ktor/Exposed.md",
-    "Wiki 2.0/App development/Ktor/Ktor Server.md",
-    "Wiki 2.0/App development/Android/Instrumented Tests.md",
-    "Wiki 2.0/App development/Android/jetpack/ViewModelProvider.Factory.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/In-memory Room Database.md",
-    "Wiki 2.0/App development/Android/Data Persistence/Room Library/Fake Repository.md",
-    "App project/Planning/Quiz ERM.md",
     "Imports/Excalidraw/Untitled-2025-09-30-1104.excalidraw.png",
     "Imports/image-44.png",
-    "Imports/image-45.png",
     "Imports/image-43.png",
     "Imports/image-42.png",
     "Imports/image-41.png",
-    "Imports/image-40.png",
-    "Imports/image-39.png",
-    "Imports/image-38.png",
     "Untitled.canvas",
     "App project/Planning/Untitled.canvas",
     "Untitled 1.canvas"

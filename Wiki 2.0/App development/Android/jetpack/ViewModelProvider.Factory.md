@@ -56,7 +56,42 @@ editQuizScreen/
 └── EditQuizScreen.kt
 ```
 
+## Consolidated factory with viewModelFactory
+
+Instead of a separate factory class per ViewModel, all factories can be merged into a single `AppViewModelProvider` object using the `viewModelFactory { initializer {} }` API. This avoids boilerplate and keeps all wiring in one place.
+
+```kotlin
+object AppViewModelProvider {
+    val Factory = viewModelFactory {
+        initializer {
+            StartViewModel(kwizzApplication().container.repository)
+        }
+        initializer {
+            QuizViewModel(
+                repository = kwizzApplication().container.repository,
+                savedStateHandle = createSavedStateHandle()
+            )
+        }
+    }
+}
+
+fun CreationExtras.kwizzApplication(): KwizzApplication =
+    (this[AndroidViewModelFactory.APPLICATION_KEY] as KwizzApplication)
+```
+
+- `CreationExtras` is a key-value bag the framework attaches to every ViewModel creation call. `APPLICATION_KEY` gives you the `Application` instance without needing `LocalContext` in the composable.
+- `createSavedStateHandle()` builds the `SavedStateHandle` for the ViewModel from the current navigation back stack entry. Must be called inside `initializer {}`.
+
+Usage in any composable:
+
+```kotlin
+val viewModel: StartViewModel = viewModel(factory = AppViewModelProvider.Factory)
+```
+
+The composable no longer needs to cast `LocalContext` to the application class.
+
 ## Related
 
 - [[ViewModel]]
+- [[SavedStateHandle]]
 - [[Database AppContainer]]
