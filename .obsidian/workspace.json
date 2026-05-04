@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e29cb8389dc1557e",
+            "id": "18b69307eb6a59a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Lernfeld 4/todone/Präsentation Sprechnotizen.md",
+                "file": "Daily notes/04.2026/04.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Präsentation Sprechnotizen"
-            }
-          },
-          {
-            "id": "18b69307eb6a59a8",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Wiki 2.0"
-              },
-              "icon": "lucide-file",
-              "title": "Wiki 2.0"
+              "title": "04.05.2026"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             }
           },
           {
-            "id": "1f49827296c728bf",
+            "id": "94403400120930fe",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -200,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 274.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,45 +207,45 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1f49827296c728bf",
+  "active": "18b69307eb6a59a8",
   "lastOpenFiles": [
+    "Daily notes/04.2026/01.05.2026.md",
+    "Daily notes/04.2026/04.05.2026.md",
+    "School/Kritik am Kurs.md",
+    "School/Lernfeld 5/Lernfeld 5.md",
+    "Daily notes/04.2026/29.04.2026.md",
+    "School/Lernfeld 4/todone/Präsentation Sprechnotizen.md",
+    "Daily notes/04.2026/28.04.2026.md",
+    "School/Onboarding.md",
+    "Daily notes/04.2026/26.04.2026.md",
+    "Daily notes/04.2026/25.04.2026.md",
+    "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
+    "School/Lernfeld 4/Lernfeld 4 Links.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
+    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
+    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
     "Wiki 2.0/Wiki 2.0.md",
     "Daily notes/04.2026/24.04.2026.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
     "School/Lernfeld 4/lu29899913yswa.tmp",
     "School/Lernfeld 4/lu29899913ysw8.tmp",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
     "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
     "School/Lernfeld 4/lu29899913ysja.tmp",
     "School/Lernfeld 4/lu29899913ysj8.tmp",
     "School/Lernfeld 4/lu29899913ysj6.tmp",
     "School/Lernfeld 4/lu29899913ysii.tmp",
     "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.7 SYS.2.2.3 Clients unter Windows.md",
-    "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
     "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
     "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md.tmp.357571.1777016831095",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL LIMIT.md",
     "School/Lernfeld 4/lu29899913ymh5.tmp",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
     "School/Lernfeld 4/lu28988013ocf0.tmp",
     "School/Lernfeld 4/lu18798912k7w1.tmp",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.4 APP.5.4 Unified Communications und Collaboration (UCC).md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
-    "School/Lernfeld 5/todo/Projektvorgehensmethode.md",
-    "Daily notes/04.2026/23.04.2026.md",
-    "School/Lernfeld 5/todone/todone.md",
-    "School/Lernfeld 4/todone/Präsentation Sprechnotizen.md",
-    "School/Lernfeld 4/todone/3. Teilhandlung Brainstorming zur Problemanalyse durchführen.md",
-    "School/Lernfeld 4/Anforderungen.md",
     "Imports/image-45.png",
-    "School/Lernfeld 4/Lernfeld 4.md",
-    "Daily notes/04.2026/22.04.2026.md",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-15-48 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_ERD.pdf.png",

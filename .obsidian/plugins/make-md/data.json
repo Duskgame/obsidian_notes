@@ -85,7 +85,6 @@
     "//School/School/Lernfeld 4/School/Lernfeld 4/todone",
     "//Wiki 2.0/Wiki 2.0/App development",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
-    "//App project",
     "//App project/App project/Planning",
     "/",
     "//App project/App project/Testing Projects",
@@ -93,7 +92,7 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence/Wiki 2.0/App development/Android/Data Persistence/SQL Statements",
     "//School/School/WuG/School/WuG/Fallbeispiele",
     "//School/School/Lernfeld 5/School/Lernfeld 5/todone",
-    "//Wiki 2.0"
+    "//School"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
