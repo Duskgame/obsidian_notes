@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/04.2026/04.05.2026.md",
+                "file": "Daily notes/04.2026/07.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04.05.2026"
+              "title": "07.05.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "94403400120930fe",
+            "id": "d48c1894c45939f7",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -209,8 +209,15 @@
   },
   "active": "18b69307eb6a59a8",
   "lastOpenFiles": [
+    "Daily notes/05.2026/05.05.2026.md",
+    "Daily notes/04.2026/07.05.2026.md",
+    "Daily notes/05.2026/04.05.2026.md",
+    "Daily notes/05.2026/05.2026.md",
+    "Daily notes/05.2026",
+    "WIP/Untitled.md",
+    "WIP/WIP.md",
+    "WIP",
     "Daily notes/04.2026/01.05.2026.md",
-    "Daily notes/04.2026/04.05.2026.md",
     "School/Kritik am Kurs.md",
     "School/Lernfeld 5/Lernfeld 5.md",
     "Daily notes/04.2026/29.04.2026.md",
@@ -236,15 +243,8 @@
     "School/Lernfeld 4/lu29899913ysj8.tmp",
     "School/Lernfeld 4/lu29899913ysj6.tmp",
     "School/Lernfeld 4/lu29899913ysii.tmp",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.7 SYS.2.2.3 Clients unter Windows.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.2 App 1.2 Webbrowser.md",
-    "School/Lernfeld 4/todone/4. Teilhandlung Schutzbedarfsanalyse auf Basisniveau für einen Client-PC durchführen.md",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md",
     "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md.tmp.357571.1777016831095",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Statements.md",
     "School/Lernfeld 4/lu29899913ymh5.tmp",
-    "School/Lernfeld 4/lu28988013ocf0.tmp",
-    "School/Lernfeld 4/lu18798912k7w1.tmp",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
