@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/04.2026/07.05.2026.md",
+                "file": "Daily notes/04.2026/12.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "07.05.2026"
+              "title": "12.05.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "d48c1894c45939f7",
+            "id": "8745be465a074f93",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,44 +206,44 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "18b69307eb6a59a8",
+  "active": "8745be465a074f93",
   "lastOpenFiles": [
-    "Daily notes/05.2026/05.05.2026.md",
-    "Daily notes/04.2026/07.05.2026.md",
-    "Daily notes/05.2026/04.05.2026.md",
-    "Daily notes/05.2026/05.2026.md",
-    "Daily notes/05.2026",
-    "WIP/Untitled.md",
-    "WIP/WIP.md",
-    "WIP",
-    "Daily notes/04.2026/01.05.2026.md",
-    "School/Kritik am Kurs.md",
-    "School/Lernfeld 5/Lernfeld 5.md",
-    "Daily notes/04.2026/29.04.2026.md",
-    "School/Lernfeld 4/todone/Präsentation Sprechnotizen.md",
-    "Daily notes/04.2026/28.04.2026.md",
-    "School/Onboarding.md",
-    "Daily notes/04.2026/26.04.2026.md",
-    "Daily notes/04.2026/25.04.2026.md",
-    "School/Lernfeld 4/todone/5. Teilhandlung Geeignete Maßnahmen zur Erreichung eines bestimmten Schutzniveaus empfehlen.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine/4.2.6 SYS.2.1 Allgemeiner Client.md",
-    "School/Lernfeld 4/Lernfeld 4 Links.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/INF Bausteine/4.2.8 INF.7 Büroarbeitsplatz.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.1 APP 1.1 Office Produkte.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.5 APP.6 Allgemeine Software.md",
-    "School/Lernfeld 4/todone/4.1. Auswahl und Priorisierung.md",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/4.2. IT-Grundschutz-Check.md",
-    "Wiki 2.0/Wiki 2.0.md",
-    "Daily notes/04.2026/24.04.2026.md",
-    "School/Lernfeld 4/lu29899913yswa.tmp",
-    "School/Lernfeld 4/lu29899913ysw8.tmp",
-    "School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine/4.2.3 APP.5.3 Allgemeiner E-Mail-Client und -Server.md",
-    "School/Lernfeld 4/lu29899913ysja.tmp",
-    "School/Lernfeld 4/lu29899913ysj8.tmp",
-    "School/Lernfeld 4/lu29899913ysj6.tmp",
-    "School/Lernfeld 4/lu29899913ysii.tmp",
-    "Wiki 2.0/App development/Android/Data Persistence/SQL Statements/SQL Reference.md.tmp.357571.1777016831095",
-    "School/Lernfeld 4/lu29899913ymh5.tmp",
+    "Wiki 2.0/Software Engineering/Design Patterns/Design Patterns.md",
+    "Wiki 2.0/Software Engineering/Software Engineering.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Unidirectional data Flow.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Separation of concerns.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Repository.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Model-View-ViewModel.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Layered architecture (app).md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Factory.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Drive UI from a model.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Design Principles.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/Data Layer.md",
+    "Wiki 2.0/Software Engineering/Design Patterns/App Architecture.md",
+    "Wiki 2.0/Software Engineering/Design Patterns",
+    "Wiki 2.0/Software Engineering/Konzepte/REST.md",
+    "Wiki 2.0/Software Engineering/Konzepte/RAM.md",
+    "Wiki 2.0/Software Engineering/Konzepte/OOP.md",
+    "Wiki 2.0/Software Engineering/Konzepte/Offline-first Sync.md",
+    "Wiki 2.0/Software Engineering/Konzepte/JSON.md",
+    "Wiki 2.0/Software Engineering/Konzepte/JDBC.md",
+    "Wiki 2.0/Software Engineering/Konzepte/HTTP Payload.md",
+    "Wiki 2.0/Software Engineering/Konzepte/HTTP Headers.md",
+    "Wiki 2.0/Software Engineering/Konzepte/Dependency Injection.md",
+    "Wiki 2.0/Software Engineering/Konzepte/Data Type.md",
+    "Wiki 2.0/Software Engineering/Konzepte/Database.md",
+    "Wiki 2.0/Software Engineering/Konzepte/CRUD.md",
+    "Wiki 2.0/Software Engineering/Konzepte/API.md",
+    "Wiki 2.0/Software Engineering/Konzepte",
+    "Wiki 2.0/Software Engineering/Design Principles/Unidirectional data Flow.md",
+    "Wiki 2.0/Software Engineering/Design Principles",
+    "Wiki 2.0/Software Engineering",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation/UI_UX Feedback - SAKE.pdf",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation/UI_UX Feedback - SAKE-3.pdf",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation/UI_UX Feedback - SAKE-2.pdf",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation/UI_UX Feedback - SAKE-1.pdf",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",

@@ -73,7 +73,6 @@
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/SYS Bausteine",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/School/Lernfeld 4/todo/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine",
     "//Wiki 2.0/Wiki 2.0/Mail Client Server",
-    "//Wiki 2.0/Wiki 2.0/School Wiki",
     "//Wiki 2.0/Wiki 2.0/School Wiki/Wiki 2.0/School Wiki/IT-Sicherheit",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todone/School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todone/School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/School/Lernfeld 4/todone/4.2. IT-Grundschutz-Check Tabellen/APP Bausteine",
@@ -82,7 +81,6 @@
     "//Wiki 2.0/Wiki 2.0/School Wiki/Wiki 2.0/School Wiki/IT-Sicherheit/Wiki 2.0/School Wiki/IT-Sicherheit/Netzwerk & Protokolle",
     "//Wiki 2.0/Wiki 2.0/School Wiki/Wiki 2.0/School Wiki/IT-Sicherheit/Wiki 2.0/School Wiki/IT-Sicherheit/Physische Sicherheit",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todone",
-    "//Wiki 2.0/Wiki 2.0/App development",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin",
     "//App project/App project/Planning",
     "/",
@@ -94,7 +92,10 @@
     "//School",
     "//WIP",
     "//Daily notes",
-    "//Daily notes/Daily notes/05.2026"
+    "//Daily notes/Daily notes/05.2026",
+    "//Wiki 2.0",
+    "//Wiki 2.0/Wiki 2.0/GoogleCloud",
+    "//Wiki 2.0/Wiki 2.0/GoogleCloud/Wiki 2.0/GoogleCloud/Service Account Key Rotation"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
