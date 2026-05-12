@@ -97,13 +97,27 @@ Comparison:
 
 ## Execution order on load
 
-```
-1. <script> runs (synchronous)
-2. Template is rendered (DOM elements created)
-3. onMount callbacks run
-   └── async onMount: does not block rendering
-4. On changes: re-render + $effect
-5. On component removal: onDestroy / $effect cleanup
+```mermaid
+sequenceDiagram
+    participant Script as &lt;script&gt;
+    participant Svelte
+    participant DOM
+    participant User
+
+    Script->>Svelte: runs synchronously
+    Svelte->>DOM: renders template
+    Svelte->>Script: onMount() fires
+    Script-->>DOM: fetch data · set focus · init libs
+
+    loop on every state change
+        User->>Script: event / interaction
+        Script->>Svelte: $state update
+        Svelte->>DOM: re-render diff
+        Svelte->>Script: $effect() fires
+    end
+
+    User->>Svelte: navigate away
+    Svelte->>Script: onDestroy() / $effect cleanup
 ```
 
 ---
@@ -139,3 +153,5 @@ Comparison:
 - [[Svelte Reactivity (Runes)]] — `$effect` as a modern lifecycle hook
 - [[Fetch in Svelte]] — API calls typically in `onMount`
 - [[SvelteKit Load Functions]] — alternative to onMount for data-heavy loading
+- [[Composable Lifecycle]] — Jetpack Compose equivalent: `LaunchedEffect`, `DisposableEffect`, `SideEffect`
+- [[Activity Lifecycle]] — Android Activity lifecycle for broader context on why lifecycle management matters

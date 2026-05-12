@@ -130,18 +130,19 @@ Svelte 5 uses **native DOM event handlers** instead of the old `on:` directives.
 
 ## Data flow principle
 
-```
-Parent → Child : via Props
-Child → Parent : via callback functions (passed as props)
+```mermaid
+graph TD
+    P["App.svelte<br/>(Parent)"]
+    C["KeyCard.svelte<br/>(Child)"]
+
+    P -->|"props: keyId · expires · onDelete"| C
+    C -->|"callback: onDelete()"| P
+
+    style P fill:#dbeafe
+    style C fill:#dcfce7
 ```
 
-```
-App.svelte
-  ├── props: keyId, expires, onDelete ──→ KeyCard.svelte
-  └── callback: onDelete() ←─────────── KeyCard.svelte (onclick)
-```
-
-This is the **unidirectional data flow** pattern: data always flows from top to bottom. Changes are reported upward via callbacks.
+Data always flows **downward** via props. Changes flow **upward** via callback functions passed as props. This is the **unidirectional data flow** pattern — the same principle used in Android Jetpack Compose and React.
 
 ---
 
@@ -150,3 +151,5 @@ This is the **unidirectional data flow** pattern: data always flows from top to 
 - [[Svelte Components]] — how components are structured
 - [[Svelte Reactivity (Runes)]] — `$bindable()` is also a rune
 - [[Svelte Stores]] — alternative when props need to be passed through many levels (prop drilling)
+- [[Unidirectional data Flow]] — the pattern this follows: single source of truth, events bubble up
+- [[Model-View-ViewModel]] — MVVM is a related pattern where a ViewModel holds state and the view only observes

@@ -21,6 +21,21 @@ SvelteKit uses **file-based routing**: the folder path under `src/routes/` deter
 
 ## Basic routing
 
+```mermaid
+graph LR
+    subgraph files["src/routes/"]
+        A["+page.svelte"]
+        B["request/<br/>+page.svelte"]
+        C["supporter/<br/>+page.svelte"]
+        D["keys/[keyId]/<br/>+page.svelte"]
+    end
+
+    A -->|"→"| UA["/"]
+    B -->|"→"| UB["/request"]
+    C -->|"→"| UC["/supporter"]
+    D -->|"→"| UD["/keys/abc123"]
+```
+
 ```
 src/routes/
 ├── +page.svelte           → /
@@ -185,3 +200,4 @@ Parentheses `()` in a folder name create a route group — the name does **not**
 - [[SvelteKit]] — overview and project structure
 - [[SvelteKit Load Functions]] — loading data for pages
 - [[Svelte Props and Events]] — `children` prop in layouts
+- [[Navigation]] — Android Jetpack Navigation: NavHost/NavController is the Android analog of SvelteKit's file-based routing

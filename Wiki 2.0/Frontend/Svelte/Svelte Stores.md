@@ -56,6 +56,22 @@ keyList.update(keys => [...keys, "key-new-123"]);
 
 ---
 
+## How stores connect components
+
+```mermaid
+graph TD
+    S["writable store<br/>currentUser"]
+
+    L["Login.svelte"] -->|".set(user)"| S
+    S -->|"$currentUser"| H["Header.svelte"]
+    S -->|"$currentUser"| N["Nav.svelte"]
+    S -->|"$currentUser"| P["+page.svelte"]
+
+    style S fill:#fef9c3
+```
+
+The store is the single source of truth. Any component can write to it; any component can subscribe. No props need to pass through the tree.
+
 ## $ — Auto-subscription in Svelte files
 
 In `.svelte` files, a store can be used directly with the `$` prefix:
@@ -171,3 +187,5 @@ export const isSupporter = derived(user, $user => $user?.role === "supporter");
 - [[Svelte Reactivity (Runes)]] — `$state` for local state
 - [[Svelte Props and Events]] — alternative to stores for simple passing
 - [[Svelte Lifecycle]] — stores are often initialized in `onMount`
+- [[StateFlow]] — Kotlin/Android equivalent: `StateFlow` + `collectAsState()` plays the same role as a Svelte writable store
+- [[Unidirectional data Flow]] — stores enforce UDF: one source of truth, derived values, no two-way surprises

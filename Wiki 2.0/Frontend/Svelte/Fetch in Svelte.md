@@ -6,6 +6,20 @@ HTTP requests in Svelte frontends use the native browser **Fetch API**. No separ
 
 ---
 
+## Request state machine
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> Loading : fetch() called
+    Loading --> Success : res.ok === true
+    Loading --> Error : res.ok === false\nor network failure
+    Error --> Loading : retry
+    Loading --> Aborted : AbortController.abort()
+    Success --> [*]
+    Aborted --> [*]
+```
+
 ## Basic fetch pattern
 
 ```svelte
@@ -179,3 +193,7 @@ fetch(url, {
 - [[Svelte Template Logic]] — `{#await}` for async data
 - [[Svelte Lifecycle]] — `onMount` for initial data loading
 - [[SvelteKit Load Functions]] — fetch in SvelteKit before rendering
+- [[REST]] — the architectural style most APIs follow (methods, status codes, resources)
+- [[HTTP Headers]] — Authorization, Content-Type and other headers used in fetch options
+- [[JSON]] — the data format returned by most APIs and parsed with `res.json()`
+- [[API]] — what an API is and how endpoints are structured

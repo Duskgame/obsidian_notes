@@ -111,6 +111,23 @@ When a large object should not be deeply observed (performance):
 
 ---
 
+## How runes relate to each other
+
+```mermaid
+graph LR
+    ST["$state(value)<br/>Source of truth"]
+    DR["$derived(expr)<br/>Computed value"]
+    EF["$effect(fn)<br/>Side effect"]
+    TM["Template<br/>{expression}"]
+    EX["Outside world<br/>DOM · API · localStorage"]
+
+    ST -->|"dependency"| DR
+    ST -->|"dependency"| EF
+    ST -->|"read directly"| TM
+    DR -->|"read"| TM
+    EF -->|"produces"| EX
+```
+
 ## Summary
 
 | Rune | Purpose | When to use |
@@ -128,3 +145,5 @@ When a large object should not be deeply observed (performance):
 - [[Svelte Components]] — where runes are used
 - [[Svelte Props and Events]] — `$props()` is also a rune
 - [[Svelte Stores]] — alternative for cross-component state
+- [[State in Compose]] — Android equivalent: `remember { mutableStateOf() }` works similarly to `$state()`
+- [[Unidirectional data Flow]] — the data-flow pattern that runes enforce: state flows down, events flow up

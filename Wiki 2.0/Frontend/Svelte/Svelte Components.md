@@ -30,6 +30,17 @@ The three sections:
 - HTML section — template with `{ }` for expressions
 - `<style>` — CSS, **automatically scoped** (only affects this component)
 
+```mermaid
+graph TD
+    F[".svelte file"]
+    F --> S["&lt;script lang='ts'&gt;<br/>Logic · State · Imports"]
+    F --> H["HTML Template<br/>Markup · {expressions}"]
+    F --> C["&lt;style&gt;<br/>Scoped CSS"]
+    S -->|reactive state drives| H
+    H -->|bind: / events feed back| S
+    C -.->|scoped to| H
+```
+
 ---
 
 ## Expressions in the Template
@@ -130,3 +141,5 @@ Svelte automatically adds a unique class hash so styles don't "leak" into other 
 - [[Svelte Reactivity (Runes)]] — how state works inside components
 - [[Svelte Props and Events]] — how data flows between components
 - [[TypeScript in Svelte]] — `lang="ts"` in the script tag
+- [[Separation of concerns]] — the architectural principle behind putting logic, markup, and style in one file
+- [[Composable function]] — Jetpack Compose equivalent: `@Composable` functions are the Android analog of `.svelte` components

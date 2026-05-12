@@ -62,6 +62,22 @@ These two lines are **central** to the SPA mode with the static adapter.
 
 ## What happens during npm run build?
 
+```mermaid
+graph LR
+    SRC["src/<br/>.svelte · .ts · .css"]
+    BUILD["Vite +<br/>SvelteKit<br/>Compiler"]
+    OUT["build/<br/>index.html<br/>*.js · *.css"]
+    DOCK["Docker<br/>nginx:alpine"]
+    CR["Cloud Run<br/>port 80"]
+    BR["Browser"]
+
+    SRC -->|"npm run build"| BUILD
+    BUILD -->|"static output"| OUT
+    OUT -->|"COPY into image"| DOCK
+    DOCK -->|"deployed to"| CR
+    CR -->|"serves files to"| BR
+```
+
 ```
 npm run build
          ↓
@@ -140,3 +156,5 @@ Since SAKE needs no server functions (GCP API calls directly in the browser via 
 - [[SvelteKit]] — overview and configuration files
 - [[SvelteKit Load Functions]] — what works in load functions with `ssr = false`
 - [[SvelteKit Routing]] — how routing works in SPA mode
+- [[Docker]] — the containerization tool used to package the Nginx static server
+- [[Google Cloud]] — Cloud Run is the GCP service that hosts the Docker container

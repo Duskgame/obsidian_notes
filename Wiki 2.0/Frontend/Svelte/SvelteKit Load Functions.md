@@ -6,6 +6,21 @@
 
 > **For SAKE:** Since SAKE uses `ssr = false` and `prerender = true` (static files only), only `+page.ts` (client-side load) is used — no `+page.server.ts`.
 
+```mermaid
+sequenceDiagram
+    participant Router as SvelteKit Router
+    participant Load as +page.ts load()
+    participant API as API / Backend
+    participant Page as +page.svelte
+
+    Router->>Load: navigate to /keys/abc123
+    Load->>API: fetch('/api/keys/abc123')
+    API-->>Load: { id, serviceAccount, expires }
+    Load-->>Router: return { key }
+    Router->>Page: data.key as prop
+    Page->>Page: render with data
+```
+
 ---
 
 ## +page.ts — client-side load
@@ -177,3 +192,6 @@ export const load: PageLoad = async ({ params, fetch }) => {
 - [[SvelteKit Routing]] — file structure for routes
 - [[SvelteKit Static Adapter]] — what happens with `ssr = false`
 - [[Fetch in Svelte]] — fetch directly in components
+- [[REST]] — the architectural style the APIs called in load() typically follow
+- [[API]] — what an API endpoint is and how data is structured
+- [[Svelte Lifecycle]] — `onMount` as the alternative for post-render data loading
