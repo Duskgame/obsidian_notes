@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
+                "file": "Daily notes/05.2026/12.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Svelte Props and Events"
+              "title": "12.05.2026"
             }
           }
         ]
@@ -268,10 +268,10 @@
   },
   "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
+    "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
     "Daily notes/05.2026/12.05.2026.md.tmp.7298.2a13b734ae71",
     "Daily notes/05.2026/12.05.2026.md.tmp.7298.9c255c12c314",
     "Wiki 2.0/Frontend/Svelte/Svelte Components.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Routing.md.tmp.7298.509406085087",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Static Adapter.md.tmp.7298.6c7b108931c2",
     "Wiki 2.0/Frontend/Svelte/Svelte Components.md.tmp.7298.3a9c3dcdcc91",
@@ -282,7 +282,6 @@
     "Wiki 2.0/Frontend/Svelte/Svelte Reactivity (Runes).md",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Load Functions.md.tmp.7298.1e79d86d6612",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Load Functions.md.tmp.7298.b2e2ce938cbf",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit Static Adapter.md.tmp.7298.500d29d021c6",
     "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Props und Events.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
