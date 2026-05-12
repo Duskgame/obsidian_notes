@@ -12,7 +12,7 @@
 *Dauer: ~1,5 Wochen*
 
 ### 1.1 Theorie lesen
-- [ ] [[Svelte Komponenten]] — `.svelte`-Dateistruktur, Ausdrücke, Imports, Bindings
+- [x] [[Svelte Komponenten]] — `.svelte`-Dateistruktur, Ausdrücke, Imports, Bindings
 - [ ] [[Svelte Reaktivität (Runes)]] — `$state`, `$derived`, `$effect`
 - [ ] [[Svelte Template-Logik]] — `{#if}`, `{#each}`, `{#await}`
 - [ ] [[Svelte Props und Events]] — `$props()`, Event-Handler

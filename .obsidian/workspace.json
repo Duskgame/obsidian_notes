@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
+                "file": "Daily notes/05.2026/12.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Svelte Lehrplan"
+              "title": "12.05.2026"
             }
           }
         ]
@@ -206,8 +206,62 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
+  "floating": {
+    "id": "69b4306f79d7f50b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "47b13b7c16599cea",
+        "type": "window",
+        "children": [
+          {
+            "id": "7c90cd398bf3a63e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e2fccf4c0ba2970c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Svelte Lehrplan"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2651,
+        "y": 1162,
+        "width": 1024,
+        "height": 200,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "18b69307eb6a59a8",
   "lastOpenFiles": [
+    "Daily notes/04.2026/12.05.2026.md",
+    "Daily notes/05.2026/12.05.2026.md",
+    "Daily notes/05.2026/05.05.2026.md",
+    "Daily notes/05.2026/12.05.2026.md.tmp.7298.bbd4c5c4911a",
+    "Wiki 2.0/Frontend/Svelte/Svelte Reaktivität (Runes).md",
     "Wiki 2.0/Frontend/Svelte/Svelte Komponenten.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md.tmp.7298.f507dad1da24",
@@ -229,21 +283,16 @@
     "Wiki 2.0/Frontend/Svelte/Fetch in Svelte.md",
     "Wiki 2.0/Frontend/Svelte/Fetch in Svelte.md.tmp.7298.dc0ca3d157cf",
     "Wiki 2.0/Frontend/Svelte/Svelte Lifecycle.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Lifecycle.md.tmp.7298.78895af4813f",
     "Wiki 2.0/Frontend/Svelte/Svelte Stores.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Props und Events.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Template-Logik.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Reaktivität (Runes).md",
     "Wiki 2.0/Frontend/Svelte/Svelte.md",
-    "Daily notes/04.2026/12.05.2026.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Questions.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation/Service Account Key Rotation.md",
     "WIP/WIP.md",
     "WIP/Untitled.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/GoogleCloud.md",
-    "Wiki 2.0/Infrastruktur/postgres.md",
-    "Wiki 2.0/Infrastruktur/Caddy.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
