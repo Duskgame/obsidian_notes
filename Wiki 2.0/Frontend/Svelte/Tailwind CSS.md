@@ -1,16 +1,16 @@
 # Tailwind CSS
 
-[Tailwind Docs](https://tailwindcss.com/docs) | [Tailwind mit SvelteKit](https://tailwindcss.com/docs/installation/framework-guides/sveltekit)
+[Tailwind Docs](https://tailwindcss.com/docs) | [Tailwind with SvelteKit](https://tailwindcss.com/docs/installation/framework-guides/sveltekit)
 
-**Tailwind CSS** ist ein Utility-First CSS-Framework. Statt CSS-Klassen mit eigenem Namen zu schreiben, werden vordefinierte Utility-Klassen direkt im HTML verwendet. Kein separates CSS-File nötig — zumindest für den Großteil der Styles.
+**Tailwind CSS** is a utility-first CSS framework. Instead of writing CSS classes with custom names, predefined utility classes are used directly in the HTML. No separate CSS file needed — at least for the majority of styles.
 
-> **SAKE nutzt Tailwind** — alle visuellen Klassen im Svelte-Markup sind Tailwind-Klassen.
+> **SAKE uses Tailwind** — all visual classes in the Svelte markup are Tailwind classes.
 
 ---
 
-## Das Konzept
+## The concept
 
-**Klassisches CSS:**
+**Classic CSS:**
 ```css
 .card {
   padding: 1rem;
@@ -28,18 +28,18 @@
 <div class="p-4 rounded-lg bg-white shadow-sm">...</div>
 ```
 
-Kein CSS schreiben — alles im Markup.
+No CSS to write — everything in the markup.
 
 ---
 
-## Installation mit SvelteKit
+## Installation with SvelteKit
 
 ```bash
 npx sv create my-app
-# → Tailwind beim Setup auswählen
+# → select Tailwind during setup
 ```
 
-Oder nachträglich:
+Or add afterwards:
 ```bash
 npm install -D tailwindcss @tailwindcss/vite
 ```
@@ -61,9 +61,9 @@ export default {
 
 ---
 
-## Wichtigste Utility-Kategorien
+## Key utility categories
 
-### Abstände (Spacing)
+### Spacing
 ```html
 <div class="p-4">      <!-- padding: 1rem -->
 <div class="px-4">     <!-- padding-left + right: 1rem -->
@@ -73,9 +73,9 @@ export default {
 <div class="gap-4">    <!-- gap in flexbox/grid: 1rem -->
 ```
 
-Tailwind-Einheiten: Zahl × 4px (p-4 = 16px, p-1 = 4px, p-0.5 = 2px)
+Tailwind units: number × 4px (p-4 = 16px, p-1 = 4px, p-0.5 = 2px)
 
-### Größen
+### Sizing
 ```html
 <div class="w-full">     <!-- width: 100% -->
 <div class="w-64">       <!-- width: 16rem -->
@@ -83,18 +83,18 @@ Tailwind-Einheiten: Zahl × 4px (p-4 = 16px, p-1 = 4px, p-0.5 = 2px)
 <div class="max-w-md">   <!-- max-width: 28rem -->
 ```
 
-### Farben
+### Colors
 ```html
-<div class="bg-blue-500">     <!-- Hintergrund blau -->
-<p class="text-gray-700">     <!-- Textfarbe grau -->
-<div class="border-red-500">  <!-- Rahmen rot -->
+<div class="bg-blue-500">     <!-- background blue -->
+<p class="text-gray-700">     <!-- text color gray -->
+<div class="border-red-500">  <!-- border red -->
 ```
 
-Farb-Skala: 50 (hell) → 950 (dunkel)
+Color scale: 50 (light) → 950 (dark)
 
 ### Typography
 ```html
-<h1 class="text-2xl font-bold text-gray-900">Titel</h1>
+<h1 class="text-2xl font-bold text-gray-900">Title</h1>
 <p class="text-sm text-gray-600 leading-relaxed">Text</p>
 <code class="font-mono text-sm bg-gray-100 px-1 rounded">code</code>
 ```
@@ -102,13 +102,13 @@ Farb-Skala: 50 (hell) → 950 (dunkel)
 ### Flexbox
 ```html
 <div class="flex items-center justify-between gap-4">
-  <span>Links</span>
-  <span>Rechts</span>
+  <span>Left</span>
+  <span>Right</span>
 </div>
 
 <div class="flex flex-col gap-2">
-  <p>Oben</p>
-  <p>Unten</p>
+  <p>Top</p>
+  <p>Bottom</p>
 </div>
 ```
 
@@ -121,14 +121,14 @@ Farb-Skala: 50 (hell) → 950 (dunkel)
 </div>
 ```
 
-### Borders und Radius
+### Borders and radius
 ```html
 <div class="border border-gray-200 rounded-lg">
-<div class="rounded-full">    <!-- Kreis -->
-<div class="rounded-md">      <!-- leicht abgerundet -->
+<div class="rounded-full">    <!-- circle -->
+<div class="rounded-md">      <!-- slightly rounded -->
 ```
 
-### Hover, Focus, Active
+### Hover, focus, active
 ```html
 <button class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
   Button
@@ -137,13 +137,13 @@ Farb-Skala: 50 (hell) → 950 (dunkel)
 
 ---
 
-## Responsive Design
+## Responsive design
 
-Tailwind ist mobile-first. Breakpoint-Präfixe aktivieren Styles ab einer bestimmten Bildschirmbreite:
+Tailwind is mobile-first. Breakpoint prefixes activate styles from a certain screen width:
 
 ```html
 <div class="flex-col md:flex-row">
-  <!-- Unterhalb md: vertikal, ab md: horizontal -->
+  <!-- below md: vertical, from md: horizontal -->
 </div>
 
 <!-- Breakpoints: sm(640px), md(768px), lg(1024px), xl(1280px), 2xl(1536px) -->
@@ -151,7 +151,7 @@ Tailwind ist mobile-first. Breakpoint-Präfixe aktivieren Styles ab einer bestim
 
 ---
 
-## Konditionale Klassen in Svelte
+## Conditional classes in Svelte
 
 ```svelte
 <script lang="ts">
@@ -162,7 +162,7 @@ Tailwind ist mobile-first. Breakpoint-Präfixe aktivieren Styles ab einer bestim
 <!-- Ternary -->
 <div class={isError ? "bg-red-50 border-red-500" : "bg-white border-gray-200"}>
 
-<!-- Klassen-Binding -->
+<!-- Class binding -->
 <button
   class="px-4 py-2 rounded font-medium"
   class:bg-blue-500={!isLoading}
@@ -170,11 +170,11 @@ Tailwind ist mobile-first. Breakpoint-Präfixe aktivieren Styles ab einer bestim
   class:cursor-not-allowed={isLoading}
   disabled={isLoading}
 >
-  {isLoading ? "Lädt..." : "Senden"}
+  {isLoading ? "Loading..." : "Submit"}
 </button>
 ```
 
-### Mit clsx/cn (empfohlen für komplexe Fälle)
+### With clsx/cn (recommended for complex cases)
 
 ```bash
 npm install clsx
@@ -192,12 +192,12 @@ const buttonClass = clsx(
 
 ---
 
-## Häufige Komponenten-Patterns
+## Common component patterns
 
 ### Button
 ```html
 <button class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition">
-  Key rotieren
+  Rotate key
 </button>
 ```
 
@@ -221,13 +221,13 @@ const buttonClass = clsx(
 ### Badge
 ```html
 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-  Aktiv
+  Active
 </span>
 ```
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[Svelte Komponenten]] — wo Tailwind-Klassen verwendet werden
-- [[SvelteKit Static Adapter]] — Tailwind wird beim Build zu minimalem CSS kompiliert
+- [[Svelte Components]] — where Tailwind classes are used
+- [[SvelteKit Static Adapter]] — Tailwind is compiled to minimal CSS at build time

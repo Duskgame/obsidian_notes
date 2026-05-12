@@ -1,7 +1,7 @@
 # Frontend
 
-Technische Wiki-Einträge für Web-Frontend-Entwicklung.
+Technical wiki entries for web frontend development.
 
-## Themen
+## Topics
 
-- [[Svelte]] — Svelte & SvelteKit Trainingsplan (SAKE-Projekt)
+- [[Svelte]] — Svelte & SvelteKit training plan (SAKE project)

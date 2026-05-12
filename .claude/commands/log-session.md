@@ -1,11 +1,11 @@
-Analysiere die aktuelle Unterhaltung und trage die Ergebnisse in die heutige Daily Note ein. Gehe dabei Schritt für Schritt vor:
+Analyze the current conversation and log the results into today's daily note. Proceed step by step:
 
-## Schritt 1 — Daily Note finden oder anlegen
+## Step 1 — Find or create today's daily note
 
-Das heutige Datum ist $CURRENT_DATE. Das Format der Daily Notes ist `DD.MM.YYYY.md`, der Ordnerpfad ist:
+Today's date is $CURRENT_DATE. The daily note format is `DD.MM.YYYY.md`, located at:
 `/home/jonas/Documents/obsidian_notes/Daily notes/MM.YYYY/DD.MM.YYYY.md`
 
-Prüfe ob die Datei existiert. Falls nicht, erstelle sie mit folgendem Inhalt:
+Check whether the file exists. If not, create it with the following content:
 ```
 #dailynote
 
@@ -27,44 +27,45 @@ Prüfe ob die Datei existiert. Falls nicht, erstelle sie mit folgendem Inhalt:
 ## To Do's:
 ```
 
-Lies danach die vorhandene Datei komplett.
+Then read the existing file completely.
 
-## Schritt 2 — Neue Wiki-Notes erstellen
+## Step 2 — Create new wiki notes
 
-Schau dir alle Themen und Konzepte in der Unterhaltung an. Für jedes Thema das **neu** ist (kein existierender Wiki-Eintrag dazu vorhanden) und das fachlich relevant ist:
+Look at all topics and concepts in the conversation. For each topic that is **new** (no existing wiki entry for it) and technically relevant:
 
-1. Erstelle eine neue Notiz unter dem passenden Pfad in `/home/jonas/Documents/obsidian_notes/Wiki 2.0/`
-2. Die Notiz soll das Thema erklären, Quellenlinks enthalten (offizielle Docs, MDN, etc.), und Obsidian Wikilinks zu verwandten Themen setzen
-3. Merke dir den Dateinamen für Schritt 3
+1. Create a new note under the appropriate path in `/home/jonas/Documents/obsidian_notes/Wiki 2.0/`
+2. The note should explain the topic in English, include source links (official docs, MDN, etc.), and set Obsidian wikilinks to related topics
+3. Remember the filename for Step 3
 
-Erstelle **keine** neue Note wenn zu dem Thema bereits eine existiert.
+Do **not** create a new note if one already exists for that topic.
 
-## Schritt 3 — Daily Note aktualisieren
+## Step 3 — Update the daily note
 
-Füge die Inhalte in die Daily Note ein — **immer anhängen, nie überschreiben** was schon drin steht:
+Add content to the daily note — **always append, never overwrite** existing content:
 
 ### ## Progress:
-Füge stichpunktartige Bullet Points hinzu was in dieser Session gemacht wurde. Konkret, kurz, in der Vergangenheitsform. Beispiele:
-- Svelte Lehrplan erstellt (Phase 1–5, 16 Übungsaufgaben)
-- Wiki-Einträge zu Svelte Komponenten und Reaktivität angelegt
-- SAKE Projektstruktur analysiert
+Add concise bullet points about what was done in this session. Specific, brief, in past tense. Write in English. Examples:
+- Created Svelte learning plan (phases 1–5, 16 exercises)
+- Added wiki entries for Svelte Components and Reactivity
+- Analyzed SAKE project structure
 
 ### ## New Notes:
-Füge für jede in Schritt 2 erstellte Note einen Wikilink ein:
-- [[Notizname]] — Ein-Satz-Beschreibung
+Add a wikilink for each note created in Step 2:
+- [[Note name]] — one-sentence description
 
 ### ## Problems:
-Wenn in der Unterhaltung Verständnisfragen, Probleme oder offene Punkte aufgetaucht sind: fasse sie kurz zusammen und beantworte sie direkt darunter in 1–2 Sätzen. Format:
-- **Problem/Frage:** Kurze Beschreibung
-  → Kurze Antwort / Lösung
+If any questions, issues, or open points came up in the conversation: briefly summarize them and answer them directly below in 1–2 sentences. Format:
+- **Problem/Question:** Short description
+  → Short answer / solution
 
-Wenn es keine Problems gab, diesen Abschnitt nicht ändern.
+If there were no problems, do not modify this section.
 
-## Wichtige Regeln
+## Important rules
 
-- Bestehende Inhalte in der Daily Note **niemals löschen oder überschreiben**
-- Immer am Ende des jeweiligen Abschnitts anhängen
-- Keine leeren Abschnitte hinzufügen
-- Datumspfad korrekt berechnen (Monat zweistellig, Jahr vierstellig)
-- Wenn heute noch keine Daily Note existiert, erst anlegen, dann befüllen
-- Zum Schluss: kurz berichten was eingetragen wurde
+- **Never delete or overwrite** existing content in the daily note
+- Always append at the end of the respective section
+- Do not add empty sections
+- Calculate the date path correctly (month two digits, year four digits)
+- If no daily note exists for today, create it first, then fill it in
+- All wiki notes and daily note entries must be written in **English**
+- At the end: briefly report what was logged

@@ -2,29 +2,29 @@
 
 [SvelteKit Docs — Routing](https://kit.svelte.dev/docs/routing) | [Tutorial: Pages](https://learn.svelte.dev/tutorial/pages)
 
-SvelteKit verwendet **datei-basiertes Routing**: Der Ordnerpfad unter `src/routes/` bestimmt die URL. Keine separate Router-Konfiguration nötig.
+SvelteKit uses **file-based routing**: the folder path under `src/routes/` determines the URL. No separate router configuration needed.
 
 ---
 
-## Dateikonventionen
+## File conventions
 
-| Datei | Zweck |
+| File | Purpose |
 |---|---|
-| `+page.svelte` | Die Seite (UI) für diese Route |
-| `+page.ts` | Daten laden (client-side) für diese Seite |
-| `+page.server.ts` | Daten laden (server-side), Form Actions |
-| `+layout.svelte` | Layout-Wrapper für diese Route + alle Unterrouten |
-| `+layout.ts` | Daten laden für das Layout |
-| `+error.svelte` | Fehlerseite für diese Route |
+| `+page.svelte` | The page (UI) for this route |
+| `+page.ts` | Load data (client-side) for this page |
+| `+page.server.ts` | Load data (server-side), form actions |
+| `+layout.svelte` | Layout wrapper for this route + all sub-routes |
+| `+layout.ts` | Load data for the layout |
+| `+error.svelte` | Error page for this route |
 
 ---
 
-## Grundlegendes Routing
+## Basic routing
 
 ```
 src/routes/
 ├── +page.svelte           → /
-├── +layout.svelte         → Layout für alle Seiten
+├── +layout.svelte         → layout for all pages
 ├── request/
 │   └── +page.svelte       → /request
 ├── supporter/
@@ -35,7 +35,7 @@ src/routes/
 
 ---
 
-## Layout mit Navigation
+## Layout with navigation
 
 ```svelte
 <!-- src/routes/+layout.svelte -->
@@ -44,8 +44,8 @@ src/routes/
 </script>
 
 <nav>
-  <a href="/">Startseite</a>
-  <a href="/request">Key anfordern</a>
+  <a href="/">Home</a>
+  <a href="/request">Request key</a>
   <a href="/supporter">Supporter</a>
 </nav>
 
@@ -58,11 +58,11 @@ src/routes/
 </style>
 ```
 
-`{@render children()}` ist der Platzhalter für den Inhalt der jeweiligen Seite. (Svelte 5 Syntax — in Svelte 4 war es `<slot />`.)
+`{@render children()}` is the placeholder for the content of the respective page. (Svelte 5 syntax — in Svelte 4 it was `<slot />`.)
 
 ---
 
-## Dynamische Routen
+## Dynamic routes
 
 ```
 src/routes/
@@ -80,10 +80,10 @@ src/routes/
   let keyId = $derived($page.params.keyId);
 </script>
 
-<h1>Key-Detail: {keyId}</h1>
+<h1>Key detail: {keyId}</h1>
 ```
 
-### Mehrere Segmente
+### Multiple segments
 
 ```
 src/routes/org/[orgId]/project/[projectId]/+page.svelte
@@ -99,68 +99,68 @@ src/routes/org/[orgId]/project/[projectId]/+page.svelte
   import { goto } from '$app/navigation';
 
   async function afterSubmit() {
-    await goto('/success');         // Programmatisch navigieren
-    await goto('/keys', { replaceState: true }); // Ohne Browser-History
+    await goto('/success');                          // navigate programmatically
+    await goto('/keys', { replaceState: true });     // without browser history entry
   }
 </script>
 
-<!-- Deklarativ -->
-<a href="/request">Key anfordern</a>
+<!-- Declarative -->
+<a href="/request">Request key</a>
 ```
 
-### $page Store
+### $page store
 
 ```svelte
 <script lang="ts">
   import { page } from '$app/stores';
 </script>
 
-<p>Aktuelle URL: {$page.url.pathname}</p>
-<p>Route Param: {$page.params.keyId}</p>
+<p>Current URL: {$page.url.pathname}</p>
+<p>Route param: {$page.params.keyId}</p>
 <p>Query: {$page.url.searchParams.get('q')}</p>
 ```
 
 ---
 
-## Verschachtelte Layouts
+## Nested layouts
 
 ```
 src/routes/
-├── +layout.svelte              ← Root Layout (Nav, Footer)
+├── +layout.svelte              ← root layout (nav, footer)
 ├── +page.svelte                ← /
 └── admin/
-    ├── +layout.svelte          ← Admin Layout (Sidebar)
+    ├── +layout.svelte          ← admin layout (sidebar)
     ├── +page.svelte            ← /admin
     └── users/
         └── +page.svelte        ← /admin/users
 ```
 
-Admin-Seiten erhalten beide Layouts. Das Admin-Layout wird in das Root-Layout eingebettet.
+Admin pages receive both layouts. The admin layout is nested inside the root layout.
 
 ---
 
-## Route Groups
+## Route groups
 
 ```
 src/routes/
 ├── (public)/
-│   ├── +layout.svelte      ← Layout für öffentliche Seiten
+│   ├── +layout.svelte      ← layout for public pages
 │   ├── +page.svelte        → /
 │   └── about/
 │       └── +page.svelte    → /about
 └── (protected)/
-    ├── +layout.svelte      ← Layout mit Auth-Check
+    ├── +layout.svelte      ← layout with auth check
     ├── request/
     │   └── +page.svelte    → /request
     └── supporter/
         └── +page.svelte    → /supporter
 ```
 
-Klammern `()` im Ordnernamen erzeugen eine Route Group — der Name erscheint **nicht** in der URL. Nützlich um Seiten zu gruppieren ohne die URL zu beeinflussen.
+Parentheses `()` in a folder name create a route group — the name does **not** appear in the URL. Useful for grouping pages without affecting the URL.
 
 ---
 
-## Links aktiv hervorheben
+## Highlighting active links
 
 ```svelte
 <script lang="ts">
@@ -171,7 +171,7 @@ Klammern `()` im Ordnernamen erzeugen eine Route Group — der Name erscheint **
   }
 </script>
 
-<a href="/request" class:active={isActive('/request')}>Key anfordern</a>
+<a href="/request" class:active={isActive('/request')}>Request key</a>
 
 <style>
   .active { font-weight: bold; border-bottom: 2px solid currentColor; }
@@ -180,8 +180,8 @@ Klammern `()` im Ordnernamen erzeugen eine Route Group — der Name erscheint **
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[SvelteKit]] — Überblick und Projektstruktur
-- [[SvelteKit Load Functions]] — Daten für Seiten laden
-- [[Svelte Props und Events]] — `children` Prop in Layouts
+- [[SvelteKit]] — overview and project structure
+- [[SvelteKit Load Functions]] — loading data for pages
+- [[Svelte Props and Events]] — `children` prop in layouts

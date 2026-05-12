@@ -2,42 +2,42 @@
 
 [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) | [Tutorial](https://learn.svelte.dev/tutorial/kit-introduction)
 
-**SvelteKit** ist das offizielle Meta-Framework für Svelte. Es bringt alles mit, was eine vollständige Web-App braucht:
+**SvelteKit** is the official meta-framework for Svelte. It brings everything a complete web app needs:
 
-- Datei-basiertes Routing
-- Server-side Rendering (SSR) und Static Site Generation (SSG)
-- Datenladen vor dem Rendern (Load Functions)
-- Deployment-Adapter (Static, Node, Cloudflare, etc.)
-- Vite als Build-Tool
+- File-based routing
+- Server-side rendering (SSR) and static site generation (SSG)
+- Data loading before rendering (load functions)
+- Deployment adapters (static, Node, Cloudflare, etc.)
+- Vite as the build tool
 
-> **Für SAKE relevant:** SvelteKit mit `adapter-static` + `ssr = false` = reine Client-Side-App, deploybar als statische HTML/JS/CSS-Dateien auf Cloud Run (Nginx).
+> **Relevant for SAKE:** SvelteKit with `adapter-static` + `ssr = false` = pure client-side app, deployable as static HTML/JS/CSS files on Cloud Run (Nginx).
 
 ---
 
-## Projektstruktur
+## Project structure
 
 ```
 my-app/
 ├── src/
-│   ├── app.html              ← HTML-Shell für alle Seiten
-│   ├── app.css               ← Globale Styles
-│   ├── lib/                  ← Shared Code (Components, Utils, Stores)
+│   ├── app.html              ← HTML shell for all pages
+│   ├── app.css               ← global styles
+│   ├── lib/                  ← shared code (components, utils, stores)
 │   │   ├── components/
 │   │   └── stores.ts
-│   └── routes/               ← Seiten (datei-basiertes Routing)
-│       ├── +layout.svelte    ← Root-Layout (Header, Footer)
-│       ├── +page.svelte      ← Startseite (/)
+│   └── routes/               ← pages (file-based routing)
+│       ├── +layout.svelte    ← root layout (header, footer)
+│       ├── +page.svelte      ← home page (/)
 │       └── request/
 │           └── +page.svelte  ← /request
-├── static/                   ← Statische Assets (Bilder, Fonts)
-├── svelte.config.js          ← SvelteKit Konfiguration
-├── vite.config.ts            ← Vite Konfiguration
+├── static/                   ← static assets (images, fonts)
+├── svelte.config.js          ← SvelteKit configuration
+├── vite.config.ts            ← Vite configuration
 └── package.json
 ```
 
 ---
 
-## Neues Projekt erstellen
+## Creating a new project
 
 ```bash
 npx sv create my-app
@@ -46,11 +46,11 @@ npm install
 npm run dev
 ```
 
-`sv` ist das offizielle SvelteKit CLI-Tool. Es fragt beim Setup nach TypeScript, Tailwind, Prettier, etc.
+`sv` is the official SvelteKit CLI tool. It asks about TypeScript, Tailwind, Prettier, etc. during setup.
 
 ---
 
-## Wichtige Config-Dateien
+## Key config files
 
 ### svelte.config.js
 ```js
@@ -58,73 +58,73 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 export default {
-  preprocess: vitePreprocess(),  // TypeScript, Tailwind etc.
+  preprocess: vitePreprocess(),  // TypeScript, Tailwind, etc.
   kit: {
     adapter: adapter({
-      fallback: 'index.html'     // für Client-side Routing
+      fallback: 'index.html'     // for client-side routing
     })
   }
 };
 ```
 
-### src/routes/+layout.ts (für static adapter)
+### src/routes/+layout.ts (for static adapter)
 ```ts
-// Schaltet SSR für die gesamte App aus
+// Disable SSR for the entire app
 export const ssr = false;
 export const prerender = true;
 ```
 
 ---
 
-## Dev-Server und Build
+## Dev server and build
 
 ```bash
-npm run dev       # Entwicklungsserver mit Hot Reload
-npm run build     # Produktions-Build
-npm run preview   # Produktions-Build lokal testen
+npm run dev       # development server with hot reload
+npm run build     # production build
+npm run preview   # test the production build locally
 ```
 
-Der Output von `npm run build` landet in `build/` — das sind die statischen Dateien, die auf Cloud Run als Nginx-Server gehostet werden.
+The output of `npm run build` goes into `build/` — these are the static files hosted on Cloud Run as an Nginx server.
 
 ---
 
-## $lib — der importierbare Shared-Ordner
+## $lib — the importable shared folder
 
 ```ts
-// In jeder .svelte oder .ts Datei:
+// In any .svelte or .ts file:
 import { user } from '$lib/stores';
 import Button from '$lib/components/Button.svelte';
 import { formatDate } from '$lib/utils';
 ```
 
-`$lib` ist ein Path-Alias für `src/lib/`. Kein relativer Pfad wie `../../lib/stores` nötig.
+`$lib` is a path alias for `src/lib/`. No relative paths like `../../lib/stores` needed.
 
 ---
 
-## Environments und Variablen
+## Environments and variables
 
-SvelteKit unterscheidet zwischen Public und Private Env-Variablen:
+SvelteKit distinguishes between public and private env variables:
 
 ```bash
 # .env
-PUBLIC_API_URL=https://api.example.com   # im Browser sichtbar
-API_SECRET=secret123                      # nur auf dem Server
+PUBLIC_API_URL=https://api.example.com   # visible in the browser
+API_SECRET=secret123                      # server-only
 ```
 
 ```ts
-// Im Frontend-Code
+// In frontend code
 import { PUBLIC_API_URL } from '$env/static/public';
 
-// Im Server-Code (+page.server.ts, +server.ts)
+// In server code (+page.server.ts, +server.ts)
 import { API_SECRET } from '$env/static/private';
 ```
 
-> Bei `ssr = false` gibt es keinen Server-Code — alle Variablen müssen `PUBLIC_` sein.
+> With `ssr = false` there is no server code — all variables must be `PUBLIC_`.
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[SvelteKit Routing]] — wie Seiten und Layouts funktionieren
-- [[SvelteKit Load Functions]] — Daten laden bevor die Seite gerendert wird
-- [[SvelteKit Static Adapter]] — wie SAKE deployed wird
+- [[SvelteKit Routing]] — how pages and layouts work
+- [[SvelteKit Load Functions]] — loading data before a page renders
+- [[SvelteKit Static Adapter]] — how SAKE is deployed

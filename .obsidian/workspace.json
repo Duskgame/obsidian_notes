@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "902f3b97328dc668",
+        "id": "51c497fe7e39c847",
         "type": "tabs",
         "children": [
           {
-            "id": "18b69307eb6a59a8",
+            "id": "df6a6fb41ace0640",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.2026/12.05.2026.md",
+                "file": "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12.05.2026"
+              "title": "Svelte Props and Events"
             }
           }
         ]
@@ -222,9 +222,19 @@
                 "id": "e2fccf4c0ba2970c",
                 "type": "leaf",
                 "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "18b69307eb6a59a8",
+                "type": "leaf",
+                "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
+                    "file": "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -239,10 +249,11 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Svelte Lehrplan"
+                  "title": "Svelte Learning Plan"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -255,44 +266,44 @@
       }
     ]
   },
-  "active": "18b69307eb6a59a8",
+  "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
+    "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Props und Events.md",
+    "Wiki 2.0/Frontend/Frontend.md.tmp.7298.9ad3154a75e4",
+    "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md.tmp.7298.cacd1df571d0",
+    "Wiki 2.0/Frontend/Svelte/Svelte Cheat Sheet.md.tmp.7298.145f5fafedae",
+    "Wiki 2.0/Frontend/Svelte/Tailwind CSS.md.tmp.7298.7100409cb1dc",
+    "Wiki 2.0/Frontend/Svelte/TypeScript in Svelte.md.tmp.7298.914fdf74c771",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit Static Adapter.md.tmp.7298.a631309d9484",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit Load Functions.md.tmp.7298.2c2d78fc5eb2",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit Routing.md.tmp.7298.7a86180d8331",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit.md.tmp.7298.ba81ed036b42",
+    "Wiki 2.0/Frontend/Svelte/Fetch in Svelte.md.tmp.7298.2acede1e70fb",
+    "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Template Logic.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Reactivity (Runes).md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Components.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Template-Logik.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Reaktivität (Runes).md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Cheat Sheet.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte.md",
+    "Daily notes/05.2026/12.05.2026.md",
     "Daily notes/04.2026/04.2026.md",
     "Daily notes/04.2026/12.05.2026.md",
-    "Daily notes/05.2026/12.05.2026.md",
     "Daily notes/05.2026/05.05.2026.md",
-    "Daily notes/05.2026/12.05.2026.md.tmp.7298.bbd4c5c4911a",
-    "Wiki 2.0/Frontend/Svelte/Svelte Reaktivität (Runes).md",
     "Wiki 2.0/Frontend/Svelte/Svelte Komponenten.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Lehrplan.md.tmp.7298.f507dad1da24",
     "Wiki 2.0/Frontend/Frontend.md",
-    "Wiki 2.0/Frontend/Frontend.md.tmp.7298.dff14d72612b",
     "Wiki 2.0/Frontend/Svelte/Tailwind CSS.md",
-    "Wiki 2.0/Frontend/Svelte/Tailwind CSS.md.tmp.7298.3481576a81a8",
     "Wiki 2.0/Frontend/Svelte/TypeScript in Svelte.md",
-    "Wiki 2.0/Frontend/Svelte/TypeScript in Svelte.md.tmp.7298.8ed3abd18f3d",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Static Adapter.md",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit Static Adapter.md.tmp.7298.08c6a52c3188",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Link List.md",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Load Functions.md",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit Load Functions.md.tmp.7298.ba7d9434f347",
     "Wiki 2.0/Frontend/Svelte/SvelteKit Routing.md",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit Routing.md.tmp.7298.0a9f07568f39",
     "Wiki 2.0/Frontend/Svelte/SvelteKit.md",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit.md.tmp.7298.4cbc9c3f6de0",
     "Wiki 2.0/Frontend/Svelte/Fetch in Svelte.md",
-    "Wiki 2.0/Frontend/Svelte/Fetch in Svelte.md.tmp.7298.dc0ca3d157cf",
     "Wiki 2.0/Frontend/Svelte/Svelte Lifecycle.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Stores.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Props und Events.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Template-Logik.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Questions.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation/Service Account Key Rotation.md",
-    "WIP/WIP.md",
-    "WIP/Untitled.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",

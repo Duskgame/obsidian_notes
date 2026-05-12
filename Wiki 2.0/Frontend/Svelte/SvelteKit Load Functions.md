@@ -2,13 +2,13 @@
 
 [SvelteKit Docs — Loading data](https://kit.svelte.dev/docs/load) | [Tutorial: Page data](https://learn.svelte.dev/tutorial/page-data)
 
-**Load Functions** sind spezielle Funktionen in SvelteKit, die Daten laden **bevor** eine Seite gerendert wird. Das Ergebnis wird als Props an die `+page.svelte` übergeben.
+**Load functions** are special functions in SvelteKit that load data **before** a page is rendered. The result is passed as props to `+page.svelte`.
 
-> **Für SAKE:** Da SAKE `ssr = false` und `prerender = true` nutzt (nur statische Dateien), werden nur `+page.ts` (client-side load) verwendet — kein `+page.server.ts`.
+> **For SAKE:** Since SAKE uses `ssr = false` and `prerender = true` (static files only), only `+page.ts` (client-side load) is used — no `+page.server.ts`.
 
 ---
 
-## +page.ts — Client-Side Load
+## +page.ts — client-side load
 
 ```ts
 // src/routes/keys/+page.ts
@@ -16,8 +16,8 @@ import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch, params, url }) => {
   const res = await fetch('/api/keys');
-  if (!res.ok) throw new Error('Laden fehlgeschlagen');
-  
+  if (!res.ok) throw new Error('Loading failed');
+
   const keys = await res.json();
   return { keys };
 };
@@ -29,7 +29,7 @@ export const load: PageLoad = async ({ fetch, params, url }) => {
   import type { PageData } from './$types';
 
   let { data } = $props<{ data: PageData }>();
-  // data.keys ist jetzt verfügbar
+  // data.keys is now available
 </script>
 
 {#each data.keys as key}
@@ -37,33 +37,33 @@ export const load: PageLoad = async ({ fetch, params, url }) => {
 {/each}
 ```
 
-Die Load Function gibt ein Objekt zurück → dieses Objekt kommt als `data` Prop in der Seite an.
+The load function returns an object → this object arrives as the `data` prop on the page.
 
 ---
 
-## Verfügbare Parameter in load()
+## Available parameters in load()
 
 ```ts
 export const load: PageLoad = async ({
-  fetch,          // Svelte-eigenes fetch (mit Cookies, Base URL, etc.)
-  params,         // Route-Parameter, z.B. params.keyId
-  url,            // URL-Objekt mit pathname, searchParams, etc.
-  parent,         // Daten aus dem übergeordneten Layout-Load
+  fetch,          // Svelte's own fetch (with cookies, base URL, etc.)
+  params,         // route parameters, e.g. params.keyId
+  url,            // URL object with pathname, searchParams, etc.
+  parent,         // data from the parent layout's load
 }) => {
   return {};
 };
 ```
 
-### fetch in Load vs. Browser-fetch
+### fetch in load vs. browser fetch
 
-Der `fetch` in Load Functions ist eine erweiterte Version des Browser-`fetch`:
-- Fügt automatisch Cookies hinzu
-- Respektiert SvelteKit-interne Routing-Mechanismen
-- Funktioniert auch bei SSR (serverseitig)
+The `fetch` in load functions is an enhanced version of browser `fetch`:
+- Automatically adds cookies
+- Respects SvelteKit's internal routing mechanisms
+- Also works during SSR (server-side)
 
 ---
 
-## +layout.ts — Daten für alle Seiten
+## +layout.ts — data for all pages
 
 ```ts
 // src/routes/+layout.ts
@@ -80,67 +80,67 @@ export const load: LayoutLoad = async ({ fetch }) => {
 <!-- src/routes/+layout.svelte -->
 <script lang="ts">
   let { data, children } = $props();
-  // data.user ist in allen Seiten verfügbar
+  // data.user is available in all pages
 </script>
 
-<p>Eingeloggt als: {data.user.email}</p>
+<p>Logged in as: {data.user.email}</p>
 {@render children()}
 ```
 
-Die Layout-Daten werden automatisch in den Seiten-Daten zusammengeführt.
+Layout data is automatically merged into the page data.
 
 ---
 
-## Fehler werfen
+## Throwing errors
 
 ```ts
 import { error } from '@sveltejs/kit';
 
 export const load: PageLoad = async ({ params }) => {
   const key = await fetchKey(params.keyId);
-  
+
   if (!key) {
-    throw error(404, 'Key nicht gefunden');
+    throw error(404, 'Key not found');
   }
-  
+
   return { key };
 };
 ```
 
-SvelteKit zeigt automatisch die `+error.svelte` der nächsten übergeordneten Route.
+SvelteKit automatically shows the `+error.svelte` of the nearest parent route.
 
 ---
 
-## Weiterleitung
+## Redirecting
 
 ```ts
 import { redirect } from '@sveltejs/kit';
 
 export const load: PageLoad = async ({ url }) => {
   const isLoggedIn = checkAuth();
-  
+
   if (!isLoggedIn) {
     throw redirect(303, `/login?redirect=${url.pathname}`);
   }
-  
+
   return {};
 };
 ```
 
 ---
 
-## Wann Load Functions vs. onMount?
+## When to use load functions vs. onMount?
 
-| Situation | Empfehlung |
+| Situation | Recommendation |
 |---|---|
-| Daten die die Seite grundlegend braucht | Load Function (`+page.ts`) |
-| Seite rendert, dann Daten nachladen | `onMount` |
-| Daten abhängig von User-Interaktion | `onMount` / Event-Handler |
-| Daten aus URL-Params/Query | Load Function (hat Zugriff auf `params`, `url`) |
+| Data the page fundamentally needs | Load function (`+page.ts`) |
+| Page renders first, then loads data | `onMount` |
+| Data depends on user interaction | `onMount` / event handler |
+| Data from URL params/query | Load function (has access to `params`, `url`) |
 
 ---
 
-## Beispiel: Key-Detail-Seite (SAKE-Kontext)
+## Example: key detail page (SAKE context)
 
 ```ts
 // src/routes/keys/[keyId]/+page.ts
@@ -149,10 +149,10 @@ import { error } from '@sveltejs/kit';
 
 export const load: PageLoad = async ({ params, fetch }) => {
   const res = await fetch(`/api/keys/${params.keyId}`);
-  
-  if (res.status === 404) throw error(404, 'Key nicht gefunden');
-  if (!res.ok) throw error(500, 'Server-Fehler');
-  
+
+  if (res.status === 404) throw error(404, 'Key not found');
+  if (!res.ok) throw error(500, 'Server error');
+
   const key = await res.json();
   return { key, keyId: params.keyId };
 };
@@ -167,13 +167,13 @@ export const load: PageLoad = async ({ params, fetch }) => {
 <h1>Service Account Key</h1>
 <p>ID: {data.keyId}</p>
 <p>SA: {data.key.serviceAccount}</p>
-<p>Läuft ab: {data.key.expires}</p>
+<p>Expires: {data.key.expires}</p>
 ```
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[SvelteKit Routing]] — Dateistruktur für Routes
-- [[SvelteKit Static Adapter]] — was bei `ssr = false` passiert
-- [[Fetch in Svelte]] — fetch in Komponenten direkt
+- [[SvelteKit Routing]] — file structure for routes
+- [[SvelteKit Static Adapter]] — what happens with `ssr = false`
+- [[Fetch in Svelte]] — fetch directly in components

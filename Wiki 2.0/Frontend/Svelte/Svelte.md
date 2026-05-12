@@ -1,60 +1,60 @@
-# Svelte & SvelteKit — Trainingsplan
+# Svelte & SvelteKit — Training Plan
 
 [Svelte Docs](https://svelte.dev/docs) | [SvelteKit Docs](https://kit.svelte.dev/docs) | [Svelte Tutorial](https://learn.svelte.dev)
 
-Svelte ist ein **Compiler-basiertes** Frontend-Framework. Anders als React oder Vue läuft Svelte nicht als Runtime im Browser — der Compiler übersetzt Svelte-Code bei Build-Zeit in reines, optimiertes JavaScript. Das Ergebnis ist schneller und schlanker als klassische Frameworks.
+Svelte is a **compiler-based** frontend framework. Unlike React or Vue, Svelte does not run as a runtime in the browser — the compiler translates Svelte code at build time into plain, optimized JavaScript. The result is faster and leaner than traditional frameworks.
 
-**SvelteKit** ist das Meta-Framework über Svelte (vergleichbar mit Next.js für React). Es bringt Routing, Datenladen, und Deployment-Adapter mit.
+**SvelteKit** is the meta-framework on top of Svelte (comparable to Next.js for React). It provides routing, data loading, and deployment adapters.
 
-> **Relevanz für SAKE:** Das SAKE-Frontend ist mit SvelteKit 2 + Svelte 5 + TypeScript + Tailwind CSS gebaut und wird als statische App auf Cloud Run gehostet.
+> **Relevance for SAKE:** The SAKE frontend is built with SvelteKit 2 + Svelte 5 + TypeScript + Tailwind CSS and hosted as a static app on Cloud Run.
 
 ---
 
-## Lernpfad
+## Learning Path
 
-### Phase 1 — Svelte Grundlagen (Woche 1–2)
-1. [[Svelte Komponenten]] — `.svelte`-Dateien, Struktur, Script/Markup/Style
-2. [[Svelte Reaktivität (Runes)]] — `$state`, `$derived`, `$effect`
-3. [[Svelte Template-Logik]] — `{#if}`, `{#each}`, `{#await}`
-4. [[Svelte Props und Events]] — `$props`, Event-Handler
+### Phase 1 — Svelte Basics (Week 1–2)
+1. [[Svelte Components]] — `.svelte` files, structure, script/markup/style
+2. [[Svelte Reactivity (Runes)]] — `$state`, `$derived`, `$effect`
+3. [[Svelte Template Logic]] — `{#if}`, `{#each}`, `{#await}`
+4. [[Svelte Props and Events]] — `$props`, event handlers
 
-### Phase 2 — Daten & Zustand (Woche 3)
+### Phase 2 — Data & State (Week 3)
 5. [[Svelte Stores]] — `writable`, `readable`, `derived`
 6. [[Svelte Lifecycle]] — `onMount`, `onDestroy`
-7. [[Fetch in Svelte]] — HTTP-Requests, `async/await` im Browser
+7. [[Fetch in Svelte]] — HTTP requests, `async/await` in the browser
 
-### Phase 3 — SvelteKit (Woche 4)
-8. [[SvelteKit]] — Überblick, Projektstruktur
-9. [[SvelteKit Routing]] — Datei-basiertes Routing, Layouts, `+page.svelte`
-10. [[SvelteKit Load Functions]] — Daten vor dem Rendern laden
-11. [[SvelteKit Static Adapter]] — Statisches Deployment (`prerender`, `ssr = false`)
+### Phase 3 — SvelteKit (Week 4)
+8. [[SvelteKit]] — overview, project structure
+9. [[SvelteKit Routing]] — file-based routing, layouts, `+page.svelte`
+10. [[SvelteKit Load Functions]] — loading data before rendering
+11. [[SvelteKit Static Adapter]] — static deployment (`prerender`, `ssr = false`)
 
-### Phase 4 — Projekt-Stack (Woche 5)
-12. [[TypeScript in Svelte]] — Typen in `.svelte`-Dateien
-13. [[Tailwind CSS]] — Utility-first CSS
+### Phase 4 — Project Stack (Week 5)
+12. [[TypeScript in Svelte]] — types in `.svelte` files
+13. [[Tailwind CSS]] — utility-first CSS
 
 ---
 
-## Warum Svelte für SAKE?
+## Why Svelte for SAKE?
 
-| Eigenschaft | Vorteil für SAKE |
+| Property | Benefit for SAKE |
 |---|---|
-| Kein Runtime-Bundle | Kleinere Dateigröße, ideal für statisches Hosting |
-| Compiler-basiert | TypeScript & Tailwind werden direkt integriert |
-| SvelteKit Static Adapter | Perfekt für Cloud Run als reiner Fileserver |
-| Svelte 5 Runes | Einfacheres Reaktivitätsmodell als React Hooks |
+| No runtime bundle | Smaller file size, ideal for static hosting |
+| Compiler-based | TypeScript & Tailwind integrate directly |
+| SvelteKit Static Adapter | Perfect for Cloud Run as a pure file server |
+| Svelte 5 Runes | Simpler reactivity model than React Hooks |
 
 ---
 
-## Schnellreferenz: Svelte 5 vs. Svelte 4
+## Quick Reference: Svelte 5 vs. Svelte 4
 
 | Feature | Svelte 4 | Svelte 5 |
 |---|---|---|
-| Reaktiver State | `let count = 0` (implizit) | `let count = $state(0)` |
-| Computed Values | `$: doubled = count * 2` | `let doubled = $derived(count * 2)` |
-| Side Effects | `$: { console.log(count) }` | `$effect(() => { console.log(count) })` |
+| Reactive state | `let count = 0` (implicit) | `let count = $state(0)` |
+| Computed values | `$: doubled = count * 2` | `let doubled = $derived(count * 2)` |
+| Side effects | `$: { console.log(count) }` | `$effect(() => { console.log(count) })` |
 | Props | `export let name` | `let { name } = $props()` |
 | Events | `<button on:click={handler}>` | `<button onclick={handler}>` |
 | Slots | `<slot />` | `{@render children()}` (Snippets) |
 
-> SAKE nutzt Svelte 5 — lerne direkt die neue Syntax!
+> SAKE uses Svelte 5 — learn the new syntax directly!

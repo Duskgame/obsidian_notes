@@ -2,13 +2,13 @@
 
 [SvelteKit Docs — adapter-static](https://kit.svelte.dev/docs/adapter-static) | [Docs — Prerendering](https://kit.svelte.dev/docs/page-options#prerender)
 
-Der **Static Adapter** (`@sveltejs/adapter-static`) baut eine SvelteKit-App als **reine statische Dateien** (HTML, CSS, JavaScript) — kein Node.js-Server zur Laufzeit nötig. Der Output kann auf jedem Webserver gehostet werden, der statische Dateien ausliefert.
+The **static adapter** (`@sveltejs/adapter-static`) builds a SvelteKit app as **pure static files** (HTML, CSS, JavaScript) — no Node.js server needed at runtime. The output can be hosted on any web server that serves static files.
 
-> **SAKE nutzt genau das:** Die SvelteKit-App wird als statische Dateien gebaut und in einem Nginx-Docker-Container auf Cloud Run gehostet.
+> **SAKE uses exactly this:** The SvelteKit app is built as static files and hosted in an Nginx Docker container on Cloud Run.
 
 ---
 
-## Konfiguration
+## Configuration
 
 ### Installation
 ```bash
@@ -24,10 +24,10 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      pages: 'build',          // Output-Ordner für HTML-Seiten
-      assets: 'build',         // Output-Ordner für Assets
-      fallback: 'index.html',  // Für Client-side Routing (SPA-Modus)
-      precompress: false,       // gzip/brotli vorab komprimieren?
+      pages: 'build',          // output folder for HTML pages
+      assets: 'build',         // output folder for assets
+      fallback: 'index.html',  // for client-side routing (SPA mode)
+      precompress: false,       // pre-compress with gzip/brotli?
     })
   }
 };
@@ -35,32 +35,32 @@ export default {
 
 ### src/routes/+layout.ts
 ```ts
-// Schaltet SSR für die gesamte App aus
+// Disable SSR for the entire app
 export const ssr = false;
 export const prerender = true;
 ```
 
-Diese zwei Zeilen sind **zentral** für den SPA-Modus mit Static Adapter.
+These two lines are **central** to the SPA mode with the static adapter.
 
 ---
 
-## Was bedeuten ssr und prerender?
+## What do ssr and prerender mean?
 
-| Option | Bedeutung |
+| Option | Meaning |
 |---|---|
-| `ssr = true` (Standard) | Server rendert HTML → braucht laufenden Server |
-| `ssr = false` | Kein Server-Rendering → App läuft nur im Browser |
-| `prerender = true` | Seiten werden bei Build-Zeit zu statischen HTML gebaut |
-| `prerender = false` | Seiten werden dynamisch gerendert (bei `ssr = false` also im Browser) |
+| `ssr = true` (default) | Server renders HTML → requires a running server |
+| `ssr = false` | No server rendering → app runs in the browser only |
+| `prerender = true` | Pages are built into static HTML at build time |
+| `prerender = false` | Pages render dynamically (with `ssr = false`: in the browser) |
 
-**SAKE-Kombination** (`ssr = false` + `prerender = true` + `fallback = 'index.html'`):
-- Es wird eine `index.html` gebaut
-- Der Browser übernimmt Routing und Rendering komplett
-- Nginx gibt immer `index.html` zurück, SvelteKit-Router übernimmt
+**SAKE combination** (`ssr = false` + `prerender = true` + `fallback = 'index.html'`):
+- One `index.html` is built
+- The browser takes over routing and rendering entirely
+- Nginx always returns `index.html`, SvelteKit router handles the rest
 
 ---
 
-## Was passiert bei npm run build?
+## What happens during npm run build?
 
 ```
 npm run build
@@ -68,22 +68,22 @@ npm run build
     Vite + SvelteKit
          ↓
     build/
-    ├── index.html          ← Shell-HTML
+    ├── index.html          ← shell HTML
     ├── _app/
     │   ├── immutable/
-    │   │   ├── *.js        ← Kompiliertes JavaScript
-    │   │   └── *.css       ← Kompiliertes CSS (inkl. Tailwind)
+    │   │   ├── *.js        ← compiled JavaScript
+    │   │   └── *.css       ← compiled CSS (including Tailwind)
     │   └── chunks/
     └── favicon.png
 ```
 
-Diese Dateien werden in den Docker-Container kopiert und von Nginx ausgeliefert.
+These files are copied into the Docker container and served by Nginx.
 
 ---
 
-## Nginx-Konfiguration für SPA
+## Nginx configuration for SPA
 
-Da alle Routen zu `index.html` fallen sollen:
+Since all routes should fall back to `index.html`:
 
 ```nginx
 server {
@@ -97,11 +97,11 @@ server {
 }
 ```
 
-Ohne `try_files` würde Nginx bei `/request` einen 404 zurückgeben, weil keine Datei `/request/index.html` existiert.
+Without `try_files`, Nginx would return a 404 for `/request` because no file `/request/index.html` exists.
 
 ---
 
-## Dockerfile für SAKE-Style Deployment
+## Dockerfile for SAKE-style deployment
 
 ```dockerfile
 FROM node:20-alpine AS builder
@@ -119,24 +119,24 @@ EXPOSE 80
 
 ---
 
-## Einschränkungen des Static Adapters
+## Static adapter limitations
 
-| Feature | Verfügbar? |
+| Feature | Available? |
 |---|---|
-| Client-side Fetch | ✓ |
+| Client-side fetch | ✓ |
 | `+page.ts` (load) | ✓ |
 | `$env/static/public` | ✓ |
-| `+page.server.ts` | ✗ (kein Server) |
-| `+server.ts` (API Routes) | ✗ (kein Server) |
-| `$env/static/private` | ✗ (kein Server) |
-| Cookies server-side | ✗ |
+| `+page.server.ts` | ✗ (no server) |
+| `+server.ts` (API routes) | ✗ (no server) |
+| `$env/static/private` | ✗ (no server) |
+| Server-side cookies | ✗ |
 
-Da SAKE keine Server-Funktionen braucht (GCP API-Calls direkt im Browser über Google-Login des Supporters), ist der Static Adapter ideal.
+Since SAKE needs no server functions (GCP API calls directly in the browser via the supporter's Google login), the static adapter is ideal.
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[SvelteKit]] — Überblick und Konfigurationsdateien
-- [[SvelteKit Load Functions]] — was bei `ssr = false` in Load Functions funktioniert
-- [[SvelteKit Routing]] — wie Routing im SPA-Modus funktioniert
+- [[SvelteKit]] — overview and configuration files
+- [[SvelteKit Load Functions]] — what works in load functions with `ssr = false`
+- [[SvelteKit Routing]] — how routing works in SPA mode

@@ -1,12 +1,12 @@
-# Fetch in Svelte — HTTP-Requests
+# Fetch in Svelte — HTTP Requests
 
 [MDN — Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | [SvelteKit Docs — load](https://kit.svelte.dev/docs/load)
 
-HTTP-Requests in Svelte-Frontends laufen über die native **Fetch API** des Browsers. Kein separates HTTP-Package nötig. Es gibt zwei Hauptorte wo Fetch sinnvoll eingesetzt wird: in `onMount` (für Client-side Fetching) oder in SvelteKit Load Functions (für Server/Client-side Fetching vor dem Rendern).
+HTTP requests in Svelte frontends use the native browser **Fetch API**. No separate HTTP package needed. There are two main places where fetch makes sense: in `onMount` (for client-side fetching) or in SvelteKit load functions (for server/client-side fetching before rendering).
 
 ---
 
-## Grundlegendes Fetch-Muster
+## Basic fetch pattern
 
 ```svelte
 <script lang="ts">
@@ -28,7 +28,7 @@ HTTP-Requests in Svelte-Frontends laufen über die native **Fetch API** des Brow
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       keys = await res.json();
     } catch (e) {
-      error = e instanceof Error ? e.message : "Unbekannter Fehler";
+      error = e instanceof Error ? e.message : "Unknown error";
     } finally {
       loading = false;
     }
@@ -36,9 +36,9 @@ HTTP-Requests in Svelte-Frontends laufen über die native **Fetch API** des Brow
 </script>
 
 {#if loading}
-  <p>Lädt...</p>
+  <p>Loading...</p>
 {:else if error}
-  <p>Fehler: {error}</p>
+  <p>Error: {error}</p>
 {:else}
   {#each keys as key (key.id)}
     <p>{key.id} — {key.serviceAccount}</p>
@@ -48,7 +48,7 @@ HTTP-Requests in Svelte-Frontends laufen über die native **Fetch API** des Brow
 
 ---
 
-## POST-Request (Daten senden)
+## POST request (sending data)
 
 ```svelte
 <script lang="ts">
@@ -65,9 +65,9 @@ HTTP-Requests in Svelte-Frontends laufen über die native **Fetch API** des Brow
         body: JSON.stringify({ jiraTicket, serviceAccount }),
       });
       if (!res.ok) throw new Error(await res.text());
-      alert("Request gesendet!");
+      alert("Request sent!");
     } catch (e) {
-      alert("Fehler: " + e);
+      alert("Error: " + e);
     } finally {
       submitting = false;
     }
@@ -78,16 +78,16 @@ HTTP-Requests in Svelte-Frontends laufen über die native **Fetch API** des Brow
   <input bind:value={jiraTicket} placeholder="JIRA-123" />
   <input bind:value={serviceAccount} placeholder="sa@project.iam.gserviceaccount.com" />
   <button type="submit" disabled={submitting}>
-    {submitting ? "Wird gesendet..." : "Absenden"}
+    {submitting ? "Sending..." : "Submit"}
   </button>
 </form>
 ```
 
 ---
 
-## Fetch mit {#await} direkt im Template
+## Fetch with {#await} directly in the template
 
-Für einfache Fälle ohne komplexe Fehlerbehandlung:
+For simple cases without complex error handling:
 
 ```svelte
 <script lang="ts">
@@ -95,21 +95,21 @@ Für einfache Fälle ohne komplexe Fehlerbehandlung:
 </script>
 
 {#await keysPromise}
-  <p>Lädt Keys...</p>
+  <p>Loading keys...</p>
 {:then keys}
   {#each keys as key}
     <p>{key.id}</p>
   {/each}
 {:catch error}
-  <p>Fehler: {error.message}</p>
+  <p>Error: {error.message}</p>
 {/await}
 ```
 
 ---
 
-## Fetch mit Google API (SAKE-Kontext)
+## Fetch with Google API (SAKE context)
 
-SAKE macht GCP API-Calls direkt im Browser mit dem Google Access Token des Supporters:
+SAKE makes GCP API calls directly in the browser using the supporter's Google access token:
 
 ```ts
 async function listServiceAccountKeys(serviceAccountEmail: string, accessToken: string) {
@@ -119,14 +119,14 @@ async function listServiceAccountKeys(serviceAccountEmail: string, accessToken: 
       Authorization: `Bearer ${accessToken}`,
     },
   });
-  if (!res.ok) throw new Error(`GCP API Fehler: ${res.status}`);
+  if (!res.ok) throw new Error(`GCP API error: ${res.status}`);
   return res.json();
 }
 ```
 
 ---
 
-## Fetch-Optionen Übersicht
+## Fetch options overview
 
 ```ts
 fetch(url, {
@@ -135,15 +135,15 @@ fetch(url, {
     'Content-Type': 'application/json',
     'Authorization': 'Bearer token',
   },
-  body: JSON.stringify(data),   // nur bei POST/PUT/PATCH
-  credentials: 'include',       // Cookies mitsenden
-  signal: abortController.signal, // Request abbrechbar machen
+  body: JSON.stringify(data),    // only for POST/PUT/PATCH
+  credentials: 'include',        // send cookies
+  signal: abortController.signal, // make request cancellable
 })
 ```
 
 ---
 
-## Request abbrechen (AbortController)
+## Cancelling a request (AbortController)
 
 ```svelte
 <script lang="ts">
@@ -160,7 +160,7 @@ fetch(url, {
       result = await res.text();
     } catch (e) {
       if (e instanceof Error && e.name === 'AbortError') {
-        console.log("Request abgebrochen");
+        console.log("Request cancelled");
       }
     }
   }
@@ -168,14 +168,14 @@ fetch(url, {
   onDestroy(() => controller.abort());
 </script>
 
-<button onclick={startLongRequest}>Starten</button>
-<button onclick={() => controller.abort()}>Abbrechen</button>
+<button onclick={startLongRequest}>Start</button>
+<button onclick={() => controller.abort()}>Cancel</button>
 ```
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[Svelte Template-Logik]] — `{#await}` für asynchrone Daten
-- [[Svelte Lifecycle]] — `onMount` für initiales Datenladen
-- [[SvelteKit Load Functions]] — Fetch in SvelteKit vor dem Rendern
+- [[Svelte Template Logic]] — `{#await}` for async data
+- [[Svelte Lifecycle]] — `onMount` for initial data loading
+- [[SvelteKit Load Functions]] — fetch in SvelteKit before rendering

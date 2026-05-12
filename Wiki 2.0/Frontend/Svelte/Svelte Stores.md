@@ -2,13 +2,13 @@
 
 [Svelte Docs — Stores](https://svelte.dev/docs/svelte/stores) | [Tutorial: Writable stores](https://learn.svelte.dev/tutorial/writable-stores)
 
-Ein **Store** ist ein Objekt, das einen reaktiven Wert hält, der von **mehreren Komponenten** gleichzeitig abonniert werden kann — unabhängig von der Komponentenhierarchie. Stores lösen das Problem des "Prop Drilling" (Props durch viele Ebenen weiterzureichen).
+A **store** is an object that holds a reactive value that can be subscribed to by **multiple components** simultaneously — independent of the component hierarchy. Stores solve the "prop drilling" problem (passing props through many levels).
 
-Stores kommen aus `svelte/store`.
+Stores come from `svelte/store`.
 
 ---
 
-## writable — beschreibbarer Store
+## writable — writable store
 
 ```ts
 // stores.ts
@@ -28,7 +28,7 @@ export const keyList = writable<string[]>([]);
   }
 </script>
 
-<button onclick={login}>Einloggen</button>
+<button onclick={login}>Log in</button>
 ```
 
 ```svelte
@@ -38,17 +38,17 @@ export const keyList = writable<string[]>([]);
 </script>
 
 {#if $currentUser}
-  <p>Eingeloggt als: {$currentUser}</p>
+  <p>Logged in as: {$currentUser}</p>
 {/if}
 ```
 
-### Store-API
+### Store API
 
-| Methode | Beschreibung |
+| Method | Description |
 |---|---|
-| `store.set(value)` | Setzt neuen Wert |
-| `store.update(fn)` | Ändert Wert basierend auf aktuellem Wert |
-| `store.subscribe(fn)` | Abonniert Änderungen (gibt Unsubscribe-Funktion zurück) |
+| `store.set(value)` | Sets a new value |
+| `store.update(fn)` | Changes the value based on the current value |
+| `store.subscribe(fn)` | Subscribes to changes (returns an unsubscribe function) |
 
 ```ts
 keyList.update(keys => [...keys, "key-new-123"]);
@@ -56,31 +56,31 @@ keyList.update(keys => [...keys, "key-new-123"]);
 
 ---
 
-## $ — Auto-Subscription in Svelte-Dateien
+## $ — Auto-subscription in Svelte files
 
-In `.svelte`-Dateien kann ein Store mit `$` als Präfix direkt verwendet werden:
+In `.svelte` files, a store can be used directly with the `$` prefix:
 
 ```svelte
 <script lang="ts">
   import { currentUser } from './stores';
-  // Kein manuelles subscribe() nötig!
+  // No manual subscribe() needed!
 </script>
 
 <p>{$currentUser}</p>
 ```
 
-Svelte abonniert den Store automatisch und räumt das Abo beim Unmount auf. In `.ts`-Dateien (ohne Svelte) muss `subscribe()` manuell verwendet werden.
+Svelte automatically subscribes to the store and cleans up the subscription on unmount. In plain `.ts` files (without Svelte), `subscribe()` must be used manually.
 
 ---
 
-## readable — nur-lesbarer Store
+## readable — read-only store
 
 ```ts
 import { readable } from 'svelte/store';
 
 export const timestamp = readable(new Date(), (set) => {
   const interval = setInterval(() => set(new Date()), 1000);
-  return () => clearInterval(interval); // Cleanup
+  return () => clearInterval(interval); // cleanup
 });
 ```
 
@@ -89,14 +89,14 @@ export const timestamp = readable(new Date(), (set) => {
   import { timestamp } from './stores';
 </script>
 
-<p>Aktuelle Zeit: {$timestamp.toLocaleTimeString()}</p>
+<p>Current time: {$timestamp.toLocaleTimeString()}</p>
 ```
 
-`readable` bekommt einen Startwert und eine Setup-Funktion. Die Setup-Funktion wird beim ersten Abonnenten aufgerufen, die zurückgegebene Funktion beim letzten Unsubscribe.
+`readable` takes an initial value and a setup function. The setup function is called when the first subscriber attaches, and the returned cleanup function runs when the last subscriber unsubscribes.
 
 ---
 
-## derived — abgeleiteter Store
+## derived — derived store
 
 ```ts
 import { derived } from 'svelte/store';
@@ -109,30 +109,30 @@ export const expiredKeys = derived(keyList, $keys =>
 );
 ```
 
-`derived` berechnet einen neuen Wert jedes Mal wenn der Quell-Store sich ändert. Mehrere Quellen sind möglich:
+`derived` recalculates a new value every time the source store changes. Multiple sources are supported:
 
 ```ts
 export const summary = derived(
   [currentUser, keyList],
-  ([$user, $keys]) => `${$user} hat ${$keys.length} Keys`
+  ([$user, $keys]) => `${$user} has ${$keys.length} keys`
 );
 ```
 
 ---
 
-## Stores vs. $state — wann was?
+## Stores vs. $state — when to use which?
 
-| Szenario | Empfehlung |
+| Scenario | Recommendation |
 |---|---|
-| State nur in einer Komponente | `$state()` |
-| State wird an Kind-Komponenten weitergegeben (1–2 Ebenen) | Props + `$state()` |
-| State wird von vielen Komponenten benötigt | Store |
-| State muss in `.ts`-Dateien leben | Store |
-| Globale App-Daten (User, Auth-Token) | Store |
+| State only in one component | `$state()` |
+| State passed to child components (1–2 levels) | Props + `$state()` |
+| State needed by many components | Store |
+| State must live in `.ts` files | Store |
+| Global app data (user, auth token) | Store |
 
 ---
 
-## Beispiel: Auth-Store für SAKE
+## Example: auth store for SAKE
 
 ```ts
 // authStore.ts
@@ -166,8 +166,8 @@ export const isSupporter = derived(user, $user => $user?.role === "supporter");
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[Svelte Reaktivität (Runes)]] — `$state` für lokalen State
-- [[Svelte Props und Events]] — Alternative zu Stores für einfache Weitergabe
-- [[Svelte Lifecycle]] — Stores werden oft in `onMount` initialisiert
+- [[Svelte Reactivity (Runes)]] — `$state` for local state
+- [[Svelte Props and Events]] — alternative to stores for simple passing
+- [[Svelte Lifecycle]] — stores are often initialized in `onMount`

@@ -2,11 +2,11 @@
 
 [Svelte Docs — Lifecycle](https://svelte.dev/docs/svelte/lifecycle-hooks) | [Tutorial: onMount](https://learn.svelte.dev/tutorial/onmount)
 
-Svelte-Komponenten durchlaufen einen Lebenszyklus: Erstellt werden, im DOM erscheinen, sich updaten, und wieder verschwinden. Lifecycle-Funktionen erlauben es, Code zu bestimmten Momenten dieses Zyklus auszuführen.
+Svelte components go through a lifecycle: being created, appearing in the DOM, updating, and disappearing again. Lifecycle functions allow code to run at specific moments in this cycle.
 
 ---
 
-## onMount — nach dem ersten Render
+## onMount — after the first render
 
 ```svelte
 <script lang="ts">
@@ -25,33 +25,33 @@ Svelte-Komponenten durchlaufen einen Lebenszyklus: Erstellt werden, im DOM ersch
 {/each}
 ```
 
-`onMount` wird aufgerufen **nachdem die Komponente im DOM erschienen ist**. Perfekt für:
-- API-Calls beim Laden
-- DOM-Manipulationen (z.B. Fokus setzen)
-- Externe Libraries initialisieren (z.B. Chart.js)
+`onMount` is called **after the component has appeared in the DOM**. Perfect for:
+- API calls on load
+- DOM manipulation (e.g. setting focus)
+- Initializing external libraries (e.g. Chart.js)
 
-> **Wichtig für SAKE:** Die Web Crypto API (`window.crypto`) ist nur im Browser verfügbar. Sie in `onMount` zu initialisieren stellt sicher, dass SSR keinen Fehler wirft — obwohl SAKE `ssr = false` hat, ist es eine gute Gewohnheit.
+> **Important for SAKE:** The Web Crypto API (`window.crypto`) is only available in the browser. Initializing it in `onMount` ensures SSR does not throw an error — even though SAKE has `ssr = false`, it's a good habit.
 
-### Cleanup aus onMount
+### Cleanup from onMount
 
 ```svelte
 <script lang="ts">
   import { onMount } from 'svelte';
 
   onMount(() => {
-    const handler = () => console.log("Fenster resized");
+    const handler = () => console.log("Window resized");
     window.addEventListener('resize', handler);
 
-    return () => window.removeEventListener('resize', handler); // Cleanup
+    return () => window.removeEventListener('resize', handler); // cleanup
   });
 </script>
 ```
 
-Die von `onMount` zurückgegebene Funktion wird beim Unmount ausgeführt (entspricht `onDestroy`).
+The function returned from `onMount` runs on unmount (equivalent to `onDestroy`).
 
 ---
 
-## onDestroy — beim Entfernen der Komponente
+## onDestroy — when the component is removed
 
 ```svelte
 <script lang="ts">
@@ -65,50 +65,50 @@ Die von `onMount` zurückgegebene Funktion wird beim Unmount ausgeführt (entspr
 </script>
 ```
 
-Nützlich um aufzuräumen: Subscriptions kündigen, Intervals löschen, Event Listener entfernen.
+Useful for cleaning up: canceling subscriptions, clearing intervals, removing event listeners.
 
 ---
 
-## $effect als Lifecycle-Alternative
+## $effect as a lifecycle alternative
 
-In Svelte 5 übernimmt `$effect` viele Aufgaben die früher `afterUpdate` brauchten:
+In Svelte 5, `$effect` takes over many tasks that previously required `afterUpdate`:
 
 ```svelte
 <script lang="ts">
   let query = $state("");
 
   $effect(() => {
-    // läuft nach jedem Render in dem `query` sich geändert hat
-    document.title = `Suche: ${query}`;
+    // runs after every render in which `query` changed
+    document.title = `Search: ${query}`;
   });
 </script>
 ```
 
-Vergleich:
+Comparison:
 
-| Lifecycle | Wann | Svelte 5 Alternative |
+| Lifecycle | When | Svelte 5 alternative |
 |---|---|---|
-| `onMount` | Nach erstem DOM-Render | `onMount` (weiterhin empfohlen) |
-| `onDestroy` | Beim Entfernen der Komponente | Cleanup-Funktion in `onMount` oder `$effect` |
-| `beforeUpdate` | Vor jedem Re-Render | Selten benötigt |
-| `afterUpdate` | Nach jedem Re-Render | `$effect` |
+| `onMount` | After first DOM render | `onMount` (still recommended) |
+| `onDestroy` | When component is removed | Cleanup function in `onMount` or `$effect` |
+| `beforeUpdate` | Before every re-render | Rarely needed |
+| `afterUpdate` | After every re-render | `$effect` |
 
 ---
 
-## Reihenfolge beim Laden
+## Execution order on load
 
 ```
-1. <script> wird ausgeführt (synchron)
-2. Template wird gerendert (DOM-Elemente erstellt)
-3. onMount-Callbacks werden ausgeführt
-   └── async onMount: wartet nicht das Rendern ab
-4. Bei Änderungen: Re-Render + $effect
-5. Bei Komponent-Entfernung: onDestroy / $effect-Cleanup
+1. <script> runs (synchronous)
+2. Template is rendered (DOM elements created)
+3. onMount callbacks run
+   └── async onMount: does not block rendering
+4. On changes: re-render + $effect
+5. On component removal: onDestroy / $effect cleanup
 ```
 
 ---
 
-## Beispiel: Crypto-Key-Generierung bei Mount (SAKE-Kontext)
+## Example: crypto key generation on mount (SAKE context)
 
 ```svelte
 <script lang="ts">
@@ -122,21 +122,20 @@ Vergleich:
       true,
       ["encrypt", "decrypt"]
     );
-    console.log("Keypair generiert:", keyPair);
   });
 </script>
 
 {#if keyPair}
-  <p>Keypair bereit</p>
+  <p>Key pair ready</p>
 {:else}
-  <p>Generiere Schlüsselpaar...</p>
+  <p>Generating key pair...</p>
 {/if}
 ```
 
 ---
 
-## Verknüpfte Themen
+## Related Topics
 
-- [[Svelte Reaktivität (Runes)]] — `$effect` als moderner Lifecycle-Hook
-- [[Fetch in Svelte]] — API-Calls typischerweise in `onMount`
-- [[SvelteKit Load Functions]] — Alternative zu onMount für datenlastiges Laden
+- [[Svelte Reactivity (Runes)]] — `$effect` as a modern lifecycle hook
+- [[Fetch in Svelte]] — API calls typically in `onMount`
+- [[SvelteKit Load Functions]] — alternative to onMount for data-heavy loading
