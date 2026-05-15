@@ -11,24 +11,12 @@
             "id": "df6a6fb41ace0640",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Daily notes/05.2026/15.05.2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "Wiki 2.0/Software Engineering/Concepts"
               },
               "icon": "lucide-file",
-              "title": "15.05.2026"
+              "title": "Concepts"
             }
           }
         ]
@@ -206,27 +194,29 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "df6a6fb41ace0640",
+  "active": "b43222b2f78048f4",
   "lastOpenFiles": [
+    "Wiki 2.0/Software Engineering/Concepts/Compile Time vs Runtime.md",
+    "Daily notes/05.2026/15.05.2026.md",
+    "Daily notes/05.2026/15.05.2026.md.tmp.13154.8a3eb8cd0e4e",
+    "Daily notes/05.2026/15.05.2026.md.tmp.13154.b70ed9a5393e",
+    "Wiki 2.0/Software Engineering/Concepts/JIT.md",
+    "Wiki 2.0/Software Engineering/Konzepte/JIT.md.tmp.13154.6c78981902cf",
+    "Wiki 2.0/Software Engineering/Konzepte/Compile Time vs Runtime.md.tmp.13154.507da14298d5",
+    "Wiki 2.0/Software Engineering/Concepts/Compiler.md",
+    "Wiki 2.0/Software Engineering/Konzepte/Compiler.md.tmp.13154.397ad6d3ec3b",
     "Daily notes/05.2026/15.05.2026.md.tmp.13154.26be8e4667ba",
     "Wiki 2.0/Frontend/DOM.md",
-    "Daily notes/05.2026/15.05.2026.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
     "Daily notes/05.2026/15.05.2026.md.tmp.13154.1b9515592c83",
     "Daily notes/05.2026/15.05.2026.md.tmp.13154.43a59effd664",
     "Wiki 2.0/Frontend/Svelte/Svelte Reactivity (Runes).md.tmp.13154.16d2d1ef5700",
-    "Wiki 2.0/Software Engineering/Konzepte/Array reduce.md",
+    "Wiki 2.0/Software Engineering/Concepts/Array reduce.md",
     "Wiki 2.0/Software Engineering/Konzepte/Array reduce.md.tmp.13154.6403f3754440",
-    "Wiki 2.0/Software Engineering/Konzepte/Memory Leak.md",
-    "Wiki 2.0/Software Engineering/Konzepte/Memory Leak.md.tmp.13154.00f767d69b00",
+    "Wiki 2.0/Software Engineering/Concepts/Memory Leak.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Global State.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Global State.md.tmp.13154.cc7459a0d1d0",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.57c1ab51d6bf",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.56dd1ec361af",
-    "Wiki 2.0/Frontend/DOM.md.tmp.13154.299860d22498",
     "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
     "Daily notes/05.2026/12.05.2026.md",
-    "Daily notes/05.2026/12.05.2026.md.tmp.7298.2a13b734ae71",
     "Wiki 2.0/Frontend/Svelte/Svelte Components.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Template Logic.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Reactivity (Runes).md",
@@ -241,9 +231,6 @@
     "Daily notes/05.2026/05.05.2026.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Komponenten.md",
     "Wiki 2.0/Frontend/Frontend.md",
-    "Wiki 2.0/Frontend/Svelte/Tailwind CSS.md",
-    "Wiki 2.0/Frontend/Svelte/TypeScript in Svelte.md",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit Static Adapter.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",

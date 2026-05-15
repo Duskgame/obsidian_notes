@@ -1,7 +1,7 @@
 
 [[Kotlin]] functions can also generate data called a _return value_ which is stored in a variable that you can use elsewhere in your code. 
 
-When defining a [[Function]], you can specify the [[data type]] of the value you want it to return. The return type is specified by placing a colon (`:`) after the parentheses, a single blank space, and then the name of the type (`Int`, `String`, etc). A single space is then placed between the return type and the opening curly brace. Within the [[Function]] body, after all the statements, you use a return statement to specify the value you want the [[Function]] to return. A return statement consists of the `return` keyword followed by the value, such as a variable, you want the [[Function]] to return as an output.
+When defining a [[Function]], you can specify the [[Data Type]] of the value you want it to return. The return type is specified by placing a colon (`:`) after the parentheses, a single blank space, and then the name of the type (`Int`, `String`, etc). A single space is then placed between the return type and the opening curly brace. Within the [[Function]] body, after all the statements, you use a return statement to specify the value you want the [[Function]] to return. A return statement consists of the `return` keyword followed by the value, such as a variable, you want the [[Function]] to return as an output.
 
 The syntax for declaring a [[Function]] with a return type is as follows.
 
