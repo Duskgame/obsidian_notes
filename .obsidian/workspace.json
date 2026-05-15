@@ -11,12 +11,24 @@
             "id": "df6a6fb41ace0640",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Wiki 2.0/Software Engineering/Concepts"
+                "file": "Daily notes/05.2026/15.05.2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Concepts"
+              "title": "15.05.2026"
             }
           }
         ]
@@ -73,7 +85,7 @@
             }
           },
           {
-            "id": "b43222b2f78048f4",
+            "id": "8d1699f2055b17b5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -194,7 +206,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "b43222b2f78048f4",
+  "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
     "Wiki 2.0/Software Engineering/Concepts/Compile Time vs Runtime.md",
     "Daily notes/05.2026/15.05.2026.md",
