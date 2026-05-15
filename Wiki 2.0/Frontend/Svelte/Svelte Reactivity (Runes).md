@@ -96,6 +96,19 @@ For objects and arrays, deeply nested changes are also detected (deep reactivity
 
 ---
 
+## $inspect — debug logging (dev only)
+
+```svelte
+<script>
+  let count = $state(0);
+  $inspect(count); // logs to console whenever count changes
+</script>
+```
+
+`$inspect` prints the value to the browser console every time it changes. **It is automatically stripped from production builds** — the Svelte compiler removes the line entirely when building for production. This means you can leave `$inspect` in source code without worrying about leaking debug output to users. For logging that must run in production, use a regular `console.log`.
+
+---
+
 ## $state.raw — non-reactive values
 
 When a large object should not be deeply observed (performance):

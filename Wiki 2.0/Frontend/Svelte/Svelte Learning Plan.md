@@ -15,7 +15,7 @@
 - [x] [[Svelte Components]] — `.svelte` file structure, expressions, imports, bindings
 - [x] [[Svelte Reactivity (Runes)]] — `$state`, `$derived`, `$effect`
 - [x] [[Svelte Template Logic]] — `{#if}`, `{#each}`, `{#await}`
-- [ ] [[Svelte Props and Events]] — `$props()`, event handlers
+- [x] [[Svelte Props and Events]] — `$props()`, event handlers
 
 ### 1.2 Work through interactive tutorial
 - [ ] [Svelte basics tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte) (chapters 1–4)

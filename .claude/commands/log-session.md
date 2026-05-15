@@ -38,12 +38,15 @@ Look at all topics and concepts in the conversation. For each topic that is **ne
 3. Remember the filename for Step 3
 
 Do **not** create a new note if one already exists for that topic.
+If there is an existing note update it if there is new relevant knowledge.
 
 ## Step 3 — Update the daily note
 
 Add content to the daily note — **always append, never overwrite** existing content:
 
 ### ## Progress:
+Add a wikilink for each note updated in Step 2:
+- [[Note name]] — one-sentence description
 Add concise bullet points about what was done in this session. Specific, brief, in past tense. Write in English. Examples:
 - Created Svelte learning plan (phases 1–5, 16 exercises)
 - Added wiki entries for Svelte Components and Reactivity
