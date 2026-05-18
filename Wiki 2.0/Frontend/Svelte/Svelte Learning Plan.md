@@ -25,9 +25,9 @@
   - Chapter 4: Logic
 
 ### 1.3 Exercises
-- [ ] **Exercise A — Counter:** Create a component with a button that increments a counter. Show the doubled value next to it using `$derived`.
-- [ ] **Exercise B — Filter list:** Create a list of 5 fictional service account keys. Add a text field that filters the list by key name. Use `$derived` for the filtered list.
-- [ ] **Exercise C — Form:** Create a form with two required fields (JIRA ticket, service account email). Only show the submit button when both fields are filled (`{#if}`).
+- [x] **Exercise A — Counter:** Create a component with a button that increments a counter. Show the doubled value next to it using `$derived`.
+- [x] **Exercise B — Filter list:** Create a list of 5 fictional service account keys. Add a text field that filters the list by key name. Use `$derived` for the filtered list.
+- [x] **Exercise C — Form:** Create a form with two required fields (JIRA ticket, service account email). Only show the submit button when both fields are filled (`{#if}`).
 - [ ] **Exercise D — Split component:** Extract the key entry from Exercise B into its own `KeyRow.svelte` component. Pass the data as props.
 
 ### 1.4 Checkpoint
