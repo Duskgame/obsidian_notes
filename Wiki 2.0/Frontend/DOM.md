@@ -67,6 +67,38 @@ Frameworks like React maintain a **virtual DOM** — a lightweight in-memory cop
 
 [[Svelte]] avoids a virtual DOM entirely: it compiles templates to direct, surgical DOM updates at build time.
 
+## DOM Events
+
+Events are actions the browser (or user) triggers on DOM nodes — click, keypress, scroll, etc.
+
+```js
+element.addEventListener('click', (e) => {
+    e.target           // element originally clicked
+    e.currentTarget    // element this handler is attached to
+    e.preventDefault() // stop default browser behaviour
+    e.stopPropagation() // stop event travelling up the tree
+});
+```
+
+### Event propagation
+
+Events travel in two phases through the DOM tree:
+
+```
+CAPTURE (top-down)    BUBBLE (bottom-up)
+        ↓                     ↑
+    document              document
+        ↓                     ↑
+      div                   div
+        ↓                     ↑
+      button  ← event fires ─
+```
+
+- **Bubble phase** (default) — event goes from target upward. A click on `<button>` also triggers handlers on `<div>` and `<document>`.
+- **Capture phase** — fires top-down, before the event reaches the target. Enable with `{ capture: true }` in `addEventListener`.
+
+See [[Event Bubbling and Capturing]] for full details.
+
 ## Sources
 
 - [MDN — Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
@@ -77,3 +109,5 @@ Frameworks like React maintain a **virtual DOM** — a lightweight in-memory cop
 
 - [[Frontend]]
 - [[Svelte]]
+- [[Event Bubbling and Capturing]] — how events travel through the DOM tree
+- [[Svelte Props and Events]] — how Svelte handles DOM events

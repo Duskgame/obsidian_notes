@@ -18,7 +18,7 @@
 - [x] [[Svelte Props and Events]] — `$props()`, event handlers
 
 ### 1.2 Work through interactive tutorial
-- [ ] [Svelte basics tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte) (chapters 1–4)
+- [x] [Svelte basics tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte) (chapters 1–4)
   - Chapter 1: Introduction
   - Chapter 2: Reactivity
   - Chapter 3: Props

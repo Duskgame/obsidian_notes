@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.2026/15.05.2026.md",
+                "file": "Daily notes/05.2026/18.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15.05.2026"
+              "title": "18.05.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "8d1699f2055b17b5",
+            "id": "d343a92bf00e6d71",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -208,23 +208,29 @@
   },
   "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
-    "Wiki 2.0/Software Engineering/Concepts/Compile Time vs Runtime.md",
-    "Daily notes/05.2026/15.05.2026.md",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.8a3eb8cd0e4e",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.b70ed9a5393e",
-    "Wiki 2.0/Software Engineering/Concepts/JIT.md",
-    "Wiki 2.0/Software Engineering/Konzepte/JIT.md.tmp.13154.6c78981902cf",
-    "Wiki 2.0/Software Engineering/Konzepte/Compile Time vs Runtime.md.tmp.13154.507da14298d5",
-    "Wiki 2.0/Software Engineering/Concepts/Compiler.md",
-    "Wiki 2.0/Software Engineering/Konzepte/Compiler.md.tmp.13154.397ad6d3ec3b",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.26be8e4667ba",
-    "Wiki 2.0/Frontend/DOM.md",
+    "Wiki 2.0/Frontend/JavaScript/JavaScript Promises.md",
+    "Daily notes/05.2026/18.05.2026.md",
+    "Daily notes/05.2026/18.05.2026.md.tmp.7816.8c5724c7cfb2",
+    "Wiki 2.0/Frontend/DOM.md.tmp.7816.894cc456ae7b",
     "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.1b9515592c83",
-    "Daily notes/05.2026/15.05.2026.md.tmp.13154.43a59effd664",
-    "Wiki 2.0/Frontend/Svelte/Svelte Reactivity (Runes).md.tmp.13154.16d2d1ef5700",
+    "Wiki 2.0/Frontend/DOM.md.tmp.7816.57e6c335abbb",
+    "Wiki 2.0/Frontend/Svelte/Svelte Template Logic.md.tmp.7816.614e46eca8a4",
+    "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md.tmp.7816.c874f24819fb",
+    "Wiki 2.0/Frontend/Svelte/clsx.md",
+    "Wiki 2.0/Frontend/Svelte/clsx.md.tmp.7816.5b5061ee914b",
+    "Wiki 2.0/Frontend/Svelte/Svelte Bind Directive.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Bind Directive.md.tmp.7816.f9bfbe022e2f",
+    "Wiki 2.0/Frontend/JavaScript/Event Bubbling and Capturing.md",
+    "Wiki 2.0/Frontend/JavaScript/Event Bubbling and Capturing.md.tmp.7816.856b3cbfc577",
+    "Wiki 2.0/Frontend/JavaScript/JavaScript Promises.md.tmp.7816.73a51963cb9d",
+    "Wiki 2.0/Frontend/JavaScript/JavaScript Destructuring.md",
+    "Wiki 2.0/Frontend/JavaScript/JavaScript Destructuring.md.tmp.7816.162545631f09",
+    "Daily notes/05.2026/15.05.2026.md",
+    "Wiki 2.0/Software Engineering/Concepts/Compile Time vs Runtime.md",
+    "Wiki 2.0/Software Engineering/Concepts/JIT.md",
+    "Wiki 2.0/Software Engineering/Concepts/Compiler.md",
+    "Wiki 2.0/Frontend/DOM.md",
     "Wiki 2.0/Software Engineering/Concepts/Array reduce.md",
-    "Wiki 2.0/Software Engineering/Konzepte/Array reduce.md.tmp.13154.6403f3754440",
     "Wiki 2.0/Software Engineering/Concepts/Memory Leak.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Global State.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Props and Events.md",
@@ -237,12 +243,6 @@
     "Wiki 2.0/Frontend/Svelte/Svelte Template-Logik.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Reaktivität (Runes).md",
     "Wiki 2.0/Frontend/Svelte/Svelte Cheat Sheet.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte.md",
-    "Daily notes/04.2026/04.2026.md",
-    "Daily notes/04.2026/12.05.2026.md",
-    "Daily notes/05.2026/05.05.2026.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Komponenten.md",
-    "Wiki 2.0/Frontend/Frontend.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",

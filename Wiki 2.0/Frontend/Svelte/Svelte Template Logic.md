@@ -60,7 +60,18 @@ Svelte extends HTML with template blocks for conditions, loops, and async data. 
 {/each}
 ```
 
-The key `(key.id)` helps Svelte correctly track elements when reordering instead of re-rendering everything.
+The key `(key.id)` tells Svelte how to identify each item across re-renders.
+
+**Without a key**, Svelte tracks items by position (index). Removing the first item causes Svelte to update props on every existing DOM node and destroy the last one — internal component state (animations, input focus) shifts unexpectedly.
+
+**With a key**, Svelte matches DOM nodes to items by their ID. Removing an item destroys only that specific node; all others stay untouched.
+
+```
+Before:  [apple(1), banana(2), carrot(3)]
+After:   [banana(2), carrot(3)]           ← only id:1 destroyed
+```
+
+The key must be unique per item. Using the array index as key defeats the purpose — it's the same as having no key.
 
 ### Fallback for empty list
 

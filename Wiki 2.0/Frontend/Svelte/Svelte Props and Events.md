@@ -146,10 +146,25 @@ Data always flows **downward** via props. Changes flow **upward** via callback f
 
 ---
 
+## Under the hood — $props() returns a Proxy
+
+`$props()` is not a real function — it's a **compiler rune**. The Svelte compiler transforms it at build time into internal reactive bindings.
+
+At runtime the returned object is a **Proxy**, not a plain object. The Proxy intercepts property reads to register reactive dependencies, so Svelte knows exactly which parts of the DOM to re-render when a prop changes from the parent.
+
+```js
+let props = $props();
+props.name;   // Proxy intercepts → registers "name" as a dependency
+```
+
+---
+
 ## Related Topics
 
 - [[Svelte Components]] — how components are structured
 - [[Svelte Reactivity (Runes)]] — `$bindable()` is also a rune
 - [[Svelte Stores]] — alternative when props need to be passed through many levels (prop drilling)
+- [[Svelte Bind Directive]] — two-way binding with bind: and $bindable()
+- [[JavaScript Destructuring]] — the syntax used to unpack $props()
 - [[Unidirectional data Flow]] — the pattern this follows: single source of truth, events bubble up
 - [[Model-View-ViewModel]] — MVVM is a related pattern where a ViewModel holds state and the view only observes
