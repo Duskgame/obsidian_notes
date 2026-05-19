@@ -168,3 +168,4 @@ props.name;   // Proxy intercepts → registers "name" as a dependency
 - [[JavaScript Destructuring]] — the syntax used to unpack $props()
 - [[Unidirectional data Flow]] — the pattern this follows: single source of truth, events bubble up
 - [[Model-View-ViewModel]] — MVVM is a related pattern where a ViewModel holds state and the view only observes
+- [[Svelte vs Kotlin]] — side-by-side comparison of `$props()` and Kotlin Composable parameters

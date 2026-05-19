@@ -99,7 +99,7 @@ Comparison:
 
 ```mermaid
 sequenceDiagram
-    participant Script as &lt;script&gt;
+    participant Script
     participant Svelte
     participant DOM
     participant User

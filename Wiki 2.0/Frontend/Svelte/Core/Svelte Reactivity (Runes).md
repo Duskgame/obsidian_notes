@@ -160,3 +160,4 @@ graph LR
 - [[Svelte Stores]] — alternative for cross-component state
 - [[State in Compose]] — Android equivalent: `remember { mutableStateOf() }` works similarly to `$state()`
 - [[Unidirectional data Flow]] — the data-flow pattern that runes enforce: state flows down, events flow up
+- [[Svelte vs Kotlin]] — full side-by-side comparison of runes and Kotlin/Compose equivalents

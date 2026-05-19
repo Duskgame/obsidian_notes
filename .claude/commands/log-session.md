@@ -31,18 +31,13 @@ Then read the existing file completely.
 
 ## Step 2 — Create new wiki notes
 
-Look at all topics and concepts in the conversation. For each topic that is **new** (no existing wiki entry for it) and technically relevant:
+Look at all topics and concepts in the conversation. For each topic that is **new** (no existing wiki entry for it) and technically relevant, run the **write-note** skill for that topic. The write-note skill handles:
+- Checking whether a note already exists (and updating it if so)
+- Choosing the correct directory and creating subdirectories when needed
+- Writing the note in the correct format with sources, code examples, and wikilinks
+- Adding backlinks from related existing notes
 
-1. Determine the appropriate target directory under `/home/jonas/Documents/obsidian_notes/Wiki 2.0/`
-2. **Before creating the note**, count how many entries (files and folders) are in that directory:
-   - Run: `ls "<target-directory>" | wc -l`
-   - If the count is **greater than 10**: examine the existing entries and the new note's topic, then decide on a fitting subdirectory name that groups related content together. Create the note inside that subdirectory instead.
-   - If the count is **10 or fewer**: create the note directly in the target directory as normal.
-3. The note should explain the topic in English, include source links (official docs, MDN, etc.), and set Obsidian wikilinks to related topics
-4. Remember the final path and filename for Step 3
-
-Do **not** create a new note if one already exists for that topic.
-If there is an existing note update it if there is new relevant knowledge.
+Remember the final path and filename of each created or updated note for Step 3.
 
 ## Step 3 — Update the daily note
 

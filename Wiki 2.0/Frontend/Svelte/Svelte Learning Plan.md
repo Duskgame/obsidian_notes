@@ -28,7 +28,7 @@
 - [x] **Exercise A — Counter:** Create a component with a button that increments a counter. Show the doubled value next to it using `$derived`.
 - [x] **Exercise B — Filter list:** Create a list of 5 fictional service account keys. Add a text field that filters the list by key name. Use `$derived` for the filtered list.
 - [x] **Exercise C — Form:** Create a form with two required fields (JIRA ticket, service account email). Only show the submit button when both fields are filled (`{#if}`).
-- [ ] **Exercise D — Split component:** Extract the key entry from Exercise B into its own `KeyRow.svelte` component. Pass the data as props.
+- [x] **Exercise D — Split component:** Extract the key entry from Exercise B into its own `KeyRow.svelte` component. Pass the data as props.
 
 ### 1.4 Checkpoint
 - [ ] I can read a `.svelte` file from the SAKE codebase and understand the structure, `$state`, `{#if}`, `{#each}`, and props.
@@ -40,8 +40,8 @@
 *Duration: ~1 week*
 
 ### 2.1 Read theory
-- [ ] [[Svelte Stores]] — `writable`, `readable`, `derived`, `$` syntax
-- [ ] [[Svelte Lifecycle]] — `onMount`, `onDestroy`
+- [x] [[Svelte Stores]] — `writable`, `readable`, `derived`, `$` syntax
+- [x] [[Svelte Lifecycle]] — `onMount`, `onDestroy`
 - [ ] [[Fetch in Svelte]] — HTTP requests, error handling, AbortController
 
 ### 2.2 Interactive tutorial

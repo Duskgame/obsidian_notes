@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.2026/18.05.2026.md",
+                "file": "Wiki 2.0/Frontend/Svelte/Core/Svelte Lifecycle.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "18.05.2026"
+              "title": "Svelte Lifecycle"
             }
           }
         ]
@@ -206,9 +206,71 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
+  "floating": {
+    "id": "14b4522c57aacfe5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f66b078bdcfc45b3",
+        "type": "window",
+        "children": [
+          {
+            "id": "ac0763c3e10f2e56",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "500c050afe0760bf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Svelte Learning Plan"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2636,
+        "y": 87,
+        "width": 3124,
+        "height": 1498,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
     "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
+    "Wiki 2.0/Frontend/Svelte/Core/Svelte Lifecycle.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte vs Kotlin.md",
+    "Wiki 2.0/Frontend/Svelte/Data & State/Svelte Stores.md",
+    "Wiki 2.0/Frontend/Svelte/Core/Svelte Props and Events.md.tmp.7816.bb9c3c24cf63",
+    "Wiki 2.0/Frontend/Svelte/Core/Svelte Reactivity (Runes).md.tmp.7816.96e9f6c4355f",
+    "Wiki 2.0/Frontend/Svelte/Svelte vs Kotlin.md.tmp.7816.ccf7c16ba565",
+    "Wiki 2.0/Frontend/DOM.md",
+    "Wiki 2.0/Frontend/Svelte/Core/Svelte Reactivity (Runes).md",
+    "Daily notes/05.2026/19.05.2026.md",
+    "Wiki 2.0/Infrastruktur/Cloud/Bewerbungsfragen WIP.md",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Routing.md",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Static Adapter.md",
+    "Daily notes/05.2026/18.05.2026.md",
     "Daily notes/05.2026/18.05.2026.md.tmp.7816.33ae4dfa5ad2",
     "Daily notes/05.2026/18.05.2026.md.tmp.7816.d505f6142128",
     "Wiki 2.0/School Wiki/PC Hardware/PSU.md",
@@ -221,28 +283,15 @@
     "Wiki 2.0/School Wiki/PC Hardware/RAM.md.tmp.7816.2e1ed17257ab",
     "Wiki 2.0/School Wiki/PC Hardware/Motherboard.md",
     "Wiki 2.0/School Wiki/PC Hardware/Motherboard.md.tmp.7816.795c4344d7a1",
-    "Wiki 2.0/School Wiki/PC Hardware",
-    "Daily notes/05.2026/18.05.2026.md.tmp.7816.9e0130a8e2e6",
     "Wiki 2.0/Frontend/Svelte/Svelte Form Validation.md",
-    "Wiki 2.0/Frontend/Svelte/Svelte Form Validation.md.tmp.7816.cb40061c7bcb",
     "Wiki 2.0/Frontend/JavaScript/HTML Forms.md",
     "Wiki 2.0/Frontend/Svelte/CSS Styling in Svelte.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Cheat Sheet.md",
     "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit.md",
     "Wiki 2.0/Frontend/Svelte/Svelte Bind Directive.md",
-    "Daily notes/05.2026/18.05.2026.md",
     "Wiki 2.0/Frontend/Svelte/TypeScript in Svelte.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Subscript Syntax.md",
     "Wiki 2.0/App development/Kotlin/Programming Kotlin/Keyword and Operator/Unit.md",
-    "Wiki 2.0/App development/Kotlin/Programming Kotlin/Function/Lambda.md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Security Features/Data Protection API.md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Security Features/Site Isolation.md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Security Features/Sandboxing.md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Security Features/HTTP Strict Transport Security (HSTS).md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Security Features/DNS over HTTPS.md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Security Features/CSP Stufe.md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Certificates & TLS/Transport Layer Security (TLS).md",
-    "Wiki 2.0/Infrastruktur/Webbrowser/Certificates & TLS/Root Certificate.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
