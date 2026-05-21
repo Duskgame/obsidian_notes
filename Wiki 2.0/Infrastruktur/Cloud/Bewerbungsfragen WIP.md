@@ -15,7 +15,7 @@ Container & Images
 	+ Größe des Image (bspw. Doku und ungenutzt Software entfernen)
 	+ Zugriff auf außenliegende Inhalte (bspw. Dateisystem)
 - Wie können Container verteilt werden?
-	+ Orchestrierungstools wie Kubernetes, Docker Swarm
+	+ Orchestrierungstools wie [[Kubernetes]], Docker Swarm
 	+ Verwaltungstools wie Docker Compose
 - Container-Runtimes 
 	+ cri-o, containerd, docker

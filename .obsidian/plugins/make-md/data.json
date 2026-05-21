@@ -105,7 +105,10 @@
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/SvelteKit",
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/Core",
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/Styling",
-    "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/Data & State"
+    "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/Data & State",
+    "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts",
+    "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Web & APIs",
+    "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Programming Concepts"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

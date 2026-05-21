@@ -44,21 +44,30 @@ Remember the final path and filename of each created or updated note for Step 3.
 Add content to the daily note — **always append, never overwrite** existing content:
 
 ### ## Progress:
-Add a wikilink for each note updated in Step 2:
-- [[Note name]] — one-sentence description
-Add concise bullet points about what was done in this session. Specific, brief, in past tense. Write in English. Examples:
-- Created Svelte learning plan (phases 1–5, 16 exercises)
-- Added wiki entries for Svelte Components and Reactivity
-- Analyzed SAKE project structure
+Add bullet points about actual work done in this session — coding, decisions made, tasks completed, things learned that matter for ongoing projects. Specific, brief, in past tense. Write in English.
+Only link notes that were **updated** (existing notes that received new content) — not newly created notes.
+Examples:
+- Fixed sync conflict resolution in Kwizz backend
+- Decided to use FIFO queue for payment flow
+- [[Existing Note]] — added section on X
+
+Do NOT list newly created notes here — those go under New Notes.
 
 ### ## New Notes:
-Add a wikilink for each note created in Step 2:
+Add a wikilink for each note **newly created** in Step 2:
 - [[Note name]] — one-sentence description
 
+### ## Questions:
+If any open questions came up in the conversation that the user or their organisation should follow up on — topics to research further, decisions not yet made, things to verify — add them here. Format:
+- **Question:** Short description of what needs to be followed up
+
+Only add genuine open questions, not things that were already answered in the conversation.
+If there were no open questions, do not modify this section.
+
 ### ## Problems:
-If any questions, issues, or open points came up in the conversation: briefly summarize them and answer them directly below in 1–2 sentences. Format:
-- **Problem/Question:** Short description
-  → Short answer / solution
+If any technical issues, blockers, or unresolved errors came up in the conversation: briefly summarize them and answer them directly below in 1–2 sentences. Format:
+- **Problem:** Short description
+  → Short answer / solution or workaround
 
 If there were no problems, do not modify this section.
 
