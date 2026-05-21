@@ -57,7 +57,7 @@ sequenceDiagram
 
 Each service listens for events it cares about, acts, then publishes its own event.
 
-**Pros:** Loose coupling, no single point of failure, services are independent
+**Pros:** Loose [[Coupling]], no single point of failure, services are independent
 **Cons:** Flow is invisible — spread across multiple services; hard to debug
 
 ---

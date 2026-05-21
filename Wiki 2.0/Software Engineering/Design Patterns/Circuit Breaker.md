@@ -8,7 +8,7 @@ The Circuit Breaker pattern prevents cascading failures in distributed systems b
 
 ## The Problem
 
-Without a circuit breaker, a slow or failing downstream service causes:
+Without a circuit breaker, a slow or failing [[Upstream and Downstream|downstream]] service causes:
 - Every request to that service waits for the full timeout (e.g. 30s)
 - Threads pile up waiting
 - Your service slows down and eventually crashes

@@ -103,3 +103,4 @@ graph TD
 - [[docker]] — the standard container format underpinning cloud-native deployments
 - [[Observability]] — essential companion to cloud-native: if you can't observe it, you can't operate it
 - [[Messaging Patterns]] — event-driven communication between microservices
+- [[Event-Driven Architecture]] — architectural style that applies these patterns at system scale

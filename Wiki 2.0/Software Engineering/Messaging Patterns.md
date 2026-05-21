@@ -157,3 +157,4 @@ When a message fails to process after the maximum number of retries, it is moved
 - [[Circuit Breaker]] — protects synchronous calls; messaging patterns are the async alternative
 - [[Observability]] — queue depth, consumer lag, and DLQ message count are key metrics
 - [[Cloud Native]] — event-driven messaging is a core cloud-native architecture pattern
+- [[Event-Driven Architecture]] — EDA is the architectural style that these messaging patterns implement
