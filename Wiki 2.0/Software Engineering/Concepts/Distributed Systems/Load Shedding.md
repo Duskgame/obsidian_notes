@@ -75,6 +75,6 @@ Power companies literally "shed load" by cutting electricity to certain areas du
 
 - [[Backpressure]] — the alternative to load shedding when the producer can be slowed
 - [[Throughput and Latency]] — load shedding protects throughput by preventing latency from exploding
-- [[Messaging Patterns]] — DLQ captures messages that failed; load shedding drops them intentionally
+- [[Dead Letter Queue]] — DLQ captures messages that failed; load shedding drops them intentionally
 - [[Circuit Breaker]] — stops calling overloaded services, a form of load shedding at the integration level
 - [[Observability]] — load shedding events (rejected requests, dropped messages) must be monitored

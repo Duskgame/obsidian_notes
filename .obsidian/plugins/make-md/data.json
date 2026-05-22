@@ -92,7 +92,6 @@
     "//Wiki 2.0",
     "//Wiki 2.0/Wiki 2.0/GoogleCloud",
     "//Wiki 2.0/Wiki 2.0/GoogleCloud/Wiki 2.0/GoogleCloud/Service Account Key Rotation",
-    "//Wiki 2.0/Wiki 2.0/Infrastruktur",
     "//Wiki 2.0/Wiki 2.0/Infrastruktur/Wiki 2.0/Infrastruktur/Mail Client Server",
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Konzepte",
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Design Patterns",
@@ -100,7 +99,6 @@
     "//Wiki 2.0/Wiki 2.0/Infrastruktur/Wiki 2.0/Infrastruktur/Cloud/Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E",
     "//Wiki 2.0/Wiki 2.0/Frontend",
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte",
-    "//Wiki 2.0/Wiki 2.0/Software Engineering",
     "//Wiki 2.0/Wiki 2.0/Infrastruktur/Wiki 2.0/Infrastruktur/Cloud",
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/SvelteKit",
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/Core",
@@ -108,7 +106,8 @@
     "//Wiki 2.0/Wiki 2.0/Frontend/Wiki 2.0/Frontend/Svelte/Wiki 2.0/Frontend/Svelte/Data & State",
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts",
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Web & APIs",
-    "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Programming Concepts"
+    "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Programming Concepts",
+    "//Wiki 2.0/Wiki 2.0/Infrastruktur"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

@@ -98,6 +98,7 @@ In practice, **at-least-once + idempotent consumer** is the standard pattern —
 ## Related Topics
 
 - [[Deduplication ID]] — the mechanism that makes at-least-once consumers idempotent
+- [[Dead Letter Queue]] — when at-least-once retries are exhausted, messages land in the DLQ
 - [[Message Group Pattern]] — delivery semantics interact with ordering guarantees
 - [[Messaging Patterns]] — the broader queue and pub/sub patterns these semantics apply to
 - [[CAP Theorem]] — exactly-once semantics require strong consistency, limiting availability

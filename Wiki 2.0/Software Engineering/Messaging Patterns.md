@@ -95,7 +95,7 @@ HTTP status `202 Accepted` specifically signals: "received, processing asynchron
 
 ## Webhook
 
-A webhook is a server-to-server HTTP callback — one service notifies another by sending a POST request to a registered URL when an event occurs.
+A [[Webhooks|webhook]] is a server-to-server HTTP callback — one service notifies another by sending a POST request to a registered URL when an event occurs.
 
 ```
 External Service (e.g. Stripe)

@@ -62,6 +62,20 @@
         "a": 1,
         "rgb": 16418048
       }
+    },
+    {
+      "query": "path:\"Wiki 2.0/Software Engineering\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 117704
+      }
+    },
+    {
+      "query": "path:\"Wiki 2.0/Infrastruktur\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": true,
@@ -70,10 +84,10 @@
   "nodeSizeMultiplier": 0.44453125,
   "lineSizeMultiplier": 0.29140625,
   "collapse-forces": false,
-  "centerStrength": 0.544270833333333,
-  "repelStrength": 10.0520833333333,
-  "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.7801828676791763,
+  "centerStrength": 0.518229166666667,
+  "repelStrength": 9.84375,
+  "linkStrength": 0.9140625,
+  "linkDistance": 210,
+  "scale": 0.70233196159122,
   "close": false
 }

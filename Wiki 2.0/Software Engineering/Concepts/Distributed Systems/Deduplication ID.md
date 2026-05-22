@@ -81,5 +81,5 @@ Both achieve the same goal: exactly-once effect from at-least-once delivery.
 ## Related Topics
 
 - [[Delivery Semantics]] — deduplication IDs are the mechanism for at-least-once + idempotent consumers
-- [[Messaging Patterns]] — DLQ and retry logic create duplicate deliveries that require deduplication
+- [[Dead Letter Queue]] — DLQ and retry logic create duplicate deliveries that require deduplication
 - [[Message Group Pattern]] — FIFO queues use both group IDs and deduplication IDs together
