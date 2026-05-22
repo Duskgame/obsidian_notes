@@ -91,7 +91,7 @@ Responding `200 OK` quickly (within 5–30 seconds) is critical — senders trea
 
 ## Webhooks vs Polling vs Server-Sent Events
 
-| | Webhooks | Polling | SSE |
+| | Webhooks | Polling | [[Server-Sent Events\|SSE]] |
 |---|---|---|---|
 | Direction | Server → Client | Client → Server | Server → Client |
 | Trigger | Event-based | Time-based | Event-based |

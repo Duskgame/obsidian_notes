@@ -8,7 +8,7 @@ SQLite is a commonly used relational [[Database]]. Specifically, SQLite refers t
 
 You won't have to learn C or any entirely new programming language to work with a relational database. SQL is simply a way to add and retrieve data from a relational database with a few lines of code.
 
-**Note:** Not all databases are organized into tables, columns, and rows. Other kinds of databases, known as NoSQL, are structured similarly to a [[JSON]] [[Kotlin Object]] with nested pairs of keys and values. Examples of NoSQL databases include Redis or [Cloud Firestore](https://firebase.google.com/docs/firestore).
+**Note:** Not all databases are organized into tables, columns, and rows. Other kinds of databases, known as NoSQL, are structured similarly to a [[JSON]] [[Kotlin Object]] with nested pairs of keys and values. Examples of NoSQL databases include Redis or [[Firestore|Cloud Firestore]].
 
 
 ## Representing data with SQLite
