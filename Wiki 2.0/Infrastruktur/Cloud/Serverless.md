@@ -82,7 +82,7 @@ Cold start is less of an issue for event-driven background processing; it matter
 | Provider | Service |
 |---|---|
 | AWS | Lambda |
-| Google Cloud | Cloud Functions / Cloud Run |
+| Google Cloud | [[Cloud Functions Gen2]] / Cloud Run |
 | Azure | Azure Functions |
 | Cloudflare | Workers |
 | Self-hosted | OpenFaaS, Knative |

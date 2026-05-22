@@ -58,7 +58,7 @@ SAKE soll den Crawler langfristig ablösen oder auf die gesamte Organisation aus
 - Crypto: `pkijs`, `asn1js`, `pvutils` für X.509 im Browser
 - CI/CD: Cloud Build via GitHub Actions OIDC
 
-### Cloud Functions (Gen 2, Python 3.11)
+### [[Cloud Functions Gen2]] (Python 3.11)
 | Function | Aufgabe | Status |
 |---|---|---|
 | `smtpsender` | E-Mail mit Anhang via SMTP | Deployed |
@@ -224,7 +224,7 @@ secret_link = response.json()["link"]
 Die ZIP-Datei landet in `prd_key_rotation_key_files` in GCS mit expliziten ACL-Permissions für `moritz.colaci@bonprix.net` (hardcoded Bug).
 
 
-### AD-Gruppen-Lookup — Domain-Wide Delegation ohne Static Keys
+### AD-Gruppen-Lookup — [[Domain-Wide Delegation]] ohne Static Keys
 
 Die `adgroups`-Function ist ein gutes Beispiel für GCP-native Auth ohne Service-Account-Keys:
 
@@ -286,7 +286,7 @@ resource "acme_certificate" "sake_cert" {
 
 Der Terraform-State speichert den privaten TLS-Schlüssel des Zertifikats — das ist ein häufiger Kritikpunkt an dieser Terraform-ACME-Lösung.
 
-**IAP (Identity-Aware Proxy)**:
+**[[Identity-Aware Proxy (IAP)]]**:
 ```hcl
 resource "google_iap_web_backend_service_iam_member" "sake_iap" {
   role   = "roles/iap.httpsResourceAccessor"
@@ -317,7 +317,7 @@ Cloud Functions und Cloud Run sind Serverless-Dienste, haben keinen direkten VPC
 **Ablauf**:
 1. GitHub Actions erzeugt einen signierten OIDC-Token (JWT) für den Workflow
 2. Token enthält Claims wie `repository`, `ref`, `actor`
-3. GCP Workload Identity Federation validiert den Token via GitHub's JWKS-Endpoint
+3. [[Workload Identity Federation]] validiert den Token via GitHub's JWKS-Endpoint
 4. Der Workload Identity Pool prüft Attribute: nur `refs/heads/dev` (bzw. `main`) darf sich als `infrastructureascode` authentifizieren
 5. GCP tauscht den OIDC-Token gegen ein kurzlebiges Access-Token für den SA
 
