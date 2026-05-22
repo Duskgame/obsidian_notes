@@ -136,6 +136,8 @@ Each service is only aware of the event schema — not of each other.
 
 When a message fails to process after the maximum number of retries, it is moved to a **Dead Letter Queue** rather than being discarded. Allows inspection and reprocessing of failed messages without losing them.
 
+See also: [[Delivery Semantics]], [[Deduplication ID]]
+
 ---
 
 ## Summary
@@ -158,3 +160,6 @@ When a message fails to process after the maximum number of retries, it is moved
 - [[Observability]] — queue depth, consumer lag, and DLQ message count are key metrics
 - [[Cloud Native]] — event-driven messaging is a core cloud-native architecture pattern
 - [[Event-Driven Architecture]] — EDA is the architectural style that these messaging patterns implement
+- [[Delivery Semantics]] — at-most-once, at-least-once, exactly-once delivery guarantees
+- [[Backpressure]] — flow control mechanism for slowing producers when consumers fall behind
+- [[Load Shedding]] — dropping excess work when a system is overwhelmed

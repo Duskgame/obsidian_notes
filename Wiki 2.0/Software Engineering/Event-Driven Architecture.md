@@ -86,7 +86,7 @@ Event-driven:
 | Advantage | Disadvantage |
 |---|---|
 | Loose coupling | Harder to trace end-to-end flows |
-| Independent scaling | Eventual consistency (not immediate) |
+| Independent scaling | [[Eventual Consistency]] (not immediate) |
 | Resilient to failures | Debugging requires distributed tracing |
 | Easy to extend | Event schema changes need careful versioning |
 

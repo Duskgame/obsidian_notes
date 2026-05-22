@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.2026/21.05.2026.md",
+                "file": "Daily notes/05.2026/22.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "21.05.2026"
+              "title": "22.05.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "d343a92bf00e6d71",
+            "id": "36f184239e47fa69",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,93 +206,44 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "floating": {
-    "id": "14b4522c57aacfe5",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f66b078bdcfc45b3",
-        "type": "window",
-        "children": [
-          {
-            "id": "ac0763c3e10f2e56",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "500c050afe0760bf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Svelte Learning Plan"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2636,
-        "y": 87,
-        "width": 3124,
-        "height": 1498,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "305e8ee1b3a1131e",
+  "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
-    "Daily notes/05.2026/21.05.2026.md.tmp.7816.1f2346a09717",
-    "Daily notes/05.2026/21.05.2026.md.tmp.7816.a66be8266150",
-    "Wiki 2.0/Software Engineering/Integration Architecture.md.tmp.7816.3ed4d38ca728",
+    "Daily notes/05.2026/22.05.2026.md.tmp.13334.61da5d4dfbf4",
+    "Daily notes/05.2026/22.05.2026.md.tmp.13334.086060a5c2fa",
+    "Wiki 2.0/Software Engineering/Messaging Patterns.md.tmp.13334.6b6eaf023eae",
+    "Wiki 2.0/Software Engineering/Messaging Patterns.md.tmp.13334.e50e0546dc64",
+    "Wiki 2.0/Software Engineering/Concepts/Web & APIs/RPC.md",
+    "Wiki 2.0/Software Engineering/Concepts/Web & APIs/RPC.md.tmp.13334.d682841311ed",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Backpressure.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Backpressure.md.tmp.13334.356e76dce32e",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Load Shedding.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Load Shedding.md.tmp.13334.1fa6a9aca89e",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Throughput and Latency.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Throughput and Latency.md.tmp.13334.d8e83607f2cd",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Deduplication ID.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Deduplication ID.md.tmp.13334.a9396f52b617",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Delivery Semantics.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Delivery Semantics.md.tmp.13334.156d2e39cd40",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Message Group Pattern.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Message Group Pattern.md.tmp.13334.8c168b36f066",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Total and Partial Order.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Monotonic Clocks.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Vector Clocks.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Lamport Timestamps.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Eventual Consistency.md",
+    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/CAP Theorem.md",
+    "Daily notes/05.2026/21.05.2026.md",
+    "Daily notes/05.2026/22.05.2026.md",
+    "Wiki 2.0/Frontend/Svelte/Svelte Learning Plan.md",
     "Wiki 2.0/Software Engineering/Event Broker.md",
-    "Wiki 2.0/Software Engineering/Event Broker.md.tmp.7816.4e730650f7e4",
-    "Wiki 2.0/Infrastruktur/Cloud/Cloud Native.md.tmp.7816.566b3a0c2117",
-    "Wiki 2.0/Software Engineering/Messaging Patterns.md.tmp.7816.2f5727077b71",
     "Wiki 2.0/Software Engineering/Event-Driven Architecture.md",
-    "Wiki 2.0/Software Engineering/Event-Driven Architecture.md.tmp.7816.015292872fd1",
-    "Wiki 2.0/Software Engineering/Design Patterns/Circuit Breaker.md.tmp.7816.7c4ab3d192a2",
     "Wiki 2.0/Software Engineering/Upstream and Downstream.md",
-    "Wiki 2.0/Software Engineering/Upstream and Downstream.md.tmp.7816.afc654895fc6",
-    "Wiki 2.0/Software Engineering/Design Patterns/Saga Pattern.md.tmp.7816.c181233d95a2",
-    "Wiki 2.0/Software Engineering/Integration Architecture.md.tmp.7816.02b06f5e3630",
     "Wiki 2.0/Software Engineering/Coupling.md",
     "Wiki 2.0/Software Engineering/Design Patterns/Divide and Conquer.md",
     "Wiki 2.0/Software Engineering/Integration Architecture.md",
     "Wiki 2.0/Software Engineering/Design Patterns/Anti-Corruption Layer.md",
     "Wiki 2.0/Software Engineering/Design Patterns/Strangler Fig.md",
     "Daily notes/05.2026/19.05.2026.md",
-    "Daily notes/05.2026/21.05.2026.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/IAM.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS.md",
-    "Wiki 2.0/Software Engineering/Mermaid.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/AWS.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/EU Sovereign Cloud.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/CDK.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/SNS.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/SQS.md",
-    "Wiki 2.0/Infrastruktur/Cloud/Load Balancer.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/EC2.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/Lambda.md",
-    "Wiki 2.0/Software Engineering/Design Patterns/Saga Pattern.md",
-    "Wiki 2.0/Infrastruktur/Cloud/AWS/VPC.md",
-    "Wiki 2.0/Infrastruktur/Cloud/API Gateway.md",
-    "Wiki 2.0/Software Engineering/Design Patterns/App Architecture.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
