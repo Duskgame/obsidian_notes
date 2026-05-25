@@ -82,3 +82,4 @@ For internal tools and early planning, **low-fi is almost always enough** — it
 - [[Design Patterns]] — wireframes visualise the UI patterns being applied
 - [[Svelte Components]] — components map directly to the boxes in a wireframe
 - [[SvelteKit Routing]] — each wireframe screen typically corresponds to a route
+- [[SvelteKit Structure-First Workflow]] — how to translate a finished wireframe into SvelteKit markup and components step by step

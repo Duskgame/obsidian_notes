@@ -81,6 +81,44 @@ pnpm dev
 
 ---
 
+## Common Errors
+
+### ERR_PNPM_NO_PKG_MANIFEST
+
+```
+ERR_PNPM_NO_PKG_MANIFEST  No package.json found in /path/to/dir
+```
+
+pnpm requires a `package.json` file in the current working directory before it can install dependencies. This error means it couldn't find one.
+
+**Cause 1 — Wrong directory**
+You're in a parent folder instead of the actual project root.
+```bash
+ls          # look for a subfolder with package.json
+cd my-app   # go into it
+pnpm install
+```
+
+**Cause 2 — Uninitialised project**
+You created the folder manually but never scaffolded a project into it.
+```bash
+# SvelteKit
+pnpm create svelte@latest .
+
+# Vite + Svelte
+pnpm create vite@latest . --template svelte
+```
+
+**Cause 3 — Incomplete clone**
+The `git clone` succeeded but `package.json` is missing (sparse checkout, shallow clone gone wrong, or wrong branch).
+```bash
+git status          # check what files are present
+git log --oneline   # verify you're on the right branch
+ls                  # confirm package.json exists
+```
+
+---
+
 ## Related Topics
 
 - [[SvelteKit]] — SvelteKit projects commonly use pnpm

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/UI Wireframes - Server Side Handoff.md",
+                "file": "Daily notes/05.2026/25.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UI Wireframes - Server Side Handoff"
+              "title": "25.05.2026"
             }
           }
         ]
@@ -205,8 +205,23 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "df6a6fb41ace0640",
+  "active": "c77869a1b190c9c8",
   "lastOpenFiles": [
+    "Daily notes/05.2026/25.05.2026.md.tmp.45288.34489d80f6a9",
+    "Daily notes/05.2026/25.05.2026.md.tmp.45288.41a9445c3c2d",
+    "Wiki 2.0/Software Engineering/Concepts/Wireframes.md.tmp.45288.e51a2964e580",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Structure-First Workflow.md",
+    "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Structure-First Workflow.md.tmp.45288.c7cb4b8900cc",
+    "Wiki 2.0/Frontend/JavaScript/pnpm.md.tmp.45288.5bd80cc27ad5",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(5).png",
+    "Daily notes/05.2026/25.05.2026.md",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(6).png",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(4).png",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(3).png",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(2).png",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download.png",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/UI Wireframes.md",
+    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/UI Wireframes - Server Side Handoff.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Domain-Wide Delegation.md",
     "Daily notes/05.2026/22.05.2026.md.tmp.13334.1a17179d09cd",
@@ -216,14 +231,9 @@
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md.tmp.13334.2e52633db687",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Cloud Functions Gen2.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Cloud Functions Gen2.md.tmp.13334.2f9202cb35cd",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md.tmp.13334.de61082bb733",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Identity-Aware Proxy (IAP).md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Identity-Aware Proxy (IAP).md.tmp.13334.a7e45f0bdb5b",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md.tmp.13334.5a84bbf73908",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Workload Identity Federation.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Workload Identity Federation.md.tmp.13334.fa1fcc03425b",
     "Daily notes/05.2026/22.05.2026.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/UI Wireframes - Server Side Handoff.md",
     "Wiki 2.0/Software Engineering/Concepts/Web & APIs/Server-Sent Events.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Firestore.md",
     "Wiki 2.0/Frontend/JavaScript/pnpm.md",
@@ -233,22 +243,13 @@
     "Wiki 2.0/Software Engineering/Concepts/Wireframes.md",
     "Wiki 2.0/Frontend/Next.js.md",
     "Wiki 2.0/Infrastruktur/Cloud/Public Cloud.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/UI Wireframes.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(1).png",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download.png",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(5).png",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(3).png",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(2).png",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(4).png",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(6).png",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Questions.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Link List.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/GoogleCloud.md",
     "Wiki 2.0/Software Engineering/Concepts/Web & APIs/RPC.md",
     "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Backpressure.md",
     "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Load Shedding.md",
-    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Throughput and Latency.md",
-    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Deduplication ID.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",
