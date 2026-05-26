@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.2026/25.05.2026.md",
+                "file": "Daily notes/05.2026/26.05.2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25.05.2026"
+              "title": "26.05.2026"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "36f184239e47fa69",
+            "id": "4a6b085ecd5ddd44",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -94,7 +94,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -205,16 +206,26 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "c77869a1b190c9c8",
+  "active": "df6a6fb41ace0640",
   "lastOpenFiles": [
+    "Daily notes/05.2026/26.05.2026.md.tmp.10361.8a90f88f71ec",
+    "Daily notes/05.2026/26.05.2026.md.tmp.10361.b06495fb2dfd",
+    "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md.tmp.10361.b5136f218caf",
+    "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md.tmp.10361.ee6cda522d23",
+    "Wiki 2.0/Frontend/SVG Positioning and Spacing.md",
+    "Wiki 2.0/Frontend/SVG Positioning and Spacing.md.tmp.10361.49e6d63156a1",
+    "Daily notes/05.2026/25.05.2026.md",
+    "Daily notes/05.2026/26.05.2026.md",
+    "Daily notes/05.2026/25.05.2026.md.tmp.211284.e763ba88aadf",
+    "Daily notes/05.2026/25.05.2026.md.tmp.211284.d5f4930a8692",
+    "Wiki 2.0/School Wiki/PC Hardware/CMOS.md",
+    "Wiki 2.0/School Wiki/PC Hardware/CMOS.md.tmp.211284.5b15d5cd2a1d",
+    "Wiki 2.0/School Wiki/PC Hardware/ROM Chip.md",
+    "Wiki 2.0/School Wiki/PC Hardware/ROM Chip.md.tmp.211284.084dec264b69",
     "Daily notes/05.2026/25.05.2026.md.tmp.45288.34489d80f6a9",
     "Daily notes/05.2026/25.05.2026.md.tmp.45288.41a9445c3c2d",
-    "Wiki 2.0/Software Engineering/Concepts/Wireframes.md.tmp.45288.e51a2964e580",
     "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Structure-First Workflow.md",
-    "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Structure-First Workflow.md.tmp.45288.c7cb4b8900cc",
-    "Wiki 2.0/Frontend/JavaScript/pnpm.md.tmp.45288.5bd80cc27ad5",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(5).png",
-    "Daily notes/05.2026/25.05.2026.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(6).png",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(4).png",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(3).png",
@@ -224,13 +235,7 @@
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/UI Wireframes - Server Side Handoff.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Domain-Wide Delegation.md",
-    "Daily notes/05.2026/22.05.2026.md.tmp.13334.1a17179d09cd",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md.tmp.13334.c524096654f8",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Domain-Wide Delegation.md.tmp.13334.289f77ad4447",
-    "Wiki 2.0/Infrastruktur/Cloud/Serverless.md.tmp.13334.7ba699f4699b",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md.tmp.13334.2e52633db687",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Cloud Functions Gen2.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Cloud Functions Gen2.md.tmp.13334.2f9202cb35cd",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Identity-Aware Proxy (IAP).md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Workload Identity Federation.md",
     "Daily notes/05.2026/22.05.2026.md",
@@ -246,10 +251,6 @@
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(1).png",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Questions.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Link List.md",
-    "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/GoogleCloud.md",
-    "Wiki 2.0/Software Engineering/Concepts/Web & APIs/RPC.md",
-    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Backpressure.md",
-    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Load Shedding.md",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",
     "Imports/Screenshot 2026-04-13 at 10-16-44 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN1_LF05_2026_PM.pdf.png",

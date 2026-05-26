@@ -135,6 +135,54 @@ Color scale: 50 (light) → 950 (dark)
 </button>
 ```
 
+### Group hover — propagate hover to children
+Mark the parent with `group`, then use `group-hover:` on any child to react to the parent's hover state.
+
+```html
+<a class="group border hover:border-blue-400">
+  <div class="bg-slate-100 group-hover:bg-blue-50">  <!-- reacts to parent hover -->
+    <svg class="text-slate-500 group-hover:text-blue-600">...</svg>
+  </div>
+</a>
+```
+
+### Typography utilities
+```html
+<p class="leading-snug">   <!-- line-height: 1.375 (tighter) -->
+<p class="leading-relaxed"> <!-- line-height: 1.625 (looser) -->
+
+<h1 class="tracking-tight">   <!-- letter-spacing: -0.025em -->
+<p class="tracking-widest">   <!-- letter-spacing: 0.1em — used for uppercase labels -->
+```
+
+### Flex utilities
+```html
+<span class="inline-flex items-center gap-2"> <!-- flex but stays inline, doesn't take full width -->
+<div class="flex-shrink-0">  <!-- prevents this item from shrinking when space is tight -->
+```
+
+### Space between children
+```html
+<ul class="space-y-2">  <!-- adds margin-top: 0.5rem between each child -->
+<ul class="space-x-4">  <!-- adds margin-left: 1rem between each child -->
+```
+Alternative to `gap` when you can't use flexbox/grid on the parent.
+
+### Transitions
+```html
+<div class="transition-all">       <!-- transition all properties -->
+<div class="transition-colors">    <!-- only color/background/border changes -->
+<div class="transition-transform"> <!-- only transform changes (performant) -->
+```
+Pair with `duration-*` to control speed: `transition-colors duration-200`.
+
+### Transform / translate
+```html
+<svg class="group-hover:translate-x-0.5"> <!-- nudge 2px right on parent hover -->
+<div class="translate-y-1">              <!-- move 4px down -->
+```
+`translate-x-0.5` = 2px, `translate-x-1` = 4px — same scale as spacing.
+
 ---
 
 ## Responsive design
@@ -231,3 +279,4 @@ const buttonClass = clsx(
 
 - [[Svelte Components]] — where Tailwind classes are used
 - [[SvelteKit Static Adapter]] — Tailwind is compiled to minimal CSS at build time
+- [[SVG Positioning and Spacing]] — Tailwind utility classes apply to inline SVG elements
