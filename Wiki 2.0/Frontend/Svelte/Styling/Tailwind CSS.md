@@ -275,6 +275,75 @@ const buttonClass = clsx(
 
 ---
 
+## Extracting reusable classes with `@layer components`
+
+When the same utility combination is used across multiple pages, extract it into a named class in `app.css` using `@layer components` and `@apply`:
+
+```css
+/* src/app.css */
+@import "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    @apply flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-700 disabled:opacity-50;
+  }
+
+  .card-pad {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm p-6;
+  }
+}
+```
+
+These classes are then used like normal class names in markup:
+```html
+<button class="btn-primary">Submit</button>
+<div class="card-pad">...</div>
+```
+
+### Limitation: cannot `@apply` another custom class
+
+In Tailwind v4, `@apply` inside `@layer components` can **only** reference built-in utility classes — not other custom classes from the same layer:
+
+```css
+/* ✗ FAILS in Tailwind v4 — card is a custom class, not a utility */
+.card-pad {
+  @apply card p-6;
+}
+
+/* ✓ CORRECT — expand to full utilities */
+.card-pad {
+  @apply rounded-2xl border border-slate-200 bg-white shadow-sm p-6;
+}
+```
+
+### When to extract vs. keep inline
+
+Only extract to `@layer components` when the combination appears on **multiple pages**. For patterns used only within one component, use the Svelte `<style>` block. For one-off styles, keep them inline — extracting forces you to invent names for non-semantic patterns and breaks colocation.
+
+---
+
+## `@apply` in Svelte `<style>` blocks
+
+Component-specific repeated patterns can be defined in the component's `<style>` block. However, Svelte's `<style>` is treated as a CSS module, so Tailwind utilities are not automatically in scope. You must add `@reference "tailwindcss"` at the top:
+
+```svelte
+<style>
+  @reference "tailwindcss";
+
+  .expiry-input {
+    @apply w-24;
+  }
+
+  .hint {
+    @apply mt-2 text-center text-xs text-slate-400;
+  }
+</style>
+```
+
+`@reference` makes utilities available for `@apply` **without emitting duplicate CSS** in the output. Without it, the build fails with "Cannot apply unknown utility class".
+
+---
+
 ## Related Topics
 
 - [[Svelte Components]] — where Tailwind classes are used

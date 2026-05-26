@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/jonas/Desktop/sake-prototype/**)",
+      "Read(//home/jonas/Projects/Svelte/my-app/**)",
+      "Bash(pnpm install *)"
+    ]
+  }
+}

@@ -97,3 +97,4 @@ In Svelte 4, cross-component state required `writable()` stores with `$store` sy
 - [[Svelte Reactivity (Runes)]] — `$state`, `$derived` basics
 - [[Svelte Stores]] — Svelte 4 equivalent
 - [[Svelte Components]] — where local state lives
+- [[Svelte State Factory Pattern]] — page-local logic extraction into `.svelte.ts` using the same runes

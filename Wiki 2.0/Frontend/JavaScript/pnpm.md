@@ -119,6 +119,55 @@ ls                  # confirm package.json exists
 
 ---
 
+## Build Script Approval
+
+pnpm blocks post-install scripts by default as a security measure. Post-install scripts run arbitrary shell commands during `pnpm install` — a known [[Supply Chain Attack]] vector. pnpm requires explicit approval before running them.
+
+### Why it matters
+
+Packages like `esbuild` ship a native binary and use a post-install script to download the correct platform binary. Without approval, pnpm will refuse to run the script and the package won't work.
+
+### Approving via `.npmrc`
+
+Add the package name to `approve-builds` in `.npmrc`:
+
+```ini
+# .npmrc
+engine-strict=true
+approve-builds=esbuild
+```
+
+For multiple packages, comma-separate them:
+
+```ini
+approve-builds=esbuild,sharp,canvas
+```
+
+### Approving via `pnpm-workspace.yaml` (pnpm 11+)
+
+In pnpm 11 the `pnpm` field in `package.json` is deprecated. Use `pnpm-workspace.yaml` instead:
+
+```yaml
+# pnpm-workspace.yaml
+onlyBuiltDependencies:
+  - esbuild
+```
+
+This is the equivalent of `approve-builds` but scoped to workspace config.
+
+### How to identify which packages need approval
+
+When pnpm blocks a script, it prints:
+
+```
+ WARN  The following packages need pre/post-install scripts: esbuild
+       To approve, add them to onlyBuiltDependencies in pnpm-workspace.yaml
+```
+
+Only approve packages you trust. Approving an unknown package is equivalent to running its code on your machine during install.
+
+---
+
 ## Related Topics
 
 - [[SvelteKit]] — SvelteKit projects commonly use pnpm

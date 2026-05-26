@@ -4,7 +4,7 @@
 
 **Runes** are special compiler directives in Svelte 5 that start with `$`. They replace the implicit reactivity system from Svelte 4. Runes look like function calls but are not real functions — the Svelte compiler understands them and translates them.
 
-> Runes also work in plain `.ts`/`.js` files (not just `.svelte`) if the file ends in `.svelte.ts` / `.svelte.js`.
+> Runes also work in plain `.ts`/`.js` files (not just `.svelte`) if the file ends in `.svelte.ts` / `.svelte.js`. See [[Svelte State Factory Pattern]] for a common use of this.
 
 ---
 
