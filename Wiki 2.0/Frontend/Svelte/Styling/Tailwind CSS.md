@@ -344,8 +344,61 @@ Component-specific repeated patterns can be defined in the component's `<style>`
 
 ---
 
+## Utility cascade override (v4)
+
+In Tailwind v4, the CSS cascade layers are ordered:
+
+```
+@layer base  <  @layer components  <  @layer utilities
+```
+
+**Utilities always win over components**, regardless of the order of class names in the HTML attribute. This means a utility added directly in the markup will override any conflicting property set by a `@layer components` class:
+
+```html
+<!-- .btn-primary sets py-2.5 via @layer components -->
+<!-- py-3 is from @layer utilities → wins, overrides py-2.5 -->
+<button class="btn-primary py-3">Download</button>
+```
+
+No `!important`, no extra `<style>` block, no redefinition of `.btn-primary` needed. The utility wins purely because of layer priority.
+
+### Tailwind v3 vs. v4
+
+| | Tailwind v3 | Tailwind v4 |
+|---|---|---|
+| Components layer | `@layer components` | `@layer components` |
+| Utilities layer | `@layer utilities` | `@layer utilities` |
+| Override behavior | Both layers had same specificity — **last one in the stylesheet won**, not the class order in HTML | Utilities layer is explicitly higher priority — **utilities always win** |
+| How to override a component | Redefine the class or use `!important` | Just add the utility to the `class` attribute |
+
+### Practical consequence
+
+You can define tight defaults in `@layer components` and override specific properties per-use without any extra CSS:
+
+```css
+/* app.css */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2.5 bg-blue-600 text-white rounded-lg;
+  }
+}
+```
+
+```html
+<!-- Taller padding on one specific button — works cleanly in v4 -->
+<button class="btn-primary py-4">Big Button</button>
+
+<!-- Different background on another — also works -->
+<button class="btn-primary bg-green-600">Success</button>
+```
+
+This makes component classes safe to define without worrying about needing escape hatches.
+
+---
+
 ## Related Topics
 
 - [[Svelte Components]] — where Tailwind classes are used
 - [[SvelteKit Static Adapter]] — Tailwind is compiled to minimal CSS at build time
 - [[SVG Positioning and Spacing]] — Tailwind utility classes apply to inline SVG elements
+- [[CSS Cascade and Specificity]] — the underlying CSS mechanism that makes layer ordering work

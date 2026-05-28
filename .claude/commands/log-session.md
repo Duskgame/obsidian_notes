@@ -45,7 +45,7 @@ Add content to the daily note — **always append, never overwrite** existing co
 
 ### ## Progress:
 Add bullet points about actual work done in this session — coding, decisions made, tasks completed, things learned that matter for ongoing projects. Specific, brief, in past tense. Write in English.
-Only link notes that were **updated** (existing notes that received new content) — not newly created notes.
+Link notes that were **updated** (existing notes that received new content) inline in the relevant bullet.
 Examples:
 - Fixed sync conflict resolution in Kwizz backend
 - Decided to use FIFO queue for payment flow

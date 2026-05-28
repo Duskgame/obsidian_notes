@@ -21,7 +21,72 @@ Es existieren aktuell zwei parallele Systeme:
 SAKE soll den Crawler langfristig ablösen oder auf die gesamte Organisation ausweiten.
 
 
-## Prozessablauf
+## Redesigned flow — SAKE v2 (wip-gcp-project-key-rotation_test2)
+
+The original flow required the supporter to hand back `key_id` and `client_id` to the requester after activating the cert. The redesigned flow eliminates this round-trip entirely.
+
+**Key insight:** The GCP Key ID is the SHA-1 hash of the full PEM certificate + a trailing newline. This can be computed locally in the browser before the cert is ever uploaded to GCP:
+
+```typescript
+// Key ID computed locally — no GCP API call needed
+computedKeyId = await sha1(certPem + '\n');
+```
+
+The requester also provides the **OAuth2 Client ID** upfront in the form (Step 1). With both values known locally, the SAK JSON can be assembled immediately after cert generation — before the supporter does anything.
+
+### New requester flow (2 steps)
+
+**Step 1 — Fill form:**
+- Jira Ticket, Service Account email, OAuth2 Client ID, expiry days
+- OAuth2 Client ID: found in GCP console under the SA details, or provided by team lead
+
+**Step 2 — Done:**
+- Browser generates RSA keypair + self-signed X.509 cert (`pkijs`)
+- Key ID computed via `sha1(certPem + "\n")`
+- SAK JSON assembled immediately and ready to download
+- Activation link generated (cert embedded in URL hash `#cert=...`)
+- Requester downloads SAK and sends the activation link to a supporter
+- **No waiting. No hand-back.**
+
+### New supporter flow (2 steps)
+
+**Step 1 — Review:**
+- Opens activation link (cert + metadata pre-filled from URL)
+- Chooses activation method: browser (Google login) or CLI
+
+**Step 2a — Browser activation:**
+- Authenticates via Google OAuth2 (GAPI client)
+- Views and optionally deletes existing keys on the SA
+- Clicks "Upload & Activate" → `iam.projects.serviceAccounts.keys.upload()`
+
+**Step 2b — CLI activation:**
+```bash
+TMPF=$(mktemp) && \
+echo -e "-----BEGIN CERTIFICATE-----\n<cert>" > $TMPF && \
+gcloud --project <project> \
+  iam service-accounts keys upload $TMPF \
+  --iam-account=<sa-email> && \
+rm $TMPF
+```
+Clicks "Command ran successfully" to proceed to the Done screen.
+
+**Step 3 — Done:**
+- "The requester already has their Service Account Key — no need to send anything back."
+- Supporter records SA mail, Jira ticket, activation date for their own reference.
+
+### Flow comparison
+
+| | Original flow | New flow (v2) |
+|---|---|---|
+| OAuth2 Client ID | Returned by supporter after upload | Entered by requester upfront |
+| Key ID | Returned by GCP after upload | Computed locally: `sha1(cert + "\n")` |
+| SAK assembly | Step 3 (after supporter hand-back) | Step 2 (immediately after cert gen) |
+| Supporter hand-back | Required (key_id + client_id) | Not needed |
+| Round-trips | 2 (cert → supporter → back) | 1 (cert → supporter, done) |
+
+---
+
+## Prozessablauf (Original — wip-gcp-project-key-rotation)
 
 ### Rolle: Requester
 1. Öffnet SAKE-Webapp

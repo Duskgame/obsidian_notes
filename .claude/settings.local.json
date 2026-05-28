@@ -3,7 +3,9 @@
     "allow": [
       "Read(//home/jonas/Desktop/sake-prototype/**)",
       "Read(//home/jonas/Projects/Svelte/my-app/**)",
-      "Bash(pnpm install *)"
+      "Bash(pnpm install *)",
+      "Read(//home/jonas/Projects/wip-gcp-project-key-rotation-test/webapp/**)",
+      "Bash(pnpm add *)"
     ]
   }
 }

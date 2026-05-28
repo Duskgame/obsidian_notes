@@ -1,5 +1,7 @@
 # SAKE — UI Wireframes
 
+> **Note:** This documents the **original flow** (requester waits for Key ID + OAuth2 Client ID hand-back from supporter). The redesigned v2 flow (no hand-back, SAK assembled immediately) is described in [[Service Account Key Rotation]] under "Redesigned flow — SAKE v2".
+
 Redesigned frontend using a step wizard pattern. All requester steps live in one route (`/request/`) and all supporter steps in one route (`/upload/`) — navigating away would destroy the private key held in browser memory.
 
 ---

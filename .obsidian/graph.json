@@ -74,7 +74,7 @@
       "query": "path:\"Wiki 2.0/Infrastruktur\"  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 10326489
       }
     }
   ],
@@ -88,6 +88,6 @@
   "repelStrength": 9.84375,
   "linkStrength": 0.9140625,
   "linkDistance": 210,
-  "scale": 0.12256663427406815,
+  "scale": 0.18384995141110216,
   "close": false
 }

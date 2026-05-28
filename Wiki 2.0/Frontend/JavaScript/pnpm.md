@@ -145,24 +145,46 @@ approve-builds=esbuild,sharp,canvas
 
 ### Approving via `pnpm-workspace.yaml` (pnpm 11+)
 
-In pnpm 11 the `pnpm` field in `package.json` is deprecated. Use `pnpm-workspace.yaml` instead:
+In pnpm 11 the `pnpm` field in `package.json` is deprecated. Use `pnpm-workspace.yaml` instead. Two keys exist:
 
+**`allowBuilds` (map — explicit per-package toggle, pnpm 11):**
+```yaml
+# pnpm-workspace.yaml
+allowBuilds:
+  esbuild: true       # allowed
+  some-package: false # explicitly blocked
+```
+
+**`onlyBuiltDependencies` (list — older syntax, still supported):**
 ```yaml
 # pnpm-workspace.yaml
 onlyBuiltDependencies:
   - esbuild
+  - '@sveltejs/kit'
 ```
 
-This is the equivalent of `approve-builds` but scoped to workspace config.
+Both keys can coexist. `allowBuilds` takes precedence. When a new project is scaffolded, `pnpm-workspace.yaml` may contain a placeholder like `esbuild: set this to true or false` — this must be set explicitly before the package's build script will run.
+
+### Interactive approval
+
+```bash
+pnpm approve-builds
+# → interactive checklist: space to select, enter to confirm
+# → writes selection to pnpm-workspace.yaml
+```
+
+Cannot be used in non-TTY environments (CI). Set `CI=true` or configure the file manually instead.
 
 ### How to identify which packages need approval
 
 When pnpm blocks a script, it prints:
 
 ```
- WARN  The following packages need pre/post-install scripts: esbuild
-       To approve, add them to onlyBuiltDependencies in pnpm-workspace.yaml
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: esbuild@0.25.2
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
 ```
+
+Note: the install itself succeeds (exit 0 for package resolution), but the blocked package will be broken at runtime. With `CI=true`, pnpm uses `--frozen-lockfile` and will error if the lockfile is out of date.
 
 Only approve packages you trust. Approving an unknown package is equivalent to running its code on your machine during install.
 
