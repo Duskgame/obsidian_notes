@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md",
+                "file": "WIP/SAKE-migration-progress.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tailwind CSS"
+              "title": "SAKE-migration-progress"
             }
           }
         ],
@@ -110,7 +110,7 @@
             }
           },
           {
-            "id": "3ad77891f5b9db9e",
+            "id": "cbe138fb020a7b51",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -233,13 +233,13 @@
   },
   "active": "de3896c26cc91b8c",
   "lastOpenFiles": [
+    "Daily notes/05.2026/29.05.2026.md",
     "WIP/SAKE-migration-progress.md",
     "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md",
     "Wiki 2.0/Frontend/SVG Positioning and Spacing.md",
     "Wiki 2.0/Frontend/Svelte/Styling/CSS Cascade and Specificity.md",
     "Daily notes/05.2026/27.05.2026.md",
     "Daily notes/05.2026/28.05.2026.md",
-    "Daily notes/05.2026/29.05.2026.md",
     "WIP/SAKE-migration-progress.md.tmp.6173.9a8464429747",
     "WIP/SAKE-migration-progress.md.tmp.6173.1e58995844cd",
     "WIP/SAKE-migration-progress.md.tmp.6173.a3470fccacdb",
