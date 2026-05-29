@@ -35,24 +35,12 @@
             "id": "de3896c26cc91b8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "WIP/SAKE-migration-progress.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "Wiki 2.0/App development/Android/Data Persistence"
               },
               "icon": "lucide-file",
-              "title": "SAKE-migration-progress"
+              "title": "Data Persistence"
             }
           }
         ],
@@ -231,10 +219,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "de3896c26cc91b8c",
+  "active": "cbe138fb020a7b51",
   "lastOpenFiles": [
-    "Daily notes/05.2026/29.05.2026.md",
+    "Wiki 2.0/App development/Android/Data Persistence/Data Persistence.md",
+    "App project/Testing Projects/Android Test/Android Test.md",
     "WIP/SAKE-migration-progress.md",
+    "Daily notes/05.2026/29.05.2026.md",
     "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md",
     "Wiki 2.0/Frontend/SVG Positioning and Spacing.md",
     "Wiki 2.0/Frontend/Svelte/Styling/CSS Cascade and Specificity.md",
@@ -273,8 +263,6 @@
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Workload Identity Federation.md",
     "Wiki 2.0/Software Engineering/Concepts/Web & APIs/Server-Sent Events.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Firestore.md",
-    "Wiki 2.0/Frontend/JavaScript/pnpm.md",
-    "Wiki 2.0/Software Engineering/Concepts/Web & APIs/Webhooks.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(1).png",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",

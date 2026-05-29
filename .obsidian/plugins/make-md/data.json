@@ -64,7 +64,6 @@
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Wiki 2.0/App development/Kotlin/Programming Kotlin/Collections/Higher-order functions",
     "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Worker",
-    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/Data Persistence",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/APP Bausteine",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables/School/Lernfeld 4/todo/BSI Tables/SYS Bausteine",
     "//School/School/Lernfeld 4/School/Lernfeld 4/todo/School/Lernfeld 4/todo/BSI Tables",
@@ -107,7 +106,14 @@
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts",
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Web & APIs",
     "//Wiki 2.0/Wiki 2.0/Software Engineering/Wiki 2.0/Software Engineering/Concepts/Wiki 2.0/Software Engineering/Concepts/Programming Concepts",
-    "//Wiki 2.0/Wiki 2.0/Infrastruktur"
+    "//Wiki 2.0/Wiki 2.0/Infrastruktur",
+    "//App project",
+    "//App project/App project/App Team",
+    "//App project/App project/Testing Projects/App project/Testing Projects/Android Test",
+    "//Wiki 2.0/Wiki 2.0/App development",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack",
+    "//Wiki 2.0/Wiki 2.0/App development/Wiki 2.0/App development/Android/Wiki 2.0/App development/Android/jetpack/Wiki 2.0/App development/Android/jetpack/Jetpack Examples"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
