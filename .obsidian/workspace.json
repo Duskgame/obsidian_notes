@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/05.2026/28.05.2026.md",
+                "file": "WIP/SAKE-migration-progress.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "28.05.2026"
+              "title": "SAKE-migration-progress"
+            }
+          },
+          {
+            "id": "de3896c26cc91b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind CSS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             }
           },
           {
-            "id": "e1f436e2f4f67dfc",
+            "id": "3ad77891f5b9db9e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -187,7 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,29 +231,31 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "df6a6fb41ace0640",
+  "active": "de3896c26cc91b8c",
   "lastOpenFiles": [
     "WIP/SAKE-migration-progress.md",
+    "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md",
+    "Wiki 2.0/Frontend/SVG Positioning and Spacing.md",
+    "Wiki 2.0/Frontend/Svelte/Styling/CSS Cascade and Specificity.md",
+    "Daily notes/05.2026/27.05.2026.md",
     "Daily notes/05.2026/28.05.2026.md",
+    "Daily notes/05.2026/29.05.2026.md",
+    "WIP/SAKE-migration-progress.md.tmp.6173.9a8464429747",
+    "WIP/SAKE-migration-progress.md.tmp.6173.1e58995844cd",
+    "WIP/SAKE-migration-progress.md.tmp.6173.a3470fccacdb",
+    "WIP/SAKE-migration-progress.md.tmp.6173.c49d3562d799",
+    "WIP/SAKE-migration-progress.md.tmp.6173.59c26a7fbc79",
+    "WIP/SAKE-migration-progress.md.tmp.6173.e4f80a44e96f",
+    "WIP/SAKE-migration-progress.md.tmp.6173.98128ec32d6f",
     "Daily notes/05.2026/27.05.2026.md.tmp.7392.160370b9f630",
     "WIP/SAKE-migration-progress.md.tmp.7392.a139bf618d03",
     "WIP/SAKE-migration-progress.md.tmp.7392.888ba924e973",
-    "WIP/SAKE-migration-progress.md.tmp.7392.a2e601d4965a",
-    "Daily notes/05.2026/27.05.2026.md",
-    "WIP/SAKE-migration-progress.md.tmp.7392.3062c9541764",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Service Account Key Rotation.md",
-    "Daily notes/05.2026/27.05.2026.md.tmp.7392.76f316d4d54a",
-    "Daily notes/05.2026/27.05.2026.md.tmp.7392.1cbecd74d862",
-    "Daily notes/05.2026/27.05.2026.md.tmp.7392.0cd094dd4eb1",
-    "Daily notes/05.2026/27.05.2026.md.tmp.7392.cacb00e02bdf",
-    "Daily notes/05.2026/27.05.2026.md.tmp.7392.69097bc92348",
     "Wiki 2.0/Frontend/Svelte/Data & State/Svelte State Factory Pattern.md",
     "Daily notes/05.2026/26.05.2026.md",
     "Daily notes/05.2026/22.05.2026.md",
     "Daily notes/05.2026/25.05.2026.md",
     "WIP/WIP.md",
-    "Wiki 2.0/Frontend/Svelte/Styling/Tailwind CSS.md",
-    "Wiki 2.0/Frontend/SVG Positioning and Spacing.md",
     "Wiki 2.0/School Wiki/PC Hardware/CMOS.md",
     "Wiki 2.0/School Wiki/PC Hardware/ROM Chip.md",
     "Wiki 2.0/Frontend/Svelte/SvelteKit/SvelteKit Structure-First Workflow.md",
@@ -248,8 +275,6 @@
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Firestore.md",
     "Wiki 2.0/Frontend/JavaScript/pnpm.md",
     "Wiki 2.0/Software Engineering/Concepts/Web & APIs/Webhooks.md",
-    "Wiki 2.0/Software Engineering/Concepts/Distributed Systems/Dead Letter Queue.md",
-    "Wiki 2.0/Frontend/JavaScript/Web Crypto API.md",
     "Wiki 2.0/Infrastruktur/Cloud/GoogleCloud/Service Account Key Rotation E/Scetches/download(1).png",
     "Imports/image-45.png",
     "Imports/Screenshot 2026-04-13 at 10-17-56 IT5ANS_LF5_Kriterienraster_LN1_und_LN2_2026.xlsx - LN2_LF05_2026_DB.pdf.png",

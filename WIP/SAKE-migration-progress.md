@@ -196,6 +196,15 @@ Global CSS entry point. Tailwind v4 with full component library:
 	.detail-row-top { @apply flex items-start justify-between border-b border-slate-50 py-2.5; }
 	.avatar { @apply flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white; }
 	.hint { @apply mt-2 text-center text-xs text-slate-400; }
+
+	.th { @apply px-3 py-2.5 text-left text-xs font-semibold text-slate-500; }
+	.td { @apply px-3 py-2.5 text-xs text-slate-500; }
+	.td-mono { @apply px-3 py-2.5 font-mono text-xs text-slate-700; }
+
+	.role-card { @apply group block rounded-2xl border-2 border-slate-200 bg-white p-5 transition-all hover:border-blue-400 hover:shadow-md; }
+	.step-num { @apply mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-xs font-bold text-blue-700; }
+
+	.btn-option { @apply group flex w-full items-center gap-3 rounded-xl border-2 border-slate-200 bg-white p-4 text-left transition-all; }
 }
 ```
 
@@ -304,25 +313,25 @@ Create directory `webapp/src/lib/components/` first (it doesn't exist yet).
 	<table class="w-full text-sm">
 		<thead>
 			<tr class="border-b border-slate-200 bg-slate-50">
-				<th class="px-3 py-2.5 text-left text-xs font-semibold text-slate-500">Key ID</th>
-				<th class="px-3 py-2.5 text-left text-xs font-semibold text-slate-500">Created</th>
-				<th class="px-3 py-2.5 text-left text-xs font-semibold text-slate-500">Expires</th>
-				<th class="px-3 py-2.5 text-left text-xs font-semibold text-slate-500">Status</th>
+				<th class="th">Key ID</th>
+				<th class="th">Created</th>
+				<th class="th">Expires</th>
+				<th class="th">Status</th>
 				<th class="px-3 py-2.5"></th>
 			</tr>
 		</thead>
 		<tbody>
 			{#each keys as key (key.id)}
 				<tr class="border-b border-slate-100 last:border-0">
-					<td class="px-3 py-2.5 font-mono text-xs text-slate-700">{key.id}</td>
-					<td class="px-3 py-2.5 text-xs text-slate-500">{key.created}</td>
-					<td class="px-3 py-2.5 text-xs text-slate-500">{key.expires}</td>
-					<td class="px-3 py-2.5">
+					<td class="td-mono">{key.id}</td>
+					<td class="td">{key.created}</td>
+					<td class="td">{key.expires}</td>
+					<td class="td">
 						<span class={key.expired ? 'badge-red' : 'badge-green'}>
 							{key.expired ? 'Expired' : 'Active'}
 						</span>
 					</td>
-					<td class="px-3 py-2.5 text-right">
+					<td class="td text-right">
 						<button onclick={() => onDelete(key.id)}
 							class="inline-flex items-center gap-1 text-xs font-medium text-red-500 transition-colors hover:text-red-700">
 							<Trash2 class="h-3.5 w-3.5" />
@@ -793,7 +802,7 @@ Replace the entire file:
 		</div>
 
 		<div class="grid grid-cols-2 gap-3">
-			<a href="/request/" class="group block rounded-2xl border-2 border-slate-200 bg-white p-5 transition-all hover:border-blue-400 hover:shadow-md">
+			<a href="/request/" class="role-card">
 				<div class="mb-4 flex h-9 w-9 items-center justify-center rounded-xl bg-slate-100 transition-colors group-hover:bg-blue-50">
 					<FileText class="h-5 w-5 text-slate-500 transition-colors group-hover:text-blue-600" />
 				</div>
@@ -805,7 +814,7 @@ Replace the entire file:
 				</span>
 			</a>
 
-			<a href="/upload/" class="group block rounded-2xl border-2 border-slate-200 bg-white p-5 transition-all hover:border-blue-400 hover:shadow-md">
+			<a href="/upload/" class="role-card">
 				<div class="mb-4 flex h-9 w-9 items-center justify-center rounded-xl bg-slate-100 transition-colors group-hover:bg-blue-50">
 					<CloudUpload class="h-5 w-5 text-slate-500 transition-colors group-hover:text-blue-600" />
 				</div>
@@ -833,20 +842,20 @@ Replace the entire file:
 					Supporter <span class="ml-1 text-xs font-normal text-slate-400">GCP access req.</span>
 				</p>
 				<div class="flex items-start gap-2.5 text-sm text-slate-600" style="grid-column:1;grid-row:2">
-					<span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-xs font-bold text-blue-700">1</span>
+					<span class="step-num">1</span>
 					Fill in details + OAuth2 Client ID
 				</div>
 				<div class="flex items-start gap-2.5 text-sm text-slate-600" style="grid-column:1;grid-row:3">
-					<span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-xs font-bold text-blue-700">2</span>
+					<span class="step-num">2</span>
 					Download SAK &amp; share link
 				</div>
 				<p class="pt-1 text-xs font-medium text-green-600" style="grid-column:1;grid-row:4">Your key file is ready immediately.</p>
 				<div class="flex items-start gap-2.5 border-l border-slate-100 pl-6 text-sm text-slate-600" style="grid-column:2;grid-row:5">
-					<span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-xs font-bold text-blue-700">3</span>
+					<span class="step-num">3</span>
 					Open your link
 				</div>
 				<div class="flex items-start gap-2.5 border-l border-slate-100 pl-6 text-sm text-slate-600" style="grid-column:2;grid-row:6">
-					<span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 text-xs font-bold text-blue-700">4</span>
+					<span class="step-num">4</span>
 					Activate cert in GCP
 				</div>
 				<p class="border-l border-slate-100 pl-6 text-xs text-slate-400" style="grid-column:2;grid-row:7">No response needed.</p>
@@ -1088,7 +1097,7 @@ Replace the entire file (new 3-step flow — no hand-back, step 3 is Done):
 			<div class="card-pad-sm">
 				<p class="mb-4 text-sm font-medium text-slate-700">Upload this certificate to GCP. Choose how:</p>
 				<button onclick={u.signInWithGoogle}
-					class="group mb-3 flex w-full items-center gap-3 rounded-xl border-2 border-slate-200 bg-white p-4 text-left transition-all hover:border-blue-400">
+					class="btn-option mb-3 hover:border-blue-400">
 					<div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-xl bg-blue-50">
 						<Globe class="h-5 w-5 text-blue-600" />
 					</div>
@@ -1104,7 +1113,7 @@ Replace the entire file (new 3-step flow — no hand-back, step 3 is Done):
 					<div class="h-px flex-1 bg-slate-100"></div>
 				</div>
 				<button onclick={() => u.goToStep('2b')}
-					class="group flex w-full items-center gap-3 rounded-xl border-2 border-slate-200 bg-white p-4 text-left transition-all hover:border-slate-400">
+					class="btn-option hover:border-slate-400">
 					<div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-xl bg-slate-100">
 						<Terminal class="h-5 w-5 text-slate-600" />
 					</div>
